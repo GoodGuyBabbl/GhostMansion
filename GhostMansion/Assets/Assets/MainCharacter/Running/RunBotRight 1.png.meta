@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 864a8646b4879634d9b623b7ce76070d
+guid: f9d94a00ce70efc4da1ce4a26017a471
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2823257133728230240
-    second: RunRight 1_0
+      213: 5791771902031091566
+    second: RunBotRight 1_0
   - first:
-      213: -8465003303421978767
-    second: RunRight 1_1
+      213: -251296350196740217
+    second: RunBotRight 1_1
   - first:
-      213: -6244003605076489999
-    second: RunRight 1_2
+      213: 8387553782691814983
+    second: RunBotRight 1_2
   - first:
-      213: 5246061585939124220
-    second: RunRight 1_3
+      213: -4889467954815492785
+    second: RunBotRight 1_3
   - first:
-      213: -5464652431943021319
-    second: RunRight 1_4
+      213: -7604305191424000215
+    second: RunBotRight 1_4
   - first:
-      213: -2692225638589248004
-    second: RunRight 1_5
+      213: 3890156406038592019
+    second: RunBotRight 1_5
   - first:
-      213: -1556676642508844463
-    second: RunRight 1_6
+      213: -6612688184731899313
+    second: RunBotRight 1_6
   - first:
-      213: -2888124578187287839
-    second: RunRight 1_7
+      213: -6343461280650296879
+    second: RunBotRight 1_7
   - first:
-      213: -6488020676332256987
-    second: RunRight 1_8
+      213: 5250926949796445036
+    second: RunBotRight 1_8
   - first:
-      213: 925492430419662933
-    second: RunRight 1_9
+      213: 5489174487468496869
+    second: RunBotRight 1_9
   - first:
-      213: -4945353417834365083
-    second: RunRight 1_10
+      213: -3119818139784871980
+    second: RunBotRight 1_10
   - first:
-      213: -1973642923947227029
-    second: RunRight 1_11
+      213: -2487260670590684663
+    second: RunBotRight 1_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -133,133 +133,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RunRight_0
+      name: RunBotRight 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 27
-        height: 51
+        width: 22
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6c57b5db40e76604daf5261d80fc215f
-      internalID: -1673502229
+      spriteID: e67d6a8dbd1806050800000000000000
+      internalID: 5791771902031091566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunRight_1
+      name: RunBotRight 1_1
       rect:
         serializedVersion: 2
-        x: 27
+        x: 22
         y: 0
-        width: 27
-        height: 51
+        width: 22
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8503b487878910f47b6a693d797a3445
-      internalID: -2042884516
+      spriteID: 78fcb290d47338cf0800000000000000
+      internalID: -251296350196740217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunRight_2
+      name: RunBotRight 1_2
       rect:
         serializedVersion: 2
-        x: 54
+        x: 44
         y: 0
-        width: 27
-        height: 51
+        width: 22
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bbc1a16a3de31364e896f1cd05039be0
-      internalID: 868822618
+      spriteID: 74e54d7e9b3966470800000000000000
+      internalID: 8387553782691814983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunRight_3
+      name: RunBotRight 1_3
       rect:
         serializedVersion: 2
-        x: 81
+        x: 66
         y: 0
-        width: 27
-        height: 51
+        width: 22
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2b6072dea7baf9f4c87406999734556d
-      internalID: -1555104395
+      spriteID: f4d1194fcce152cb0800000000000000
+      internalID: -4889467954815492785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunRight_4
+      name: RunBotRight 1_4
       rect:
         serializedVersion: 2
-        x: 108
+        x: 88
         y: 0
-        width: 27
-        height: 51
+        width: 22
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: df095865da99c6c4888b3e054f3e5a40
-      internalID: 1835860744
+      spriteID: 92f738db7b4187690800000000000000
+      internalID: -7604305191424000215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunRight_5
+      name: RunBotRight 1_5
       rect:
         serializedVersion: 2
-        x: 135
+        x: 110
         y: 0
-        width: 27
-        height: 51
+        width: 22
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8b001b7fd843342408489b325c209962
-      internalID: -638098984
+      spriteID: 31af3aee3ac9cf530800000000000000
+      internalID: 3890156406038592019
       vertices: []
       indices: 
       edges: []
@@ -268,7 +268,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 95f526f92a4d41c4986d52ded011694a
+    spriteID: 28d0cb19b004e61498800487c567bc49
     internalID: 0
     vertices: []
     indices: 
@@ -278,12 +278,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RunRight_0: -1673502229
-      RunRight_1: -2042884516
-      RunRight_2: 868822618
-      RunRight_3: -1555104395
-      RunRight_4: 1835860744
-      RunRight_5: -638098984
+      RunBotRight 1_0: 5791771902031091566
+      RunBotRight 1_1: -251296350196740217
+      RunBotRight 1_2: 8387553782691814983
+      RunBotRight 1_3: -4889467954815492785
+      RunBotRight 1_4: -7604305191424000215
+      RunBotRight 1_5: 3890156406038592019
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

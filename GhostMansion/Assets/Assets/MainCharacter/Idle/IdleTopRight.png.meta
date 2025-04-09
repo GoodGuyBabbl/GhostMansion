@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 628fd97f590f0af4d81dcd303a20ce02
+guid: 802f91546ada7e743ad7fd4c550c5430
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6666873615882750142
-    second: RunUp 1_0
+      213: 4762613775028154739
+    second: IdleTopRight_0
   - first:
-      213: -447737108520680732
-    second: RunUp 1_1
+      213: -4953175513984276443
+    second: IdleTopRight_1
   - first:
-      213: -720540433869007885
-    second: RunUp 1_2
+      213: -395597158915033479
+    second: IdleTopRight_2
   - first:
-      213: 1519610643445601782
-    second: RunUp 1_3
+      213: -9079829436446013046
+    second: IdleTopRight_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,11 +109,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RunUp_0
+      name: IdleTopRight_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 1
         width: 22
         height: 46
       alignment: 0
@@ -122,20 +122,20 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b838734d294a64247b7b9b351a841100
-      internalID: 802760023
+      spriteID: 3717fe6bef3381240800000000000000
+      internalID: 4762613775028154739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunUp_1
+      name: IdleTopRight_1
       rect:
         serializedVersion: 2
         x: 22
-        y: 0
+        y: 1
         width: 22
         height: 46
       alignment: 0
@@ -144,10 +144,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6049f4df97f60fe479d21740784ba212
-      internalID: -2127529045
+      spriteID: 528edc2fc19c24bb0800000000000000
+      internalID: -4953175513984276443
       vertices: []
       indices: 
       edges: []
@@ -156,7 +156,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 741a1d4b86672294d82f2b0e43577132
+    spriteID: b6369a4eedb4f994d99e086c3d30fc90
     internalID: 0
     vertices: []
     indices: 
@@ -166,8 +166,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RunUp_0: 802760023
-      RunUp_1: -2127529045
+      IdleTopRight_0: 4762613775028154739
+      IdleTopRight_1: -4953175513984276443
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

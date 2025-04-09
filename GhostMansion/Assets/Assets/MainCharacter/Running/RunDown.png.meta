@@ -1,25 +1,43 @@
 fileFormatVersion: 2
-guid: 75b9b2f013c61f74d8b2ecc1816b1585
+guid: fd5ec262aec70c04fb160ffcddaf0136
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5543752985451703108
-    second: RunNachVorne_0
+      213: 1600994915237770401
+    second: RunDown 1_0
   - first:
-      213: -753819100108595809
-    second: RunNachVorne_1
+      213: -2626203876958184683
+    second: RunDown 1_1
   - first:
-      213: -7044964659343593684
-    second: RunNachVorne_2
+      213: -8752992830570841558
+    second: RunDown 1_2
   - first:
-      213: -2482075886036666614
-    second: RunNachVorne_3
+      213: 1959886996017985914
+    second: RunDown 1_3
   - first:
-      213: 8228548563675012550
-    second: RunNachVorne_4
+      213: 6125612079907008235
+    second: RunDown 1_4
   - first:
-      213: -7798713645649298420
-    second: RunNachVorne_5
+      213: 5281364978694910217
+    second: RunDown 1_5
+  - first:
+      213: -6053390460467374602
+    second: RunDown 1_6
+  - first:
+      213: 4111403141361615432
+    second: RunDown 1_7
+  - first:
+      213: -3216542174325374490
+    second: RunDown 1_8
+  - first:
+      213: -2589503966447747258
+    second: RunDown 1_9
+  - first:
+      213: -3341577311982140889
+    second: RunDown 1_10
+  - first:
+      213: 1211255739003776569
+    second: RunDown 1_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,133 +133,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RunNachVorne_0
+      name: RunDown_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 0
-        width: 20
-        height: 33
+        width: 22
+        height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cb4d3a32802a013b0800000000000000
-      internalID: -5543752985451703108
+      spriteID: d31a7157d00c1694a94bfcadb69c4429
+      internalID: 606398445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunNachVorne_1
+      name: RunDown_1
       rect:
         serializedVersion: 2
-        x: 27
+        x: 22
         y: 0
-        width: 20
-        height: 33
+        width: 22
+        height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f9d5f19b585e985f0800000000000000
-      internalID: -753819100108595809
+      spriteID: aec5c364d6ed1bb4bbaa01cfde63a019
+      internalID: -370529291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunNachVorne_2
+      name: RunDown_2
       rect:
         serializedVersion: 2
-        x: 53
+        x: 44
         y: 0
-        width: 20
-        height: 33
+        width: 22
+        height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c2fe4a8d7f14b3e90800000000000000
-      internalID: -7044964659343593684
+      spriteID: 980d357f54184aa41b32886d5a8ac35d
+      internalID: 1344371688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunNachVorne_3
+      name: RunDown_3
       rect:
         serializedVersion: 2
-        x: 81
+        x: 66
         y: 0
-        width: 20
-        height: 33
+        width: 22
+        height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a07b83bd125ed8dd0800000000000000
-      internalID: -2482075886036666614
+      spriteID: a40291dc8e623b4488deeff74b8527b3
+      internalID: -812828906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunNachVorne_4
+      name: RunDown_4
       rect:
         serializedVersion: 2
-        x: 108
+        x: 88
         y: 0
-        width: 20
-        height: 33
+        width: 22
+        height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6cd56ea625da13270800000000000000
-      internalID: 8228548563675012550
+      spriteID: 3d004292df0a76146a9281fdb22e3111
+      internalID: 24475839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunNachVorne_5
+      name: RunDown_5
       rect:
         serializedVersion: 2
-        x: 136
+        x: 110
         y: 0
-        width: 20
-        height: 33
+        width: 22
+        height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c0cf416324765c390800000000000000
-      internalID: -7798713645649298420
+      spriteID: 92a5f897496d15e488e764198303a67c
+      internalID: -1318030855
       vertices: []
       indices: 
       edges: []
@@ -250,7 +268,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d0b9a1d6e6ce1974e8645e4668609ff6
+    spriteID: f053bb36db54a444da31fe69245ffb73
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +278,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RunNachVorne_0: -5543752985451703108
-      RunNachVorne_1: -753819100108595809
-      RunNachVorne_2: -7044964659343593684
-      RunNachVorne_3: -2482075886036666614
-      RunNachVorne_4: 8228548563675012550
-      RunNachVorne_5: -7798713645649298420
+      RunDown_0: 606398445
+      RunDown_1: -370529291
+      RunDown_2: 1344371688
+      RunDown_3: -812828906
+      RunDown_4: 24475839
+      RunDown_5: -1318030855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

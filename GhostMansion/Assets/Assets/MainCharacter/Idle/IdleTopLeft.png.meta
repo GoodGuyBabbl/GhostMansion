@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 628fd97f590f0af4d81dcd303a20ce02
+guid: 5c7ba43285b58c143a112ac8a3113493
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6666873615882750142
-    second: RunUp 1_0
+      213: 4999971773397425310
+    second: IdleTopLeft_0
   - first:
-      213: -447737108520680732
-    second: RunUp 1_1
+      213: -7037508345522938204
+    second: IdleTopLeft_1
   - first:
-      213: -720540433869007885
-    second: RunUp 1_2
+      213: 5775466619914779918
+    second: IdleTopLeft_2
   - first:
-      213: 1519610643445601782
-    second: RunUp 1_3
+      213: -8711003144697114669
+    second: IdleTopLeft_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,11 +109,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RunUp_0
+      name: IdleTopLeft_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 1
         width: 22
         height: 46
       alignment: 0
@@ -122,20 +122,20 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b838734d294a64247b7b9b351a841100
-      internalID: 802760023
+      spriteID: e9c555046d7736540800000000000000
+      internalID: 4999971773397425310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunUp_1
+      name: IdleTopLeft_1
       rect:
         serializedVersion: 2
         x: 22
-        y: 0
+        y: 1
         width: 22
         height: 46
       alignment: 0
@@ -144,10 +144,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6049f4df97f60fe479d21740784ba212
-      internalID: -2127529045
+      spriteID: 4ae1241327fb55e90800000000000000
+      internalID: -7037508345522938204
       vertices: []
       indices: 
       edges: []
@@ -156,7 +156,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 741a1d4b86672294d82f2b0e43577132
+    spriteID: 724278ee7034b8942b2d1c4efb246d0d
     internalID: 0
     vertices: []
     indices: 
@@ -166,8 +166,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RunUp_0: 802760023
-      RunUp_1: -2127529045
+      IdleTopLeft_0: 4999971773397425310
+      IdleTopLeft_1: -7037508345522938204
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
