@@ -3,10 +3,13 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public Animator animator;
+    public Rigidbody2D RigidbodyPlayer;
 
     private Vector3 LastMoveDirection = Vector3.down;
     private Vector3 IdleDirection;
     private float LastMagnitude = 1f;
+
+
 
     void Start()
     {
@@ -46,6 +49,8 @@ public class Movement : MonoBehaviour
         animator.SetFloat("YIdleDirection", IdleDirection.y);
         animator.SetFloat("Magnitude", movement.magnitude);
 
-        transform.position +=  movement.normalized * Time.deltaTime;
+        // transform.position +=  movement.normalized * Time.deltaTime;
+        RigidbodyPlayer.linearVelocity = new Vector2(movement.x, movement.y);
+        
     }
 }
