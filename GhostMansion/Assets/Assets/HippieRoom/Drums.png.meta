@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cd2e4b9a0d45ac74897a6a02eb23a868
+guid: 6a1c1e1d22c7f9547bf7f18d4c14827c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7876157541918695691
-    second: BackgroundOutside_0
+      213: -298742135947925736
+    second: Drums_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BackgroundOutside_0
+      name: Drums_0
       rect:
         serializedVersion: 2
-        x: 212
-        y: 147
-        width: 43
-        height: 34
+        x: 277
+        y: 115
+        width: 40
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fe1ceef17442b290800000000000000
-      internalID: -7876157541918695691
+      spriteID: 817e1633c97aadbf0800000000000000
+      internalID: -298742135947925736
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 04c931cec2ad7a14d94e3908c0106c6d
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BackgroundOutside_0: -7876157541918695691
+      Drums_0: -298742135947925736
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
