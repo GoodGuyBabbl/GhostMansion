@@ -1,0 +1,1662 @@
+fileFormatVersion: 2
+guid: dd8ca741fd9066948a67d9e41f07cc63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7963665090774198669
+    second: Geist_0
+  - first:
+      213: 8542785517750332394
+    second: Geist_1
+  - first:
+      213: 6409003450537008012
+    second: Geist_2
+  - first:
+      213: 3292387618810854133
+    second: Geist_3
+  - first:
+      213: -464972564348613689
+    second: Geist_4
+  - first:
+      213: -7855295584566819572
+    second: Geist_5
+  - first:
+      213: -795868837840574167
+    second: Geist_6
+  - first:
+      213: -1596484301723194089
+    second: Geist_7
+  - first:
+      213: -1408427499173004502
+    second: Geist_8
+  - first:
+      213: -1651176715119093815
+    second: Geist_9
+  - first:
+      213: 1986133435641830277
+    second: Geist_10
+  - first:
+      213: 1460319004104082406
+    second: Geist_11
+  - first:
+      213: -2513673766427631174
+    second: Geist_12
+  - first:
+      213: 818318104836901907
+    second: Geist_13
+  - first:
+      213: 5307033697061610726
+    second: Geist_14
+  - first:
+      213: 910374356139121725
+    second: Geist_15
+  - first:
+      213: -4050238499629605045
+    second: Geist_16
+  - first:
+      213: -6714197275386759178
+    second: Geist_17
+  - first:
+      213: 2833706984701685653
+    second: Geist_18
+  - first:
+      213: 2101125182980729867
+    second: Geist_19
+  - first:
+      213: 2717882412511312383
+    second: Geist_20
+  - first:
+      213: -341706244084203673
+    second: Geist_21
+  - first:
+      213: -479704427640885353
+    second: Geist_22
+  - first:
+      213: -731454412169377834
+    second: Geist_23
+  - first:
+      213: 1351980968902565682
+    second: Geist_24
+  - first:
+      213: 259584042135900971
+    second: Geist_25
+  - first:
+      213: 3720754291563211716
+    second: Geist_26
+  - first:
+      213: -7125482550138142879
+    second: Geist_27
+  - first:
+      213: 7264449141568104191
+    second: Geist_28
+  - first:
+      213: -6578982719865387256
+    second: Geist_29
+  - first:
+      213: -4933507910501214203
+    second: Geist_30
+  - first:
+      213: 3014838853020451574
+    second: Geist_31
+  - first:
+      213: 5899340487580286967
+    second: Geist_32
+  - first:
+      213: -5121833136263599701
+    second: Geist_33
+  - first:
+      213: -8487472901756811085
+    second: Geist_34
+  - first:
+      213: 819246903589980420
+    second: Geist_35
+  - first:
+      213: -8196553014162889649
+    second: Geist_36
+  - first:
+      213: 2073782919205328081
+    second: Geist_37
+  - first:
+      213: 3046238300585892349
+    second: Geist_38
+  - first:
+      213: -6678299462717344491
+    second: Geist_39
+  - first:
+      213: -6697766048833996445
+    second: Geist_40
+  - first:
+      213: 4547514765709830986
+    second: Geist_41
+  - first:
+      213: -7903276142719528112
+    second: Geist_42
+  - first:
+      213: 6239532899583927110
+    second: Geist_43
+  - first:
+      213: -6320417088703987763
+    second: Geist_44
+  - first:
+      213: -5758749055005380352
+    second: Geist_45
+  - first:
+      213: 4650056365858753883
+    second: Geist_46
+  - first:
+      213: -9000826480317949822
+    second: Geist_47
+  - first:
+      213: -3833730060340395229
+    second: Geist_48
+  - first:
+      213: -8141848767163418442
+    second: Geist_49
+  - first:
+      213: 4432400434750956546
+    second: Geist_50
+  - first:
+      213: 4380896892351589842
+    second: Geist_51
+  - first:
+      213: 1614781535851249978
+    second: Geist_52
+  - first:
+      213: 868008560960430875
+    second: Geist_53
+  - first:
+      213: -6866121451512888278
+    second: Geist_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Geist_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37699321bc06b7190800000000000000
+      internalID: -7963665090774198669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 160
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb2cd1ba221e8670800000000000000
+      internalID: 8542785517750332394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 160
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bd2819eaa51f850800000000000000
+      internalID: 6409003450537008012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 160
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa7d127819e0bd20800000000000000
+      internalID: 3292387618810854133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 160
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbc2bf8ae51c89f0800000000000000
+      internalID: -464972564348613689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 160
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c054334f8426cf290800000000000000
+      internalID: -7855295584566819572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 160
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929a5b8328184f4f0800000000000000
+      internalID: -795868837840574167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 160
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d2d427cf528d9e0800000000000000
+      internalID: -1596484301723194089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_8
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 160
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bb6e3d6a2447ce0800000000000000
+      internalID: -1408427499173004502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_9
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 160
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c71ee1a687d519e0800000000000000
+      internalID: -1651176715119093815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b15f336d9209b10800000000000000
+      internalID: 1986133435641830277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 128
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3406aa568144410800000000000000
+      internalID: 1460319004104082406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_12
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 128
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1ecd60703ad1dd0800000000000000
+      internalID: -2513673766427631174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_13
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 128
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c03101bff3b5b00800000000000000
+      internalID: 818318104836901907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_14
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 128
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4a264970f56a940800000000000000
+      internalID: 5307033697061610726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_15
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 128
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c1c4e47ac42ac00800000000000000
+      internalID: 910374356139121725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_16
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 128
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f57fd2b89aac7c0800000000000000
+      internalID: -4050238499629605045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_17
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 128
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f73da0c62162d2a0800000000000000
+      internalID: -6714197275386759178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_18
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 128
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fefac2d79535720800000000000000
+      internalID: 2833706984701685653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_19
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 128
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ca130c832b82d10800000000000000
+      internalID: 2101125182980729867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9b40b77abd7b520800000000000000
+      internalID: 2717882412511312383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 96
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ff3df3bf3024bf0800000000000000
+      internalID: -341706244084203673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 96
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f68495d5fb759f0800000000000000
+      internalID: -479704427640885353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_23
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 96
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d78049661a59d5f0800000000000000
+      internalID: -731454412169377834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_24
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 96
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f9682378333c210800000000000000
+      internalID: 1351980968902565682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_25
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 96
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23dedc9f4a3a9300800000000000000
+      internalID: 259584042135900971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_26
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 96
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cba2259056c2a330800000000000000
+      internalID: 3720754291563211716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_27
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 96
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f75c18f533d1d90800000000000000
+      internalID: -7125482550138142879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_28
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 96
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6ee0c610280d460800000000000000
+      internalID: 7264449141568104191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_29
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 96
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8078dfeb212c2b4a0800000000000000
+      internalID: -6578982719865387256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508def9b1b8a88bb0800000000000000
+      internalID: -4933507910501214203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_31
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 64
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f28459a6fbd6d920800000000000000
+      internalID: 3014838853020451574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_32
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 64
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff7d4bdaeaaed150800000000000000
+      internalID: 5899340487580286967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_33
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 64
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9ee2236e79be8b0800000000000000
+      internalID: -5121833136263599701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_34
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 64
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8080a4d50763a80800000000000000
+      internalID: -8487472901756811085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_35
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 64
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409c1dfd7bc8e5b00800000000000000
+      internalID: 819246903589980420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_36
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 64
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44e928f57eff3e80800000000000000
+      internalID: -8196553014162889649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_37
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 64
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d49180e39e87cc10800000000000000
+      internalID: 2073782919205328081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_38
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 64
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df99c9f3899664a20800000000000000
+      internalID: 3046238300585892349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_39
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 64
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515fc05950ae153a0800000000000000
+      internalID: -6678299462717344491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369f39ec341cc03a0800000000000000
+      internalID: -6697766048833996445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_41
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 32
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b6afce5940c1f30800000000000000
+      internalID: 4547514765709830986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_42
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 32
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0531267b83ce15290800000000000000
+      internalID: -7903276142719528112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_43
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 32
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643201c1d16479650800000000000000
+      internalID: 6239532899583927110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_44
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 32
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf7d73152e5948a0800000000000000
+      internalID: -6320417088703987763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_45
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 32
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001b9c1ee30d410b0800000000000000
+      internalID: -5758749055005380352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_46
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 32
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d0e80b0a1588040800000000000000
+      internalID: 4650056365858753883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_47
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 32
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28818bb2104a61380800000000000000
+      internalID: -9000826480317949822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_48
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 32
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3238ca472dadbcac0800000000000000
+      internalID: -3833730060340395229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_49
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 32
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8b5420fa7520f80800000000000000
+      internalID: -8141848767163418442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2042e9726bc038d30800000000000000
+      internalID: 4432400434750956546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_51
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddaa3a33821ccc30800000000000000
+      internalID: 4380896892351589842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_52
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31064a504bd86610800000000000000
+      internalID: 1614781535851249978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_53
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b136b02ff29cb0c00800000000000000
+      internalID: 868008560960430875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_54
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2482e90be2a6b0a0800000000000000
+      internalID: -6866121451512888278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_55
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6eb647252ed73949bf9f61d3e788e48
+      internalID: 180614050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_56
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cb2891c2dbf5346b167794eb55bba9
+      internalID: -166808241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_57
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34200f9b4146e9049913a2b95c3ec175
+      internalID: 1350361907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_58
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a88c2dcf0465f145bd265b57440002f
+      internalID: -434245295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geist_59
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fe5e7cb72ce084091160b6e35443fd
+      internalID: -63712340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 02c4988d91378fa4f983c786d76b348e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Geist_0: -7963665090774198669
+      Geist_1: 8542785517750332394
+      Geist_10: 1986133435641830277
+      Geist_11: 1460319004104082406
+      Geist_12: -2513673766427631174
+      Geist_13: 818318104836901907
+      Geist_14: 5307033697061610726
+      Geist_15: 910374356139121725
+      Geist_16: -4050238499629605045
+      Geist_17: -6714197275386759178
+      Geist_18: 2833706984701685653
+      Geist_19: 2101125182980729867
+      Geist_2: 6409003450537008012
+      Geist_20: 2717882412511312383
+      Geist_21: -341706244084203673
+      Geist_22: -479704427640885353
+      Geist_23: -731454412169377834
+      Geist_24: 1351980968902565682
+      Geist_25: 259584042135900971
+      Geist_26: 3720754291563211716
+      Geist_27: -7125482550138142879
+      Geist_28: 7264449141568104191
+      Geist_29: -6578982719865387256
+      Geist_3: 3292387618810854133
+      Geist_30: -4933507910501214203
+      Geist_31: 3014838853020451574
+      Geist_32: 5899340487580286967
+      Geist_33: -5121833136263599701
+      Geist_34: -8487472901756811085
+      Geist_35: 819246903589980420
+      Geist_36: -8196553014162889649
+      Geist_37: 2073782919205328081
+      Geist_38: 3046238300585892349
+      Geist_39: -6678299462717344491
+      Geist_4: -464972564348613689
+      Geist_40: -6697766048833996445
+      Geist_41: 4547514765709830986
+      Geist_42: -7903276142719528112
+      Geist_43: 6239532899583927110
+      Geist_44: -6320417088703987763
+      Geist_45: -5758749055005380352
+      Geist_46: 4650056365858753883
+      Geist_47: -9000826480317949822
+      Geist_48: -3833730060340395229
+      Geist_49: -8141848767163418442
+      Geist_5: -7855295584566819572
+      Geist_50: 4432400434750956546
+      Geist_51: 4380896892351589842
+      Geist_52: 1614781535851249978
+      Geist_53: 868008560960430875
+      Geist_54: -6866121451512888278
+      Geist_55: 180614050
+      Geist_56: -166808241
+      Geist_57: 1350361907
+      Geist_58: -434245295
+      Geist_59: -63712340
+      Geist_6: -795868837840574167
+      Geist_7: -1596484301723194089
+      Geist_8: -1408427499173004502
+      Geist_9: -1651176715119093815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
