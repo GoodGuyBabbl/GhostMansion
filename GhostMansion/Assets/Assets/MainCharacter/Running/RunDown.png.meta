@@ -3,41 +3,41 @@ guid: fd5ec262aec70c04fb160ffcddaf0136
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1600994915237770401
-    second: RunDown 1_0
+      213: 5418130786354320263
+    second: RunDown_0
   - first:
-      213: -2626203876958184683
-    second: RunDown 1_1
+      213: 4130902561586801914
+    second: RunDown_1
   - first:
-      213: -8752992830570841558
-    second: RunDown 1_2
+      213: 1099950986459024416
+    second: RunDown_2
   - first:
-      213: 1959886996017985914
-    second: RunDown 1_3
+      213: 3539030293778388343
+    second: RunDown_3
   - first:
-      213: 6125612079907008235
-    second: RunDown 1_4
+      213: -6219880351055038522
+    second: RunDown_4
   - first:
-      213: 5281364978694910217
-    second: RunDown 1_5
+      213: 3871237698512098946
+    second: RunDown_5
   - first:
-      213: -6053390460467374602
-    second: RunDown 1_6
+      213: 71494022977065888
+    second: RunDown_6
   - first:
-      213: 4111403141361615432
-    second: RunDown 1_7
+      213: -8508826580533159795
+    second: RunDown_7
   - first:
-      213: -3216542174325374490
-    second: RunDown 1_8
+      213: 5165198231082138229
+    second: RunDown_8
   - first:
-      213: -2589503966447747258
-    second: RunDown 1_9
+      213: 3600990648529930131
+    second: RunDown_9
   - first:
-      213: -3341577311982140889
-    second: RunDown 1_10
+      213: -7862645099232673931
+    second: RunDown_10
   - first:
-      213: 1211255739003776569
-    second: RunDown 1_11
+      213: -5886235745147148123
+    second: RunDown_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,17 +139,17 @@ TextureImporter:
         x: 0
         y: 0
         width: 22
-        height: 46
+        height: 43
       alignment: 9
-      pivot: {x: 0.5, y: 0.075}
+      pivot: {x: 0.5, y: 0.08139535}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d31a7157d00c1694a94bfcadb69c4429
-      internalID: 606398445
+      spriteID: 783d1436e31113b40800000000000000
+      internalID: 5418130786354320263
       vertices: []
       indices: 
       edges: []
@@ -161,17 +161,17 @@ TextureImporter:
         x: 22
         y: 0
         width: 22
-        height: 46
+        height: 43
       alignment: 9
-      pivot: {x: 0.5, y: 0.075}
+      pivot: {x: 0.5, y: 0.08139535}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: aec5c364d6ed1bb4bbaa01cfde63a019
-      internalID: -370529291
+      spriteID: afce1294ef9e35930800000000000000
+      internalID: 4130902561586801914
       vertices: []
       indices: 
       edges: []
@@ -183,17 +183,17 @@ TextureImporter:
         x: 44
         y: 0
         width: 22
-        height: 46
+        height: 43
       alignment: 9
-      pivot: {x: 0.5, y: 0.075}
+      pivot: {x: 0.5, y: 0.08139535}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 980d357f54184aa41b32886d5a8ac35d
-      internalID: 1344371688
+      spriteID: 02c0b3a289fc34f00800000000000000
+      internalID: 1099950986459024416
       vertices: []
       indices: 
       edges: []
@@ -205,17 +205,17 @@ TextureImporter:
         x: 66
         y: 0
         width: 22
-        height: 46
+        height: 43
       alignment: 9
-      pivot: {x: 0.5, y: 0.075}
+      pivot: {x: 0.5, y: 0.08139535}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a40291dc8e623b4488deeff74b8527b3
-      internalID: -812828906
+      spriteID: 775d1063d492d1130800000000000000
+      internalID: 3539030293778388343
       vertices: []
       indices: 
       edges: []
@@ -227,17 +227,17 @@ TextureImporter:
         x: 88
         y: 0
         width: 22
-        height: 46
+        height: 43
       alignment: 9
-      pivot: {x: 0.5, y: 0.075}
+      pivot: {x: 0.5, y: 0.08139535}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3d004292df0a76146a9281fdb22e3111
-      internalID: 24475839
+      spriteID: 6c7bee966cb8ea9a0800000000000000
+      internalID: -6219880351055038522
       vertices: []
       indices: 
       edges: []
@@ -249,17 +249,17 @@ TextureImporter:
         x: 110
         y: 0
         width: 22
-        height: 46
+        height: 43
       alignment: 9
-      pivot: {x: 0.5, y: 0.075}
+      pivot: {x: 0.5, y: 0.08139535}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 92a5f897496d15e488e764198303a67c
-      internalID: -1318030855
+      spriteID: 2861ae41d2669b530800000000000000
+      internalID: 3871237698512098946
       vertices: []
       indices: 
       edges: []
@@ -268,7 +268,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f053bb36db54a444da31fe69245ffb73
+    spriteID: a90434a5aacca7046ab701d25be23a40
     internalID: 0
     vertices: []
     indices: 
@@ -278,12 +278,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RunDown_0: 606398445
-      RunDown_1: -370529291
-      RunDown_2: 1344371688
-      RunDown_3: -812828906
-      RunDown_4: 24475839
-      RunDown_5: -1318030855
+      RunDown_0: 5418130786354320263
+      RunDown_1: 4130902561586801914
+      RunDown_2: 1099950986459024416
+      RunDown_3: 3539030293778388343
+      RunDown_4: -6219880351055038522
+      RunDown_5: 3871237698512098946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
