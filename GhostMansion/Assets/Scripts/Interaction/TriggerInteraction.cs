@@ -12,11 +12,11 @@ public class TriggerInteraction : MonoBehaviour, Interactable
         Player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    private void Update()
+    public void Update()
     {
         if (CanInteract)
         {
-            if(Interactions.WasInteractPressed)
+            if (Interactions.WasInteractPressed)
             {
                 Interact();
             }

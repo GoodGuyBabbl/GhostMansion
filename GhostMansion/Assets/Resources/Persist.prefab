@@ -337,7 +337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.15899658, y: 0.25802612}
+  m_AnchoredPosition: {x: -0.15899658, y: 0.25805664}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2437061207286322258
@@ -936,10 +936,10 @@ GameObject:
   - component: {fileID: 5013845380582655228}
   - component: {fileID: 8489713886462908728}
   - component: {fileID: 8947431609738656249}
+  - component: {fileID: 4219750445411410936}
   - component: {fileID: 5158015763948519057}
   - component: {fileID: 7873374326927898972}
   - component: {fileID: 2658075118785147783}
-  - component: {fileID: 4219750445411410936}
   - component: {fileID: 8997699700903949859}
   m_Layer: 0
   m_Name: Character
@@ -1032,6 +1032,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 5158015763948519057}
   RigidbodyPlayer: {fileID: 2658075118785147783}
+--- !u!114 &4219750445411410936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9049289807220495157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e608d52418ba3e142b564b92a67b20b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &5158015763948519057
 Animator:
   serializedVersion: 7
@@ -1136,18 +1148,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &4219750445411410936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9049289807220495157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e608d52418ba3e142b564b92a67b20b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8997699700903949859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1187,7 +1187,7 @@ MonoBehaviour:
     m_ActionName: 'Player/Attack[/Mouse/leftButton,/Keyboard/enter]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: e608d52418ba3e142b564b92a67b20b2, type: 3}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
