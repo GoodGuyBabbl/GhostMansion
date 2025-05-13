@@ -6,6 +6,7 @@ public class Wood : MonoBehaviour
 {
     public GameObject Player;
     private Rigidbody2D rb;
+    private MaterialHandler MaterialHandler;
     private float CollectDistance = 0.25f;
     private float CollectSpeed = 0.9f;
     private float FollowDistance = 0.55f;
@@ -14,6 +15,7 @@ public class Wood : MonoBehaviour
     {
         Player = GameObject.FindGameObjectWithTag("Player");
         rb = GetComponent<Rigidbody2D>();   
+        MaterialHandler = FindFirstObjectByType<MaterialHandler>();  
     }
 
     
@@ -24,7 +26,7 @@ public class Wood : MonoBehaviour
             if(Vector2.Distance(Player.transform.position, this.gameObject.transform.position) > 0.15f)
             {
                 Vector2 Direction = (Player.transform.position - transform.position).normalized;
-                rb.velocity = Direction * CollectSpeed;
+                rb.linearVelocity = Direction * CollectSpeed;
                 //transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, 0.5f * Time.deltaTime);
             }
 
@@ -43,6 +45,7 @@ public class Wood : MonoBehaviour
     private void Collect()
     {
         Debug.Log("Holz +1");
+        MaterialHandler.IncreaseWoodCount();
         //Holzcounter +1
         Destroy(gameObject);
     }

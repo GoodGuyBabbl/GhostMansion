@@ -5,21 +5,6 @@ TextureImporter:
   - first:
       213: -7857897725655786203
     second: WorkbenchColored_0
-  - first:
-      213: 8993571843782609204
-    second: WorkbenchColored_1
-  - first:
-      213: 2623964480315561494
-    second: WorkbenchColored_2
-  - first:
-      213: -3669672216552971115
-    second: WorkbenchColored_3
-  - first:
-      213: -7204382498857010826
-    second: WorkbenchColored_4
-  - first:
-      213: 4845324274304232471
-    second: WorkbenchColored_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,12 +103,12 @@ TextureImporter:
       name: WorkbenchColored_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 160
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 57
+        y: 42
+        width: 44
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.093023255}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1c216ee94826c8c409918e1e587af1bb
+    spriteID: a83cf6829c04d60498913fe953792292
     internalID: 0
     vertices: []
     indices: 

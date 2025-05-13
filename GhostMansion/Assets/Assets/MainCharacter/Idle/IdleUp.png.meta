@@ -114,10 +114,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 22
-        height: 46
+        width: 73
+        height: 52
       alignment: 9
-      pivot: {x: 0.5, y: 0.07608695}
+      pivot: {x: 0.4931507, y: 0.1346154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: IdleUp_1
       rect:
         serializedVersion: 2
-        x: 22
+        x: 73
         y: 0
-        width: 22
-        height: 46
+        width: 73
+        height: 52
       alignment: 9
-      pivot: {x: 0.5, y: 0.07608695}
+      pivot: {x: 0.4931507, y: 0.1346154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,7 +156,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ceca7ef78d95e2e4eb8d0c0846b336e8
+    spriteID: 6ea7595c51bfe2d41a80e2de9a1a3caf
     internalID: 0
     vertices: []
     indices: 

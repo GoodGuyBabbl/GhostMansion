@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4870528172056929668}
   - component: {fileID: 577411439702433046}
   - component: {fileID: 6332602648103580595}
+  - component: {fileID: 7910981558207362533}
   m_Layer: 0
   m_Name: TreeLeaves
   m_TagString: Untagged
@@ -242,10 +243,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2288702055555146054}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 807ec718a4edeaf48941b7a235465ac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Wood: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
   WoodSpawn: {x: 0, y: 0}
+--- !u!114 &7910981558207362533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2288702055555146054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b73df662b2bb7049a2fee81ae108ca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemSpawnPoint: {x: 0, y: 0.45, z: 0}
+  FramesToMine: 2000
+  HowManyItemsDropped: 2
+  DroppedItem: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+  AnimationChangeName: IsChopped
+  PlayerAnimationChangeName: IsChopping

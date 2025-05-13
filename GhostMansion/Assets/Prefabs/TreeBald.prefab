@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8727508559364248870}
   - component: {fileID: 8667697294335130407}
   - component: {fileID: 168353700434466501}
+  - component: {fileID: 1233979707553425052}
   m_Layer: 0
   m_Name: TreeBald
   m_TagString: Untagged
@@ -247,10 +248,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5704351181319685368}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 807ec718a4edeaf48941b7a235465ac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Wood: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
   WoodSpawn: {x: 0, y: 0}
+--- !u!114 &1233979707553425052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704351181319685368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b73df662b2bb7049a2fee81ae108ca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemSpawnPoint: {x: 0, y: 0.45, z: 0}
+  FramesToMine: 2000
+  HowManyItemsDropped: 2
+  DroppedItem: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+  AnimationChangeName: IsChopped
+  PlayerAnimationChangeName: IsChopping

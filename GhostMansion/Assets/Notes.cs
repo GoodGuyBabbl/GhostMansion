@@ -17,7 +17,8 @@ public class Notes : MonoBehaviour
     //wenn Knopf früher losgelassen wird, dann progress zurücksetzen und WorkingAnimation stoppen
 
     //
-    //
+
+    //Mineable GOs: Baum, Felsen, Glasflaschenhaufen, Müllsäcke, Pflanzen
     //
     //
     //

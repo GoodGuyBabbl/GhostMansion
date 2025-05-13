@@ -114,10 +114,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 22
-        height: 44
+        width: 73
+        height: 52
       alignment: 9
-      pivot: {x: 0.5, y: 0.07954545}
+      pivot: {x: 0.4931507, y: 0.1346154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: IdleTopLeft_1
       rect:
         serializedVersion: 2
-        x: 22
+        x: 73
         y: 0
-        width: 22
-        height: 44
+        width: 73
+        height: 52
       alignment: 9
-      pivot: {x: 0.5, y: 0.07954545}
+      pivot: {x: 0.4931507, y: 0.1346154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,7 +156,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b502bdbeb469099458df704e8cd50131
+    spriteID: 1b709130a18153140a1db78f4de3dc1b
     internalID: 0
     vertices: []
     indices: 

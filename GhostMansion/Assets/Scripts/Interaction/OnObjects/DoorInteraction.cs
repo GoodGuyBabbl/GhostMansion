@@ -3,6 +3,9 @@ using UnityEngine;
 public class DoorInteraction : TriggerInteraction
 {
 
+    public GameObject DoorIcon;
+
+
     public enum Doors
     {
         None,
@@ -23,6 +26,21 @@ public class DoorInteraction : TriggerInteraction
 
     public Doors CurrentDoor;
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        base.OnTriggerEnter2D(collision);
+        
+        DoorIcon.SetActive(true);
+        
+    }
+
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        base.OnTriggerExit2D(collision);
+
+        DoorIcon.SetActive(false);
+
+    }
 
     public override void Interact()
     {

@@ -5,21 +5,6 @@ TextureImporter:
   - first:
       213: -5574858438740553402
     second: WorkbenchGray_0
-  - first:
-      213: -4696871676941666506
-    second: WorkbenchGray_1
-  - first:
-      213: -545660876341434694
-    second: WorkbenchGray_2
-  - first:
-      213: -8943039695357348123
-    second: WorkbenchGray_3
-  - first:
-      213: 7121990020858143417
-    second: WorkbenchGray_4
-  - first:
-      213: 2492887032858368189
-    second: WorkbenchGray_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,12 +103,12 @@ TextureImporter:
       name: WorkbenchGray_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 160
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 57
+        y: 42
+        width: 44
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.093023255}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: aa15263381d26944ab9bc33476c6c533
+    spriteID: db04e8e5fb67cb34393d481cdd0a8a58
     internalID: 0
     vertices: []
     indices: 

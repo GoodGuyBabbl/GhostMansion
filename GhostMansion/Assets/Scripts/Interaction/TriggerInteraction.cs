@@ -7,7 +7,7 @@ public class TriggerInteraction : MonoBehaviour, Interactable
     public bool CanInteract { get ; set; }
 
 
-    private void Start()
+    public void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
     }
@@ -23,7 +23,7 @@ public class TriggerInteraction : MonoBehaviour, Interactable
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject == Player)
         {
@@ -32,7 +32,7 @@ public class TriggerInteraction : MonoBehaviour, Interactable
         
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    public void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject == Player)
         {
