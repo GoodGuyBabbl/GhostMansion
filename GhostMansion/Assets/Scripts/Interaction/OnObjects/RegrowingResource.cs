@@ -10,6 +10,9 @@ public class RegrowingResource : TriggerInteraction
     private Interactions Interactions;
     private Animator Animator;
     private Animator PlayerAnimator;
+    private MovementDisable MovementDisable;
+    
+
 
     public Vector3 ItemSpawnPoint; //ItemSpawnPointAdditionTo Gameobjects transform.position
     public int FramesToMine;
@@ -25,7 +28,8 @@ public class RegrowingResource : TriggerInteraction
         ItemSpawnPoint += transform.position;
         Interactions = FindFirstObjectByType<Interactions>();
         Animator = GetComponent<Animator>();
-        
+        MovementDisable = FindFirstObjectByType<MovementDisable>();
+
     }
 
     public void Start()
@@ -59,12 +63,15 @@ public class RegrowingResource : TriggerInteraction
             Debug.Log("a");
             if (Interactions.GetHolding() && Animator.GetBool(AnimationChangeName) == false)
             {
+                MovementDisable.DisableMovement();
                 PlayerAnimator.SetBool(PlayerAnimationChangeName, true);
                 //Animation hier
                 i++;
                 Debug.Log(i);
                 if (i >= FramesToMine)
                 {
+
+                    MovementDisable.EnableMovement();
                     Animator.SetBool(AnimationChangeName, true);
                     i = 0;
                     DropItems(HowManyItemsDropped);
@@ -77,6 +84,7 @@ public class RegrowingResource : TriggerInteraction
             }
             else if (Interactions.WasInteractReleased)
             {
+                MovementDisable.EnableMovement();
                 PlayerAnimator.SetBool(PlayerAnimationChangeName, false);
                 StartLongInteract = false;
                 i = 0;

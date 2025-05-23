@@ -13,6 +13,7 @@ public class MovementDisable : MonoBehaviour
     }
     public void DisableMovement()
     {
+        Movement.RigidbodyPlayer.linearVelocity = new Vector3 (0,0,0);  
         Movement.enabled = false;
     }
     public void EnableMovement()

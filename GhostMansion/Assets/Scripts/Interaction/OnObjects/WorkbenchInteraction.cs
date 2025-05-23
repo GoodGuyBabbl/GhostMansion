@@ -6,7 +6,7 @@ public class WorkbenchInteraction : TriggerInteraction
     public GameObject WorkbenchOverlay;
 
     private MovementDisable MovementDisable;
-
+    
     public void Start()
     {
         base.Start();
@@ -15,19 +15,19 @@ public class WorkbenchInteraction : TriggerInteraction
 
     public override void Interact()
     {
-        //open Workbench UI
+        //open interactable Workbench UI
         if(WorkbenchOverlay.activeSelf == false) 
         {
             WorkbenchOverlay.SetActive(true);
             MovementDisable.DisableMovement();
         }
-        else
+        else if(Input.GetKeyDown(KeyCode.Escape)) 
         {
             WorkbenchOverlay.SetActive(false);
             MovementDisable.EnableMovement();
         }
         
-        //stop movement
+        
     }
 
 }
