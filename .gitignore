@@ -11,6 +11,10 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 
+# Ignore Ink-specifics
+*.ink.json          # Compliled JSON files (auto generated)
+.ink_cache/         # ink plugin cache repository 
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
