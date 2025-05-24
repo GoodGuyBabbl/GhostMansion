@@ -37,8 +37,11 @@ public class DoorInteraction : TriggerInteraction
     public void OnTriggerExit2D(Collider2D collision)
     {
         base.OnTriggerExit2D(collision);
-
-        DoorIcon.SetActive(false);
+        if(DoorIcon != null)
+        {
+            DoorIcon.SetActive(false);
+        }
+        
 
     }
 

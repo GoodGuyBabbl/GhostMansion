@@ -33,13 +33,13 @@ public class Interactions : MonoBehaviour
     private void HoldCanceled(InputAction.CallbackContext context)
     {
         IsHolding = false;
-        Debug.Log("Canceled");
+        //Debug.Log("Canceled");
     }
 
     private void HoldPerformed(InputAction.CallbackContext context)
     {
         IsHolding = true;
-        Debug.Log("Holding");
+        //Debug.Log("Holding");
     }
 
     public bool GetHolding()

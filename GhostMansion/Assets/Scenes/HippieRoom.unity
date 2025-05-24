@@ -3423,8 +3423,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91c15c490f738a946be2c43f3a280996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DialogueKnotName: TutorialStart
   HasBeenTalkedTo: 0
+  IsDialoguePlaying: 0
   NPCTalkIcon: {fileID: 876998810}
+  InkFile: {fileID: 4900000, guid: 6829a24f095a0124ca16626f19535f82, type: 3}
 --- !u!1 &2084064076
 GameObject:
   m_ObjectHideFlags: 0

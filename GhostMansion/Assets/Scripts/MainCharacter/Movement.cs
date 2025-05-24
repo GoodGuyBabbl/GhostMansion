@@ -81,7 +81,7 @@ public class Movement : MonoBehaviour
             LastMagnitude = MagnitudeConstraint;
             LastMoveDirection = movement.normalized;
             IdleDirection = LastMoveDirection;
-            Debug.Log(LastMagnitude);
+            //Debug.Log(LastMagnitude);
             HasFlipped = false;
         } 
         if (MagnitudeConstraint <= 0f)

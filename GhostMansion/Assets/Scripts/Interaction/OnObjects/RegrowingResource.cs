@@ -36,7 +36,7 @@ public class RegrowingResource : TriggerInteraction
     {
         base.Start();
         PlayerAnimator = Player.GetComponent<Animator>();
-        Debug.Log(PlayerAnimator);
+        //Debug.Log(PlayerAnimator);
     }
 
     public void Update()

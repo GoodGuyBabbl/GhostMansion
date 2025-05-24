@@ -31,7 +31,7 @@ public class SceneFadeManager : MonoBehaviour
             {
                 FadeOutColor.a += Time.deltaTime * _FadeOutSpeed;
                 _FadeOutImage.color = FadeOutColor;
-                Debug.Log(FadeOutColor.a);
+                //Debug.Log(FadeOutColor.a);
             }
             else
             {
