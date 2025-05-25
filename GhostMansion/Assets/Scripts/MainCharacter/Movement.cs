@@ -22,10 +22,13 @@ public class Movement : MonoBehaviour
         
     }
 
-    
+
     void Update()
     {
         Vector3 movement = new Vector3(Input.GetAxis("GhostMansionHorizontal"), Input.GetAxis("GhostMansionVertical"), 0.0f);
+
+        
+
         float MagnitudeConstraint;
         if(movement.magnitude > 1f)
         {

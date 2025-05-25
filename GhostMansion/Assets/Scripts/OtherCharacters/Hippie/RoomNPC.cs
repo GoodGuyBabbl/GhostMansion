@@ -1,6 +1,9 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using Ink.Runtime;
 using Ink;
+using TMPro;
 
 public class RoomNPC : TriggerInteraction
 {
@@ -11,15 +14,24 @@ public class RoomNPC : TriggerInteraction
     public bool IsDialoguePlaying;
 
     public GameObject NPCTalkIcon;
+    public GameObject NPCDialogueCanvas;
 
     [Header("InkStory")]
     [SerializeField] private TextAsset InkFile;
+    [SerializeField] private TextMeshProUGUI DialogueText;
+    [SerializeField] private DialogueChoiceButton[] ChoiceButtons;
     private Story Story;
+    private MovementDisable MovementDisable;
+    private UIManager UIManager;
+    private int CurrentChoiceIndex = -1;
 
 
     public void Awake()
     {
+        ResetPanelText();
         Story = new Story(InkFile.text);
+        MovementDisable = FindFirstObjectByType<MovementDisable>();
+        UIManager = FindFirstObjectByType<UIManager>();
     }
 
 
@@ -77,6 +89,9 @@ public class RoomNPC : TriggerInteraction
 
         if (!DialogueKnotName.Equals(""))
         {
+            UIManager.DisableToolbar();
+            NPCDialogueCanvas.SetActive(true);
+            MovementDisable.DisableMovement();
             Story.ChoosePathString(DialogueKnotName);
         }
         else
@@ -93,11 +108,12 @@ public class RoomNPC : TriggerInteraction
     //DialogueManager
     private void ContinueOrExitStory()
     {
-        Debug.Log(Story.canContinue);
+
         if (Story.canContinue)
         {
             string DialogueLine = Story.Continue();
-            Debug.Log(DialogueLine);
+            DisplayDialogue(DialogueLine, Story.currentChoices);
+            //Debug.Log(DialogueLine);
         }
         else
         {
@@ -108,6 +124,10 @@ public class RoomNPC : TriggerInteraction
     //DialogueManager
     private void ExitDialogue()
     {
+        ResetPanelText();
+        NPCDialogueCanvas.SetActive(false);
+        UIManager.EnableToolbar();
+        MovementDisable.EnableMovement();
         IsDialoguePlaying = false;
         HasBeenTalkedTo = true;
         Story.ResetState();
@@ -115,14 +135,70 @@ public class RoomNPC : TriggerInteraction
         Debug.Log("ExitDialogue");
     }
 
+
+    //DialogueManager
+    public void DisplayDialogue(string DialogueLine, List<Choice> DialogueChoices)
+    {
+        if(Story.currentChoices.Count > 0 && CurrentChoiceIndex != -1)
+        {
+            Story.ChooseChoiceIndex(CurrentChoiceIndex);
+            CurrentChoiceIndex = -1;
+        }
+
+        DialogueText.text = DialogueLine;
+
+        if (DialogueChoices.Count > ChoiceButtons.Length)
+        {
+            Debug.LogError("Not enough dialogue buttons");
+        }
+
+        foreach (DialogueChoiceButton choiceButton in ChoiceButtons)
+        {
+            choiceButton.gameObject.SetActive(false);
+        }
+
+        int choiceButtonIndex = DialogueChoices.Count - 1;
+        for (int InkChoiceIndex = 0; InkChoiceIndex < DialogueChoices.Count; InkChoiceIndex++)
+        {
+            Choice DialogueChoice = DialogueChoices[InkChoiceIndex];
+            DialogueChoiceButton choiceButton = ChoiceButtons[choiceButtonIndex];
+
+            choiceButton.gameObject.SetActive(true);
+            choiceButton.SetChoiceText(DialogueChoice.text);
+            choiceButton.SetChoiceIndex(InkChoiceIndex);
+
+            if(InkChoiceIndex == 0)
+            {
+                choiceButton.SelectButton();
+                UpdateChoiceIndex(0);
+            }
+
+            choiceButtonIndex--;
+
+
+        }
+    }
+    private void ResetPanelText()
+    {
+        DialogueText.text = "";
+    }
+
+
+    //DialogueManager
+    public void UpdateChoiceIndex(int choiceIndex)
+    {
+        this.CurrentChoiceIndex= choiceIndex;
+    }
+
+    //DialogueManager
+
+
     //RoomNPC
     public override void Interact()
     {
         if (!DialogueKnotName.Equals(""))
         {
-            EnterDialogue();
-            
-            
+            EnterDialogue();          
         }
         
         

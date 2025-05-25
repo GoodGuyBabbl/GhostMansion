@@ -11,9 +11,7 @@ public class DoorInteraction : TriggerInteraction
         None,
         MainRoomGarden,
         MainRoomHippie,
-
         HippieMainRoom,
-
         GardenMainRoom,
 
     }
