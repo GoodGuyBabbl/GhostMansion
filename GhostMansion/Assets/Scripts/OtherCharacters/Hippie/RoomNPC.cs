@@ -23,7 +23,7 @@ public class RoomNPC : TriggerInteraction
     private Story Story;
     private MovementDisable MovementDisable;
     private UIManager UIManager;
-    private int CurrentChoiceIndex = -1;
+    public int CurrentChoiceIndex = -1;
 
 
     public void Awake()
@@ -109,13 +109,32 @@ public class RoomNPC : TriggerInteraction
     private void ContinueOrExitStory()
     {
 
+        if (Story.currentChoices.Count > 0 && CurrentChoiceIndex != -1)
+        {
+            Story.ChooseChoiceIndex(CurrentChoiceIndex);
+            CurrentChoiceIndex = -1;
+        }
         if (Story.canContinue)
         {
             string DialogueLine = Story.Continue();
-            DisplayDialogue(DialogueLine, Story.currentChoices);
+
+            while (BlankLineSkip(DialogueLine) && Story.canContinue)
+            {
+                DialogueLine = Story.Continue();
+            }
+
+            if(BlankLineSkip(DialogueLine) && !Story.canContinue)
+            {
+                ExitDialogue();
+            }
+            else
+            {
+                DisplayDialogue(DialogueLine, Story.currentChoices);
+            }
+            
             //Debug.Log(DialogueLine);
         }
-        else
+        else if(Story.currentChoices.Count == 0) 
         {
             ExitDialogue();
         }
@@ -129,9 +148,8 @@ public class RoomNPC : TriggerInteraction
         UIManager.EnableToolbar();
         MovementDisable.EnableMovement();
         IsDialoguePlaying = false;
-        HasBeenTalkedTo = true;
+        //HasBeenTalkedTo = true;
         Story.ResetState();
-        //Textbox Inactive setzen
         Debug.Log("ExitDialogue");
     }
 
@@ -139,13 +157,11 @@ public class RoomNPC : TriggerInteraction
     //DialogueManager
     public void DisplayDialogue(string DialogueLine, List<Choice> DialogueChoices)
     {
-        if(Story.currentChoices.Count > 0 && CurrentChoiceIndex != -1)
-        {
-            Story.ChooseChoiceIndex(CurrentChoiceIndex);
-            CurrentChoiceIndex = -1;
-        }
-
         DialogueText.text = DialogueLine;
+
+        
+
+        //DialogueText.text = DialogueLine;
 
         if (DialogueChoices.Count > ChoiceButtons.Length)
         {
@@ -157,7 +173,7 @@ public class RoomNPC : TriggerInteraction
             choiceButton.gameObject.SetActive(false);
         }
 
-        int choiceButtonIndex = DialogueChoices.Count - 1;
+        int choiceButtonIndex = DialogueChoices.Count-1;
         for (int InkChoiceIndex = 0; InkChoiceIndex < DialogueChoices.Count; InkChoiceIndex++)
         {
             Choice DialogueChoice = DialogueChoices[InkChoiceIndex];
@@ -167,16 +183,19 @@ public class RoomNPC : TriggerInteraction
             choiceButton.SetChoiceText(DialogueChoice.text);
             choiceButton.SetChoiceIndex(InkChoiceIndex);
 
+            Debug.Log(choiceButtonIndex);
+
             if(InkChoiceIndex == 0)
             {
                 choiceButton.SelectButton();
                 UpdateChoiceIndex(0);
             }
-
+            
             choiceButtonIndex--;
 
 
         }
+        
     }
     private void ResetPanelText()
     {
@@ -187,11 +206,14 @@ public class RoomNPC : TriggerInteraction
     //DialogueManager
     public void UpdateChoiceIndex(int choiceIndex)
     {
-        this.CurrentChoiceIndex= choiceIndex;
+        CurrentChoiceIndex = choiceIndex;//this.CurrentChoiceIndex
     }
 
     //DialogueManager
-
+    private bool BlankLineSkip(string DialogueLineToCheck)
+    {
+        return DialogueLineToCheck.Trim().Equals("") || DialogueLineToCheck.Trim().Equals("\n");
+    }
 
     //RoomNPC
     public override void Interact()

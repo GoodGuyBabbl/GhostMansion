@@ -268,3 +268,4 @@ MonoBehaviour:
   DroppedItem: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
   AnimationChangeName: IsChopped
   PlayerAnimationChangeName: IsChopping
+  TimeToRegrow: 15

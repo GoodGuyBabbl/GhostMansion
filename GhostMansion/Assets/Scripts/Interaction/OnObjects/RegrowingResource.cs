@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 public class RegrowingResource : TriggerInteraction
 {
     private float XPlayerAnimationDirection;
@@ -11,7 +12,7 @@ public class RegrowingResource : TriggerInteraction
     private Animator Animator;
     private Animator PlayerAnimator;
     private MovementDisable MovementDisable;
-    
+    private float TimePassed;
 
 
     public Vector3 ItemSpawnPoint; //ItemSpawnPointAdditionTo Gameobjects transform.position
@@ -20,6 +21,8 @@ public class RegrowingResource : TriggerInteraction
     public GameObject DroppedItem;
     public string AnimationChangeName; //beim Baum IsChopped, also für das jeweilige objekt
     public string PlayerAnimationChangeName; // für Baum IsChopping, also im Player Animator
+    public float TimeToRegrow;
+    
     
 
 
@@ -43,6 +46,12 @@ public class RegrowingResource : TriggerInteraction
     {
         base.Update();
         LongInteract(FramesToMine, HowManyItemsDropped);
+
+
+        CheckRegrow();
+        
+        
+        
     }
     public override void Interact()
     {
@@ -92,6 +101,19 @@ public class RegrowingResource : TriggerInteraction
         }
     }
 
+
+    public void CheckRegrow()
+    {
+        if (Animator.GetBool(AnimationChangeName) == true)
+        {
+            TimePassed += Time.deltaTime;
+            if (TimePassed > TimeToRegrow)
+            {
+                TimePassed = 0;
+                Animator.SetBool(AnimationChangeName, false);
+            }
+        }
+    }
     public void DropItems(int i)
     {
         if(i > 0)

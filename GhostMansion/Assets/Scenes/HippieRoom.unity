@@ -311,6 +311,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1772959929}
     m_Modifications:
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: RoomNpc
+      value: 
+      objectReference: {fileID: 2038986033}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.14449978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.14449978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.6226415
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3168378482617942439, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -930,6 +962,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1772959929}
     m_Modifications:
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: RoomNpc
+      value: 
+      objectReference: {fileID: 2038986033}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.14449978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.14449978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.6226415
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3168378482617942439, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1905,6 +1969,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1772959929}
     m_Modifications:
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: RoomNpc
+      value: 
+      objectReference: {fileID: 2038986033}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.14449978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.14449978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.6226415
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3168378482617942439, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4201,6 +4297,7 @@ MonoBehaviour:
   - {fileID: 571224659}
   - {fileID: 1652973930}
   - {fileID: 407271595}
+  CurrentChoiceIndex: -1
 --- !u!1 &2084064076
 GameObject:
   m_ObjectHideFlags: 0
@@ -4629,6 +4726,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1772959929}
     m_Modifications:
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: RoomNpc
+      value: 
+      objectReference: {fileID: 2038986033}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.14449978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.14449978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.6226415
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_Navigation.m_SelectOnDown
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 102900000, guid: 3e2e4d7b0bed4cf9ab827e9f32448f69, type: 3}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 102900000, guid: 3e2e4d7b0bed4cf9ab827e9f32448f69, type: 3}
+    - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3168378482617942439, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

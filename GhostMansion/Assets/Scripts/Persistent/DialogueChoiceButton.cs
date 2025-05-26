@@ -12,7 +12,7 @@ public class DialogueChoiceButton : MonoBehaviour, ISelectHandler
 
     private int ChoiceIndex = -1;
 
-    private RoomNPC RoomNpc;
+    public RoomNPC RoomNpc;
 
     private void Start()
     {
@@ -25,7 +25,7 @@ public class DialogueChoiceButton : MonoBehaviour, ISelectHandler
 
     public void SetChoiceIndex(int choiceIndex)
     {
-        ChoiceIndex = choiceIndex;
+        this.ChoiceIndex = choiceIndex;
     }
 
     public void SelectButton()
@@ -36,5 +36,6 @@ public class DialogueChoiceButton : MonoBehaviour, ISelectHandler
     public void OnSelect(BaseEventData eventData)
     {
         RoomNpc.UpdateChoiceIndex(ChoiceIndex);
+        Debug.Log(this.gameObject.name + " was selected.");
     }
 }
