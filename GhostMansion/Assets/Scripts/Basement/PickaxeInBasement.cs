@@ -24,7 +24,6 @@ public class PickaxeInBasement : TriggerInteraction
 
     public override void Interact()
     {
-        Story = new Story(InkFile.text);
         Story.variablesState["NextDialogueKnot"] = "PickaxePickedUp";
         InteractionIcon.SetActive(false);
         this.gameObject.SetActive(false);

@@ -143,6 +143,7 @@ public class RoomNPC : TriggerInteraction
     //DialogueManager
     private void ExitDialogue()
     {
+        CheckRepairUnlock();
         ResetPanelText();
         NPCDialogueCanvas.SetActive(false);
         UIManager.EnableToolbar();
@@ -234,5 +235,10 @@ public class RoomNPC : TriggerInteraction
         {
             DialogueKnotName = (string)Story.variablesState["NextDialogueKnot"];
         }
+    }
+    //FromInk
+    public void CheckRepairUnlock() //Checks, whether the variable "CanRepairFurniture" of The NPCs InkFile has been set to true; If so, the Player can start repairing Objects.
+    {
+        HasBeenTalkedTo = (bool)Story.variablesState["CanRepairFurniture"];
     }
 }

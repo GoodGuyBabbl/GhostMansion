@@ -37,12 +37,15 @@ public class RepairableObject : TriggerInteraction
 
     private MaterialHandler MaterialHandler;
 
+    private ColorChangeController ColorChangeController;
+
     public void Awake()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
         Interactions = FindFirstObjectByType<Interactions>();
         RoomNPC = FindFirstObjectByType<RoomNPC>();
         MaterialHandler = FindFirstObjectByType<MaterialHandler>();
+        ColorChangeController = FindFirstObjectByType<ColorChangeController>(); 
         
     }
 
@@ -111,6 +114,9 @@ public class RepairableObject : TriggerInteraction
                     SpriteRenderer.sprite = ColoredVersion;
                     BuildPlotCollider.gameObject.SetActive(false);
                     ColoredVersionCollider.gameObject.SetActive(true);
+
+                    ColorChangeController.IncrementRepairedObjects(); //Start Color Change in Room
+                    ColorChangeController.CheckColorChange();   
 
                     if(RepairableObjectBackground != null)
                     {

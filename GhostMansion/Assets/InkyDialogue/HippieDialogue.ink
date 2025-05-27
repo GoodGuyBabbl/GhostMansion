@@ -1,4 +1,5 @@
 ////////////////////////////////////////////////////////////
+VAR CanRepairFurniture = false
 ===TutorialStart===
 VAR NextDialogueKnot = ""
 'Sniff'
@@ -25,6 +26,7 @@ Anyways, you might need this axe.
 //give Axe
 You know, I was going to go out there and do it myself but I almost killed myself again trying to swing that thing hahahahahahaHAHAHAHAHAHA
         ~NextDialogueKnot = "IsHelping"
+        ~CanRepairFurniture = true
         ->END
 
 
