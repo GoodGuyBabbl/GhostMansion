@@ -1,17 +1,19 @@
 ////////////////////////////////////////////////////////////
 ===TutorialStart===
+VAR NextDialogueKnot = ""
 'Sniff'
 Oh.. How did you get in here? I thought I was locked inside?
         *[Yes, I moved those stones blocking your door. Why were you crying?]
         Why? Look around! This place looks horrible! I need some color in here or else I'm gonna go crazy!
                 **[Maybe I could help you out?]
-                VAR NextDialogueKnot = "DidHelp"
+                ~NextDialogueKnot = "DidHelp"
                 Oh, you would do that? 
                 ->DidHelp
                 **[Can't do anything about that, I'm sorry.]
                 ~NextDialogueKnot = "DidntHelp"
                 ->END
         *[Sorry to disturb you.]
+        ~NextDialogueKnot = "TutorialStart"
         ->END
 
 
