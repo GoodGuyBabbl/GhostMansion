@@ -269,3 +269,4 @@ MonoBehaviour:
   AnimationChangeName: IsChopped
   PlayerAnimationChangeName: IsChopping
   TimeToRegrow: 15
+  CanRegrow: 1

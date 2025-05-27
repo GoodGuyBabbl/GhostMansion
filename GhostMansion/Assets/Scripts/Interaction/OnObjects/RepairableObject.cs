@@ -147,7 +147,11 @@ public class RepairableObject : TriggerInteraction
     {
         base.OnTriggerExit2D(collision);
         
-        BuildPlotIcon.SetActive(false);
+        if(BuildPlotIcon.activeSelf)
+        {
+            BuildPlotIcon.SetActive(false);
+        }
+
         
     }
 }

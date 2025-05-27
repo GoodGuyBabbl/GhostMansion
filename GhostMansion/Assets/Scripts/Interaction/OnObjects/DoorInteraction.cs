@@ -9,10 +9,14 @@ public class DoorInteraction : TriggerInteraction
     public enum Doors
     {
         None,
-        MainRoomGarden,
+        MainRoomPorch,
         MainRoomHippie,
         HippieMainRoom,
-        GardenMainRoom,
+        PorchMainRoom,
+        GardenPorch,
+        PorchGarden,
+        MainRoomBasement,
+        BasementMainRoom,
 
     }
 

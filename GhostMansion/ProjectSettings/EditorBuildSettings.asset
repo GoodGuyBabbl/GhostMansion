@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HippieRoom.unity
     guid: 61ac4f86b38d0aa4cb4483b275b199f1
+  - enabled: 1
+    path: Assets/Scenes/Basement.unity
+    guid: 6d98fe9535350a844a5f45a252415e33
+  - enabled: 1
+    path: Assets/Scenes/Porch.unity
+    guid: 67557158626c157448dec2ecc1f3fd53
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

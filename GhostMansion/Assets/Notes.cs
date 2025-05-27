@@ -22,8 +22,8 @@ public class Notes : MonoBehaviour
     //
     //
     //
-    //
-    //
+    //Werte Szenenübergreifend behalten: Maybe alles, was Werte speichern kann, inactive setzen und nur aktivieren, wenn in der szene? Problem : doppelte gameobjects, wenn szene mehrfach betreten wird
+    //Bandaid Lösung: if(! gameobject existiert bereits){dann dont instantiate} else {nicht erstellen}
     //
     //
     //

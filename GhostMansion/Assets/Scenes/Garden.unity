@@ -211,11 +211,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoorIcon: {fileID: 1647283975}
-  SpawnPlayerToDoor: 1
+  SpawnPlayerToDoor: 6
   _SceneToLoad:
-    m_SceneAsset: {fileID: 102900000, guid: 23b03050a9cf18648a56c78efb509add, type: 3}
-    m_SceneName: MainRoom
-  CurrentDoor: 4
+    m_SceneAsset: {fileID: 102900000, guid: 67557158626c157448dec2ecc1f3fd53, type: 3}
+    m_SceneName: Porch
+  CurrentDoor: 5
 --- !u!61 &221911622
 BoxCollider2D:
   m_ObjectHideFlags: 0

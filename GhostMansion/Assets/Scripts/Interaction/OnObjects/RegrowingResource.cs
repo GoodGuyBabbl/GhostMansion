@@ -22,6 +22,7 @@ public class RegrowingResource : TriggerInteraction
     public string AnimationChangeName; //beim Baum IsChopped, also für das jeweilige objekt
     public string PlayerAnimationChangeName; // für Baum IsChopping, also im Player Animator
     public float TimeToRegrow;
+    public bool CanRegrow;
     
     
 
@@ -104,15 +105,18 @@ public class RegrowingResource : TriggerInteraction
 
     public void CheckRegrow()
     {
-        if (Animator.GetBool(AnimationChangeName) == true)
+        if(CanRegrow)
         {
-            TimePassed += Time.deltaTime;
-            if (TimePassed > TimeToRegrow)
+            if (Animator.GetBool(AnimationChangeName) == true)
             {
-                TimePassed = 0;
-                Animator.SetBool(AnimationChangeName, false);
+                TimePassed += Time.deltaTime;
+                if (TimePassed > TimeToRegrow)
+                {
+                    TimePassed = 0;
+                    Animator.SetBool(AnimationChangeName, false);
+                }
             }
-        }
+        } 
     }
     public void DropItems(int i)
     {

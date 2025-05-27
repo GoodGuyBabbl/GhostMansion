@@ -8,7 +8,7 @@ using TMPro;
 public class RoomNPC : TriggerInteraction
 {
     [Header("Dialogue")]
-    [SerializeField] private string DialogueKnotName;
+    [SerializeField] public string DialogueKnotName;
 
     public bool HasBeenTalkedTo;
     public bool IsDialoguePlaying;
@@ -53,10 +53,10 @@ public class RoomNPC : TriggerInteraction
     public void OnTriggerEnter2D(Collider2D collision)
     {
         base.OnTriggerEnter2D(collision);
-        if (!HasBeenTalkedTo)
-        {
+        //if (!HasBeenTalkedTo)
+       // {
             NPCTalkIcon.SetActive(true);
-        }
+        //}
     }
 
 
@@ -149,6 +149,7 @@ public class RoomNPC : TriggerInteraction
         MovementDisable.EnableMovement();
         IsDialoguePlaying = false;
         //HasBeenTalkedTo = true;
+        SetKnotNameFromInk();
         Story.ResetState();
         Debug.Log("ExitDialogue");
     }
@@ -224,5 +225,14 @@ public class RoomNPC : TriggerInteraction
         }
         
         
+    }
+
+    //FromInk
+    public void SetKnotNameFromInk()
+    {
+        if ((string)Story.variablesState["NextDialogueKnot"] != "")
+        {
+            DialogueKnotName = (string)Story.variablesState["NextDialogueKnot"];
+        }
     }
 }
