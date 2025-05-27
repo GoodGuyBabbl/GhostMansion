@@ -1,13 +1,31 @@
 fileFormatVersion: 2
-guid: 4f70894681994c143bf412563af2eb9d
+guid: 8b904764e5dd7974bbd890815c586f21
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9196448948383446999
-    second: GhostIdle_0
+      213: 858294344135246844
+    second: MineLeft_0
   - first:
-      213: -8739571059032237531
-    second: GhostIdle_1
+      213: -170072562682559425
+    second: MineLeft_1
+  - first:
+      213: -8063204785777998825
+    second: MineLeft_2
+  - first:
+      213: 7380469141916419086
+    second: MineLeft_3
+  - first:
+      213: 537540267348279539
+    second: MineLeft_4
+  - first:
+      213: -4092816027580515736
+    second: MineLeft_5
+  - first:
+      213: -915218952124175031
+    second: MineLeft_6
+  - first:
+      213: 5339328085778022045
+    second: MineLeft_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +121,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GhostIdle_0
+      name: MineLeft_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 29
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4931507, y: 0.1346154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92807940866af5080800000000000000
-      internalID: -9196448948383446999
+      spriteID: cf388e6982649eb00800000000000000
+      internalID: 858294344135246844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostIdle_1
+      name: MineLeft_1
       rect:
         serializedVersion: 2
-        x: 29
+        x: 73
         y: 0
-        width: 29
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4931507, y: 0.1346154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52a59111d6ec6b680800000000000000
-      internalID: -8739571059032237531
+      spriteID: f340443c7e7c3adf0800000000000000
+      internalID: -170072562682559425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineLeft_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4931507, y: 0.1346154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7140970d7fdb91090800000000000000
+      internalID: -8063204785777998825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineLeft_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4931507, y: 0.1346154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0409a7c491bc6660800000000000000
+      internalID: 7380469141916419086
       vertices: []
       indices: 
       edges: []
@@ -150,7 +212,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9c235ce3937b0864d8b7a8ee721a8ce6
+    spriteID: fca8636c0e5273544bce313d761e112c
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +222,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GhostIdle_0: -9196448948383446999
-      GhostIdle_1: -8739571059032237531
+      MineLeft_0: 858294344135246844
+      MineLeft_1: -170072562682559425
+      MineLeft_2: -8063204785777998825
+      MineLeft_3: 7380469141916419086
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

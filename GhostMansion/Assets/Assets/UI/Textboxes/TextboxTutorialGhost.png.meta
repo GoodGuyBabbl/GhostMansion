@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 4f70894681994c143bf412563af2eb9d
+guid: 297782b0f71b63944ab16cf04374137c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9196448948383446999
-    second: GhostIdle_0
+      213: -984424008245977448
+    second: TextboxTutorialGhost_0
   - first:
-      213: -8739571059032237531
-    second: GhostIdle_1
+      213: -1963844339529139619
+    second: TextboxTutorialGhost_1
+  - first:
+      213: 3205996555567411384
+    second: TextboxTutorialGhost_2
+  - first:
+      213: -4242046657027945864
+    second: TextboxTutorialGhost_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GhostIdle_0
+      name: TextboxTutorialGhost_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 29
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 46
+        y: 11
+        width: 199
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92807940866af5080800000000000000
-      internalID: -9196448948383446999
+      spriteID: 89ed128849f9652f0800000000000000
+      internalID: -984424008245977448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostIdle_1
+      name: TextboxTutorialGhost_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 0
-        width: 29
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 330
+        y: 11
+        width: 199
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52a59111d6ec6b680800000000000000
-      internalID: -8739571059032237531
+      spriteID: d5a34346af50fb4e0800000000000000
+      internalID: -1963844339529139619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextboxTutorialGhost_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 11
+        width: 199
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0b8b591ecfd7c20800000000000000
+      internalID: 3205996555567411384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextboxTutorialGhost_3
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 11
+        width: 199
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a473f6a093125c0800000000000000
+      internalID: -4242046657027945864
       vertices: []
       indices: 
       edges: []
@@ -150,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9c235ce3937b0864d8b7a8ee721a8ce6
+    spriteID: 6d538c3494861144795b46fdef96d17e
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GhostIdle_0: -9196448948383446999
-      GhostIdle_1: -8739571059032237531
+      TextboxTutorialGhost_0: -984424008245977448
+      TextboxTutorialGhost_1: -1963844339529139619
+      TextboxTutorialGhost_2: 3205996555567411384
+      TextboxTutorialGhost_3: -4242046657027945864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

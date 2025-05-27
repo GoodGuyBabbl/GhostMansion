@@ -138,7 +138,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 72
+        width: 73
         height: 52
       alignment: 9
       pivot: {x: 0.4931507, y: 0.1346154}
@@ -158,9 +158,9 @@ TextureImporter:
       name: IdleRight_1
       rect:
         serializedVersion: 2
-        x: 72
+        x: 73
         y: 0
-        width: 72
+        width: 73
         height: 52
       alignment: 9
       pivot: {x: 0.4931507, y: 0.1346154}
@@ -180,9 +180,9 @@ TextureImporter:
       name: IdleRight_2
       rect:
         serializedVersion: 2
-        x: 144
+        x: 146
         y: 0
-        width: 72
+        width: 73
         height: 52
       alignment: 9
       pivot: {x: 0.4931507, y: 0.1346154}
@@ -202,9 +202,9 @@ TextureImporter:
       name: IdleRight_3
       rect:
         serializedVersion: 2
-        x: 216
+        x: 219
         y: 0
-        width: 72
+        width: 73
         height: 52
       alignment: 9
       pivot: {x: 0.4931507, y: 0.1346154}
@@ -224,9 +224,9 @@ TextureImporter:
       name: IdleRight_4
       rect:
         serializedVersion: 2
-        x: 288
+        x: 292
         y: 0
-        width: 72
+        width: 73
         height: 52
       alignment: 9
       pivot: {x: 0.4931507, y: 0.1346154}
@@ -246,9 +246,9 @@ TextureImporter:
       name: IdleRight_5
       rect:
         serializedVersion: 2
-        x: 360
+        x: 365
         y: 0
-        width: 72
+        width: 73
         height: 52
       alignment: 9
       pivot: {x: 0.4931507, y: 0.1346154}
@@ -268,7 +268,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 52a0b749f07ede24fbc84d856deeeb98
+    spriteID: d2b475c81299a3b4c9a448cb861fbb88
     internalID: 0
     vertices: []
     indices: 

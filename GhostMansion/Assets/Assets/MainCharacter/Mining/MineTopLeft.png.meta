@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 4f70894681994c143bf412563af2eb9d
+guid: 0a3347a32cdfaee4dacbe53208c38b5b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9196448948383446999
-    second: GhostIdle_0
+      213: -2194521179836480270
+    second: MineTopLeft_0
   - first:
-      213: -8739571059032237531
-    second: GhostIdle_1
+      213: -3283274212488266273
+    second: MineTopLeft_1
+  - first:
+      213: -1074704538056973702
+    second: MineTopLeft_2
+  - first:
+      213: -4521932133886055567
+    second: MineTopLeft_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +109,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GhostIdle_0
+      name: MineTopLeft_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 29
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4931507, y: 0.1346154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92807940866af5080800000000000000
-      internalID: -9196448948383446999
+      spriteID: 2f486cf2d9e7b81e0800000000000000
+      internalID: -2194521179836480270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostIdle_1
+      name: MineTopLeft_1
       rect:
         serializedVersion: 2
-        x: 29
+        x: 73
         y: 0
-        width: 29
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4931507, y: 0.1346154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52a59111d6ec6b680800000000000000
-      internalID: -8739571059032237531
+      spriteID: fddbf60df777f62d0800000000000000
+      internalID: -3283274212488266273
       vertices: []
       indices: 
       edges: []
@@ -150,7 +156,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9c235ce3937b0864d8b7a8ee721a8ce6
+    spriteID: d0b32c6e1a1e6874085ba7fe67629283
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +166,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GhostIdle_0: -9196448948383446999
-      GhostIdle_1: -8739571059032237531
+      MineTopLeft_0: -2194521179836480270
+      MineTopLeft_1: -3283274212488266273
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

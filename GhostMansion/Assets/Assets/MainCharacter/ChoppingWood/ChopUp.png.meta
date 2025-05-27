@@ -20,6 +20,15 @@ TextureImporter:
   - first:
       213: -2433975058041961187
     second: ChopUp_5
+  - first:
+      213: 5071488401187274783
+    second: ChopUp_6
+  - first:
+      213: 3772277937065986875
+    second: ChopUp_7
+  - first:
+      213: -8056314308530952357
+    second: ChopUp_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -184,7 +193,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8336b0800ca536446a4f0a030f8fdf81
+    spriteID: 3e678a5c0826bc445978503f5372afdb
     internalID: 0
     vertices: []
     indices: 

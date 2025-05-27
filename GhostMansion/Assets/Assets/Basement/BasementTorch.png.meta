@@ -108,7 +108,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 480
+        width: 481
         height: 261
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,9 +128,9 @@ TextureImporter:
       name: BasementTorch_1
       rect:
         serializedVersion: 2
-        x: 480
+        x: 481
         y: 0
-        width: 480
+        width: 481
         height: 261
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -150,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e742b0681eedb554e8d02dfa15dc98c0
+    spriteID: af025ba61ce936a4ba149d82f9354ac6
     internalID: 0
     vertices: []
     indices: 

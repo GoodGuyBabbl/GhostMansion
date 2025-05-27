@@ -5,7 +5,8 @@
 VAR NextDialogueKnot = ""
 Oh no, no, no, no, no...
 Can you hear that?
-Somebody is caught inside that room up there! I need something to get that rubble out of the way! I'm pretty sure I dropped my Pickaxe down in the cellar before I died. But it's been 400 years and I cant remember the location of the entrance...
+Somebody is caught inside that room up there! I need something to get that rubble out of the way! 
+I'm pretty sure I dropped my Pickaxe down in the cellar before I died. But it's been 400 years and I cant remember the location of the entrance...
 Will you help me?
         *[Yes, but calm down.]
         ->DidHelp
@@ -49,7 +50,8 @@ You found it! That's great, give it here
 Wait, I can't even hold it...
 Whatever, you'll have to do it! Take it and Go! 
 //~GivePickaxe()
-->BreakStones
+        ~NextDialogueKnot = "BreakStones"
+        ->BreakStones
 
 ===BreakStones===
 Just swing it as hard as you can at that pile of stones in front of the door up there. 

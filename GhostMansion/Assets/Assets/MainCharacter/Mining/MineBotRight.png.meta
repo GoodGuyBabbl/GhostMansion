@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 4f70894681994c143bf412563af2eb9d
+guid: dcac2ce7a59c6424da3d77a2b19679e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9196448948383446999
-    second: GhostIdle_0
+      213: 2549827594743268757
+    second: MineBotRight_0
   - first:
-      213: -8739571059032237531
-    second: GhostIdle_1
+      213: 5645060384145178449
+    second: MineBotRight_1
+  - first:
+      213: -3492590225079029956
+    second: MineBotRight_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +106,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GhostIdle_0
+      name: MineBotRight_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 29
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4931507, y: 0.1346154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92807940866af5080800000000000000
-      internalID: -9196448948383446999
+      spriteID: 595492710bec26320800000000000000
+      internalID: 2549827594743268757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostIdle_1
+      name: MineBotRight_1
       rect:
         serializedVersion: 2
-        x: 29
+        x: 73
         y: 0
-        width: 29
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4931507, y: 0.1346154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52a59111d6ec6b680800000000000000
-      internalID: -8739571059032237531
+      spriteID: 15f7a94b288475e40800000000000000
+      internalID: 5645060384145178449
       vertices: []
       indices: 
       edges: []
@@ -150,7 +153,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9c235ce3937b0864d8b7a8ee721a8ce6
+    spriteID: cf2c073bbb0d8a847852e74815da2b0c
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +163,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GhostIdle_0: -9196448948383446999
-      GhostIdle_1: -8739571059032237531
+      MineBotRight_0: 2549827594743268757
+      MineBotRight_1: 5645060384145178449
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
