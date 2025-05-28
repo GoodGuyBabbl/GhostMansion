@@ -9,6 +9,14 @@ public class PickaxeInBasement : TriggerInteraction
     public GameObject InteractionIcon;
     [SerializeField] private TextAsset InkFile;
     public Story Story;
+    
+    private UIManager UIManager;
+
+    public void Start()
+    {
+        base.Start();
+        UIManager = FindFirstObjectByType<UIManager>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -25,6 +33,8 @@ public class PickaxeInBasement : TriggerInteraction
     public override void Interact()
     {
         Story.variablesState["NextDialogueKnot"] = "PickaxePickedUp";
+        UIManager.CollectPickaxe();
+        UIManager.EnablePickaxe();
         InteractionIcon.SetActive(false);
         this.gameObject.SetActive(false);
     }

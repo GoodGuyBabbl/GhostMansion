@@ -1,6 +1,7 @@
 //EXTERNAL GivePickaxe()
 //EXTERNAL PutGhostInIdle()
 /////////////////////////////////////////////////////////////////
+VAR CanRepairFurniture = false
 ===TutorialStart===
 VAR NextDialogueKnot = ""
 Oh no, no, no, no, no...
