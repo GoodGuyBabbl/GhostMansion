@@ -23,15 +23,22 @@ public class RoomNPC : TriggerInteraction
     private Story Story;
     private MovementDisable MovementDisable;
     private UIManager UIManager;
+    private Stories StoryManager;
+    public string StoryName;
     public int CurrentChoiceIndex = -1;
 
 
     public void Awake()
     {
-        ResetPanelText();
-        Story = new Story(InkFile.text);
+        StoryManager = FindFirstObjectByType<Stories>();
         MovementDisable = FindFirstObjectByType<MovementDisable>();
         UIManager = FindFirstObjectByType<UIManager>();
+    }
+    private void Start()
+    {
+        base.Start();
+        ResetPanelText();
+        Story = StoryManager.GetStory(StoryName);
     }
 
 
@@ -53,9 +60,10 @@ public class RoomNPC : TriggerInteraction
     public void OnTriggerEnter2D(Collider2D collision)
     {
         base.OnTriggerEnter2D(collision);
+        Debug.Log(Story.variablesState["NextDialogueKnot"]);
         //if (!HasBeenTalkedTo)
-       // {
-            NPCTalkIcon.SetActive(true);
+        // {
+        NPCTalkIcon.SetActive(true);
         //}
     }
 
@@ -99,7 +107,7 @@ public class RoomNPC : TriggerInteraction
             Debug.LogWarning("NoKnotSet");
         }
 
-
+        Debug.Log(Story.variablesState["NextDialogueKnot"]);
         ContinueOrExitStory();
 
     }
@@ -151,8 +159,12 @@ public class RoomNPC : TriggerInteraction
         IsDialoguePlaying = false;
         //HasBeenTalkedTo = true;
         SetKnotNameFromInk();
+        Debug.Log(Story.variablesState["NextDialogueKnot"]);
         Story.ResetState();
+        Debug.Log(Story.variablesState["NextDialogueKnot"]);
+
         Debug.Log("ExitDialogue");
+        
     }
 
 
@@ -185,7 +197,7 @@ public class RoomNPC : TriggerInteraction
             choiceButton.SetChoiceText(DialogueChoice.text);
             choiceButton.SetChoiceIndex(InkChoiceIndex);
 
-            Debug.Log(choiceButtonIndex);
+            //Debug.Log(choiceButtonIndex);
 
             if(InkChoiceIndex == 0)
             {

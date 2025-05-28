@@ -2,8 +2,8 @@
 //EXTERNAL PutGhostInIdle()
 /////////////////////////////////////////////////////////////////
 VAR CanRepairFurniture = false
-===TutorialStart===
 VAR NextDialogueKnot = ""
+===TutorialStart===
 Oh no, no, no, no, no...
 Can you hear that?
 Somebody is caught inside that room up there! I need something to get that rubble out of the way! 

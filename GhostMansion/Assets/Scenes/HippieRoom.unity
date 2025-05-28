@@ -4547,6 +4547,7 @@ MonoBehaviour:
   - {fileID: 571224659}
   - {fileID: 1652973930}
   - {fileID: 407271595}
+  StoryName: HippieStory
   CurrentChoiceIndex: -1
 --- !u!1 &2084064076
 GameObject:

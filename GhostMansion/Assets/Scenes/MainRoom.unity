@@ -427,6 +427,7 @@ MonoBehaviour:
   - {fileID: 1713327505}
   - {fileID: 1293521678}
   - {fileID: 698043944}
+  StoryName: TutorialGhostStory
   CurrentChoiceIndex: -1
 --- !u!58 &368882499
 CircleCollider2D:

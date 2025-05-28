@@ -3,17 +3,23 @@ using System.Collections;
 using System.Collections.Generic;
 using Ink.Runtime;
 using Ink;
+using System.Security.Cryptography.X509Certificates;
 
 public class PickaxeInBasement : TriggerInteraction
 {
     public GameObject InteractionIcon;
-    [SerializeField] private TextAsset InkFile;
-    public Story Story;
+    private Story Story;
     
     private UIManager UIManager;
+    private Stories StoryManager;
 
+    private void Awake()
+    {
+        StoryManager = FindFirstObjectByType<Stories>();
+    }
     public void Start()
     {
+        Story = StoryManager.GetStory("TutorialGhostStory");
         base.Start();
         UIManager = FindFirstObjectByType<UIManager>();
     }
@@ -33,6 +39,8 @@ public class PickaxeInBasement : TriggerInteraction
     public override void Interact()
     {
         Story.variablesState["NextDialogueKnot"] = "PickaxePickedUp";
+        // geht nur, wenn Story Szenenübergreifend gespeichert wird. Story.variablesState["NextDialogueKnot"] = "PickaxePickedUp";
+        Debug.Log(Story.variablesState["NextDialogueKnot"]);
         UIManager.CollectPickaxe();
         UIManager.EnablePickaxe();
         InteractionIcon.SetActive(false);
