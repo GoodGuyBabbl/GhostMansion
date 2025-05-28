@@ -1439,7 +1439,7 @@ MonoBehaviour:
   StoneNeeded: 0
   ClothNeeded: 0
   FlowersNeeded: 0
-  FramesToBuild: 1800
+  FramesToBuild: 300
 --- !u!60 &680619134
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3264,7 +3264,7 @@ MonoBehaviour:
   StoneNeeded: 0
   ClothNeeded: 0
   FlowersNeeded: 0
-  FramesToBuild: 2000
+  FramesToBuild: 800
 --- !u!60 &1765283657
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4305,6 +4305,7 @@ GameObject:
   - component: {fileID: 2038986031}
   - component: {fileID: 2038986030}
   - component: {fileID: 2038986032}
+  - component: {fileID: 2038986034}
   - component: {fileID: 2038986033}
   m_Layer: 0
   m_Name: Hippie
@@ -4549,6 +4550,19 @@ MonoBehaviour:
   - {fileID: 407271595}
   StoryName: HippieStory
   CurrentChoiceIndex: -1
+--- !u!114 &2038986034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038986026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188a0360bdf80b24c8e4f4ad739d3f9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ColoredSprite: {fileID: 3962316436941032261, guid: bcc03d4fb47627a4f94225c300a6c125, type: 3}
 --- !u!1 &2084064076
 GameObject:
   m_ObjectHideFlags: 0
