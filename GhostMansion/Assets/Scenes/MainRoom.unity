@@ -1071,7 +1071,7 @@ GameObject:
   - component: {fileID: 841572518}
   - component: {fileID: 841572523}
   m_Layer: 0
-  m_Name: Treelog_0
+  m_Name: PileOfStones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

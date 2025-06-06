@@ -124,10 +124,10 @@ TextureImporter:
       name: RessourcesSmol_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 33
-        width: 11
-        height: 10
+        x: 20
+        y: 34
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,10 +146,10 @@ TextureImporter:
       name: RessourcesSmol_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 23
-        width: 11
-        height: 10
+        x: 30
+        y: 24
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: RessourcesSmol_2
       rect:
         serializedVersion: 2
-        x: 9
-        y: 13
-        width: 11
-        height: 10
+        x: 10
+        y: 14
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
