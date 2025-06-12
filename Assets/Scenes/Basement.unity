@@ -378,6 +378,7 @@ GameObject:
   - component: {fileID: 470202852}
   - component: {fileID: 470202854}
   - component: {fileID: 470202855}
+  - component: {fileID: 470202856}
   m_Layer: 0
   m_Name: BasementPickaxeInOreVein_0
   m_TagString: Untagged
@@ -468,7 +469,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InteractionIcon: {fileID: 606277453}
-  InkFile: {fileID: 4900000, guid: af4b609cc5278554c905badb424477a4, type: 3}
 --- !u!58 &470202855
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -505,6 +505,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.09, y: 0.5}
   m_Radius: 0.18
+--- !u!114 &470202856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470202851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueID: 0_0_BasementPickaxeInOreVein_0
 --- !u!1 &606277453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,7 +1136,7 @@ Transform:
   m_GameObject: {fileID: 1690059993}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.828, y: -0.005, z: 0}
+  m_LocalPosition: {x: -0.828, y: -0.038, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -14,6 +14,7 @@ public class PickaxeInBasement : TriggerInteraction
     private Stories StoryManager;
 
     private SaveStateManager SaveStateManager;
+    private UniqueID UniqueID;
 
     private void Awake()
     {
@@ -22,9 +23,14 @@ public class PickaxeInBasement : TriggerInteraction
     }
     public void Start()
     {
+        UniqueID = GetComponent<UniqueID>();
         Story = StoryManager.GetStory("TutorialGhostStory");
         base.Start();
         UIManager = FindFirstObjectByType<UIManager>();
+        if(SaveStateManager.IsObjectChanged(UniqueID.ID))
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -48,6 +54,7 @@ public class PickaxeInBasement : TriggerInteraction
         UIManager.CollectPickaxe();
         UIManager.EnablePickaxe();
         InteractionIcon.SetActive(false);
+        SaveStateManager.MarkObjectAsChanged(UniqueID.ID);
         this.gameObject.SetActive(false);
     }
 }

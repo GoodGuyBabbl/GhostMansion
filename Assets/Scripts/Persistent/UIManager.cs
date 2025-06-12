@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using System.Security.Cryptography;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 
 public class UIManager : MonoBehaviour
@@ -9,7 +11,9 @@ public class UIManager : MonoBehaviour
     public GameObject Axe;
     public GameObject WateringCan;
     public GameObject InsectNet;
+    //SlotChange
 
+    private HashSet<int> IsToolCollected = new HashSet<int>();
     public bool IsPickaxeCollected;
     public bool IsAxeCollected;
     public bool IsWateringCanCollected;
@@ -67,15 +71,15 @@ public class UIManager : MonoBehaviour
     }
     public void EnableTools()
     {
-        if(IsAxeCollected)
+        if(IsToolCollected.Contains(1))
         {
             EnableAxe();
         } 
-        if(IsPickaxeCollected)
+        if(IsToolCollected.Contains(0))
         {
             EnablePickaxe();
         }
-        if(IsWateringCanCollected) 
+        if(IsToolCollected.Contains(2)) 
         { 
             EnableWateringCan();
         }
@@ -84,34 +88,34 @@ public class UIManager : MonoBehaviour
 
     public void CollectAxe()
     {
-        IsAxeCollected = true;
+        IsToolCollected.Add(1);
     }
     public void CollectPickaxe()
     {
-        IsPickaxeCollected = true;
+        IsToolCollected.Add(0);
     }
     public void CollectWateringCan()
     {
-        IsWateringCanCollected = true;
+        IsToolCollected.Add(2);
     }
     public void CollectInsectNet()
-    { 
-        IsInsectNetCollected = true;
-    }
-    public bool GetPickaxeCollected()
     {
-        return IsPickaxeCollected;
+        IsToolCollected.Add(3);
     }
-    public bool GetAxeCollected()
+    public bool GetToolCollected(int ToolbarIndex)
     {
-        return IsAxeCollected;
+        return IsToolCollected.Contains(ToolbarIndex);
     }
-    public bool GetWateringCanCollected()
-    {
-        return IsWateringCanCollected;
-    }
-    public bool GetInsectNetCollected()
-    {
-        return IsInsectNetCollected;
-    }
+    //public bool GetAxeCollected()
+    //{
+    //    return IsAxeCollected;
+    //}
+    //public bool GetWateringCanCollected()
+    //{
+    //    return IsWateringCanCollected;
+    //}
+    //public bool GetInsectNetCollected()
+    //{
+    //    return IsInsectNetCollected;
+    //}
 }

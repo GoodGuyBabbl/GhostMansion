@@ -14,6 +14,10 @@ public class RegrowingResource : TriggerInteraction
     private MovementDisable MovementDisable;
     private float TimePassed;
 
+    private ToolbarControl ToolbarControl;
+    private UIManager UIManager;
+    public int ToolbarIndexNeeded; //0 Pickaxe, 1 Axe, 2 Watering Can...
+
     public  string UniqueID;
     private UniqueID IDManager;
     public SaveStateManager SaveStateManager;
@@ -37,6 +41,8 @@ public class RegrowingResource : TriggerInteraction
         Interactions = FindFirstObjectByType<Interactions>();
         Animator = GetComponent<Animator>();
         MovementDisable = FindFirstObjectByType<MovementDisable>();
+        UIManager = FindFirstObjectByType<UIManager>(); 
+        ToolbarControl = FindFirstObjectByType<ToolbarControl>();
 
     }
 
@@ -67,12 +73,16 @@ public class RegrowingResource : TriggerInteraction
     }
     public override void Interact()
     {
-        XPlayerAnimationDirection = new Vector2(transform.position.x - Player.transform.position.x, 0).x;
-        YPlayerAnimationDirection = new Vector2(0,transform.position.y - Player.transform.position.y ).y;
-        PlayerAnimator.SetFloat("XAnimationDirection", XPlayerAnimationDirection);
-        PlayerAnimator.SetFloat("YAnimationDirection", YPlayerAnimationDirection);
-        Debug.Log("Interact");
-        StartLongInteract = true;
+        if(UIManager.GetToolCollected(ToolbarIndexNeeded) && ToolbarControl.CurrentIndex == ToolbarIndexNeeded)
+        {
+            XPlayerAnimationDirection = new Vector2(transform.position.x - Player.transform.position.x, 0).x;
+            YPlayerAnimationDirection = new Vector2(0, transform.position.y - Player.transform.position.y).y;
+            PlayerAnimator.SetFloat("XAnimationDirection", XPlayerAnimationDirection);
+            PlayerAnimator.SetFloat("YAnimationDirection", YPlayerAnimationDirection);
+            Debug.Log("Interact");
+            StartLongInteract = true;
+        }
+
     }
 
 
