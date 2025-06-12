@@ -42,6 +42,7 @@ Changed your mind?
 ////////////////////////////////////////////////////////////
 ===IsHelping===
 The Garden I was talking about is just outside of the house and to the left. You can't miss it.
+        ~CanRepairFurniture = true
        
 ->END
 

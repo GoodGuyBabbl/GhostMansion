@@ -6,9 +6,13 @@ public class RepairableObjectBackground : MonoBehaviour
 
     private SpriteRenderer SpriteRenderer;
 
-    private void Start()
+    private void Awake()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
+    }
+    private void Start()
+    {
+
     }
     public void IsRepaired()
     {

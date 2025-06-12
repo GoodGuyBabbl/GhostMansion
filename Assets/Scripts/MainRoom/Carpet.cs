@@ -7,11 +7,24 @@ public class Carpet : TriggerInteraction
     public GameObject DoorIconToBasement;
 
     private Animator Animator;
+    private SaveStateManager SaveStateManager;
+    private UniqueID UniqueID;
 
+    private void Awake()
+    {
+        UniqueID = GetComponent<UniqueID>();
+        SaveStateManager = FindFirstObjectByType<SaveStateManager>();
+        Animator = GetComponent<Animator>();
+        if (SaveStateManager.IsObjectChanged(UniqueID.ID))
+        {
+            Animator.SetBool("InstantRoll", true);
+            ActivateBasementDoor();
+        }
+    }
     public void Start()
     {
         base.Start();
-        Animator = GetComponent<Animator>(); 
+        
     }
     public void Update()
     {
@@ -19,6 +32,10 @@ public class Carpet : TriggerInteraction
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(Animator.GetBool("InstantRoll"))
+        {
+            Animator.SetBool("WasClicked", true);
+        }
         base.OnTriggerEnter2D(collision);
         if(!Animator.GetBool("WasClicked"))
         {
@@ -38,6 +55,7 @@ public class Carpet : TriggerInteraction
     {
         InteractionIcon.SetActive(false);
         Animator.SetBool("WasClicked",true);
+        SaveStateManager.MarkObjectAsChanged(UniqueID.ID);
     }
   
     public void ActivateBasementDoor()

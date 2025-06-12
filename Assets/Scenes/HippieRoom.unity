@@ -1339,6 +1339,7 @@ GameObject:
   - component: {fileID: 680619132}
   - component: {fileID: 680619134}
   - component: {fileID: 680619133}
+  - component: {fileID: 680619135}
   m_Layer: 0
   m_Name: Guitar
   m_TagString: Untagged
@@ -1493,6 +1494,19 @@ PolygonCollider2D:
       - {x: 0.17087175, y: -0.09321356}
       - {x: 0.20321365, y: 0.04478669}
   m_UseDelaunayMesh: 0
+--- !u!114 &680619135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680619130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueID: 0,48_0_Guitar
 --- !u!1 &821053489
 GameObject:
   m_ObjectHideFlags: 0
@@ -2306,6 +2320,7 @@ GameObject:
   - component: {fileID: 1218019195}
   - component: {fileID: 1218019198}
   - component: {fileID: 1218019197}
+  - component: {fileID: 1218019199}
   m_Layer: 0
   m_Name: Drums
   m_TagString: Untagged
@@ -2462,6 +2477,19 @@ PolygonCollider2D:
       - {x: 0.33200854, y: 0.20151225}
       - {x: 0.21302485, y: 0.26243788}
   m_UseDelaunayMesh: 0
+--- !u!114 &1218019199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218019194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueID: -0,17_0_Drums
 --- !u!1 &1355158383
 GameObject:
   m_ObjectHideFlags: 0
@@ -2852,6 +2880,7 @@ GameObject:
   - component: {fileID: 1560567707}
   - component: {fileID: 1560567709}
   - component: {fileID: 1560567708}
+  - component: {fileID: 1560567710}
   m_Layer: 0
   m_Name: Bookshelf
   m_TagString: Untagged
@@ -3008,6 +3037,19 @@ PolygonCollider2D:
       - {x: 0.23923808, y: 0.016920695}
       - {x: 0.23508579, y: 0.20946896}
   m_UseDelaunayMesh: 0
+--- !u!114 &1560567710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560567705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueID: 0,89_0_Bookshelf
 --- !u!1 &1573167643
 GameObject:
   m_ObjectHideFlags: 0
@@ -3164,6 +3206,7 @@ GameObject:
   - component: {fileID: 1765283654}
   - component: {fileID: 1765283657}
   - component: {fileID: 1765283656}
+  - component: {fileID: 1765283658}
   m_Layer: 0
   m_Name: Couch
   m_TagString: Untagged
@@ -3317,6 +3360,19 @@ PolygonCollider2D:
       - {x: 1.9758017, y: 0.045420825}
       - {x: 0.99558485, y: 0.04239597}
   m_UseDelaunayMesh: 0
+--- !u!114 &1765283658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765283653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueID: 0_0_Couch
 --- !u!1 &1772959928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4307,6 +4363,7 @@ GameObject:
   - component: {fileID: 2038986032}
   - component: {fileID: 2038986034}
   - component: {fileID: 2038986033}
+  - component: {fileID: 2038986035}
   m_Layer: 0
   m_Name: Hippie
   m_TagString: Untagged
@@ -4537,7 +4594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueKnotName: TutorialStart
-  HasBeenTalkedTo: 0
+  IsRepairEnabled: 0
   IsDialoguePlaying: 0
   NPCTalkIcon: {fileID: 876998810}
   NPCDialogueCanvas: {fileID: 1201572196}
@@ -4563,6 +4620,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ColoredSprite: {fileID: 3962316436941032261, guid: bcc03d4fb47627a4f94225c300a6c125, type: 3}
+--- !u!114 &2038986035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038986026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueID: 0,55_0_Hippie
 --- !u!1 &2084064076
 GameObject:
   m_ObjectHideFlags: 0

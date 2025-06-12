@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8667697294335130407}
   - component: {fileID: 168353700434466501}
   - component: {fileID: 1233979707553425052}
+  - component: {fileID: 7613152799153833383}
   m_Layer: 0
   m_Name: TreeBald
   m_TagString: Untagged
@@ -273,5 +274,18 @@ MonoBehaviour:
   DroppedItem: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
   AnimationChangeName: IsChopped
   PlayerAnimationChangeName: IsChopping
-  TimeToRegrow: 10
+  TimeToRegrow: 60000
   CanRegrow: 1
+--- !u!114 &7613152799153833383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704351181319685368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueID: 

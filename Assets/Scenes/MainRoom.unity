@@ -304,8 +304,10 @@ GameObject:
   - component: {fileID: 368882495}
   - component: {fileID: 368882498}
   - component: {fileID: 368882499}
+  - component: {fileID: 368882500}
+  - component: {fileID: 368882501}
   m_Layer: 0
-  m_Name: GhostMove_0
+  m_Name: TutorialGhostMainRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -382,7 +384,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.22, y: 0.24}
+  m_Size: {x: 0.29, y: 0.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -416,7 +418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueKnotName: TutorialStart
-  HasBeenTalkedTo: 0
+  IsRepairEnabled: 0
   IsDialoguePlaying: 0
   NPCTalkIcon: {fileID: 1802145878}
   NPCDialogueCanvas: {fileID: 1175457313}
@@ -465,6 +467,31 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.04, y: -0.15}
   m_Radius: 0.145
+--- !u!114 &368882500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368882494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d7583ea09fac0e4f951a58e042fc1ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &368882501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368882494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueID: -0,921_0_TutorialGhostMainRoom
 --- !u!1 &665996242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,6 +1097,7 @@ GameObject:
   - component: {fileID: 841572519}
   - component: {fileID: 841572518}
   - component: {fileID: 841572523}
+  - component: {fileID: 841572524}
   m_Layer: 0
   m_Name: PileOfStones
   m_TagString: Untagged
@@ -1158,6 +1186,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 944a775eb6e340449ab62c271f6fddac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TreeLogTop: {fileID: 0}
+  TreeLogBottom: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: 0, z: 0}
   FramesToMine: 2300
   HowManyItemsDropped: 2
@@ -1288,6 +1318,19 @@ PolygonCollider2D:
       - {x: -0.5507156, y: 0.7693786}
       - {x: -1.3132541, y: 0.7636725}
   m_UseDelaunayMesh: 0
+--- !u!114 &841572524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841572517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueID: -0,889_0_PileOfStones
 --- !u!1 &882701528
 GameObject:
   m_ObjectHideFlags: 0
@@ -2875,6 +2918,7 @@ GameObject:
   - component: {fileID: 1659426232}
   - component: {fileID: 1659426235}
   - component: {fileID: 1659426236}
+  - component: {fileID: 1659426237}
   m_Layer: 0
   m_Name: Carpet_0
   m_TagString: Untagged
@@ -3035,6 +3079,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.49997783, y: 0.49695516}
   m_EdgeRadius: 0
+--- !u!114 &1659426237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659426231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueID: 1,53_0_Carpet_0
 --- !u!114 &1713327505 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}

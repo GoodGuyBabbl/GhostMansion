@@ -12,9 +12,12 @@ public class TreeLog : TriggerInteraction
     private Animator Animator;
     private Animator PlayerAnimator;
     private MovementDisable MovementDisable;
+    private UniqueID UniqueID;
     private float TimePassed;
+    private SaveStateManager SaveStateManager;
 
-
+    public GameObject TreeLogTop;
+    public GameObject TreeLogBottom;
     public Vector3 ItemSpawnPoint; //ItemSpawnPointAdditionTo Gameobjects transform.position
     public int FramesToMine;
     public int HowManyItemsDropped;
@@ -27,10 +30,12 @@ public class TreeLog : TriggerInteraction
 
     private void Awake()
     {
+        UniqueID = GetComponent<UniqueID>();
         ItemSpawnPoint += GetComponent<PolygonCollider2D>().transform.position;
         Interactions = FindFirstObjectByType<Interactions>();
         Animator = GetComponent<Animator>();
         MovementDisable = FindFirstObjectByType<MovementDisable>();
+        SaveStateManager = FindFirstObjectByType<SaveStateManager>();
 
     }
 
@@ -38,6 +43,16 @@ public class TreeLog : TriggerInteraction
     {
         base.Start();
         PlayerAnimator = Player.GetComponent<Animator>();
+        if(SaveStateManager.IsObjectChanged(UniqueID.ID))
+        {
+            if(TreeLogBottom != null)
+            {
+                TreeLogBottom.SetActive(true);
+                TreeLogTop.SetActive(true);
+            }
+            this.gameObject.SetActive(false);
+        }
+        
         //Debug.Log(PlayerAnimator);
     }
 
@@ -83,6 +98,12 @@ public class TreeLog : TriggerInteraction
                     DropItems(HowManyItemsDropped);
                     PlayerAnimator.SetBool(PlayerAnimationChangeName, false);
                     StartLongInteract = false;
+                    if (TreeLogBottom != null)
+                    {
+                        TreeLogBottom.SetActive(true);
+                        TreeLogTop.SetActive(true);
+                    }
+                    SaveStateManager.MarkObjectAsChanged(UniqueID.ID);
                     this.gameObject.SetActive(false);
 
                     //this.gameObject.SetActive(false);

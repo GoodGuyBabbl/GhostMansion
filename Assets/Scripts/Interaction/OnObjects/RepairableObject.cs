@@ -23,7 +23,7 @@ public class RepairableObject : TriggerInteraction
     private int i = 0;
 
     private bool StartLongInteract;
-    private bool HasTalkedToRoomNPC;
+    private bool IsRepairEnabled;
     private bool IsBuildPlot;
     private bool IsRepaired;
 
@@ -39,8 +39,15 @@ public class RepairableObject : TriggerInteraction
 
     private ColorChangeController ColorChangeController;
 
+    private SaveStateManager SaveStateManager;
+
+    private UniqueID UniqueID;
+
     public void Awake()
     {
+
+        SaveStateManager = FindFirstObjectByType<SaveStateManager>();
+        UniqueID = GetComponent<UniqueID>();
         SpriteRenderer = GetComponent<SpriteRenderer>();
         Interactions = FindFirstObjectByType<Interactions>();
         RoomNPC = FindFirstObjectByType<RoomNPC>();
@@ -53,11 +60,29 @@ public class RepairableObject : TriggerInteraction
     {
         base.Start();
         PlayerAnimator = Player.GetComponent<Animator>();
+        if (SaveStateManager.IsBuildPlot(UniqueID.ID))
+        {
+            SpriteRenderer.sprite = BuildPlot;
+            GreyVersionCollider.gameObject.SetActive(false);
+            BuildPlotCollider.gameObject.SetActive(true);
+            IsBuildPlot = true;
+        }else if (SaveStateManager.IsFurnitureRepaired(UniqueID.ID))
+        {
+            IsRepaired = true;
+            SpriteRenderer.sprite = ColoredVersion;
+            BuildPlotCollider.gameObject.SetActive(false);
+            ColoredVersionCollider.gameObject.SetActive(true);
+            if (RepairableObjectBackground != null)
+            {
+                RepairableObjectBackground.IsRepaired();
+            }
+        }
+
     }
 
     public void Update()
     {
-        HasTalkedToRoomNPC = RoomNPC.GetHasBeenTalkedTo();
+        IsRepairEnabled = RoomNPC.GetIsRepairEnabled();
 
         base.Update();
         LongInteract();
@@ -70,7 +95,7 @@ public class RepairableObject : TriggerInteraction
     {
         
         //Overlay öffnen, in dem Ressourcenanforderungen dargestellt sind, dann auf "Build" klicken, Overlay schließen
-        if(HasTalkedToRoomNPC && !IsRepaired)
+        if(IsRepairEnabled && !IsRepaired)
         {
             
             if (IsBuildPlot)
@@ -82,6 +107,7 @@ public class RepairableObject : TriggerInteraction
                 //Hier eigentlich: Overlay öffnen, in dem gezeigt wird, wie viele Ressourcen man von was brauch inklusive build button und das nachfolgende ist die logik des buttons
                 if (MaterialHandler.HasEnoughResources(WoodNeeded, StoneNeeded, ClothNeeded, FlowersNeeded))
                 {
+                    SaveStateManager.MarkAsBuildPlot(UniqueID.ID);
                     SpriteRenderer.sprite = BuildPlot;
                     GreyVersionCollider.gameObject.SetActive(false);
                     BuildPlotCollider.gameObject.SetActive(true);
@@ -118,6 +144,10 @@ public class RepairableObject : TriggerInteraction
                     ColorChangeController.IncrementRepairedObjects(); //Start Color Change in Room
                     ColorChangeController.CheckColorChange();   
 
+                    //SaveStateManager
+                    SaveStateManager.RemoveFromBuildPlot(UniqueID.ID);  
+                    SaveStateManager.MarkAsRepaired(UniqueID.ID);
+
                     if(RepairableObjectBackground != null)
                     {
                         RepairableObjectBackground.IsRepaired();
@@ -141,7 +171,7 @@ public class RepairableObject : TriggerInteraction
     public void OnTriggerEnter2D(Collider2D collision)
     {
         base.OnTriggerEnter2D(collision);
-        if (HasTalkedToRoomNPC && !IsRepaired)
+        if (IsRepairEnabled && !IsRepaired)
         {
             BuildPlotIcon.SetActive(true);
         }       
@@ -153,7 +183,7 @@ public class RepairableObject : TriggerInteraction
     {
         base.OnTriggerExit2D(collision);
         
-        if(BuildPlotIcon.activeSelf)
+        if(BuildPlotIcon.activeSelf && BuildPlotIcon != null)
         {
             BuildPlotIcon.SetActive(false);
         }

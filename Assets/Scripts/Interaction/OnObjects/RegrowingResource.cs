@@ -14,13 +14,17 @@ public class RegrowingResource : TriggerInteraction
     private MovementDisable MovementDisable;
     private float TimePassed;
 
+    public  string UniqueID;
+    private UniqueID IDManager;
+    public SaveStateManager SaveStateManager;
 
-    public Vector3 ItemSpawnPoint; //ItemSpawnPointAdditionTo Gameobjects transform.position
+
+    public Vector3 ItemSpawnPoint; //ItemSpawnPoint Addition To Gameobject's transform.position
     public int FramesToMine;
     public int HowManyItemsDropped;
     public GameObject DroppedItem;
     public string AnimationChangeName; //beim Baum IsChopped, also für das jeweilige objekt
-    public string PlayerAnimationChangeName; // für Baum IsChopping, also im Player Animator
+    public string PlayerAnimationChangeName; // für Baum IsChopping, im Player Animator
     public float TimeToRegrow;
     public bool CanRegrow;
     
@@ -40,6 +44,13 @@ public class RegrowingResource : TriggerInteraction
     {
         base.Start();
         PlayerAnimator = Player.GetComponent<Animator>();
+        SaveStateManager = FindFirstObjectByType<SaveStateManager>();
+        IDManager = GetComponent<UniqueID>();
+        UniqueID = IDManager.ID;
+        if(SaveStateManager.Instance.IsResourceMined(UniqueID))
+        {
+            Animator.SetBool(AnimationChangeName, true);
+        }
         //Debug.Log(PlayerAnimator);
     }
 
@@ -83,6 +94,7 @@ public class RegrowingResource : TriggerInteraction
 
                     MovementDisable.EnableMovement();
                     Animator.SetBool(AnimationChangeName, true);
+                    SaveStateManager.Instance.MarkResourceAsMined(UniqueID);
                     i = 0;
                     DropItems(HowManyItemsDropped);
                     PlayerAnimator.SetBool(PlayerAnimationChangeName, false);

@@ -13,9 +13,12 @@ public class PickaxeInBasement : TriggerInteraction
     private UIManager UIManager;
     private Stories StoryManager;
 
+    private SaveStateManager SaveStateManager;
+
     private void Awake()
     {
         StoryManager = FindFirstObjectByType<Stories>();
+        SaveStateManager = FindFirstObjectByType<SaveStateManager>();
     }
     public void Start()
     {
@@ -39,6 +42,7 @@ public class PickaxeInBasement : TriggerInteraction
     public override void Interact()
     {
         Story.variablesState["NextDialogueKnot"] = "PickaxePickedUp";
+        SaveStateManager.SetCurrentStory("TutorialGhostStory", "PickaxePickedUp");
         // geht nur, wenn Story Szenenübergreifend gespeichert wird. Story.variablesState["NextDialogueKnot"] = "PickaxePickedUp";
         Debug.Log(Story.variablesState["NextDialogueKnot"]);
         UIManager.CollectPickaxe();

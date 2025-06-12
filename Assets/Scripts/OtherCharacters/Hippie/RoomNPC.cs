@@ -10,7 +10,7 @@ public class RoomNPC : TriggerInteraction
     [Header("Dialogue")]
     [SerializeField] public string DialogueKnotName;
 
-    public bool HasBeenTalkedTo;
+    public bool IsRepairEnabled;
     public bool IsDialoguePlaying;
 
     public GameObject NPCTalkIcon;
@@ -24,6 +24,9 @@ public class RoomNPC : TriggerInteraction
     private MovementDisable MovementDisable;
     private UIManager UIManager;
     private Stories StoryManager;
+    private UniqueID UniqueID;
+    private SaveStateManager SaveStateManager;
+
     public string StoryName;
     public int CurrentChoiceIndex = -1;
 
@@ -33,12 +36,18 @@ public class RoomNPC : TriggerInteraction
         StoryManager = FindFirstObjectByType<Stories>();
         MovementDisable = FindFirstObjectByType<MovementDisable>();
         UIManager = FindFirstObjectByType<UIManager>();
+        UniqueID = GetComponent<UniqueID>();
+        SaveStateManager = FindFirstObjectByType<SaveStateManager>();
     }
     private void Start()
     {
         base.Start();
-        ResetPanelText();
         Story = StoryManager.GetStory(StoryName);
+        ResetPanelText();
+        DialogueKnotName = SaveStateManager.GetCurrentStory(StoryName);
+        IsRepairEnabled = SaveStateManager.GetIsRepairEnabled(UniqueID.ID);
+        
+
     }
 
 
@@ -50,9 +59,9 @@ public class RoomNPC : TriggerInteraction
     }
 
     //RoomNPC
-    public bool GetHasBeenTalkedTo()
+    public bool GetIsRepairEnabled()
     {
-        return HasBeenTalkedTo;
+        return IsRepairEnabled;
     }
 
 
@@ -159,6 +168,7 @@ public class RoomNPC : TriggerInteraction
         IsDialoguePlaying = false;
         //HasBeenTalkedTo = true;
         SetKnotNameFromInk();
+        SaveStateManager.SetCurrentStory(StoryName, DialogueKnotName);
         Debug.Log(Story.variablesState["NextDialogueKnot"]);
         Story.ResetState();
         Debug.Log(Story.variablesState["NextDialogueKnot"]);
@@ -251,6 +261,12 @@ public class RoomNPC : TriggerInteraction
     //FromInk
     public void CheckRepairUnlock() //Checks, whether the variable "CanRepairFurniture" of The NPCs InkFile has been set to true; If so, the Player can start repairing Objects.
     {
-        HasBeenTalkedTo = (bool)Story.variablesState["CanRepairFurniture"];
+        if((bool)Story.variablesState["CanRepairFurniture"])
+        {
+            IsRepairEnabled = true;
+            SaveStateManager.MarkRepairAsEnabled(UniqueID.ID);
+            Debug.Log((bool)Story.variablesState["CanRepairFurniture"]);
+        }
+
     }
 }

@@ -8,15 +8,29 @@ public class ColorChangeController : MonoBehaviour
 
     private Animator Animator;
     private int RepairedObjects;
+    private RoomNPC RoomNPC;
+    private SaveStateManager SaveStateManager;
+
 
     void Start()
     {
+        SaveStateManager = FindFirstObjectByType<SaveStateManager>();
+        RoomNPC = FindFirstObjectByType<RoomNPC>();
         Animator = BackgroundToChangeColor.GetComponent<Animator>();
+        if(SaveStateManager.HasDoneRepairCount(RoomNPC.GetComponent<UniqueID>().ID))
+        {
+            RepairedObjects = SaveStateManager.GetDoneRepairCount(RoomNPC.GetComponent<UniqueID>().ID);
+        }
+        if(RepairedObjects == RepairableObjectsAmount)
+        {
+            Animator.SetBool("InstantRepair", true);
+        }
     }
 
     public void IncrementRepairedObjects()
     {
         RepairedObjects++;
+        SaveStateManager.SaveDoneRepairCount(RoomNPC.GetComponent<UniqueID>().ID, RepairedObjects);
     }
 
     public void CheckColorChange()

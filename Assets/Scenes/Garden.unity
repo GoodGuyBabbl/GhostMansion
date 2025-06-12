@@ -133,11 +133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2835069702133712973, guid: 7374bd8679531ce4eb52edbfb2dace5b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.25
+      value: 0.63
       objectReference: {fileID: 0}
     - target: {fileID: 2835069702133712973, guid: 7374bd8679531ce4eb52edbfb2dace5b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.21
+      value: -2.06
       objectReference: {fileID: 0}
     - target: {fileID: 2835069702133712973, guid: 7374bd8679531ce4eb52edbfb2dace5b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -713,6 +713,14 @@ PrefabInstance:
     - target: {fileID: 2985829513904778523, guid: 74042120a242d5744bd6a8f969f40ab7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910981558207362533, guid: 74042120a242d5744bd6a8f969f40ab7, type: 3}
+      propertyPath: UniqueID
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910981558207362533, guid: 74042120a242d5744bd6a8f969f40ab7, type: 3}
+      propertyPath: TimeToRegrow
+      value: 600
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2431,11 +2439,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2985829513904778523, guid: 74042120a242d5744bd6a8f969f40ab7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.735
+      value: 1.98
       objectReference: {fileID: 0}
     - target: {fileID: 2985829513904778523, guid: 74042120a242d5744bd6a8f969f40ab7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.414
+      value: -0.39
       objectReference: {fileID: 0}
     - target: {fileID: 2985829513904778523, guid: 74042120a242d5744bd6a8f969f40ab7, type: 3}
       propertyPath: m_LocalPosition.z

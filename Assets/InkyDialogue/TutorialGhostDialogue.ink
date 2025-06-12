@@ -1,5 +1,5 @@
 //EXTERNAL GivePickaxe()
-//EXTERNAL PutGhostInIdle()
+EXTERNAL PutGhostInIdle()
 /////////////////////////////////////////////////////////////////
 VAR CanRepairFurniture = false
 VAR NextDialogueKnot = ""
@@ -22,6 +22,7 @@ Will you help me?
 //Animation auslaufen lassen
 //~PutGhostInIdle()
 ~NextDialogueKnot = "Helping"
+~PutGhostInIdle()
 ...
 Okay. Okay, I'm calm. Thank you.
 Please go and find the hatch down into the basement. If you've got the pickaxe, go and bring it to me. I'll do the rest.
