@@ -1189,7 +1189,7 @@ MonoBehaviour:
   TreeLogTop: {fileID: 0}
   TreeLogBottom: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: 0, z: 0}
-  FramesToMine: 2300
+  FramesToMine: 20
   HowManyItemsDropped: 2
   DroppedItem: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
   PlayerAnimationChangeName: IsMining

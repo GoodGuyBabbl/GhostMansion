@@ -4364,6 +4364,7 @@ GameObject:
   - component: {fileID: 2038986034}
   - component: {fileID: 2038986033}
   - component: {fileID: 2038986035}
+  - component: {fileID: 2038986036}
   m_Layer: 0
   m_Name: Hippie
   m_TagString: Untagged
@@ -4633,6 +4634,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uniqueID: 0,55_0_Hippie
+--- !u!114 &2038986036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038986026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7159fd18b1a270f43b5490f8df1ee916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2084064076
 GameObject:
   m_ObjectHideFlags: 0
@@ -4865,6 +4878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RepairableObjectsAmount: 4
   BackgroundToChangeColor: {fileID: 79135244}
+  Animator: {fileID: 0}
 --- !u!4 &2107743092
 Transform:
   m_ObjectHideFlags: 0

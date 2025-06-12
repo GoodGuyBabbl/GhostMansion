@@ -1,4 +1,5 @@
 ////////////////////////////////////////////////////////////
+EXTERNAL GiveAxe()
 VAR CanRepairFurniture = false
 ===TutorialStart===
 VAR NextDialogueKnot = ""
@@ -23,7 +24,7 @@ Oh.. How did you get in here? I thought I was locked inside?
 ===DidHelp===
 That sounds great! I think you should maybe try the garden by the pond, if you want to get me some new things. Strange.. I've never been out there but somehow I recall there being a workbench..
 Anyways, you might need this axe.
-//give Axe
+~GiveAxe()
 You know, I was going to go out there and do it myself but I almost killed myself again trying to swing that thing hahahahahahaHAHAHAHAHAHA
         ~NextDialogueKnot = "IsHelping"
         ~CanRepairFurniture = true

@@ -6,7 +6,7 @@ public class ColorChangeController : MonoBehaviour
     public int RepairableObjectsAmount;
     public GameObject BackgroundToChangeColor;
 
-    private Animator Animator;
+    public Animator Animator;
     private int RepairedObjects;
     private RoomNPC RoomNPC;
     private SaveStateManager SaveStateManager;
