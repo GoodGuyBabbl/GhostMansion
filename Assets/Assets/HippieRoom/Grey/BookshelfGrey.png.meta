@@ -103,12 +103,12 @@ TextureImporter:
       name: BookshelfGrey_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 480
-        height: 270
+        x: 301
+        y: 39
+        width: 55
+        height: 56
       alignment: 9
-      pivot: {x: 0.6854166, y: 0.1888889}
+      pivot: {x: 0.5090909, y: 0.21428573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

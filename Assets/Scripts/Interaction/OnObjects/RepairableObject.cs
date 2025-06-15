@@ -22,10 +22,15 @@ public class RepairableObject : TriggerInteraction
 
     private int i = 0;
 
+    private float XPlayerAnimationDirection;
+    private float YPlayerAnimationDirection;
     private bool StartLongInteract;
     private bool IsRepairEnabled;
     private bool IsBuildPlot;
-    private bool IsRepaired;
+
+    public bool IsRepaired;
+
+    private MovementDisable MovementDisable;
 
     private Interactions Interactions;
 
@@ -45,7 +50,7 @@ public class RepairableObject : TriggerInteraction
 
     public void Awake()
     {
-
+        MovementDisable = FindFirstObjectByType<MovementDisable>();
         SaveStateManager = FindFirstObjectByType<SaveStateManager>();
         UniqueID = GetComponent<UniqueID>();
         SpriteRenderer = GetComponent<SpriteRenderer>();
@@ -93,9 +98,13 @@ public class RepairableObject : TriggerInteraction
 
     public override void Interact()
     {
-        
+        XPlayerAnimationDirection = new Vector2(transform.position.x - Player.transform.position.x, 0).x;
+        YPlayerAnimationDirection = new Vector2(0, transform.position.y - Player.transform.position.y).y;
+        PlayerAnimator.SetFloat("XAnimationDirection", XPlayerAnimationDirection);
+        PlayerAnimator.SetFloat("YAnimationDirection", YPlayerAnimationDirection);
+
         //Overlay öffnen, in dem Ressourcenanforderungen dargestellt sind, dann auf "Build" klicken, Overlay schließen
-        if(IsRepairEnabled && !IsRepaired)
+        if (IsRepairEnabled && !IsRepaired)
         {
             
             if (IsBuildPlot)
@@ -130,6 +139,7 @@ public class RepairableObject : TriggerInteraction
 
             if (Interactions.GetHolding())
             {
+                MovementDisable.DisableMovement();
                 PlayerAnimator.SetBool("IsBuilding", true);
                 i++;
                 //Debug.Log(i);
@@ -156,11 +166,13 @@ public class RepairableObject : TriggerInteraction
                     BuildPlotIcon.SetActive(false);
                     PlayerAnimator.SetBool("IsBuilding", false);
                     StartLongInteract = false;
+                    MovementDisable.EnableMovement();
 
                 }
             }
             else if (Interactions.WasInteractReleased)
             {
+                MovementDisable.EnableMovement();
                 PlayerAnimator.SetBool("IsBuilding", false);
                 StartLongInteract = false;
                 i = 0;
@@ -183,7 +195,7 @@ public class RepairableObject : TriggerInteraction
     {
         base.OnTriggerExit2D(collision);
         
-        if(BuildPlotIcon.activeSelf && BuildPlotIcon != null)
+        if(BuildPlotIcon != null && BuildPlotIcon.activeSelf )
         {
             BuildPlotIcon.SetActive(false);
         }

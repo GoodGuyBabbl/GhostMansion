@@ -6,7 +6,7 @@ public class HippieRoomActivateForegroundColorChange : StateMachineBehaviour
     {
         HippieRoomForeground Foreground = FindFirstObjectByType<HippieRoomForeground>();
         Foreground.ActivateColorChange();
-        HippieCharacterColored Character = FindFirstObjectByType<HippieCharacterColored>();
-        Character.ColorHippie();
+        ColorRoomNPC Character = FindFirstObjectByType<ColorRoomNPC>();
+        Character.ColorNPC();
     }
 }

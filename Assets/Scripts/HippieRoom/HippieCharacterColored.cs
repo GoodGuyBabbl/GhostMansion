@@ -1,16 +1,16 @@
 using UnityEngine;
 
-public class HippieCharacterColored : MonoBehaviour
+public class ColorRoomNPC : MonoBehaviour
 {
-    private SpriteRenderer SpriteRenderer;
-    public Sprite ColoredSprite;
+    private Animator Animator;
+
     void Start()
     {
-        SpriteRenderer = GetComponent<SpriteRenderer>();
+        Animator = GetComponent<Animator>();
     }
 
-    public void ColorHippie()
+    public void ColorNPC()
     {
-        SpriteRenderer.sprite = ColoredSprite;
+        Animator.SetBool("IsColored", true);
     }
 }

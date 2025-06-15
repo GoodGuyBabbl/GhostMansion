@@ -8,6 +8,36 @@ TextureImporter:
   - first:
       213: -7183318143429124305
     second: HippieColor_1
+  - first:
+      213: -4464397867618463580
+    second: HippieColor_2
+  - first:
+      213: 5297285642431827543
+    second: HippieColor_3
+  - first:
+      213: -5031939578252651800
+    second: HippieColor_4
+  - first:
+      213: -4273346399856433064
+    second: HippieColor_5
+  - first:
+      213: -4294447516255993668
+    second: HippieColor_6
+  - first:
+      213: -167665491436426091
+    second: HippieColor_7
+  - first:
+      213: 8407012759644020760
+    second: HippieColor_8
+  - first:
+      213: 3607696220949746642
+    second: HippieColor_9
+  - first:
+      213: -4229661671689360505
+    second: HippieColor_10
+  - first:
+      213: -455562779342250322
+    second: HippieColor_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,12 +136,12 @@ TextureImporter:
       name: HippieColor_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 5
-        width: 29
-        height: 46
+        x: 0
+        y: 0
+        width: 73
+        height: 52
       alignment: 9
-      pivot: {x: 0.501964, y: 0.053746898}
+      pivot: {x: 0.5068493, y: 0.1153846}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -124,11 +154,121 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: HippieColor_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5068493, y: 0.1153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fd948153abf4c90800000000000000
+      internalID: -7183318143429124305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippieColor_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5068493, y: 0.1153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a01794fac54b02c0800000000000000
+      internalID: -4464397867618463580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippieColor_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5068493, y: 0.1153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e0deeb93db38940800000000000000
+      internalID: 5297285642431827543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippieColor_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5068493, y: 0.1153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2950b2d95fa2ab0800000000000000
+      internalID: -5031939578252651800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippieColor_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5068493, y: 0.1153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858ec5a271602b4c0800000000000000
+      internalID: -4273346399856433064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f541fb01d6790e24e81775fb56fcda1e
+    spriteID: e4aef43a099341e49b6bd3477cd1b838
     internalID: 0
     vertices: []
     indices: 
@@ -140,6 +280,10 @@ TextureImporter:
     nameFileIdTable:
       HippieColor_0: 3962316436941032261
       HippieColor_1: -7183318143429124305
+      HippieColor_2: -4464397867618463580
+      HippieColor_3: 5297285642431827543
+      HippieColor_4: -5031939578252651800
+      HippieColor_5: -4273346399856433064
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

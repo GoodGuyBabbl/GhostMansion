@@ -103,12 +103,12 @@ TextureImporter:
       name: GuitarGrey_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      alignment: 9
-      pivot: {x: 0.6, y: 0.5037037}
+        x: 281
+        y: 135
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

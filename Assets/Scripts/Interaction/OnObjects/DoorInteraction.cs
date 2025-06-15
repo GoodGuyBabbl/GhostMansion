@@ -17,6 +17,8 @@ public class DoorInteraction : TriggerInteraction
         PorchGarden,
         MainRoomBasement,
         BasementMainRoom,
+        MainRoomMuscleman,
+        MusclemanMainRoom
 
     }
 

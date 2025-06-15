@@ -1,0 +1,1158 @@
+fileFormatVersion: 2
+guid: 7bd39f41208aee94e83d37c41a6b8468
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1682815608398279294
+    second: DrunkenGhostDrinking_0
+  - first:
+      213: 7890134401151821644
+    second: DrunkenGhostDrinking_1
+  - first:
+      213: -2648323532439004298
+    second: DrunkenGhostDrinking_2
+  - first:
+      213: 7273542772644975011
+    second: DrunkenGhostDrinking_3
+  - first:
+      213: 4214271508487081482
+    second: DrunkenGhostDrinking_4
+  - first:
+      213: 4591740816830885536
+    second: DrunkenGhostDrinking_5
+  - first:
+      213: 5018006885815284606
+    second: DrunkenGhostDrinking_6
+  - first:
+      213: -7452577238633491155
+    second: DrunkenGhostDrinking_7
+  - first:
+      213: 9168948445685891991
+    second: DrunkenGhostDrinking_8
+  - first:
+      213: 8882365762971346945
+    second: DrunkenGhostDrinking_9
+  - first:
+      213: -7482047153416206354
+    second: DrunkenGhostDrinking_10
+  - first:
+      213: -3333658206629858936
+    second: DrunkenGhostDrinking_11
+  - first:
+      213: -3334466348411511988
+    second: DrunkenGhostDrinking_12
+  - first:
+      213: -1196868784700650197
+    second: DrunkenGhostDrinking_13
+  - first:
+      213: -621148112830090634
+    second: DrunkenGhostDrinking_14
+  - first:
+      213: -3972569744597488679
+    second: DrunkenGhostDrinking_15
+  - first:
+      213: -6031539221297659211
+    second: DrunkenGhostDrinking_16
+  - first:
+      213: -5500284066146415817
+    second: DrunkenGhostDrinking_17
+  - first:
+      213: 9049852823656651011
+    second: DrunkenGhostDrinking_18
+  - first:
+      213: 2867094237922315845
+    second: DrunkenGhostDrinking_19
+  - first:
+      213: 1919456541622980661
+    second: DrunkenGhostDrinking_20
+  - first:
+      213: 816474697031785674
+    second: DrunkenGhostDrinking_21
+  - first:
+      213: 715210657250884729
+    second: DrunkenGhostDrinking_22
+  - first:
+      213: -7480533474251631623
+    second: DrunkenGhostDrinking_23
+  - first:
+      213: 3947122110662440065
+    second: DrunkenGhostDrinking_24
+  - first:
+      213: 2354799570740961820
+    second: DrunkenGhostDrinking_25
+  - first:
+      213: -2882629466109131550
+    second: DrunkenGhostDrinking_26
+  - first:
+      213: -7452341539643776911
+    second: DrunkenGhostDrinking_27
+  - first:
+      213: -8420537958268814997
+    second: DrunkenGhostDrinking_28
+  - first:
+      213: -5319208280286730976
+    second: DrunkenGhostDrinking_29
+  - first:
+      213: -4351292604348661191
+    second: DrunkenGhostDrinking_30
+  - first:
+      213: -8813352771313163217
+    second: DrunkenGhostDrinking_31
+  - first:
+      213: 224394193204927139
+    second: DrunkenGhostDrinking_32
+  - first:
+      213: 7970875230718272637
+    second: DrunkenGhostDrinking_33
+  - first:
+      213: -6958397494825154
+    second: DrunkenGhostDrinking_34
+  - first:
+      213: 7931887310372885950
+    second: DrunkenGhostDrinking_35
+  - first:
+      213: 6093244640201961933
+    second: DrunkenGhostDrinking_36
+  - first:
+      213: 2384118919154124632
+    second: DrunkenGhostDrinking_37
+  - first:
+      213: -640121434955629754
+    second: DrunkenGhostDrinking_38
+  - first:
+      213: -2720458533450758765
+    second: DrunkenGhostDrinking_39
+  - first:
+      213: 578009751176357896
+    second: DrunkenGhostDrinking_40
+  - first:
+      213: 3829380904089662777
+    second: DrunkenGhostDrinking_41
+  - first:
+      213: -7662788932968131081
+    second: DrunkenGhostDrinking_42
+  - first:
+      213: -4105196729180922140
+    second: DrunkenGhostDrinking_43
+  - first:
+      213: 3583127645712051740
+    second: DrunkenGhostDrinking_44
+  - first:
+      213: -7089815384438307942
+    second: DrunkenGhostDrinking_45
+  - first:
+      213: -5692338988402648612
+    second: DrunkenGhostDrinking_46
+  - first:
+      213: -9002972731562536946
+    second: DrunkenGhostDrinking_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 445
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72ff0141ef8a5710800000000000000
+      internalID: 1682815608398279294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 445
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c476eb22f636f7d60800000000000000
+      internalID: 7890134401151821644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 445
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b5aa657c34f3bd0800000000000000
+      internalID: -2648323532439004298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 445
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a11d166d90d0f460800000000000000
+      internalID: 7273542772644975011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 445
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e0c6adb991c7a30800000000000000
+      internalID: 4214271508487081482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 445
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aeeddfd1f329bf30800000000000000
+      internalID: 4591740816830885536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 445
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73fb751daa83a540800000000000000
+      internalID: 5018006885815284606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25d616ac70239890800000000000000
+      internalID: -7452577238633491155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 356
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7934afc3806ae3f70800000000000000
+      internalID: 9168948445685891991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 356
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108aff2c990844b70800000000000000
+      internalID: 8882365762971346945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 356
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee787eb61cd6a2890800000000000000
+      internalID: -7482047153416206354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 356
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881f24706877cb1d0800000000000000
+      internalID: -3333658206629858936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 356
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b107bd58899b1d0800000000000000
+      internalID: -3334466348411511988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_13
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 356
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d0a2d7e2ed36fe0800000000000000
+      internalID: -1196868784700650197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672bbd5151d3167f0800000000000000
+      internalID: -621148112830090634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 267
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db6dc76dd89ed8c0800000000000000
+      internalID: -3972569744597488679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 267
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b287b1e80bab4ca0800000000000000
+      internalID: -6031539221297659211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_17
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 267
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b0a9998c01ba3b0800000000000000
+      internalID: -5500284066146415817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 267
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309de97e139879d70800000000000000
+      internalID: 9049852823656651011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_19
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 267
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ecde4d407f9c720800000000000000
+      internalID: 2867094237922315845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 267
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530dc3d0e8743aa10800000000000000
+      internalID: 1919456541622980661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc9cac3963b45b00800000000000000
+      internalID: 816474697031785674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 178
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c330dad40fce900800000000000000
+      internalID: 715210657250884729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 178
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f310d0507ecf2890800000000000000
+      internalID: -7480533474251631623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 178
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184ff1b95aef6c630800000000000000
+      internalID: 3947122110662440065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 178
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12e14bbbbdeda020800000000000000
+      internalID: 2354799570740961820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_26
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 178
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4cd7df5c7def7d0800000000000000
+      internalID: -2882629466109131550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 178
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17025a89ad6f39890800000000000000
+      internalID: -7452341539643776911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69b1b3475d342b80800000000000000
+      internalID: -8420537958268814997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_29
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 89
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025613f50406e26b0800000000000000
+      internalID: -5319208280286730976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 89
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93283043e6a1d93c0800000000000000
+      internalID: -4351292604348661191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_31
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 89
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24aca1895ea0b580800000000000000
+      internalID: -8813352771313163217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 89
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aad3af64553d1300800000000000000
+      internalID: 224394193204927139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_33
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 89
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d742ce37acc3e9e60800000000000000
+      internalID: 7970875230718272637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 89
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f6d15df5747eff0800000000000000
+      internalID: -6958397494825154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5543ddb79b31e60800000000000000
+      internalID: 7931887310372885950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_36
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc17ac487bd8f8450800000000000000
+      internalID: 6093244640201961933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857487e7687161120800000000000000
+      internalID: 2384118919154124632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrunkenGhostDrinking_38
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b3b5842f4dd17f0800000000000000
+      internalID: -640121434955629754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1064fa7c63331d445931edd888643993
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DrunkenGhostDrinking_0: 1682815608398279294
+      DrunkenGhostDrinking_1: 7890134401151821644
+      DrunkenGhostDrinking_10: -7482047153416206354
+      DrunkenGhostDrinking_11: -3333658206629858936
+      DrunkenGhostDrinking_12: -3334466348411511988
+      DrunkenGhostDrinking_13: -1196868784700650197
+      DrunkenGhostDrinking_14: -621148112830090634
+      DrunkenGhostDrinking_15: -3972569744597488679
+      DrunkenGhostDrinking_16: -6031539221297659211
+      DrunkenGhostDrinking_17: -5500284066146415817
+      DrunkenGhostDrinking_18: 9049852823656651011
+      DrunkenGhostDrinking_19: 2867094237922315845
+      DrunkenGhostDrinking_2: -2648323532439004298
+      DrunkenGhostDrinking_20: 1919456541622980661
+      DrunkenGhostDrinking_21: 816474697031785674
+      DrunkenGhostDrinking_22: 715210657250884729
+      DrunkenGhostDrinking_23: -7480533474251631623
+      DrunkenGhostDrinking_24: 3947122110662440065
+      DrunkenGhostDrinking_25: 2354799570740961820
+      DrunkenGhostDrinking_26: -2882629466109131550
+      DrunkenGhostDrinking_27: -7452341539643776911
+      DrunkenGhostDrinking_28: -8420537958268814997
+      DrunkenGhostDrinking_29: -5319208280286730976
+      DrunkenGhostDrinking_3: 7273542772644975011
+      DrunkenGhostDrinking_30: -4351292604348661191
+      DrunkenGhostDrinking_31: -8813352771313163217
+      DrunkenGhostDrinking_32: 224394193204927139
+      DrunkenGhostDrinking_33: 7970875230718272637
+      DrunkenGhostDrinking_34: -6958397494825154
+      DrunkenGhostDrinking_35: 7931887310372885950
+      DrunkenGhostDrinking_36: 6093244640201961933
+      DrunkenGhostDrinking_37: 2384118919154124632
+      DrunkenGhostDrinking_38: -640121434955629754
+      DrunkenGhostDrinking_4: 4214271508487081482
+      DrunkenGhostDrinking_5: 4591740816830885536
+      DrunkenGhostDrinking_6: 5018006885815284606
+      DrunkenGhostDrinking_7: -7452577238633491155
+      DrunkenGhostDrinking_8: 9168948445685891991
+      DrunkenGhostDrinking_9: 8882365762971346945
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

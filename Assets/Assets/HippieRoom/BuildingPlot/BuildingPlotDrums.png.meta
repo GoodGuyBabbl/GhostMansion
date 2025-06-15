@@ -103,12 +103,12 @@ TextureImporter:
       name: BuildingPlotDrums_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 480
-        height: 270
+        x: 200
+        y: 79
+        width: 48
+        height: 48
       alignment: 9
-      pivot: {x: 0.4645833, y: 0.3666667}
+      pivot: {x: 0.4791667, y: 0.4166667}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

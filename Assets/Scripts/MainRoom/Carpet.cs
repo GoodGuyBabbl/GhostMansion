@@ -45,7 +45,7 @@ public class Carpet : TriggerInteraction
     private void OnTriggerExit2D(Collider2D collision)
     {
         base.OnTriggerExit2D(collision);
-        if(InteractionIcon.activeSelf)
+        if(InteractionIcon)
         {
             InteractionIcon.SetActive(false);
         }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 29e34aa33398bd2438766b3fe09eb82a
+guid: f10ef62102122124b90bde24ef89628c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6270628662408678366
-    second: MainRoomForeground_0
+      213: 1830715587861177056
+    second: RoomMusclemanDesk_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MainRoomForeground_0
+      name: RoomMusclemanDesk_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 480
-        height: 270
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 40
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4864865}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edb80459b8fb50750800000000000000
-      internalID: 6270628662408678366
+      spriteID: 0e26c3ba022086910800000000000000
+      internalID: 1830715587861177056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomMusclemanDesk_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc765831a7430554a9082d4de6c14af6
+      internalID: 1389674599
       vertices: []
       indices: 
       edges: []
@@ -125,7 +147,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cf1b1caf0789cb548a3348270f817b99
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +157,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MainRoomForeground_0: 6270628662408678366
+      RoomMusclemanDesk_0: 1830715587861177056
+      RoomMusclemanDesk_1: 1389674599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
