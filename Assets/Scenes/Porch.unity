@@ -566,7 +566,7 @@ MonoBehaviour:
   TreeLogTop: {fileID: 2118557824}
   TreeLogBottom: {fileID: 522213799}
   ItemSpawnPoint: {x: 0, y: 0, z: 0}
-  FramesToMine: 10
+  FramesToMine: 400
   HowManyItemsDropped: 1
   DroppedItem: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
   PlayerAnimationChangeName: IsChopping

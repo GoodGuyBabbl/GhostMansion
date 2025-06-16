@@ -1931,9 +1931,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c10391b150efb641b40f708b4a9d006, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BuildPlot: {fileID: 1765283656}
-  AnimatedObject1: {fileID: 121301753}
-  AnimatedObject2: {fileID: 121301753}
 --- !u!4 &735726729
 Transform:
   m_ObjectHideFlags: 0
@@ -2532,8 +2529,10 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 0.9961053, y: -0.36301804}
       - {x: 1.1318235, y: -0.47444883}
-      - {x: 1.9869242, y: -0.47298878}
-      - {x: 1.9758017, y: 0.045420825}
+      - {x: 2.6346633, y: -0.4653079}
+      - {x: 2.8257997, y: 0.6035518}
+      - {x: 2.0522282, y: 0.8718628}
+      - {x: 1.5255989, y: 0.95973706}
       - {x: 0.99558485, y: 0.04239597}
   m_UseDelaunayMesh: 0
 --- !u!1 &1201572196
@@ -5156,7 +5155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 188a0360bdf80b24c8e4f4ad739d3f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColoredSprite: {fileID: 3962316436941032261, guid: bcc03d4fb47627a4f94225c300a6c125, type: 3}
 --- !u!114 &2038986035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5182,6 +5180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7159fd18b1a270f43b5490f8df1ee916, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Storyname: HippieStory
 --- !u!1 &2084064076
 GameObject:
   m_ObjectHideFlags: 0
@@ -5888,10 +5887,10 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 2038986029}
   - {fileID: 1355158387}
   - {fileID: 567842559}
   - {fileID: 2142680648}
-  - {fileID: 2038986029}
   - {fileID: 1789594476}
   - {fileID: 1848016124}
   - {fileID: 2107743092}

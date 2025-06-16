@@ -1111,6 +1111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HippieTextFile: {fileID: 4900000, guid: 6829a24f095a0124ca16626f19535f82, type: 3}
   TutorialGhostTextFile: {fileID: 4900000, guid: af4b609cc5278554c905badb424477a4, type: 3}
+  MuscleManTextFile: {fileID: 4900000, guid: 57d2e482cf277064e90bd18417bc9c6e, type: 3}
 --- !u!1 &7548048756854659691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,6 +1223,7 @@ MonoBehaviour:
   - {fileID: 4859576148770418793}
   - {fileID: 3931876163476754949}
   SelectionFrame: {fileID: 232032986974288549}
+  CurrentIndex: 0
 --- !u!1 &7681987520206672542
 GameObject:
   m_ObjectHideFlags: 0

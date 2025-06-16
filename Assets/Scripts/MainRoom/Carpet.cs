@@ -1,4 +1,6 @@
 using UnityEngine;
+using Ink.Runtime;
+using Ink;
 
 public class Carpet : TriggerInteraction
 {
@@ -9,6 +11,9 @@ public class Carpet : TriggerInteraction
     private Animator Animator;
     private SaveStateManager SaveStateManager;
     private UniqueID UniqueID;
+
+    public bool IsCarpetEnabled;
+
 
     private void Awake()
     {
@@ -32,15 +37,20 @@ public class Carpet : TriggerInteraction
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(Animator.GetBool("InstantRoll"))
+        if(IsCarpetEnabled)
         {
-            Animator.SetBool("WasClicked", true);
+            if (Animator.GetBool("InstantRoll"))
+            {
+                Animator.SetBool("WasClicked", true);
+            }
+            base.OnTriggerEnter2D(collision);
+            if (!Animator.GetBool("WasClicked"))
+            {
+                InteractionIcon.SetActive(true);
+            }
         }
-        base.OnTriggerEnter2D(collision);
-        if(!Animator.GetBool("WasClicked"))
-        {
-            InteractionIcon.SetActive(true);
-        }
+               
+         
     }
     private void OnTriggerExit2D(Collider2D collision)
     {

@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: a3b7eb626727bcb4a92ae237344b2992
+guid: 326f5414545402344aef7889a789f7db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1272622316332704227
-    second: BedColored_0
-  - first:
-      213: -3129659469838897013
-    second: BedColored_1
-  - first:
-      213: 4426853757187705460
-    second: BedColored_2
-  - first:
-      213: 7924870845280488239
-    second: BedColored_3
-  - first:
-      213: 8712956641129779410
-    second: BedColored_4
-  - first:
-      213: -181035778312981730
-    second: BedColored_5
+      213: 8622774213336084034
+    second: ReferenceColored_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,45 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BedColored_0
+      name: ReferenceColored_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 75
-        height: 81
-      alignment: 9
-      pivot: {x: 0.41333336, y: 0.5555556}
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e1ee3a014349a110800000000000000
-      internalID: 1272622316332704227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BedColored_1
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 0
-        width: 75
-        height: 81
-      alignment: 9
-      pivot: {x: 0.37333333, y: 0.45679012}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b80b0583b473194d0800000000000000
-      internalID: -3129659469838897013
+      spriteID: 24eab4c267f3aa770800000000000000
+      internalID: 8622774213336084034
       vertices: []
       indices: 
       edges: []
@@ -162,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 10c998725ca6f084a8f0799e9a8d39c4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -172,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BedColored_0: 1272622316332704227
-      BedColored_1: -3129659469838897013
+      ReferenceColored_0: 8622774213336084034
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

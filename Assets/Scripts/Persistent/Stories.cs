@@ -9,6 +9,8 @@ public class Stories : MonoBehaviour
 
     public TextAsset HippieTextFile;
     public TextAsset TutorialGhostTextFile;
+    public TextAsset MuscleManTextFile;
+    public Story MuscleManStory;
     public Story HippieStory;
     public Story TutorialGhostStory;
 
@@ -16,6 +18,7 @@ public class Stories : MonoBehaviour
     {
         StoryStorage["HippieStory"] = new Story(HippieTextFile.text);
         StoryStorage["TutorialGhostStory"] = new Story(TutorialGhostTextFile.text);
+        StoryStorage["MuscleManStory"] = new Story(MuscleManTextFile.text);
     }
 
     public Story GetStory(string StoryName)

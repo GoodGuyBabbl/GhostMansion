@@ -183,6 +183,7 @@ public class RepairableObject : TriggerInteraction
     public void OnTriggerEnter2D(Collider2D collision)
     {
         base.OnTriggerEnter2D(collision);
+        Debug.Log("works");
         if (IsRepairEnabled && !IsRepaired)
         {
             BuildPlotIcon.SetActive(true);

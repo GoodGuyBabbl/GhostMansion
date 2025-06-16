@@ -1,7 +1,9 @@
 //EXTERNAL GivePickaxe()
 EXTERNAL PutGhostInIdle()
+EXTERNAL EnableCarpet()
 /////////////////////////////////////////////////////////////////
 VAR CanRepairFurniture = false
+
 VAR NextDialogueKnot = ""
 ===TutorialStart===
 Oh no, no, no, no, no...
@@ -22,6 +24,7 @@ Will you help me?
 //Animation auslaufen lassen
 //~PutGhostInIdle()
 ~NextDialogueKnot = "Helping"
+~EnableCarpet()
 ~PutGhostInIdle()
 ...
 Okay. Okay, I'm calm. Thank you.
@@ -43,6 +46,7 @@ Changed your mind?
 /////////////////////////////////////////////////////////////////
 ===Helping===
 This damned hatch has to be somewhere around here! Keep looking!
+
         ->END
 
 /////////////////////////////////////////////////////////////////
