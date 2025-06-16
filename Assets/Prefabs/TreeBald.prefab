@@ -275,3 +275,7 @@ MonoBehaviour:
   PlayerAnimationChangeName: IsChopping
   TimeToRegrow: 10
   CanRegrow: 1
+  PlayChoppingWood:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c0e8eaad951b00f4c9a3b0f4d32e0a0a, type: 2}

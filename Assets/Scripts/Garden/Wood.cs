@@ -10,7 +10,9 @@ public class Wood : MonoBehaviour
     private float CollectDistance = 0.25f;
     private float CollectSpeed = 0.9f;
     private float FollowDistance = 0.55f;
-    
+
+    public AK.Wwise.Event PlayCollect;
+
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
@@ -44,6 +46,7 @@ public class Wood : MonoBehaviour
 
     private void Collect()
     {
+        PlayCollect.Post(gameObject);
         Debug.Log("Holz +1");
         MaterialHandler.IncreaseWoodCount();
         //Holzcounter +1

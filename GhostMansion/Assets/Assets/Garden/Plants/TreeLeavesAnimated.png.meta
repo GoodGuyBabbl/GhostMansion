@@ -1,0 +1,392 @@
+fileFormatVersion: 2
+guid: 007fadafc79614a4d82e9adeb0cacc48
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1827857898763203926
+    second: TreeLeavesAnimated_0
+  - first:
+      213: -5207992986805263239
+    second: TreeLeavesAnimated_1
+  - first:
+      213: 1649999997754845955
+    second: TreeLeavesAnimated_2
+  - first:
+      213: -8543888213713662450
+    second: TreeLeavesAnimated_3
+  - first:
+      213: 5629165422085789801
+    second: TreeLeavesAnimated_4
+  - first:
+      213: -2932783987644775403
+    second: TreeLeavesAnimated_5
+  - first:
+      213: 4568403513219843060
+    second: TreeLeavesAnimated_6
+  - first:
+      213: -3462953399982631277
+    second: TreeLeavesAnimated_7
+  - first:
+      213: 6570827502337245071
+    second: TreeLeavesAnimated_8
+  - first:
+      213: 1471317837017804690
+    second: TreeLeavesAnimated_9
+  - first:
+      213: -4223555181883344539
+    second: TreeLeavesAnimated_10
+  - first:
+      213: 8882651501822113284
+    second: TreeLeavesAnimated_11
+  - first:
+      213: 6102223707910048164
+    second: TreeLeavesAnimated_12
+  - first:
+      213: 9023422648600874970
+    second: TreeLeavesAnimated_13
+  - first:
+      213: -6507412335004262144
+    second: TreeLeavesAnimated_14
+  - first:
+      213: -7203407293234052987
+    second: TreeLeavesAnimated_15
+  - first:
+      213: 9135193872616350941
+    second: TreeLeavesAnimated_16
+  - first:
+      213: 934755635389894029
+    second: TreeLeavesAnimated_17
+  - first:
+      213: -4816661320086136536
+    second: TreeLeavesAnimated_18
+  - first:
+      213: 6706417581716217419
+    second: TreeLeavesAnimated_19
+  - first:
+      213: 6936951583443134770
+    second: TreeLeavesAnimated_20
+  - first:
+      213: -1917312301856228699
+    second: TreeLeavesAnimated_21
+  - first:
+      213: 5190678809303878712
+    second: TreeLeavesAnimated_22
+  - first:
+      213: 6901795480180238294
+    second: TreeLeavesAnimated_23
+  - first:
+      213: 1452375204802927996
+    second: TreeLeavesAnimated_24
+  - first:
+      213: 308759497406159399
+    second: TreeLeavesAnimated_25
+  - first:
+      213: 5312602773815537170
+    second: TreeLeavesAnimated_26
+  - first:
+      213: 4866598103706218135
+    second: TreeLeavesAnimated_27
+  - first:
+      213: 8342001656048593652
+    second: TreeLeavesAnimated_28
+  - first:
+      213: -8728871677310999547
+    second: TreeLeavesAnimated_29
+  - first:
+      213: -3178283295304793436
+    second: TreeLeavesAnimated_30
+  - first:
+      213: -8640241436797276904
+    second: TreeLeavesAnimated_31
+  - first:
+      213: 4996802581360821527
+    second: TreeLeavesAnimated_32
+  - first:
+      213: -4297642493519539429
+    second: TreeLeavesAnimated_33
+  - first:
+      213: -5000402439522911254
+    second: TreeLeavesAnimated_34
+  - first:
+      213: -3088781318984161175
+    second: TreeLeavesAnimated_35
+  - first:
+      213: -8461319694657694341
+    second: TreeLeavesAnimated_36
+  - first:
+      213: -6632936880366216578
+    second: TreeLeavesAnimated_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TreeLeavesAnimated_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5362319, y: 0.06315789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaac35cece422a6e0800000000000000
+      internalID: -1827857898763203926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeLeavesAnimated_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 69
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5362319, y: 0.06315789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9742fbcb8fd79b7b0800000000000000
+      internalID: -5207992986805263239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeLeavesAnimated_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 69
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5362319, y: 0.06315789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ba291814af5e610800000000000000
+      internalID: 1649999997754845955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeLeavesAnimated_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 69
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5362319, y: 0.06315789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e43f4efe20e6980800000000000000
+      internalID: -8543888213713662450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeLeavesAnimated_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 69
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5362319, y: 0.06315789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968d5557020de1e40800000000000000
+      internalID: 5629165422085789801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeLeavesAnimated_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 0
+        width: 69
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5362319, y: 0.06315789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514ca757088ac47d0800000000000000
+      internalID: -2932783987644775403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeLeavesAnimated_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 69
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5362319, y: 0.06315789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f38d147aca366f30800000000000000
+      internalID: 4568403513219843060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21e96df52b0a0db4c85febc1206c5556
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TreeLeavesAnimated_0: -1827857898763203926
+      TreeLeavesAnimated_1: -5207992986805263239
+      TreeLeavesAnimated_2: 1649999997754845955
+      TreeLeavesAnimated_3: -8543888213713662450
+      TreeLeavesAnimated_4: 5629165422085789801
+      TreeLeavesAnimated_5: -2932783987644775403
+      TreeLeavesAnimated_6: 4568403513219843060
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

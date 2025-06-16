@@ -211,6 +211,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoorIcon: {fileID: 1647283975}
+  PlayDoorOpen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   SpawnPlayerToDoor: 6
   _SceneToLoad:
     m_SceneAsset: {fileID: 102900000, guid: 67557158626c157448dec2ecc1f3fd53, type: 3}
@@ -299,6 +303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_0 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6410663835872156155, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: PlayCollect.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 90ddbdec06d45e74b9d376353c9fe210, type: 2}
     - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.184
@@ -560,6 +568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_0 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6410663835872156155, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: PlayCollect.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 90ddbdec06d45e74b9d376353c9fe210, type: 2}
     - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.184
@@ -1156,6 +1168,63 @@ Transform:
   - {fileID: 2098514986}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &952376461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 952376463}
+  - component: {fileID: 952376462}
+  m_Layer: 0
+  m_Name: WwiseGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &952376462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952376461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ced9dcdab3e6e43498a495138b0883f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationSettings: {fileID: 11400000, guid: 33d49fd38ec45184f95c6e34ac89983c, type: 2}
+  basePath: 
+  language: 
+  defaultPoolSize: 0
+  lowerPoolSize: 0
+  streamingPoolSize: 0
+  memoryCutoffThreshold: 0
+  monitorPoolSize: 0
+  monitorQueuePoolSize: 0
+  callbackManagerBufferSize: 0
+  spatialAudioPoolSize: 0
+  maxSoundPropagationDepth: 0
+  engineLogging: 0
+--- !u!4 &952376463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952376461}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &970587370 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2985829513904778523, guid: 74042120a242d5744bd6a8f969f40ab7, type: 3}
@@ -1297,6 +1366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_0 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6410663835872156155, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: PlayCollect.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 90ddbdec06d45e74b9d376353c9fe210, type: 2}
     - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.318
@@ -2256,6 +2329,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorkbenchOverlay: {fileID: 892785482}
+  PlayConstructionPlanOpen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4c0f634f50c6c64479fe6e0ec45b2ce0, type: 2}
 --- !u!1 &1745291934
 GameObject:
   m_ObjectHideFlags: 0
@@ -2372,6 +2449,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_0
       objectReference: {fileID: 0}
+    - target: {fileID: 6410663835872156155, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: PlayCollect.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 90ddbdec06d45e74b9d376353c9fe210, type: 2}
     - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.404
@@ -2547,3 +2628,4 @@ SceneRoots:
   - {fileID: 911103110}
   - {fileID: 45873457}
   - {fileID: 1440743760}
+  - {fileID: 952376463}

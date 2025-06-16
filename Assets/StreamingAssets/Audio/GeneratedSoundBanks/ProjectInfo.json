@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "GhostMansion_WwiseProject",
+   "GUID": "{3CEA91F3-B7C7-469F-9F3F-89819462FAB8}",
+   "Generator": "2024.1.5.8803"
+  },
+  "CacheRoot": "../../../../GhostMansion_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{07D94B03-7FA4-42CD-9C7D-12A851D67F2A}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../GhostMansion_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{8F9EE7A2-E514-438C-BF86-75799A8084B1}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../GhostMansion_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{CD5A60BF-E7AA-4AED-BBDE-6606D6A559C4}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{006DCC7C-A59F-75E6-4ED3-5CF34C076097}"
+ }
+}

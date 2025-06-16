@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Carpet : TriggerInteraction
 {
@@ -7,6 +8,8 @@ public class Carpet : TriggerInteraction
     public GameObject DoorIconToBasement;
 
     private Animator Animator;
+
+    public AK.Wwise.Event PlayRollUpCarpet;
 
     public void Start()
     {
@@ -36,6 +39,7 @@ public class Carpet : TriggerInteraction
 
     public override void Interact()
     {
+        PlayRollUpCarpet.Post(gameObject);
         InteractionIcon.SetActive(false);
         Animator.SetBool("WasClicked",true);
     }

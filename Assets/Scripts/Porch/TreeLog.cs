@@ -21,7 +21,7 @@ public class TreeLog : TriggerInteraction
     public GameObject DroppedItem;
     public string PlayerAnimationChangeName; // für Baum IsChopping, also im Player Animator
 
-
+    public AK.Wwise.Event PlayMiningStone;
 
 
 
@@ -74,11 +74,13 @@ public class TreeLog : TriggerInteraction
                 PlayerAnimator.SetBool(PlayerAnimationChangeName, true);
                 //Animation hier
                 i++;
+                PlayMiningStone.Post(gameObject);
                 Debug.Log(i);
                 if (i >= FramesToMine)
                 {
 
                     MovementDisable.EnableMovement();
+                    Debug.Log("test");
                     i = 0;
                     DropItems(HowManyItemsDropped);
                     PlayerAnimator.SetBool(PlayerAnimationChangeName, false);

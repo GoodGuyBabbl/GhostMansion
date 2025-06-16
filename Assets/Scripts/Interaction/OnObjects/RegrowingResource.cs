@@ -23,8 +23,6 @@ public class RegrowingResource : TriggerInteraction
     public string PlayerAnimationChangeName; // für Baum IsChopping, also im Player Animator
     public float TimeToRegrow;
     public bool CanRegrow;
-    
-    
 
 
     private void Awake()

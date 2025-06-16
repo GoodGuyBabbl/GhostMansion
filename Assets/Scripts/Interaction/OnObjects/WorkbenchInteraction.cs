@@ -6,7 +6,9 @@ public class WorkbenchInteraction : TriggerInteraction
     public GameObject WorkbenchOverlay;
 
     private MovementDisable MovementDisable;
-    
+
+    public AK.Wwise.Event PlayConstructionPlanOpen;
+
     public void Start()
     {
         base.Start();
@@ -15,8 +17,9 @@ public class WorkbenchInteraction : TriggerInteraction
 
     public override void Interact()
     {
+        PlayConstructionPlanOpen.Post(gameObject);
         //open interactable Workbench UI
-        if(WorkbenchOverlay.activeSelf == false) 
+        if (WorkbenchOverlay.activeSelf == false) 
         {
             WorkbenchOverlay.SetActive(true);
             MovementDisable.DisableMovement();

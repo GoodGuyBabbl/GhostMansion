@@ -28,7 +28,6 @@ public class TreeInteraction : TriggerInteraction
     public GameObject Wood;
     public Vector2 WoodSpawn;
 
-
     private void Awake()
     {
         WoodSpawn = transform.position;
@@ -40,6 +39,7 @@ public class TreeInteraction : TriggerInteraction
 
     public override void Interact()
     {
+
         Debug.Log("Interact");
         start = true;
     }
