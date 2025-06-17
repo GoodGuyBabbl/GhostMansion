@@ -16,7 +16,7 @@ public class DialogueChoiceButton : MonoBehaviour, ISelectHandler
 
     private void Start()
     {
-        RoomNpc = FindFirstObjectByType<RoomNPC>();
+        //RoomNpc = FindFirstObjectByType<RoomNPC>();
     }
     public void SetChoiceText(string choiceTextString)
     {

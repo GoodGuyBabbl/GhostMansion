@@ -1112,6 +1112,7 @@ MonoBehaviour:
   HippieTextFile: {fileID: 4900000, guid: 6829a24f095a0124ca16626f19535f82, type: 3}
   TutorialGhostTextFile: {fileID: 4900000, guid: af4b609cc5278554c905badb424477a4, type: 3}
   MuscleManTextFile: {fileID: 4900000, guid: 57d2e482cf277064e90bd18417bc9c6e, type: 3}
+  DrunkenGhostTextFile: {fileID: 4900000, guid: 2304243e1710adc4dadba4899cd4f2fd, type: 3}
 --- !u!1 &7548048756854659691
 GameObject:
   m_ObjectHideFlags: 0

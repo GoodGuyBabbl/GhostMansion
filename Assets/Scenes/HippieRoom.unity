@@ -4393,7 +4393,7 @@ MonoBehaviour:
     New Text New Text New Text New Text New Text New Text New Text New Text New Text
     New Text New Text New Text New Text New Text '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6c33c5d3f33b49047b853e07574333a5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4459,7 +4459,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -840.6548, w: -114.3985}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1853260878
@@ -5180,7 +5180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7159fd18b1a270f43b5490f8df1ee916, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Storyname: HippieStory
 --- !u!1 &2084064076
 GameObject:
   m_ObjectHideFlags: 0
@@ -5888,10 +5887,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2038986029}
-  - {fileID: 1355158387}
   - {fileID: 567842559}
   - {fileID: 2142680648}
   - {fileID: 1789594476}
+  - {fileID: 1355158387}
   - {fileID: 1848016124}
   - {fileID: 2107743092}
   - {fileID: 735726729}

@@ -8,21 +8,6 @@ TextureImporter:
   - first:
       213: -4961105492423048433
     second: TreeBaldAnimated_1
-  - first:
-      213: 4014820347527009356
-    second: TreeBaldAnimated_2
-  - first:
-      213: -8491943580425937585
-    second: TreeBaldAnimated_3
-  - first:
-      213: -3230138378201309720
-    second: TreeBaldAnimated_4
-  - first:
-      213: -3176785357120190654
-    second: TreeBaldAnimated_5
-  - first:
-      213: 6290865863573896650
-    second: TreeBaldAnimated_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -123,10 +108,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 67
-        height: 75
+        width: 89
+        height: 120
       alignment: 9
-      pivot: {x: 0.43283582, y: 0.08}
+      pivot: {x: 0.505618, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -143,12 +128,12 @@ TextureImporter:
       name: TreeBaldAnimated_1
       rect:
         serializedVersion: 2
-        x: 67
+        x: 89
         y: 0
-        width: 67
-        height: 75
+        width: 89
+        height: 120
       alignment: 9
-      pivot: {x: 0.43283582, y: 0.08}
+      pivot: {x: 0.505618, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,121 +146,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: TreeBaldAnimated_2
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 0
-        width: 67
-        height: 75
-      alignment: 9
-      pivot: {x: 0.43283582, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c449b5ba5d187b730800000000000000
-      internalID: 4014820347527009356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeBaldAnimated_3
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 0
-        width: 67
-        height: 75
-      alignment: 9
-      pivot: {x: 0.43283582, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4d9d0c4e4e862a80800000000000000
-      internalID: -8491943580425937585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeBaldAnimated_4
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 0
-        width: 67
-        height: 75
-      alignment: 9
-      pivot: {x: 0.43283582, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ed54ff424e3c23d0800000000000000
-      internalID: -3230138378201309720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeBaldAnimated_5
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 0
-        width: 67
-        height: 75
-      alignment: 9
-      pivot: {x: 0.43283582, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 247403d8c8ac9e3d0800000000000000
-      internalID: -3176785357120190654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeBaldAnimated_6
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 0
-        width: 67
-        height: 75
-      alignment: 9
-      pivot: {x: 0.43283582, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: acdf3f72c25ad4750800000000000000
-      internalID: 6290865863573896650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d21badc21b443434baf1005586a6b3c9
+    spriteID: d5749e3495ca6b244bce0c2c046ed136
     internalID: 0
     vertices: []
     indices: 
@@ -287,11 +162,6 @@ TextureImporter:
     nameFileIdTable:
       TreeBaldAnimated_0: -666082050210136748
       TreeBaldAnimated_1: -4961105492423048433
-      TreeBaldAnimated_2: 4014820347527009356
-      TreeBaldAnimated_3: -8491943580425937585
-      TreeBaldAnimated_4: -3230138378201309720
-      TreeBaldAnimated_5: -3176785357120190654
-      TreeBaldAnimated_6: 6290865863573896650
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

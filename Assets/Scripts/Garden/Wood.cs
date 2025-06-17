@@ -10,6 +10,9 @@ public class Wood : MonoBehaviour
     private float CollectDistance = 0.25f;
     private float CollectSpeed = 0.9f;
     private float FollowDistance = 0.55f;
+
+    public string ResourceName;
+    public int ResourceAmount;
     
     void Start()
     {
@@ -44,9 +47,8 @@ public class Wood : MonoBehaviour
 
     private void Collect()
     {
-        Debug.Log("Holz +1");
-        MaterialHandler.IncreaseWoodCount();
-        //Holzcounter +1
+        Debug.Log(ResourceName + " +1");
+        MaterialHandler.IncreaseResourceCount(ResourceName, ResourceAmount);
         Destroy(gameObject);
     }
 }

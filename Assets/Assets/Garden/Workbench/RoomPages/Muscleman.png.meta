@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 74a7a1cfb4c8bc143b5f15f7cb054e63
+guid: 0a11cb0d687ac5144a068419a6a9ebc6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -327618296011676943
-    second: FrogLooking_0
+      213: 1738628273496324403
+    second: Muscleman_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FrogLooking_0
+      name: Muscleman_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 11
-        height: 12
+        width: 284
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f22e4445e0147bf0800000000000000
-      internalID: -327618296011676943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrogLooking_1
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 0
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6863d7f6c082c6646954ab12b66367d3
-      internalID: -534631497
+      spriteID: 339f23ef339d02810800000000000000
+      internalID: 1738628273496324403
       vertices: []
       indices: 
       edges: []
@@ -147,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6cb6979ffd82f6742997a43e02ad7fbd
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -157,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FrogLooking_0: -327618296011676943
-      FrogLooking_1: -534631497
+      Muscleman_0: 1738628273496324403
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

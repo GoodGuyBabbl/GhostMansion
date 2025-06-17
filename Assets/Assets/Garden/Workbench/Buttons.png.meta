@@ -1,22 +1,34 @@
 fileFormatVersion: 2
-guid: 6888a51f61328a94c850eedc0719cc4c
+guid: 994488e391f41d84a895b270d95c97fd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 201458320737710406
-    second: FrogJumpsOut_0
+      213: 8894201953851282084
+    second: Buttons_0
   - first:
-      213: 4622241570647406630
-    second: FrogJumpsOut_1
+      213: 7664807735657788756
+    second: Buttons_1
   - first:
-      213: 677275865754181046
-    second: FrogJumpsOut_2
+      213: -5402412272178277761
+    second: Buttons_2
   - first:
-      213: -4792971775936732959
-    second: FrogJumpsOut_3
+      213: 2013261503205373015
+    second: Buttons_3
   - first:
-      213: -224014210283061262
-    second: FrogJumpsOut_4
+      213: 3760674464881954987
+    second: Buttons_4
+  - first:
+      213: -7811504096720598664
+    second: Buttons_5
+  - first:
+      213: -7814535901586335685
+    second: Buttons_6
+  - first:
+      213: -3243065930256096816
+    second: Buttons_7
+  - first:
+      213: -5316896731886317114
+    second: Buttons_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,265 +124,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FrogJumpsOut_0
+      name: Buttons_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 19
-        height: 20
+        x: 9
+        y: 136
+        width: 61
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6413e9c7649bbc200800000000000000
-      internalID: 201458320737710406
+      spriteID: 4a214e3bd8d8e6b70800000000000000
+      internalID: 8894201953851282084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogJumpsOut_1
+      name: Buttons_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 0
-        width: 19
-        height: 20
+        x: 87
+        y: 24
+        width: 88
+        height: 132
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6287b740830852040800000000000000
-      internalID: 4622241570647406630
+      spriteID: 4557c83960ede5a60800000000000000
+      internalID: 7664807735657788756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogJumpsOut_2
+      name: Buttons_2
       rect:
         serializedVersion: 2
-        x: 38
-        y: 0
-        width: 19
-        height: 20
+        x: 9
+        y: 116
+        width: 61
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bd1931cfca266900800000000000000
-      internalID: 677275865754181046
+      spriteID: f725a9269a6c605b0800000000000000
+      internalID: -5402412272178277761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogJumpsOut_3
+      name: Buttons_3
       rect:
         serializedVersion: 2
-        x: 57
-        y: 0
-        width: 19
-        height: 20
+        x: 9
+        y: 97
+        width: 61
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e061d46091fb7db0800000000000000
-      internalID: -4792971775936732959
+      spriteID: 7547682abaa80fb10800000000000000
+      internalID: 2013261503205373015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogJumpsOut_4
+      name: Buttons_4
       rect:
         serializedVersion: 2
-        x: 76
-        y: 0
+        x: 9
+        y: 72
         width: 19
-        height: 20
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ff307b334424ecf0800000000000000
-      internalID: -224014210283061262
+      spriteID: ba0db2b3089903430800000000000000
+      internalID: 3760674464881954987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogJumpsOut_5
+      name: Buttons_5
       rect:
         serializedVersion: 2
-        x: 95
-        y: 0
+        x: 30
+        y: 72
         width: 19
-        height: 20
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e17b6809f20849a408450556226a6eb4
-      internalID: 1273756723
+      spriteID: 879c5714966f79390800000000000000
+      internalID: -7811504096720598664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogJumpsOut_6
+      name: Buttons_6
       rect:
         serializedVersion: 2
-        x: 114
-        y: 0
+        x: 51
+        y: 72
         width: 19
-        height: 20
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4ebdf2ea697948c4498337ce64a53b45
-      internalID: -1219452816
+      spriteID: b38d86d20013d8390800000000000000
+      internalID: -7814535901586335685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogJumpsOut_7
+      name: Buttons_7
       rect:
         serializedVersion: 2
-        x: 133
-        y: 0
-        width: 19
-        height: 20
+        x: 9
+        y: 52
+        width: 61
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: da7a7bc2ecf071040ac6492f812fa6f3
-      internalID: 1829282855
+      spriteID: 0d1e9eb08b05ef2d0800000000000000
+      internalID: -3243065930256096816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogJumpsOut_8
+      name: Buttons_8
       rect:
         serializedVersion: 2
-        x: 152
-        y: 0
+        x: 30
+        y: 33
         width: 19
-        height: 20
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d75634330cb1e9a42b5f06a581d5ed6f
-      internalID: 1605862291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrogJumpsOut_9
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 0
-        width: 19
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15549dfaec78f2c4ca43114774873301
-      internalID: -865698152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrogJumpsOut_10
-      rect:
-        serializedVersion: 2
-        x: 190
-        y: 0
-        width: 19
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13c421931419b2d4d9533d0daa4bd08b
-      internalID: 342551287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrogJumpsOut_11
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 0
-        width: 19
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fc73804abdbc6745ab4d1f56b949104
-      internalID: 1842488398
+      spriteID: 6c11b7ca7969636b0800000000000000
+      internalID: -5316896731886317114
       vertices: []
       indices: 
       edges: []
@@ -379,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e02ec7ecf91b1d948a1e358041dcde81
+    spriteID: 5d2aae67f2358814cb68eab9700fda2f
     internalID: 0
     vertices: []
     indices: 
@@ -389,18 +335,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FrogJumpsOut_0: 201458320737710406
-      FrogJumpsOut_1: 4622241570647406630
-      FrogJumpsOut_10: 342551287
-      FrogJumpsOut_11: 1842488398
-      FrogJumpsOut_2: 677275865754181046
-      FrogJumpsOut_3: -4792971775936732959
-      FrogJumpsOut_4: -224014210283061262
-      FrogJumpsOut_5: 1273756723
-      FrogJumpsOut_6: -1219452816
-      FrogJumpsOut_7: 1829282855
-      FrogJumpsOut_8: 1605862291
-      FrogJumpsOut_9: -865698152
+      Buttons_0: 8894201953851282084
+      Buttons_1: 7664807735657788756
+      Buttons_2: -5402412272178277761
+      Buttons_3: 2013261503205373015
+      Buttons_4: 3760674464881954987
+      Buttons_5: -7811504096720598664
+      Buttons_6: -7814535901586335685
+      Buttons_7: -3243065930256096816
+      Buttons_8: -5316896731886317114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

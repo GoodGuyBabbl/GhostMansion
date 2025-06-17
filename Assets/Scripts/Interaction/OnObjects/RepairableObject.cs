@@ -13,10 +13,17 @@ public class RepairableObject : TriggerInteraction
     public Collider2D BuildPlotCollider;
     public Collider2D ColoredVersionCollider;
 
-    public int WoodNeeded;
-    public int StoneNeeded;
-    public int ClothNeeded;
-    public int FlowersNeeded;
+    public string Resource1;
+    public string Resource2;
+    public string Resource3;
+    public string Resource4;
+    public string Resource5;
+
+    public int Amount1;
+    public int Amount2;
+    public int Amount3;
+    public int Amount4;
+    public int Amount5;
 
     public int FramesToBuild;
 
@@ -114,7 +121,7 @@ public class RepairableObject : TriggerInteraction
             else //Wenn es noch nicht BuildPlot ist
             {
                 //Hier eigentlich: Overlay öffnen, in dem gezeigt wird, wie viele Ressourcen man von was brauch inklusive build button und das nachfolgende ist die logik des buttons
-                if (MaterialHandler.HasEnoughResources(WoodNeeded, StoneNeeded, ClothNeeded, FlowersNeeded))
+                if (MaterialHandler.HasEnoughResources(Resource1, Amount1, Resource2, Amount2, Resource3, Amount3, Resource4, Amount4, Resource5, Amount5))
                 {
                     SaveStateManager.MarkAsBuildPlot(UniqueID.ID);
                     SpriteRenderer.sprite = BuildPlot;

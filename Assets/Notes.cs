@@ -27,4 +27,10 @@ public class Notes : MonoBehaviour
     //
     //
     //
+
+
+
+
+    //Progressbar Immer enablen in Buildplot, in workbench nur, wenn was gecraftet wird
+    //snegge übergang rauchwolke einfügen
 }

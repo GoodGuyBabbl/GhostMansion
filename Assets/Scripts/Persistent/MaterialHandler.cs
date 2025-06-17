@@ -1,21 +1,72 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MaterialHandler : MonoBehaviour
 {
-    public int WoodCount;
-    public int StoneCount;
-    public int ClothCount;
-    public int FlowerCount;
+
+    private Dictionary<string, int> Resources = new Dictionary<string, int>();
 
 
-    public bool HasEnoughResources(int NeededWoodCount, int NeededStoneCount, int NeededClothCount, int NeededFlowerCount)
+    private void Start()
     {
-        if(WoodCount >= NeededWoodCount && StoneCount >= NeededStoneCount && ClothCount >= NeededClothCount && FlowerCount >= NeededFlowerCount)
+
+        //Filler for lower amounts of differing resources
+        Resources["Nothing"] = 0;
+        //from Miro
+
+
+        //Collectable
+        Resources["IronOreCount"] = 0;
+        Resources["StoneCount"] = 0;
+        Resources["WoodCount"] = 0;
+        Resources["CottonCount"] = 0;
+        Resources["ReedCount"] = 0;
+        Resources["BottleCount"] = 0;
+        Resources["FlowerYellowCount"] = 0;
+        Resources["FlowerPurpleCount"] = 0;
+        Resources["FlowerRedCount"] = 0;
+        Resources["FlowerGreenCount"] = 0;
+        Resources["FlowerPinkCount"] = 0;
+        Resources["FirefliesCount"] = 0;
+        Resources["CobwebCount"] = 0;
+
+        //Basic Crafting
+
+        Resources["IronBarCount"] = 0;
+        Resources["PlankCount"] = 0;
+        Resources["FibersCount"] = 0;
+        Resources["ClothCount"] = 0;
+        Resources["YellowDyeCount"] = 0;
+        Resources["PurpleDyeCount"] = 0;
+        Resources["RedDyeCount"] = 0;
+        Resources["GreenDyeCount"] = 0;
+        Resources["PinkDyeCount"] = 0;
+        Resources["GlassCount"] = 0;
+        Resources["PaperCount"] = 0;
+        Resources["BrickCount"] = 0;
+
+        //Unique
+
+        Resources["DrumCymbalCount"] = 0;
+        //Teppiche in verschiedenen Farben
+        Resources["FirefliesInGlassCount"] = 0;
+        //Tapete in verschiedenen Farben
+        Resources["PillowCount"] = 0;
+        Resources["GuitarStringsCount"] = 0;
+        Resources["BookCount"] = 0;
+        Resources["PosterCount"] = 0;
+
+    }
+
+    public bool HasEnoughResources(string Name1, int Amount1, string Name2, int Amount2, string Name3, int Amount3, string Name4, int Amount4, string Name5, int Amount5)
+    {
+        if (Resources[Name1] >= Amount1 && Resources[Name2] >= Amount2 && Resources[Name3] >= Amount3 && Resources[Name4] >= Amount4 && Resources[Name5] >= Amount5 )
         {
-            WoodCount -=NeededWoodCount;
-            StoneCount -=NeededStoneCount;
-            ClothCount -=NeededClothCount;  
-            FlowerCount -=NeededFlowerCount;
+            Resources[Name1] -= Amount1;
+            Resources[Name2] -= Amount2;
+            Resources[Name3] -= Amount3;
+            Resources[Name4] -= Amount4;
+            Resources[Name5] -= Amount5;
             return true;
         }
         else
@@ -23,62 +74,28 @@ public class MaterialHandler : MonoBehaviour
             return false;
         }   
     }
-    public int GetWoodCount()
+
+    //Get
+    public int GetResourceCount(string ResourceName)
     {
-        return WoodCount;
+        return Resources[ResourceName];
     }
 
-    public int GetStoneCount()
+
+
+
+    //Increase
+    public void IncreaseResourceCount(string ResourceName, int Amount)
     {
-        return StoneCount;
+        Resources[ResourceName] += Amount;
     }
 
-    public int GetClothCount()
+
+
+    //Decrease
+    public void DecreaseResourceCount(string ResourceName, int Amount)
     {
-        return ClothCount;
+        Resources[ResourceName] -= Amount;
     }
 
-    public int GetFlowerCount()
-    {
-        return FlowerCount;
-    }
-
-    public void IncreaseWoodCount()
-    {
-        WoodCount++;
-    }
-
-    public void IncreaseStoneCount()
-    {
-        StoneCount++;
-    }
-    public void IncreaseClothCount()
-    {
-        ClothCount++;
-    }
-
-    public void IncreaseFlowerCount()
-    {
-        FlowerCount++;
-    }
-
-    public void DecreaseWoodCount()
-    {
-        WoodCount--;
-    }
-
-    public void DecreaseStoneCount()
-    {
-        StoneCount--;
-    }
-
-    public void DecreaseClothCount()
-    {
-        ClothCount--;
-    }
-
-    public void DecreaseFlowerCount()
-    {
-        FlowerCount--;
-    }
 }

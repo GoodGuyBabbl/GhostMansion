@@ -216,10 +216,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 69
-        height: 95
+        width: 89
+        height: 120
       alignment: 9
-      pivot: {x: 0.5362319, y: 0.06315789}
+      pivot: {x: 0.5280899, y: 0.1916667}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: TreeLeavesAnimated_1
       rect:
         serializedVersion: 2
-        x: 69
+        x: 89
         y: 0
-        width: 69
-        height: 95
+        width: 89
+        height: 120
       alignment: 9
-      pivot: {x: 0.5362319, y: 0.06315789}
+      pivot: {x: 0.5280899, y: 0.1916667}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: TreeLeavesAnimated_2
       rect:
         serializedVersion: 2
-        x: 138
+        x: 178
         y: 0
-        width: 69
-        height: 95
+        width: 89
+        height: 120
       alignment: 9
-      pivot: {x: 0.5362319, y: 0.06315789}
+      pivot: {x: 0.5280899, y: 0.1916667}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,12 +280,12 @@ TextureImporter:
       name: TreeLeavesAnimated_3
       rect:
         serializedVersion: 2
-        x: 207
+        x: 267
         y: 0
-        width: 69
-        height: 95
+        width: 89
+        height: 120
       alignment: 9
-      pivot: {x: 0.5362319, y: 0.06315789}
+      pivot: {x: 0.5280899, y: 0.1916667}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: TreeLeavesAnimated_4
       rect:
         serializedVersion: 2
-        x: 276
+        x: 356
         y: 0
-        width: 69
-        height: 95
+        width: 89
+        height: 120
       alignment: 9
-      pivot: {x: 0.5362319, y: 0.06315789}
+      pivot: {x: 0.5280899, y: 0.1916667}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,12 +324,12 @@ TextureImporter:
       name: TreeLeavesAnimated_5
       rect:
         serializedVersion: 2
-        x: 345
+        x: 445
         y: 0
-        width: 69
-        height: 95
+        width: 89
+        height: 120
       alignment: 9
-      pivot: {x: 0.5362319, y: 0.06315789}
+      pivot: {x: 0.5280899, y: 0.1916667}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,12 +346,12 @@ TextureImporter:
       name: TreeLeavesAnimated_6
       rect:
         serializedVersion: 2
-        x: 414
+        x: 534
         y: 0
-        width: 69
-        height: 95
+        width: 89
+        height: 120
       alignment: 9
-      pivot: {x: 0.5362319, y: 0.06315789}
+      pivot: {x: 0.5280899, y: 0.1916667}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,7 +368,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 21e96df52b0a0db4c85febc1206c5556
+    spriteID: c8e4dd9db5b2108458e4bf0c9528b443
     internalID: 0
     vertices: []
     indices: 
