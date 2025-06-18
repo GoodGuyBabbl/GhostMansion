@@ -2847,6 +2847,7 @@ MonoBehaviour:
   HowManyItemsDropped: 2
   DroppedItem: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
   PlayerAnimationChangeName: IsMining
+  ToolbarIndexNeeded: 0
 --- !u!212 &841572521
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3778,7 +3779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccfa4795ecea66d44ad8fab07ed61486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToolbarIndexNeeded: 0
+  ToolbarIndexNeeded: 9
   UniqueID: 
   SaveStateManager: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: -0.1, z: 0}

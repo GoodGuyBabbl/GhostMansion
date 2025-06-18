@@ -62,11 +62,11 @@ public class MaterialHandler : MonoBehaviour
     {
         if (Resources[Name1] >= Amount1 && Resources[Name2] >= Amount2 && Resources[Name3] >= Amount3 && Resources[Name4] >= Amount4 && Resources[Name5] >= Amount5 )
         {
-            Resources[Name1] -= Amount1;
-            Resources[Name2] -= Amount2;
-            Resources[Name3] -= Amount3;
-            Resources[Name4] -= Amount4;
-            Resources[Name5] -= Amount5;
+            //Resources[Name1] -= Amount1;
+            //Resources[Name2] -= Amount2;
+            //Resources[Name3] -= Amount3;
+            //Resources[Name4] -= Amount4;
+            //Resources[Name5] -= Amount5;
             return true;
         }
         else

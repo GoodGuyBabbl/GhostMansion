@@ -49,6 +49,7 @@ public class TutorialGhostExternalFunctions : MonoBehaviour
     public void Unbind()
     {
         Story.UnbindExternalFunction("PutGhostInIdle");
+        Story.UnbindExternalFunction("EnableCarpet");
     }
 
     private void OnDisable()

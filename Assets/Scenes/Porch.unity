@@ -570,6 +570,7 @@ MonoBehaviour:
   HowManyItemsDropped: 1
   DroppedItem: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
   PlayerAnimationChangeName: IsChopping
+  ToolbarIndexNeeded: 1
 --- !u!61 &560616531
 BoxCollider2D:
   m_ObjectHideFlags: 0

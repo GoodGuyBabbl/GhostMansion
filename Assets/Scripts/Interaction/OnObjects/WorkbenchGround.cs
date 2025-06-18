@@ -29,7 +29,11 @@ public class WorkbenchGround : TriggerInteraction
     public void OnTriggerExit2D(Collider2D collision)
     {
         base.OnTriggerExit2D(collision);
-        SpriteRenderer.sprite = GroundGrey;
-        WorkbenchRenderer.sprite = WorkbenchGrey;
+        if (WorkbenchRenderer)
+        {
+            SpriteRenderer.sprite = GroundGrey;
+            WorkbenchRenderer.sprite = WorkbenchGrey;
+        }
+
     }
 }

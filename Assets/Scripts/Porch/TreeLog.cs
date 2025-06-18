@@ -24,6 +24,10 @@ public class TreeLog : TriggerInteraction
     public GameObject DroppedItem;
     public string PlayerAnimationChangeName; // für Baum IsChopping, also im Player Animator
 
+    private ToolbarControl ToolbarControl;
+    private UIManager UIManager;
+    public int ToolbarIndexNeeded;
+
 
 
 
@@ -36,6 +40,8 @@ public class TreeLog : TriggerInteraction
         Animator = GetComponent<Animator>();
         MovementDisable = FindFirstObjectByType<MovementDisable>();
         SaveStateManager = FindFirstObjectByType<SaveStateManager>();
+        UIManager = FindFirstObjectByType<UIManager>();
+        ToolbarControl = FindFirstObjectByType<ToolbarControl>();
 
     }
 
@@ -68,12 +74,15 @@ public class TreeLog : TriggerInteraction
     }
     public override void Interact()
     {
-        XPlayerAnimationDirection = new Vector2(transform.position.x - Player.transform.position.x, 0).x;
-        YPlayerAnimationDirection = new Vector2(0, transform.position.y - Player.transform.position.y).y;
-        PlayerAnimator.SetFloat("XAnimationDirection", XPlayerAnimationDirection);
-        PlayerAnimator.SetFloat("YAnimationDirection", YPlayerAnimationDirection);
-        Debug.Log("Interact");
-        StartLongInteract = true;
+        if (UIManager.GetToolCollected(ToolbarIndexNeeded) && ToolbarControl.CurrentIndex == ToolbarIndexNeeded)
+        {
+            XPlayerAnimationDirection = new Vector2(transform.position.x - Player.transform.position.x, 0).x;
+            YPlayerAnimationDirection = new Vector2(0, transform.position.y - Player.transform.position.y).y;
+            PlayerAnimator.SetFloat("XAnimationDirection", XPlayerAnimationDirection);
+            PlayerAnimator.SetFloat("YAnimationDirection", YPlayerAnimationDirection);
+            Debug.Log("Interact");
+            StartLongInteract = true;
+        }
     }
 
 

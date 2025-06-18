@@ -190,6 +190,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
+  ResourceName: WoodCount
+  ResourceAmount: 1
 --- !u!58 &2707244308683210744
 CircleCollider2D:
   m_ObjectHideFlags: 0
