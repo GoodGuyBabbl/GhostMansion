@@ -698,7 +698,8 @@ MonoBehaviour:
   Axe: {fileID: 5728673206367157928}
   WateringCan: {fileID: 1147524654709779011}
   InsectNet: {fileID: 7165684357647388916}
-  Sickle: {fileID: 0}
+  Hammer: {fileID: 5098565064194367564}
+  Sickle: {fileID: 3298350677813055559}
   Hand: {fileID: 4594612097661494977}
   IsPickaxeCollected: 0
   IsAxeCollected: 0
@@ -2478,6 +2479,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1480226748100483459}
     m_Modifications:
+    - target: {fileID: 4118801237801923539, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4978042222068321229, guid: 9e5305bd8b2ee1f45b80ce6cf04555c8, type: 3}
     - target: {fileID: 8379728406174989702, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2560,7 +2565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9014312285728377154, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
       propertyPath: m_Name
-      value: ToolSlot (2)
+      value: Hammer
       objectReference: {fileID: 0}
     - target: {fileID: 9014312285728377154, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
       propertyPath: m_IsActive
@@ -2571,6 +2576,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
+--- !u!1 &5098565064194367564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9014312285728377154, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
+  m_PrefabInstance: {fileID: 4312470052482984206}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &5733713705071105160 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8379728406174989702, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
@@ -2699,6 +2709,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1480226748100483459}
     m_Modifications:
+    - target: {fileID: 4118801237801923539, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6581412145775136858, guid: 9e5305bd8b2ee1f45b80ce6cf04555c8, type: 3}
     - target: {fileID: 8379728406174989702, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2781,7 +2795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9014312285728377154, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
       propertyPath: m_Name
-      value: ToolSlot (3)
+      value: Sickle
       objectReference: {fileID: 0}
     - target: {fileID: 9014312285728377154, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
       propertyPath: m_IsActive
@@ -2795,6 +2809,11 @@ PrefabInstance:
 --- !u!224 &2636184279914095747 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8379728406174989702, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
+  m_PrefabInstance: {fileID: 5827478924433611013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3298350677813055559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9014312285728377154, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
   m_PrefabInstance: {fileID: 5827478924433611013}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8283692928568468225

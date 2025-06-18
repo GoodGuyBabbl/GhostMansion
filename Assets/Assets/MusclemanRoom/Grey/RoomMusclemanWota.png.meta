@@ -103,12 +103,12 @@ TextureImporter:
       name: RoomMusclemanWota_0
       rect:
         serializedVersion: 2
-        x: 271
-        y: 32
+        x: 273
+        y: 31
         width: 51
         height: 49
       alignment: 9
-      pivot: {x: 0.50980395, y: 0.48979592}
+      pivot: {x: 0.47058827, y: 0.48979592}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7c5fd849aee6a04498acec5ae93ccb3c
+    spriteID: 0b46c5d965dd3154fb9e2100da420365
     internalID: 0
     vertices: []
     indices: 

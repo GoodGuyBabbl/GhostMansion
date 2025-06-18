@@ -11,8 +11,9 @@ public class UIManager : MonoBehaviour
     public GameObject Axe;
     public GameObject WateringCan;
     public GameObject InsectNet;
+    public GameObject Hammer;
     public GameObject Sickle; // Todo
-    public GameObject Hand; // Todo
+    public GameObject Hand; // should be working
     //SlotChange
 
     private HashSet<int> IsToolCollected = new HashSet<int>();
@@ -24,6 +25,8 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         CollectHand();
+        CollectHammer();
+        CollectSickle();
         EnableTools();
     }
 
@@ -74,6 +77,24 @@ public class UIManager : MonoBehaviour
     {
         Hand.SetActive(false);
     }
+    public void EnableHammer()
+    { 
+        Hammer.SetActive(true);
+    }
+    public void DisableHammer()
+    {
+        Hammer.SetActive(false);
+    }
+    public void EnableSickle()
+    {
+        Sickle.SetActive(true);
+    }
+    public void DisableSickle()
+    {
+        Sickle.SetActive(false);
+    }
+    
+
 
 
 
@@ -83,7 +104,11 @@ public class UIManager : MonoBehaviour
         DisablePickaxe();
         DisableAxe();
         DisableWateringCan();
+        //InsectNet
+        DisableHammer();
+        DisableSickle();
         DisableHand();
+       
     }
     public void EnableTools()
     {
@@ -102,6 +127,14 @@ public class UIManager : MonoBehaviour
         if(IsToolCollected.Contains(9))
         {
             EnableHand();
+        }
+        if(IsToolCollected.Contains(4))
+        {
+            EnableHammer();
+        }
+        if(IsToolCollected.Contains(5))
+        {
+            EnableSickle();
         }
     }
 
@@ -125,6 +158,14 @@ public class UIManager : MonoBehaviour
     public void CollectHand()
     {
         IsToolCollected.Add(9);
+    }
+    public void CollectHammer()
+    {
+        IsToolCollected.Add(4);
+    }
+    public void CollectSickle()
+    {
+        IsToolCollected.Add(5);
     }
     public bool GetToolCollected(int ToolbarIndex)
     {

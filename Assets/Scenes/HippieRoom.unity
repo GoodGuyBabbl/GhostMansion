@@ -831,6 +831,7 @@ GameObject:
   - component: {fileID: 151582096}
   - component: {fileID: 151582095}
   - component: {fileID: 151582097}
+  - component: {fileID: 151582098}
   m_Layer: 5
   m_Name: DialogueBackground
   m_TagString: Untagged
@@ -877,7 +878,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6547943459929434702, guid: 79129655d780b0f4c977c880b61d7b13, type: 3}
+  m_Sprite: {fileID: -2101186144438320248, guid: db56a203d32b35344958b20be26a3bc1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -917,6 +918,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &151582098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151582093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a26fdddb4fd7a53478562b023df5a329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &242023776
 GameObject:
   m_ObjectHideFlags: 0
@@ -1412,6 +1425,67 @@ PolygonCollider2D:
       - {x: 0.56630284, y: -0.0015940927}
       - {x: 0.5682804, y: 0.03927392}
   m_UseDelaunayMesh: 0
+--- !u!1001 &481296409
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_Name
+      value: Wood_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.336
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
 --- !u!1 &484900731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,11 +1817,17 @@ MonoBehaviour:
   GreyVersionCollider: {fileID: 885909530}
   BuildPlotCollider: {fileID: 2087339912}
   ColoredVersionCollider: {fileID: 468796814}
-  WoodNeeded: 0
-  StoneNeeded: 0
-  ClothNeeded: 0
-  FlowersNeeded: 0
-  FramesToBuild: 300
+  Resource1: WoodCount
+  Resource2: Nothing
+  Resource3: Nothing
+  Resource4: Nothing
+  Resource5: Nothing
+  Amount1: 1
+  Amount2: 0
+  Amount3: 0
+  Amount4: 0
+  Amount5: 0
+  FramesToBuild: 600
   IsRepaired: 0
 --- !u!60 &680619134
 PolygonCollider2D:
@@ -2306,6 +2386,67 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Trigger: PlayGhost
+--- !u!1001 &918428725
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_Name
+      value: Wood_0 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.33599997
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
 --- !u!1 &934375009
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,6 +2676,67 @@ PolygonCollider2D:
       - {x: 1.5255989, y: 0.95973706}
       - {x: 0.99558485, y: 0.04239597}
   m_UseDelaunayMesh: 0
+--- !u!1001 &1079027145
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_Name
+      value: Wood_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.33599997
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
 --- !u!1 &1201572196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2858,11 +3060,17 @@ MonoBehaviour:
   GreyVersionCollider: {fileID: 1803325586}
   BuildPlotCollider: {fileID: 2084064079}
   ColoredVersionCollider: {fileID: 1573167646}
-  WoodNeeded: 3
-  StoneNeeded: 0
-  ClothNeeded: 0
-  FlowersNeeded: 0
-  FramesToBuild: 300
+  Resource1: WoodCount
+  Resource2: Nothing
+  Resource3: Nothing
+  Resource4: Nothing
+  Resource5: Nothing
+  Amount1: 1
+  Amount2: 0
+  Amount3: 0
+  Amount4: 0
+  Amount5: 0
+  FramesToBuild: 600
   IsRepaired: 0
 --- !u!60 &1218019198
 PolygonCollider2D:
@@ -3508,11 +3716,17 @@ MonoBehaviour:
   GreyVersionCollider: {fileID: 934375012}
   BuildPlotCollider: {fileID: 2114995664}
   ColoredVersionCollider: {fileID: 143260477}
-  WoodNeeded: 5
-  StoneNeeded: 0
-  ClothNeeded: 0
-  FlowersNeeded: 0
-  FramesToBuild: 300
+  Resource1: WoodCount
+  Resource2: Nothing
+  Resource3: Nothing
+  Resource4: Nothing
+  Resource5: Nothing
+  Amount1: 0
+  Amount2: 0
+  Amount3: 0
+  Amount4: 0
+  Amount5: 0
+  FramesToBuild: 600
   IsRepaired: 0
 --- !u!60 &1560567709
 PolygonCollider2D:
@@ -3582,6 +3796,67 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uniqueID: 0,89_0_Bookshelf
+--- !u!1001 &1572889330
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_Name
+      value: Wood_0 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.33599997
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876242233059269341, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
 --- !u!1 &1573167643
 GameObject:
   m_ObjectHideFlags: 0
@@ -3835,11 +4110,17 @@ MonoBehaviour:
   GreyVersionCollider: {fileID: 1831471086}
   BuildPlotCollider: {fileID: 1068537840}
   ColoredVersionCollider: {fileID: 1434519708}
-  WoodNeeded: 0
-  StoneNeeded: 0
-  ClothNeeded: 0
-  FlowersNeeded: 0
-  FramesToBuild: 800
+  Resource1: WoodCount
+  Resource2: Nothing
+  Resource3: Nothing
+  Resource4: Nothing
+  Resource5: Nothing
+  Amount1: 0
+  Amount2: 0
+  Amount3: 0
+  Amount4: 0
+  Amount5: 0
+  FramesToBuild: 900
   IsRepaired: 0
 --- !u!60 &1765283657
 PolygonCollider2D:
@@ -4394,7 +4675,7 @@ MonoBehaviour:
     New Text New Text New Text New Text New Text '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6c33c5d3f33b49047b853e07574333a5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_sharedMaterial: {fileID: 6557174553402193810, guid: 6c33c5d3f33b49047b853e07574333a5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5155,6 +5436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 188a0360bdf80b24c8e4f4ad739d3f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Dialoguebox: {fileID: 151582093}
 --- !u!114 &2038986035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5896,3 +6178,7 @@ SceneRoots:
   - {fileID: 735726729}
   - {fileID: 486458786}
   - {fileID: 702688373}
+  - {fileID: 481296409}
+  - {fileID: 1079027145}
+  - {fileID: 1572889330}
+  - {fileID: 918428725}

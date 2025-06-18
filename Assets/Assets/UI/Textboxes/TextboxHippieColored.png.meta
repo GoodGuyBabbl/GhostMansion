@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 76c88bede79f86340908c9518dcc498f
+guid: db56a203d32b35344958b20be26a3bc1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7830778150196905735
-    second: PorchBackground_0
+      213: -2101186144438320248
+    second: TextboxHippieColored_0
+  - first:
+      213: 1920006572308426816
+    second: TextboxHippieColored_1
+  - first:
+      213: -2434813276310595652
+    second: TextboxHippieColored_2
+  - first:
+      213: -5499825922071567238
+    second: TextboxHippieColored_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PorchBackground_0
+      name: TextboxHippieColored_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 290
-        height: 167
+        x: 46
+        y: 11
+        width: 199
+        height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70780650d338cac60800000000000000
-      internalID: 7830778150196905735
+      spriteID: 88308cd855617d2e0800000000000000
+      internalID: -2101186144438320248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextboxHippieColored_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 11
+        width: 199
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040fbdc0ecb35aa10800000000000000
+      internalID: 1920006572308426816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextboxHippieColored_2
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 11
+        width: 199
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb71a13b93ec53ed0800000000000000
+      internalID: -2434813276310595652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextboxHippieColored_3
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 11
+        width: 199
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7460749671bca3b0800000000000000
+      internalID: -5499825922071567238
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4cc37bb27b50b7f42adbfecf04d3b0ad
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PorchBackground_0: 7830778150196905735
+      TextboxHippieColored_0: -2101186144438320248
+      TextboxHippieColored_1: 1920006572308426816
+      TextboxHippieColored_2: -2434813276310595652
+      TextboxHippieColored_3: -5499825922071567238
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

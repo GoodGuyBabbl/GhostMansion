@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 76c88bede79f86340908c9518dcc498f
+guid: 9cb54761149a0684791d03efa334e7f4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7830778150196905735
-    second: PorchBackground_0
+      213: -4364344521278067540
+    second: SpiderwebEmpty_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PorchBackground_0
+      name: SpiderwebEmpty_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 290
-        height: 167
+        x: 22
+        y: 209
+        width: 45
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70780650d338cac60800000000000000
-      internalID: 7830778150196905735
+      spriteID: cac6ccbf7cbbe63c0800000000000000
+      internalID: -4364344521278067540
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 495dd34d9b5215e4aa29105e5196a31c
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PorchBackground_0: 7830778150196905735
+      SpiderwebEmpty_0: -4364344521278067540
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

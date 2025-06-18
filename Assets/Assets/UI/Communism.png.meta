@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 76c88bede79f86340908c9518dcc498f
+guid: 9e5305bd8b2ee1f45b80ce6cf04555c8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7830778150196905735
-    second: PorchBackground_0
+      213: 6581412145775136858
+    second: Communism_0
+  - first:
+      213: -4978042222068321229
+    second: Communism_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PorchBackground_0
+      name: Communism_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 290
-        height: 167
+        x: 22
+        y: 14
+        width: 9
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70780650d338cac60800000000000000
-      internalID: 7830778150196905735
+      spriteID: a505e5d0a7fd55b50800000000000000
+      internalID: 6581412145775136858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Communism_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 14
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334b8bc49f07aeab0800000000000000
+      internalID: -4978042222068321229
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 01f74c1c1a131e9439106fd1da2d7128
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PorchBackground_0: 7830778150196905735
+      Communism_0: 6581412145775136858
+      Communism_1: -4978042222068321229
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

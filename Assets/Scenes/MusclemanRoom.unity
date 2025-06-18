@@ -1008,10 +1008,14 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+      - {x: -0.027517118, y: 0.14299412}
+      - {x: 0.024454653, y: -0.08201462}
+      - {x: 0.14585263, y: -0.09524292}
+      - {x: 0.16151196, y: -0.26828718}
+      - {x: 0.6058097, y: -0.2811616}
+      - {x: 0.6278998, y: -0.1420749}
+      - {x: 1.3652993, y: -0.10202688}
+      - {x: 1.391365, y: 0.7235767}
   m_UseDelaunayMesh: 0
 --- !u!1 &339102651
 GameObject:
@@ -1672,11 +1676,18 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.06707731, y: -0.6524738}
+      - {x: 0.11574577, y: -0.6131909}
+      - {x: 0.13037932, y: -0.5535522}
+      - {x: 0.10602628, y: -0.50412464}
+      - {x: -0.030115068, y: -0.47975805}
+      - {x: -0.17947222, y: -0.4584757}
+      - {x: -0.3754996, y: -0.45305756}
+      - {x: -0.8968618, y: -0.44179004}
+      - {x: -0.8980773, y: -0.64839196}
+      - {x: -0.30775243, y: -0.6784613}
+      - {x: -0.18041259, y: -0.66900057}
+      - {x: -0.14636922, y: -0.6389315}
   m_UseDelaunayMesh: 0
 --- !u!1001 &790285908
 PrefabInstance:
@@ -2158,11 +2169,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: -0.11468755, y: -0.07443048}
+      - {x: -0.09588368, y: 0.00051769987}
+      - {x: -0.11310503, y: 0.3020787}
+      - {x: -0.5538609, y: 0.9663631}
+      - {x: -0.8041481, y: 0.5780588}
+      - {x: -0.4496466, y: -0.067513525}
+      - {x: -0.38722128, y: -0.122180164}
+      - {x: -0.2504208, y: -0.11839577}
+      - {x: -0.13501644, y: -0.12238464}
   m_UseDelaunayMesh: 0
 --- !u!1 &985920632
 GameObject:
@@ -2242,11 +2257,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 0.7016325, y: -0.64159}
+      - {x: 0.65711826, y: -0.66038}
+      - {x: 0.56499153, y: -0.70295256}
+      - {x: 0.5599635, y: -1.0469114}
+      - {x: 0.57835585, y: -1.3574724}
+      - {x: 1.0459113, y: -1.3148706}
+      - {x: 1.1903801, y: -0.73902965}
+      - {x: 0.90267444, y: -0.63713676}
   m_UseDelaunayMesh: 0
 --- !u!1 &1113164898
 GameObject:
@@ -2357,11 +2375,17 @@ MonoBehaviour:
   GreyVersionCollider: {fileID: 859248903}
   BuildPlotCollider: {fileID: 1717095731}
   ColoredVersionCollider: {fileID: 978151273}
-  WoodNeeded: 0
-  StoneNeeded: 0
-  ClothNeeded: 0
-  FlowersNeeded: 0
-  FramesToBuild: 20
+  Resource1: WoodCount
+  Resource2: Nothing
+  Resource3: Nothing
+  Resource4: Nothing
+  Resource5: Nothing
+  Amount1: 0
+  Amount2: 0
+  Amount3: 0
+  Amount4: 0
+  Amount5: 0
+  FramesToBuild: 600
   IsRepaired: 0
 --- !u!114 &1113164902
 MonoBehaviour:
@@ -2504,7 +2528,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.51, y: 0.49}
+  m_Size: {x: 0.45, y: 0.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2632,11 +2656,17 @@ MonoBehaviour:
   GreyVersionCollider: {fileID: 441616214}
   BuildPlotCollider: {fileID: 985920634}
   ColoredVersionCollider: {fileID: 1810157630}
-  WoodNeeded: 0
-  StoneNeeded: 0
-  ClothNeeded: 0
-  FlowersNeeded: 0
-  FramesToBuild: 20
+  Resource1: WoodCount
+  Resource2: Nothing
+  Resource3: Nothing
+  Resource4: Nothing
+  Resource5: Nothing
+  Amount1: 0
+  Amount2: 0
+  Amount3: 0
+  Amount4: 0
+  Amount5: 0
+  FramesToBuild: 600
   IsRepaired: 0
 --- !u!114 &1268315373
 MonoBehaviour:
@@ -3736,15 +3766,21 @@ MonoBehaviour:
   BuildPlotIcon: {fileID: 1793616885}
   RepairableObjectBackground: {fileID: 0}
   BuildPlot: {fileID: 1392312276438794088, guid: 51e893e0a5510e742be3f98849bad766, type: 3}
-  ColoredVersion: {fileID: 1272622316332704227, guid: a3b7eb626727bcb4a92ae237344b2992, type: 3}
+  ColoredVersion: {fileID: -3129659469838897013, guid: a3b7eb626727bcb4a92ae237344b2992, type: 3}
   GreyVersionCollider: {fileID: 2034979537}
   BuildPlotCollider: {fileID: 1544424708}
   ColoredVersionCollider: {fileID: 287726124}
-  WoodNeeded: 0
-  StoneNeeded: 0
-  ClothNeeded: 0
-  FlowersNeeded: 0
-  FramesToBuild: 20
+  Resource1: WoodCount
+  Resource2: Nothing
+  Resource3: Nothing
+  Resource4: Nothing
+  Resource5: Nothing
+  Amount1: 0
+  Amount2: 0
+  Amount3: 0
+  Amount4: 0
+  Amount5: 0
+  FramesToBuild: 600
   IsRepaired: 0
 --- !u!114 &1723524697
 MonoBehaviour:
@@ -4045,11 +4081,17 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 1.5591567, y: -0.5861569}
+      - {x: 0.9014315, y: -0.57548404}
+      - {x: 0.81255436, y: -0.58279216}
+      - {x: 0.6229883, y: -0.5775387}
+      - {x: 0.56157905, y: -0.65213627}
+      - {x: 0.5713348, y: -0.7727219}
+      - {x: 0.4783181, y: -0.8171798}
+      - {x: 0.4798923, y: -0.9575167}
+      - {x: 0.50881535, y: -1.0391679}
+      - {x: 0.5049672, y: -1.4241313}
+      - {x: 1.999926, y: -1.4936415}
   m_UseDelaunayMesh: 0
 --- !u!1 &1854708861
 GameObject:
@@ -4564,11 +4606,17 @@ MonoBehaviour:
   GreyVersionCollider: {fileID: 74161181}
   BuildPlotCollider: {fileID: 90835487}
   ColoredVersionCollider: {fileID: 766393597}
-  WoodNeeded: 0
-  StoneNeeded: 0
-  ClothNeeded: 0
-  FlowersNeeded: 0
-  FramesToBuild: 20
+  Resource1: WoodCount
+  Resource2: Nothing
+  Resource3: Nothing
+  Resource4: Nothing
+  Resource5: Nothing
+  Amount1: 0
+  Amount2: 0
+  Amount3: 0
+  Amount4: 0
+  Amount5: 0
+  FramesToBuild: 600
   IsRepaired: 0
 --- !u!114 &2136132725
 MonoBehaviour:

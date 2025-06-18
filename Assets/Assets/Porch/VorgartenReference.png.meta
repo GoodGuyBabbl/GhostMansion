@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 76c88bede79f86340908c9518dcc498f
+guid: a6e936d67fa2c044db062266a759bc39
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7830778150196905735
-    second: PorchBackground_0
+      213: -5100264310591904549
+    second: VorgartenReference_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PorchBackground_0
+      name: VorgartenReference_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70780650d338cac60800000000000000
-      internalID: 7830778150196905735
+      spriteID: bd42192c1a83839b0800000000000000
+      internalID: -5100264310591904549
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PorchBackground_0: 7830778150196905735
+      VorgartenReference_0: -5100264310591904549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
