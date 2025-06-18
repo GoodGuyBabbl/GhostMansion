@@ -153,8 +153,8 @@ PolygonCollider2D:
   m_Offset: {x: 0.045, y: 0.315}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.43283582, y: 0.08}
-    oldSize: {x: 0.67, y: 0.75}
+    pivot: {x: 0.505618, y: 0.2}
+    oldSize: {x: 0.89, y: 1.2}
     newSize: {x: 0.67, y: 0.75}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -241,7 +241,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.03}
-  m_Radius: 0.34
+  m_Radius: 0.3
 --- !u!114 &168353700434466501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
   UniqueID: 
   SaveStateManager: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: 0.45, z: 0}
-  FramesToMine: 2000
+  FramesToMine: 1200
   HowManyItemsDropped: 2
   DroppedItem: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
   AnimationChangeName: IsChopped

@@ -1,16 +1,37 @@
 fileFormatVersion: 2
-guid: 5ef14f30e024981438bed2d083ba8a00
+guid: 0f7d0e457afbdf64c8bf7dbcd16a95b5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7208014375415968472
-    second: Scarecrow_0
+      213: 4477062493571543739
+    second: CollectUp_0
   - first:
-      213: -3959160474584310100
-    second: Scarecrow_1
+      213: -8861590035501037933
+    second: CollectUp_1
   - first:
-      213: 8137017750165726945
-    second: Scarecrow_2
+      213: -2485755126034538391
+    second: CollectUp_2
+  - first:
+      213: 1563779347555181448
+    second: CollectUp_3
+  - first:
+      213: -742319983200948214
+    second: CollectUp_4
+  - first:
+      213: -434025449100235401
+    second: CollectUp_5
+  - first:
+      213: 2631900578139197475
+    second: CollectUp_6
+  - first:
+      213: -8313132244282264051
+    second: CollectUp_7
+  - first:
+      213: 1656116284450122828
+    second: CollectUp_8
+  - first:
+      213: -3325144384084481256
+    second: CollectUp_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +99,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -106,67 +127,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scarecrow_0
+      name: CollectUp_0
       rect:
         serializedVersion: 2
-        x: 948
-        y: 339
-        width: 39
+        x: 0
+        y: 0
+        width: 73
         height: 52
       alignment: 9
-      pivot: {x: 0.51282054, y: 0.07692308}
+      pivot: {x: 0.5068493, y: 0.1153846}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8d2f39e72e2080460800000000000000
-      internalID: 7208014375415968472
+      spriteID: 9b570d92107b9e340b30c624741bb0c3
+      internalID: -1244751725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scarecrow_1
+      name: CollectUp_1
       rect:
         serializedVersion: 2
-        x: 2228
-        y: 339
-        width: 39
+        x: 73
+        y: 0
+        width: 73
         height: 52
       alignment: 9
-      pivot: {x: 0.51282054, y: 0.07692308}
+      pivot: {x: 0.5068493, y: 0.1153846}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cae92af568c3e09c0800000000000000
-      internalID: -3959160474584310100
+      spriteID: d53ae589a16ba6641930b52a4de5d5a9
+      internalID: 1452979466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scarecrow_2
+      name: CollectUp_2
       rect:
         serializedVersion: 2
-        x: 3508
-        y: 339
-        width: 39
+        x: 146
+        y: 0
+        width: 73
         height: 52
       alignment: 9
-      pivot: {x: 0.51282054, y: 0.07692308}
+      pivot: {x: 0.5068493, y: 0.1153846}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1e62da1388e7ce070800000000000000
-      internalID: 8137017750165726945
+      spriteID: 754b29e097cdac84689fd557e8d68854
+      internalID: -1915789454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollectUp_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5068493, y: 0.1153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fb592dafa98d440aa55a10d337882b
+      internalID: 1946577229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollectUp_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 73
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5068493, y: 0.1153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c625096dfbea61545997dab302ca14ec
+      internalID: -1049214102
       vertices: []
       indices: 
       edges: []
@@ -175,7 +240,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 983cc16c98da1d24ebe6a6f3b30496a9
+    spriteID: 120c9e79641a3b444ac9b31eec589d45
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +250,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Scarecrow_0: 7208014375415968472
-      Scarecrow_1: -3959160474584310100
-      Scarecrow_2: 8137017750165726945
+      CollectUp_0: -1244751725
+      CollectUp_1: 1452979466
+      CollectUp_2: -1915789454
+      CollectUp_3: 1946577229
+      CollectUp_4: -1049214102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

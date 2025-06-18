@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: d431bd6c49bbf334a80c96f38dc05996
+guid: e457637e4bc416348b3bad178b590ad2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3845275740657077632
-    second: TextboxGold_0
+      213: -4292141645959811470
+    second: Reed_0
+  - first:
+      213: 6056315297927000147
+    second: Reed_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TextboxGold_0
+      name: Reed_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 8
-        width: 76
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 2
+        width: 25
+        height: 31
+      alignment: 9
+      pivot: {x: 0.48, y: 0.12903225}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08235b64616d2aac0800000000000000
-      internalID: -3845275740657077632
+      spriteID: 27ea7eae9ef3f64c0800000000000000
+      internalID: -4292141645959811470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reed_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2
+        width: 25
+        height: 31
+      alignment: 9
+      pivot: {x: 0.48, y: 0.12903225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350f3bcfcaa5c0450800000000000000
+      internalID: 6056315297927000147
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eabb8804e68715a489ca98baeccd8a09
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TextboxGold_0: -3845275740657077632
+      Reed_0: -4292141645959811470
+      Reed_1: 6056315297927000147
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
