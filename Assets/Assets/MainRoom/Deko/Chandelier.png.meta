@@ -107,8 +107,8 @@ TextureImporter:
         y: 0
         width: 40
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.4736842}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -129,16 +129,16 @@ TextureImporter:
         y: 0
         width: 40
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.4736842}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11087dfbe1768df44a77f876fc42ee36
-      internalID: -1196943832
+      spriteID: 4b6d768acf52e7f46bddc197da5dcd5d
+      internalID: -1531590053
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1bcabc2e5ee2ca94abb3ee728368cde1
+    spriteID: e87ac8e7b7c9b614cb77f736435590fd
     internalID: 0
     vertices: []
     indices: 
@@ -158,7 +158,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Chandelier_0: 1976063245373077020
-      Chandelier_1: -1196943832
+      Chandelier_1: -1531590053
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

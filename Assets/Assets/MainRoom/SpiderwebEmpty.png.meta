@@ -103,12 +103,12 @@ TextureImporter:
       name: SpiderwebEmpty_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 209
-        width: 45
-        height: 57
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 21
+        y: 223
+        width: 40
+        height: 37
+      alignment: 9
+      pivot: {x: 0.575, y: 0.35135135}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 495dd34d9b5215e4aa29105e5196a31c
+    spriteID: 71305bfd4c53d0e48abd6f748fa82085
     internalID: 0
     vertices: []
     indices: 

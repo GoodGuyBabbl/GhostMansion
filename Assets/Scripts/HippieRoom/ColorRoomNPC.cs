@@ -6,6 +6,8 @@ public class ColorRoomNPC : MonoBehaviour
     private ColorChangeController ColorChangeController;
     public GameObject Dialoguebox;
 
+    public GameObject NPCTransition;
+
     void Start()
     {
         Animator = GetComponent<Animator>();
@@ -24,6 +26,7 @@ public class ColorRoomNPC : MonoBehaviour
         else
         {
             Animator.SetBool("IsColored", true);
+            NPCTransition.GetComponent<Animator>().SetTrigger("Transition");
         }
     }
 }

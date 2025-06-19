@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 696e9a7f4e252f94d89299a0061cea2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1907262701641954416
+    second: TransitionPart1_0
+  - first:
+      213: 4226585713761136178
+    second: TransitionPart1_1
+  - first:
+      213: -6039895743246616150
+    second: TransitionPart1_2
+  - first:
+      213: 9215761947467627958
+    second: TransitionPart1_3
+  - first:
+      213: -5773524572873160011
+    second: TransitionPart1_4
+  - first:
+      213: -1205736739386065206
+    second: TransitionPart1_5
+  - first:
+      213: 8868019546538960968
+    second: TransitionPart1_6
+  - first:
+      213: -4635733073174589127
+    second: TransitionPart1_7
+  - first:
+      213: -3024192967401525428
+    second: TransitionPart1_8
+  - first:
+      213: 4278541372916557292
+    second: TransitionPart1_9
+  - first:
+      213: 4045139219057296852
+    second: TransitionPart1_10
+  - first:
+      213: 6509632306385642741
+    second: TransitionPart1_11
+  - first:
+      213: 1555617494473658907
+    second: TransitionPart1_12
+  - first:
+      213: 242992630911064199
+    second: TransitionPart1_13
+  - first:
+      213: 4719265095021529400
+    second: TransitionPart1_14
+  - first:
+      213: 2719298613302139163
+    second: TransitionPart1_15
+  - first:
+      213: -2691276940562891184
+    second: TransitionPart1_16
+  - first:
+      213: -1169223613272820380
+    second: TransitionPart1_17
+  - first:
+      213: -112213347530345449
+    second: TransitionPart1_18
+  - first:
+      213: -3131710787895383024
+    second: TransitionPart1_19
+  - first:
+      213: -1598610276595630768
+    second: TransitionPart1_20
+  - first:
+      213: 6112910654604237709
+    second: TransitionPart1_21
+  - first:
+      213: -8422922622392435710
+    second: TransitionPart1_22
+  - first:
+      213: -6406497502277713013
+    second: TransitionPart1_23
+  - first:
+      213: 1535151515899399666
+    second: TransitionPart1_24
+  - first:
+      213: -6596574917209588509
+    second: TransitionPart1_25
+  - first:
+      213: -8096111729218292037
+    second: TransitionPart1_26
+  - first:
+      213: 3966506135952323815
+    second: TransitionPart1_27
+  - first:
+      213: 4500242361051610640
+    second: TransitionPart1_28
+  - first:
+      213: 4818195645966475510
+    second: TransitionPart1_29
+  - first:
+      213: -7450663213269639394
+    second: TransitionPart1_30
+  - first:
+      213: -1903017642042205554
+    second: TransitionPart1_31
+  - first:
+      213: 6531752476301076455
+    second: TransitionPart1_32
+  - first:
+      213: -1958414925391487843
+    second: TransitionPart1_33
+  - first:
+      213: -6092083911654460083
+    second: TransitionPart1_34
+  - first:
+      213: 1292324829203082320
+    second: TransitionPart1_35
+  - first:
+      213: 3890983076326802269
+    second: TransitionPart1_36
+  - first:
+      213: -6417397426345855984
+    second: TransitionPart1_37
+  - first:
+      213: -4077756575689345113
+    second: TransitionPart1_38
+  - first:
+      213: 8399220689158119151
+    second: TransitionPart1_39
+  - first:
+      213: 1527964380670615465
+    second: TransitionPart1_40
+  - first:
+      213: 6425823065699109868
+    second: TransitionPart1_41
+  - first:
+      213: 1026341918449329794
+    second: TransitionPart1_42
+  - first:
+      213: 9255563919425313
+    second: TransitionPart1_43
+  - first:
+      213: 696768589863851468
+    second: TransitionPart1_44
+  - first:
+      213: -6626765412342941886
+    second: TransitionPart1_45
+  - first:
+      213: -8276593854444011845
+    second: TransitionPart1_46
+  - first:
+      213: 3396869094844012848
+    second: TransitionPart1_47
+  - first:
+      213: 8620818788869983319
+    second: TransitionPart1_48
+  - first:
+      213: 1151497468898500820
+    second: TransitionPart1_49
+  - first:
+      213: -8240765996528612653
+    second: TransitionPart1_50
+  - first:
+      213: -1385878269056646052
+    second: TransitionPart1_51
+  - first:
+      213: 3996358001483307794
+    second: TransitionPart1_52
+  - first:
+      213: 5821595098408134167
+    second: TransitionPart1_53
+  - first:
+      213: 5135379114227363291
+    second: TransitionPart1_54
+  - first:
+      213: 8882495850699727040
+    second: TransitionPart1_55
+  - first:
+      213: 2513306009788561838
+    second: TransitionPart1_56
+  - first:
+      213: 6680031928239559378
+    second: TransitionPart1_57
+  - first:
+      213: -6016103474057549123
+    second: TransitionPart1_58
+  - first:
+      213: -2340867243621124942
+    second: TransitionPart1_59
+  - first:
+      213: 1101024346090382192
+    second: TransitionPart1_60
+  - first:
+      213: 8274848893205277883
+    second: TransitionPart1_61
+  - first:
+      213: 4782513156223682299
+    second: TransitionPart1_62
+  - first:
+      213: -6737349994839810268
+    second: TransitionPart1_63
+  - first:
+      213: 8140285045465188074
+    second: TransitionPart1_64
+  - first:
+      213: -1332341953354539564
+    second: TransitionPart1_65
+  - first:
+      213: -3666520404117508242
+    second: TransitionPart1_66
+  - first:
+      213: -7941839625614075484
+    second: TransitionPart1_67
+  - first:
+      213: -8094065822752685370
+    second: TransitionPart1_68
+  - first:
+      213: -4752860280847625596
+    second: TransitionPart1_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TransitionPart1_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 183
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b874f8daa0885e0800000000000000
+      internalID: -1907262701641954416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 183
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e29713059d7aa30800000000000000
+      internalID: 4226585713761136178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 183
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9346f72dafd2ca0800000000000000
+      internalID: -6039895743246616150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdbe5df9a6f4ef70800000000000000
+      internalID: 9215761947467627958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 122
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba08eb8df150efa0800000000000000
+      internalID: -5773524572873160011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_5
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 122
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace7144e2dc544fe0800000000000000
+      internalID: -1205736739386065206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 122
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848eca4fac8811b70800000000000000
+      internalID: 8868019546538960968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93116e3c4519aafb0800000000000000
+      internalID: -4635733073174589127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 61
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f2ccdd488e706d0800000000000000
+      internalID: -3024192967401525428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_9
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 61
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5e081c5be606b30800000000000000
+      internalID: 4278541372916557292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 61
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d549ea00b8332830800000000000000
+      internalID: 4045139219057296852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4e588d71cd65a50800000000000000
+      internalID: 6509632306385642741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b125c748ed9a69510800000000000000
+      internalID: 1555617494473658907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788dd78a2884f5300800000000000000
+      internalID: 242992630911064199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransitionPart1_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83988a5a9923e7140800000000000000
+      internalID: 4719265095021529400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c3c5534e81cc9bf49b788a482ee8193c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TransitionPart1_0: -1907262701641954416
+      TransitionPart1_1: 4226585713761136178
+      TransitionPart1_10: 4045139219057296852
+      TransitionPart1_11: 6509632306385642741
+      TransitionPart1_12: 1555617494473658907
+      TransitionPart1_13: 242992630911064199
+      TransitionPart1_14: 4719265095021529400
+      TransitionPart1_2: -6039895743246616150
+      TransitionPart1_3: 9215761947467627958
+      TransitionPart1_4: -5773524572873160011
+      TransitionPart1_5: -1205736739386065206
+      TransitionPart1_6: 8868019546538960968
+      TransitionPart1_7: -4635733073174589127
+      TransitionPart1_8: -3024192967401525428
+      TransitionPart1_9: 4278541372916557292
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,6 +2,9 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+
+
+//AKA Wayblocker
 public class TreeLog : TriggerInteraction
 {
     private float XPlayerAnimationDirection;
