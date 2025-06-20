@@ -77,8 +77,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1526658411
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 2658572170075460962, guid: 33c0a8bcb50feb4489b3ff12c383b237, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -134,7 +134,7 @@ MonoBehaviour:
   DroppedItem: {fileID: 0}
   AnimationChangeName: IsCaught
   PlayerAnimationChangeName: IsCatchingInsects
-  TimeToRegrow: 15
+  TimeToRegrow: 3
   CanRegrow: 1
 --- !u!114 &3529736657055262039
 MonoBehaviour:
@@ -179,7 +179,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

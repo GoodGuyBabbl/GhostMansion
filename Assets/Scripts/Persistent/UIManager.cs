@@ -93,6 +93,14 @@ public class UIManager : MonoBehaviour
     {
         Sickle.SetActive(false);
     }
+    public void EnableInsectNet()
+    {
+        InsectNet.SetActive(true);
+    }
+    public void DisableInsectNet()
+    {
+        InsectNet.SetActive(false);
+    }
     
 
 
@@ -104,7 +112,7 @@ public class UIManager : MonoBehaviour
         DisablePickaxe();
         DisableAxe();
         DisableWateringCan();
-        //InsectNet
+        DisableInsectNet();
         DisableHammer();
         DisableSickle();
         DisableHand();
@@ -135,6 +143,10 @@ public class UIManager : MonoBehaviour
         if(IsToolCollected.Contains(5))
         {
             EnableSickle();
+        }
+        if (IsToolCollected.Contains(3))
+        {
+            EnableInsectNet();
         }
     }
 
