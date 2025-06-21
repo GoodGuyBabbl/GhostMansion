@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: d601b1567817e4f48acb3cb20ca18c7e
+guid: cca6b25208f2fa142b7f0be58c534082
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3767807460242834220
-    second: BasementOreVein_0
+      213: -7696720929257776053
+    second: WayLeft_0
   - first:
-      213: 8394891443347388038
-    second: BasementOreVein_1
+      213: -2575618780765290102
+    second: WayLeft_1
+  - first:
+      213: 7129175511029449087
+    second: WayLeft_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BasementOreVein_0
+      name: WayLeft_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 481
-        height: 261
-      alignment: 9
-      pivot: {x: 0.5301455, y: 0.7662835}
+        x: 728
+        y: 718
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2347d12ce0f94430800000000000000
-      internalID: 3767807460242834220
+      spriteID: b4c96440811cf2590800000000000000
+      internalID: -7696720929257776053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BasementOreVein_1
+      name: WayLeft_1
       rect:
         serializedVersion: 2
-        x: 481
-        y: 0
-        width: 481
-        height: 261
-      alignment: 9
-      pivot: {x: 0.5301455, y: 0.7662835}
+        x: 744
+        y: 709
+        width: 92
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 686ffa82a45a08470800000000000000
-      internalID: 8394891443347388038
+      spriteID: a8109a77d50914cd0800000000000000
+      internalID: -2575618780765290102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WayLeft_2
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 695
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f710354fa5befe260800000000000000
+      internalID: 7129175511029449087
       vertices: []
       indices: 
       edges: []
@@ -150,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4226408a1332e774f9d72087104a8c62
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BasementOreVein_0: 3767807460242834220
-      BasementOreVein_1: 8394891443347388038
+      WayLeft_0: -7696720929257776053
+      WayLeft_1: -2575618780765290102
+      WayLeft_2: 7129175511029449087
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

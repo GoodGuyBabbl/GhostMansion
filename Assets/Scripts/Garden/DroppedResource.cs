@@ -2,7 +2,7 @@ using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Wood : MonoBehaviour
+public class DroppedResource : MonoBehaviour
 {
     public GameObject Player;
     private Rigidbody2D rb;

@@ -1,0 +1,1214 @@
+fileFormatVersion: 2
+guid: 24f88a90c120b664e97973f7b6fa35fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1101595977038749093
+    second: WorkbenchRessources_0
+  - first:
+      213: 5098270528899430816
+    second: WorkbenchRessources_1
+  - first:
+      213: -63314125964409679
+    second: WorkbenchRessources_2
+  - first:
+      213: -8070587386407768038
+    second: WorkbenchRessources_3
+  - first:
+      213: -6056172730081828953
+    second: WorkbenchRessources_4
+  - first:
+      213: -6651702999922824062
+    second: WorkbenchRessources_5
+  - first:
+      213: -207126140892652644
+    second: WorkbenchRessources_6
+  - first:
+      213: -5508278178585741530
+    second: WorkbenchRessources_7
+  - first:
+      213: 3582544037015078886
+    second: WorkbenchRessources_8
+  - first:
+      213: -3395458914469022657
+    second: WorkbenchRessources_9
+  - first:
+      213: 143708874265510557
+    second: WorkbenchRessources_10
+  - first:
+      213: 6736427717776684394
+    second: WorkbenchRessources_11
+  - first:
+      213: -1210622370233418048
+    second: WorkbenchRessources_12
+  - first:
+      213: 1783536996871195567
+    second: WorkbenchRessources_13
+  - first:
+      213: -7480367815589161084
+    second: WorkbenchRessources_14
+  - first:
+      213: 4267562492540655756
+    second: WorkbenchRessources_15
+  - first:
+      213: -5438111205462450939
+    second: WorkbenchRessources_16
+  - first:
+      213: -2988122978388575242
+    second: WorkbenchRessources_17
+  - first:
+      213: -8845787433465887499
+    second: WorkbenchRessources_18
+  - first:
+      213: 6033201569149182781
+    second: WorkbenchRessources_19
+  - first:
+      213: 5182064482415783704
+    second: WorkbenchRessources_20
+  - first:
+      213: -7158610464246664505
+    second: WorkbenchRessources_21
+  - first:
+      213: 8455565969492247905
+    second: WorkbenchRessources_22
+  - first:
+      213: 3385129605965066930
+    second: WorkbenchRessources_23
+  - first:
+      213: -262468781528560750
+    second: WorkbenchRessources_24
+  - first:
+      213: 8994174069271956847
+    second: WorkbenchRessources_25
+  - first:
+      213: -247716491191778727
+    second: WorkbenchRessources_26
+  - first:
+      213: 8436973025857529888
+    second: WorkbenchRessources_27
+  - first:
+      213: 498843248080979134
+    second: WorkbenchRessources_28
+  - first:
+      213: 2108664121016280355
+    second: WorkbenchRessources_29
+  - first:
+      213: 1957614560101289830
+    second: WorkbenchRessources_30
+  - first:
+      213: -4855916362679223190
+    second: WorkbenchRessources_31
+  - first:
+      213: -2958172213585400224
+    second: WorkbenchRessources_32
+  - first:
+      213: 2659931916750577120
+    second: WorkbenchRessources_33
+  - first:
+      213: 3846589995410584745
+    second: WorkbenchRessources_34
+  - first:
+      213: -7144201014934234582
+    second: WorkbenchRessources_35
+  - first:
+      213: 329058411284782100
+    second: WorkbenchRessources_36
+  - first:
+      213: -3150549954397152984
+    second: WorkbenchRessources_37
+  - first:
+      213: -2839104458791466137
+    second: WorkbenchRessources_38
+  - first:
+      213: 678836043879072329
+    second: WorkbenchRessources_39
+  - first:
+      213: -1546445751369267862
+    second: WorkbenchRessources_40
+  - first:
+      213: 8072262284266008275
+    second: WorkbenchRessources_41
+  - first:
+      213: -8659120924988899810
+    second: WorkbenchRessources_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WorkbenchRessources_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b522b9e9b4856b0f0800000000000000
+      internalID: -1101595977038749093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 172
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9b4e3c802b0c640800000000000000
+      internalID: 5098270528899430816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 172
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.47826087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b480ac43201f1ff0800000000000000
+      internalID: -63314125964409679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 173
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10ba6828838fff80800000000000000
+      internalID: -8070587386407768038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 171
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af901d2df624fba0800000000000000
+      internalID: -6056172730081828953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 171
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c23322d5760b3a0800000000000000
+      internalID: -6651702999922824062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 172
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b556c4fd3202df0800000000000000
+      internalID: -207126140892652644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 169
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6277c514e2aae83b0800000000000000
+      internalID: -5508278178585741530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 166
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e74a7e02d0c7b130800000000000000
+      internalID: 3582544037015078886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 168
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34f3a17b18e0e0d0800000000000000
+      internalID: -3395458914469022657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92caa1b57e8ef100800000000000000
+      internalID: 143708874265510557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 149
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65bc2571599c7d50800000000000000
+      internalID: 6736427717776684394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 147
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce78115e51033fe0800000000000000
+      internalID: -1210622370233418048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 148
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab4646f27560c810800000000000000
+      internalID: 1783536996871195567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 148
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4871b8aba15603890800000000000000
+      internalID: -7480367815589161084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 149
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c889aa8f97d693b30800000000000000
+      internalID: 4267562492540655756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_16
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 147
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dd655cba2f784b0800000000000000
+      internalID: -5438111205462450939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_17
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 146
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb77ff9bfd0886d0800000000000000
+      internalID: -2988122978388575242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_18
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 144
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4c6ad32337d3580800000000000000
+      internalID: -8845787433465887499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_19
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 146
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d336773acdc3ab350800000000000000
+      internalID: 6033201569149182781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 124
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81faf85e0346ae740800000000000000
+      internalID: 5182064482415783704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 125
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2fe21f5b187ac90800000000000000
+      internalID: -7158610464246664505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 125
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16587722374385570800000000000000
+      internalID: 8455565969492247905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_23
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 127
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2b43201756afe20800000000000000
+      internalID: 3385129605965066930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_24
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 126
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b4c58a8068b5cf0800000000000000
+      internalID: -262468781528560750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_25
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 124
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d0cfea9a9b1dc70800000000000000
+      internalID: 8994174069271956847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 125
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9520289e92fef8cf0800000000000000
+      internalID: -247716491191778727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 124
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0286ac91446261570800000000000000
+      internalID: 8436973025857529888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_28
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 122
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb408788a4f3ce600800000000000000
+      internalID: 498843248080979134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_30
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 123
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f48fd0218da2b10800000000000000
+      internalID: 1957614560101289830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.47826087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c7f7fbbc15c9cb0800000000000000
+      internalID: -4855916362679223190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_32
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06eafc87b0672f6d0800000000000000
+      internalID: -2958172213585400224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_33
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 100
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed54a04cf9f9e420800000000000000
+      internalID: 2659931916750577120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 101
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4f4018835d16530800000000000000
+      internalID: 3846589995410584745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_35
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 101
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a1cdc4703badc90800000000000000
+      internalID: -7144201014934234582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_36
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 99
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cdbf2b1ec019400800000000000000
+      internalID: 329058411284782100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_37
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 98
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829d801428ff644d0800000000000000
+      internalID: -3150549954397152984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_38
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 96
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bc18579897998d0800000000000000
+      internalID: -2839104458791466137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_39
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 100
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942c42809c5bb6900800000000000000
+      internalID: 678836043879072329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_40
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 98
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65093558cbe98ae0800000000000000
+      internalID: -1546445751369267862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_41
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 15
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de657367cf660070800000000000000
+      internalID: 8072262284266008275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkbenchRessources_42
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 17
+        width: 39
+        height: 39
+      alignment: 9
+      pivot: {x: 0.4871795, y: 0.4871795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e72ee856f94d780800000000000000
+      internalID: -8659120924988899810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fedc9c5cda4bd7840b4906a3ace30e1d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Resources23x23_0: -729077677
+      WorkbenchRessources_0: -1101595977038749093
+      WorkbenchRessources_1: 5098270528899430816
+      WorkbenchRessources_10: 143708874265510557
+      WorkbenchRessources_11: 6736427717776684394
+      WorkbenchRessources_12: -1210622370233418048
+      WorkbenchRessources_13: 1783536996871195567
+      WorkbenchRessources_14: -7480367815589161084
+      WorkbenchRessources_15: 4267562492540655756
+      WorkbenchRessources_16: -5438111205462450939
+      WorkbenchRessources_17: -2988122978388575242
+      WorkbenchRessources_18: -8845787433465887499
+      WorkbenchRessources_19: 6033201569149182781
+      WorkbenchRessources_2: -63314125964409679
+      WorkbenchRessources_20: 5182064482415783704
+      WorkbenchRessources_21: -7158610464246664505
+      WorkbenchRessources_22: 8455565969492247905
+      WorkbenchRessources_23: 3385129605965066930
+      WorkbenchRessources_24: -262468781528560750
+      WorkbenchRessources_25: 8994174069271956847
+      WorkbenchRessources_26: -247716491191778727
+      WorkbenchRessources_27: 8436973025857529888
+      WorkbenchRessources_28: 498843248080979134
+      WorkbenchRessources_29: 2108664121016280355
+      WorkbenchRessources_3: -8070587386407768038
+      WorkbenchRessources_30: 1957614560101289830
+      WorkbenchRessources_31: -4855916362679223190
+      WorkbenchRessources_32: -2958172213585400224
+      WorkbenchRessources_33: 2659931916750577120
+      WorkbenchRessources_34: 3846589995410584745
+      WorkbenchRessources_35: -7144201014934234582
+      WorkbenchRessources_36: 329058411284782100
+      WorkbenchRessources_37: -3150549954397152984
+      WorkbenchRessources_38: -2839104458791466137
+      WorkbenchRessources_39: 678836043879072329
+      WorkbenchRessources_4: -6056172730081828953
+      WorkbenchRessources_40: -1546445751369267862
+      WorkbenchRessources_41: 8072262284266008275
+      WorkbenchRessources_42: -8659120924988899810
+      WorkbenchRessources_5: -6651702999922824062
+      WorkbenchRessources_6: -207126140892652644
+      WorkbenchRessources_7: -5508278178585741530
+      WorkbenchRessources_8: 3582544037015078886
+      WorkbenchRessources_9: -3395458914469022657
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

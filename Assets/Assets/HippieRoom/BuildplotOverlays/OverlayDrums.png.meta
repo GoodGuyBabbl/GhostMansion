@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: d601b1567817e4f48acb3cb20ca18c7e
+guid: 986cfef38d901f9448ebaf8d53c638a7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3767807460242834220
-    second: BasementOreVein_0
-  - first:
-      213: 8394891443347388038
-    second: BasementOreVein_1
+      213: -4173273402935490544
+    second: OverlayDrums_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BasementOreVein_0
+      name: OverlayDrums_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 481
-        height: 261
-      alignment: 9
-      pivot: {x: 0.5301455, y: 0.7662835}
+        width: 284
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2347d12ce0f94430800000000000000
-      internalID: 3767807460242834220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BasementOreVein_1
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 0
-        width: 481
-        height: 261
-      alignment: 9
-      pivot: {x: 0.5301455, y: 0.7662835}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 686ffa82a45a08470800000000000000
-      internalID: 8394891443347388038
+      spriteID: 018c17373fd8516c0800000000000000
+      internalID: -4173273402935490544
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4226408a1332e774f9d72087104a8c62
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BasementOreVein_0: 3767807460242834220
-      BasementOreVein_1: 8394891443347388038
+      OverlayDrums_0: -4173273402935490544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

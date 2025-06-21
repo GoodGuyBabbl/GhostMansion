@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: d601b1567817e4f48acb3cb20ca18c7e
+guid: 0ca561b0090f4614db6702e23ed24436
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3767807460242834220
-    second: BasementOreVein_0
+      213: -4122016921947530796
+    second: WayRight_0
   - first:
-      213: 8394891443347388038
-    second: BasementOreVein_1
+      213: 4444068834136255202
+    second: WayRight_1
+  - first:
+      213: -4131596917978915329
+    second: WayRight_2
+  - first:
+      213: -623164295852643005
+    second: WayRight_3
+  - first:
+      213: -483722051993471036
+    second: WayRight_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BasementOreVein_0
+      name: WayRight_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 481
-        height: 261
-      alignment: 9
-      pivot: {x: 0.5301455, y: 0.7662835}
+        x: 962
+        y: 768
+        width: 294
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2347d12ce0f94430800000000000000
-      internalID: 3767807460242834220
+      spriteID: 4d91b29e277abc6c0800000000000000
+      internalID: -4122016921947530796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BasementOreVein_1
+      name: WayRight_1
       rect:
         serializedVersion: 2
-        x: 481
-        y: 0
-        width: 481
-        height: 261
-      alignment: 9
-      pivot: {x: 0.5301455, y: 0.7662835}
+        x: 1039
+        y: 768
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 686ffa82a45a08470800000000000000
-      internalID: 8394891443347388038
+      spriteID: 2ea63181f018cad30800000000000000
+      internalID: 4444068834136255202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WayRight_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 746
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd94c44e7e99a6c0800000000000000
+      internalID: -4131596917978915329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WayRight_3
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 751
+        width: 51
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d2ff4ef531a57f0800000000000000
+      internalID: -623164295852643005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WayRight_4
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 719
+        width: 63
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7f7e84b597949f0800000000000000
+      internalID: -483722051993471036
       vertices: []
       indices: 
       edges: []
@@ -150,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4226408a1332e774f9d72087104a8c62
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BasementOreVein_0: 3767807460242834220
-      BasementOreVein_1: 8394891443347388038
+      WayRight_0: -4122016921947530796
+      WayRight_1: 4444068834136255202
+      WayRight_2: -4131596917978915329
+      WayRight_3: -623164295852643005
+      WayRight_4: -483722051993471036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
