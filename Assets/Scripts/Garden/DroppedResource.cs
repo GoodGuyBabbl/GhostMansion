@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class DroppedResource : MonoBehaviour
 {
+    public GameObject BackgroundPrefab;
     public GameObject Player;
     private Rigidbody2D rb;
     private MaterialHandler MaterialHandler;
+    private GameObject Canvas;
     private float CollectDistance = 0.25f;
     private float CollectSpeed = 0.9f;
     private float FollowDistance = 0.55f;
 
     public string ResourceName;
     public int ResourceAmount;
-    
+
+    private void Awake()
+    {
+        Canvas = GameObject.FindGameObjectWithTag("ScreenSpaceCanvas");
+    }
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
@@ -48,6 +54,9 @@ public class DroppedResource : MonoBehaviour
     private void Collect()
     {
         Debug.Log(ResourceName + " +1");
+        GameObject instance = Instantiate(BackgroundPrefab, Canvas.transform);
+        BackgroundCollect BackgroundCollect = instance.GetComponent<BackgroundCollect>();
+        BackgroundCollect.DoCoroutine(GetComponent<SpriteRenderer>().sprite);
         MaterialHandler.IncreaseResourceCount(ResourceName, ResourceAmount);
         Destroy(gameObject);
     }

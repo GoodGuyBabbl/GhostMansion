@@ -6,12 +6,13 @@ public class OreVein : MonoBehaviour
     private SaveStateManager SaveStateManager;
     private void Awake()
     {
-        SaveStateManager = GetComponent<SaveStateManager>();
+
         UniqueID = GetComponent<UniqueID>();
     }
     void Start()
     {
-        if(SaveStateManager.IsObjectChanged(UniqueID.ID))
+        SaveStateManager = FindFirstObjectByType<SaveStateManager>();
+        if (SaveStateManager.IsObjectChanged(UniqueID.ID))
         {
             this.gameObject.GetComponent<PermanentResource>().enabled = true;
         }

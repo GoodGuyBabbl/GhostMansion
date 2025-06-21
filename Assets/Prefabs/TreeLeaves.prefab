@@ -272,7 +272,7 @@ MonoBehaviour:
   ThisProgressbar: {fileID: 5338534840963296416}
   FramesToMine: 1300
   HowManyItemsDropped: 2
-  DroppedItem: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
+  DroppedItem: {fileID: 4790164316534510086, guid: f9655201e7172af45bc3422ebe1618c3, type: 3}
   AnimationChangeName: IsChopped
   PlayerAnimationChangeName: IsChopping
   TimeToRegrow: 60000

@@ -132,8 +132,8 @@ MonoBehaviour:
   ItemSpawnPoint: {x: 0, y: 0, z: 0}
   ThisProgressbar: {fileID: 3948468491548927800}
   FramesToMine: 450
-  HowManyItemsDropped: 0
-  DroppedItem: {fileID: 0}
+  HowManyItemsDropped: 1
+  DroppedItem: {fileID: 4790164316534510086, guid: 2258b6df435ccd34bba5ab748db7feec, type: 3}
   AnimationChangeName: IsCaught
   PlayerAnimationChangeName: IsCatchingInsects
   TimeToRegrow: 3

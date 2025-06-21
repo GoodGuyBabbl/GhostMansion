@@ -3522,7 +3522,7 @@ GameObject:
   - component: {fileID: 1684461545}
   - component: {fileID: 1684461544}
   m_Layer: 5
-  m_Name: CanvasBasement
+  m_Name: CanvasWorldSpaceMuscleman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4450,7 +4450,7 @@ GameObject:
   - component: {fileID: 1854708862}
   m_Layer: 5
   m_Name: CanvasScreenSpaceMuscleMan
-  m_TagString: Untagged
+  m_TagString: ScreenSpaceCanvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
