@@ -24,6 +24,7 @@ public class RegrowingResource : TriggerInteraction
 
 
     public Vector3 ItemSpawnPoint; //ItemSpawnPoint Addition To Gameobject's transform.position
+    public Progressbar ThisProgressbar; //PB
     public int FramesToMine;
     public int HowManyItemsDropped;
     public GameObject DroppedItem;
@@ -31,6 +32,7 @@ public class RegrowingResource : TriggerInteraction
     public string PlayerAnimationChangeName; // für Baum IsChopping, im Player Animator
     public float TimeToRegrow;
     public bool CanRegrow;
+    
     
     
 
@@ -96,6 +98,9 @@ public class RegrowingResource : TriggerInteraction
             {
                 MovementDisable.DisableMovement();
                 PlayerAnimator.SetBool(PlayerAnimationChangeName, true);
+                ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(true); //PB
+                ThisProgressbar.GetMaximum(FramesToMine); //PB
+                ThisProgressbar.SetCurrentFill(i); //PB
                 //Animation hier
                 i++;
                 Debug.Log(i);
@@ -105,6 +110,7 @@ public class RegrowingResource : TriggerInteraction
                     MovementDisable.EnableMovement();
                     Animator.SetBool(AnimationChangeName, true);
                     SaveStateManager.Instance.MarkResourceAsMined(UniqueID);
+                    ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(false); //PB
                     i = 0;
                     DropItems(HowManyItemsDropped);
                     PlayerAnimator.SetBool(PlayerAnimationChangeName, false);
@@ -119,6 +125,7 @@ public class RegrowingResource : TriggerInteraction
                 MovementDisable.EnableMovement();
                 PlayerAnimator.SetBool(PlayerAnimationChangeName, false);
                 StartLongInteract = false;
+                ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(false); //PB
                 i = 0;
             }
         }

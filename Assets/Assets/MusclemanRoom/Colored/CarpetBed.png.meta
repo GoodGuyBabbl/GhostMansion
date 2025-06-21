@@ -106,12 +106,12 @@ TextureImporter:
       name: CarpetBed_0
       rect:
         serializedVersion: 2
-        x: 186
-        y: 92
-        width: 140
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 197
+        y: 93
+        width: 120
+        height: 58
+      alignment: 9
+      pivot: {x: 0.45000002, y: 0.4827586}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

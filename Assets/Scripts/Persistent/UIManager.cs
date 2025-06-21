@@ -27,6 +27,7 @@ public class UIManager : MonoBehaviour
         CollectHand();
         CollectHammer();
         CollectSickle();
+        CollectAxe();
         EnableTools();
     }
 

@@ -5806,6 +5806,7 @@ MonoBehaviour:
   RepairableObjectsAmount: 4
   BackgroundToChangeColor: {fileID: 79135244}
   Animator: {fileID: 0}
+  RepairedObjects: 0
 --- !u!4 &2107743092
 Transform:
   m_ObjectHideFlags: 0
@@ -6280,6 +6281,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2038986029}
+  - {fileID: 1744936433}
   - {fileID: 567842559}
   - {fileID: 2142680648}
   - {fileID: 1789594476}
@@ -6293,4 +6295,3 @@ SceneRoots:
   - {fileID: 1079027145}
   - {fileID: 1572889330}
   - {fileID: 918428725}
-  - {fileID: 1744936433}

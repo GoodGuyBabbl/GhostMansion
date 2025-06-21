@@ -8,7 +8,7 @@ public class ColorChangeController : MonoBehaviour
 
 
     public Animator Animator;
-    private int RepairedObjects;
+    public int RepairedObjects;
     private RoomNPC RoomNPC;
     private SaveStateManager SaveStateManager;
 

@@ -22,6 +22,7 @@ public class TreeLog : TriggerInteraction
     public GameObject TreeLogTop;
     public GameObject TreeLogBottom;
     public Vector3 ItemSpawnPoint; //ItemSpawnPointAdditionTo Gameobjects transform.position
+    public Progressbar ThisProgressbar; //PB
     public int FramesToMine;
     public int HowManyItemsDropped;
     public GameObject DroppedItem;
@@ -99,6 +100,9 @@ public class TreeLog : TriggerInteraction
             {
                 MovementDisable.DisableMovement();
                 PlayerAnimator.SetBool(PlayerAnimationChangeName, true);
+                ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(true); //PB
+                ThisProgressbar.GetMaximum(FramesToMine); //PB
+                ThisProgressbar.SetCurrentFill(i); //PB
                 //Animation hier
                 i++;
                 Debug.Log(i);
@@ -106,6 +110,7 @@ public class TreeLog : TriggerInteraction
                 {
 
                     MovementDisable.EnableMovement();
+                    ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(false); //PB
                     i = 0;
                     DropItems(HowManyItemsDropped);
                     PlayerAnimator.SetBool(PlayerAnimationChangeName, false);
@@ -126,6 +131,7 @@ public class TreeLog : TriggerInteraction
                 MovementDisable.EnableMovement();
                 PlayerAnimator.SetBool(PlayerAnimationChangeName, false);
                 StartLongInteract = false;
+                ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(false); //PB
                 i = 0;
             }
         }

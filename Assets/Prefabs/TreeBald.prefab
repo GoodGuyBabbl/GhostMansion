@@ -37,7 +37,8 @@ Transform:
   m_LocalPosition: {x: 0.797, y: 1.855, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7666458913375679118}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &965982820043410705
@@ -273,6 +274,7 @@ MonoBehaviour:
   UniqueID: 
   SaveStateManager: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: 0.45, z: 0}
+  ThisProgressbar: {fileID: 7937066701445772628}
   FramesToMine: 1200
   HowManyItemsDropped: 2
   DroppedItem: {fileID: 4790164316534510086, guid: 4248463b24fb575449ff7265f409e54a, type: 3}
@@ -372,3 +374,80 @@ PolygonCollider2D:
       - {x: 0.21791047, y: 0.115743145}
       - {x: 0.2344439, y: 0.054976713}
   m_UseDelaunayMesh: 0
+--- !u!1001 &5624369725460066171
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2835069702133712973}
+    m_Modifications:
+    - target: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001977028759820140, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_Name
+      value: Progressbar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001977028759820140, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+--- !u!4 &7666458913375679118 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+  m_PrefabInstance: {fileID: 5624369725460066171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7937066701445772628 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2318199782625221167, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+  m_PrefabInstance: {fileID: 5624369725460066171}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69009b5c7fa2d4746a504775c0d07b64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

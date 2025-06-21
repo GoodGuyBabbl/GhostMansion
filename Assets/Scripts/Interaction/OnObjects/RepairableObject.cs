@@ -82,6 +82,7 @@ public class RepairableObject : TriggerInteraction
         {
             IsRepaired = true;
             SpriteRenderer.sprite = ColoredVersion;
+            GreyVersionCollider.gameObject.SetActive(false);
             BuildPlotCollider.gameObject.SetActive(false);
             ColoredVersionCollider.gameObject.SetActive(true);
             if (RepairableObjectBackground != null)

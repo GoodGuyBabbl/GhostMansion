@@ -23,6 +23,7 @@ public class PermanentResource : TriggerInteraction
 
 
     public Vector3 ItemSpawnPoint; //ItemSpawnPoint Addition To Gameobject's transform.position
+    public Progressbar ThisProgressbar; //PB
     public int FramesToMine;
     public int HowManyItemsDropped;
     public GameObject DroppedItem;
@@ -82,6 +83,9 @@ public class PermanentResource : TriggerInteraction
             {
                 MovementDisable.DisableMovement();
                 PlayerAnimator.SetBool(PlayerAnimationChangeName, true);
+                ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(true); //PB
+                ThisProgressbar.GetMaximum(FramesToMine); //PB
+                ThisProgressbar.SetCurrentFill(i); //PB
                 //Animation hier
                 i++;
                 Debug.Log(i);
@@ -89,7 +93,8 @@ public class PermanentResource : TriggerInteraction
                 {
 
                     MovementDisable.EnableMovement();
-                    SaveStateManager.Instance.MarkResourceAsMined(UniqueID);
+                    SaveStateManager.Instance.MarkResourceAsMined(UniqueID);//Eigentlich unnötig
+                    ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(false); //PB
                     i = 0;
                     DropItems(HowManyItemsDropped);
                     PlayerAnimator.SetBool(PlayerAnimationChangeName, false);
@@ -103,6 +108,7 @@ public class PermanentResource : TriggerInteraction
             {
                 MovementDisable.EnableMovement();
                 PlayerAnimator.SetBool(PlayerAnimationChangeName, false);
+                ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(false); //PB
                 StartLongInteract = false;
                 i = 0;
             }
