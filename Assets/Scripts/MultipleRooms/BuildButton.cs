@@ -94,14 +94,6 @@ public class BuildButton : MonoBehaviour, ISelectHandler, IDeselectHandler
         }
 
 
-
-
-
-
-
-
-
-
         if (MaterialHandler.HasEnoughResources(Ingredient1, Amount1, Ingredient2, Amount2, Ingredient3, Amount3, Ingredient4, Amount4, Ingredient5, Amount5))
         {
             Renderer.sprite = CanCraft;
