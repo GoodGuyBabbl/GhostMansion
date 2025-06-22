@@ -3770,7 +3770,7 @@ MonoBehaviour:
   Button: {fileID: 107339139}
   ItemSpawnPoint: {x: 2.3, y: 2.5, z: 0}
   Renderer: {fileID: 0}
-  DroppedItem: {fileID: 0}
+  DroppedItem: {fileID: 4790164316534510086, guid: 9746da3da9b46c74a99694cd2b80b042, type: 3}
   CantCraft: {fileID: 8894201953851282084, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
   CantCraftHover: {fileID: -3243065930256096816, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
   CanCraft: {fileID: 2013261503205373015, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
@@ -8752,8 +8752,8 @@ MonoBehaviour:
   DisplayedAmountInInventory: 0
   DisplayedAmountIngredient2: 0
   DisplayedAmountInInventory2: 0
-  CraftedResource: StoneCount
-  Ingredient1: BrickCount
+  CraftedResource: BrickCount
+  Ingredient1: StoneCount
   Ingredient2: Nothing
   Ingredient3: Nothing
   Ingredient4: Nothing
@@ -12023,7 +12023,7 @@ MonoBehaviour:
   Button: {fileID: 349148887}
   ItemSpawnPoint: {x: 2.3, y: 2.5, z: 0}
   Renderer: {fileID: 0}
-  DroppedItem: {fileID: 0}
+  DroppedItem: {fileID: 4790164316534510086, guid: babf54a5cbc5fcd40b33a48f34f6621d, type: 3}
   CantCraft: {fileID: -7811504096720598664, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
   CantCraftHover: {fileID: -5316896731886317114, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
   CanCraft: {fileID: 3760674464881954987, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
@@ -31083,7 +31083,7 @@ MonoBehaviour:
   Button: {fileID: 854179252}
   ItemSpawnPoint: {x: 2.3, y: 2.5, z: 0}
   Renderer: {fileID: 0}
-  DroppedItem: {fileID: 0}
+  DroppedItem: {fileID: 4790164316534510086, guid: e409bf2b07fd62f4a9310207512de635, type: 3}
   CantCraft: {fileID: -7811504096720598664, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
   CantCraftHover: {fileID: -5316896731886317114, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
   CanCraft: {fileID: 3760674464881954987, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
@@ -36066,8 +36066,8 @@ MonoBehaviour:
   DisplayedAmountInInventory: 0
   DisplayedAmountIngredient2: 0
   DisplayedAmountInInventory2: 0
-  CraftedResource: FlowerYellowCount
-  Ingredient1: YellowDyeCount
+  CraftedResource: YellowDyeCount
+  Ingredient1: FlowerYellowCount
   Ingredient2: Nothing
   Ingredient3: Nothing
   Ingredient4: Nothing
@@ -41501,7 +41501,7 @@ MonoBehaviour:
   DisplayedAmountInInventory: 0
   DisplayedAmountIngredient2: 0
   DisplayedAmountInInventory2: 0
-  CraftedResource: GreenDyeCount
+  CraftedResource: PosterCount
   Ingredient1: RedDyeCount
   Ingredient2: PaperCount
   Ingredient3: Nothing
@@ -48691,7 +48691,7 @@ MonoBehaviour:
   Button: {fileID: 1332910850}
   ItemSpawnPoint: {x: 2.3, y: 2.5, z: 0}
   Renderer: {fileID: 0}
-  DroppedItem: {fileID: 0}
+  DroppedItem: {fileID: 4790164316534510086, guid: 413863902eb880a478a63c40efcb1942, type: 3}
   CantCraft: {fileID: -7811504096720598664, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
   CantCraftHover: {fileID: -5316896731886317114, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
   CanCraft: {fileID: 3760674464881954987, guid: 994488e391f41d84a895b270d95c97fd, type: 3}
@@ -56793,7 +56793,7 @@ MonoBehaviour:
   DisplayedAmountInInventory: 0
   DisplayedAmountIngredient2: 0
   DisplayedAmountInInventory2: 0
-  CraftedResource: PinkCarpetCount
+  CraftedResource: WallpaperPinkCount
   Ingredient1: PinkDyeCount
   Ingredient2: PaperCount
   Ingredient3: Nothing
