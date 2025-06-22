@@ -20,6 +20,8 @@ public class RepairableObject : TriggerInteraction
 
     public BuildButton FirstActiveButton;
 
+    public Progressbar ThisProgressbar; //PB
+
     //public string Resource1;
     //public string Resource2;
     //public string Resource3;
@@ -166,11 +168,15 @@ public class RepairableObject : TriggerInteraction
             {
                 MovementDisable.DisableMovement();
                 PlayerAnimator.SetBool("IsBuilding", true);
+                ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(true); //PB
+                ThisProgressbar.GetMaximum(FramesToBuild); //PB
+                ThisProgressbar.SetCurrentFill(i); //PB
                 i++;
                 //Debug.Log(i);
                 if (i >= FramesToBuild)
                 {
                     IsRepaired = true;
+                    ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(false); //PB
                     i = 0;
                     SpriteRenderer.sprite = ColoredVersion;
                     BuildPlotCollider.gameObject.SetActive(false);
@@ -197,6 +203,7 @@ public class RepairableObject : TriggerInteraction
             }
             else if (Interactions.WasInteractReleased)
             {
+                ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(false); //PB
                 MovementDisable.EnableMovement();
                 PlayerAnimator.SetBool("IsBuilding", false);
                 StartLongInteract = false;
