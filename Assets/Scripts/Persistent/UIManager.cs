@@ -25,9 +25,9 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         CollectHand();
-        CollectHammer();
-        CollectSickle();
-        CollectAxe();
+        //CollectHammer();
+        //CollectSickle();
+        //CollectAxe();
         EnableTools();
     }
 
@@ -179,6 +179,10 @@ public class UIManager : MonoBehaviour
     public void CollectSickle()
     {
         IsToolCollected.Add(5);
+    }
+    public void AddTool(int i)
+    {
+        IsToolCollected.Add(i);
     }
     public bool GetToolCollected(int ToolbarIndex)
     {

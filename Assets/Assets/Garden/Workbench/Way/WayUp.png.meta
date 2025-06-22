@@ -103,12 +103,12 @@ TextureImporter:
       name: WayUp_0
       rect:
         serializedVersion: 2
-        x: 724
-        y: 786
-        width: 119
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 725
+        y: 787
+        width: 117
+        height: 107
+      alignment: 9
+      pivot: {x: 0.50427353, y: 0.4859813}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3a5795e78bdd7a047b59edf3b1eb2683
     internalID: 0
     vertices: []
     indices: 

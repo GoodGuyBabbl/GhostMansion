@@ -136,7 +136,7 @@ MonoBehaviour:
   DroppedItem: {fileID: 4790164316534510086, guid: 1a8ed46502d62e14187b51c092e3f989, type: 3}
   AnimationChangeName: IsHarvested
   PlayerAnimationChangeName: IsCollecting
-  TimeToRegrow: 600
+  TimeToRegrow: 30
   CanRegrow: 1
 --- !u!61 &6717368058065795972
 BoxCollider2D:

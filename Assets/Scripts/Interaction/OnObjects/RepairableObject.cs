@@ -3,6 +3,7 @@ using UnityEngine;
 public class RepairableObject : TriggerInteraction
 {
     public GameObject BuildPlotIcon;
+    public GameObject BuildplotOverlay;
 
     public RepairableObjectBackground RepairableObjectBackground;
 
@@ -13,19 +14,26 @@ public class RepairableObject : TriggerInteraction
     public Collider2D BuildPlotCollider;
     public Collider2D ColoredVersionCollider;
 
-    public string Resource1;
-    public string Resource2;
-    public string Resource3;
-    public string Resource4;
-    public string Resource5;
+    public UniqueID UniqueID;
 
-    public int Amount1;
-    public int Amount2;
-    public int Amount3;
-    public int Amount4;
-    public int Amount5;
+    public SpriteRenderer SpriteRenderer;
+
+    public BuildButton FirstActiveButton;
+
+    //public string Resource1;
+    //public string Resource2;
+    //public string Resource3;
+    //public string Resource4;
+    //public string Resource5;
+
+    //public int Amount1;
+    //public int Amount2;
+    //public int Amount3;
+    //public int Amount4;
+    //public int Amount5;
 
     public int FramesToBuild;
+    public int ToolbarIndexNeeded = 4;
 
     private int i = 0;
 
@@ -33,8 +41,8 @@ public class RepairableObject : TriggerInteraction
     private float YPlayerAnimationDirection;
     private bool StartLongInteract;
     private bool IsRepairEnabled;
-    private bool IsBuildPlot;
 
+    public bool IsBuildPlot;
     public bool IsRepaired;
 
     private MovementDisable MovementDisable;
@@ -45,15 +53,17 @@ public class RepairableObject : TriggerInteraction
 
     private Animator PlayerAnimator;
 
-    private SpriteRenderer SpriteRenderer;
-
-    private MaterialHandler MaterialHandler;
+    //private MaterialHandler MaterialHandler;
 
     private ColorChangeController ColorChangeController;
 
     private SaveStateManager SaveStateManager;
 
-    private UniqueID UniqueID;
+    private ToolbarControl ToolbarControl;
+
+    private UIManager UIManager;
+
+
 
     public void Awake()
     {
@@ -63,7 +73,7 @@ public class RepairableObject : TriggerInteraction
         SpriteRenderer = GetComponent<SpriteRenderer>();
         Interactions = FindFirstObjectByType<Interactions>();
         RoomNPC = FindFirstObjectByType<RoomNPC>();
-        MaterialHandler = FindFirstObjectByType<MaterialHandler>();
+        //MaterialHandler = FindFirstObjectByType<MaterialHandler>();
         ColorChangeController = FindFirstObjectByType<ColorChangeController>(); 
         
     }
@@ -71,6 +81,8 @@ public class RepairableObject : TriggerInteraction
     public void Start()
     {
         base.Start();
+        UIManager = FindFirstObjectByType<UIManager>();
+        ToolbarControl = FindFirstObjectByType<ToolbarControl>();
         PlayerAnimator = Player.GetComponent<Animator>();
         if (SaveStateManager.IsBuildPlot(UniqueID.ID))
         {
@@ -117,24 +129,29 @@ public class RepairableObject : TriggerInteraction
             
             if (IsBuildPlot)
             {
-                StartLongInteract = true;  
+                if(UIManager.GetToolCollected(ToolbarIndexNeeded) && ToolbarControl.CurrentIndex == ToolbarIndexNeeded)
+                {
+                    StartLongInteract = true;
+                }
+
             }
             else //Wenn es noch nicht BuildPlot ist
             {
+
+                MovementDisable.DisableMovement();
+                BuildplotOverlay.SetActive(true);
+                FirstActiveButton.SelectButton();
                 //Hier eigentlich: Overlay öffnen, in dem gezeigt wird, wie viele Ressourcen man von was brauch inklusive build button und das nachfolgende ist die logik des buttons
-                if (MaterialHandler.HasEnoughResources(Resource1, Amount1, Resource2, Amount2, Resource3, Amount3, Resource4, Amount4, Resource5, Amount5))
-                {
-                    SaveStateManager.MarkAsBuildPlot(UniqueID.ID);
-                    SpriteRenderer.sprite = BuildPlot;
-                    GreyVersionCollider.gameObject.SetActive(false);
-                    BuildPlotCollider.gameObject.SetActive(true);
-                    IsBuildPlot = true;
-                }
-                else
-                {
-                    Debug.Log("Nicht genug Ressourcen");
-                }
-                
+                //if (MaterialHandler.HasEnoughResources(Resource1, Amount1, Resource2, Amount2, Resource3, Amount3, Resource4, Amount4, Resource5, Amount5))
+                //{
+                //    SaveStateManager.MarkAsBuildPlot(UniqueID.ID);
+                //    SpriteRenderer.sprite = BuildPlot;
+                //    GreyVersionCollider.gameObject.SetActive(false);
+                //    BuildPlotCollider.gameObject.SetActive(true);
+                //    IsBuildPlot = true;
+                //}
+
+
             }
         }
     }

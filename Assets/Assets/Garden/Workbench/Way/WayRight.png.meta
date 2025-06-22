@@ -115,12 +115,12 @@ TextureImporter:
       name: WayRight_0
       rect:
         serializedVersion: 2
-        x: 962
-        y: 768
-        width: 294
-        height: 112
+        x: 963
+        y: 747
+        width: 292
+        height: 132
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -133,99 +133,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: WayRight_1
-      rect:
-        serializedVersion: 2
-        x: 1039
-        y: 768
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ea63181f018cad30800000000000000
-      internalID: 4444068834136255202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WayRight_2
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 746
-        width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ffd94c44e7e99a6c0800000000000000
-      internalID: -4131596917978915329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WayRight_3
-      rect:
-        serializedVersion: 2
-        x: 1138
-        y: 751
-        width: 51
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34d2ff4ef531a57f0800000000000000
-      internalID: -623164295852643005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WayRight_4
-      rect:
-        serializedVersion: 2
-        x: 1022
-        y: 719
-        width: 63
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4c7f7e84b597949f0800000000000000
-      internalID: -483722051993471036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5f09eee4678377948ae0c493ccf192e2
     internalID: 0
     vertices: []
     indices: 

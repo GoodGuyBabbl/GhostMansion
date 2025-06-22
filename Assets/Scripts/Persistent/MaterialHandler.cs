@@ -100,6 +100,7 @@ public class MaterialHandler : MonoBehaviour
         Resources["FlowerGreenCount"] = 0;
         Resources["ReedCount"] = 0;
         Resources["FlowerPinkCount"] = 0;
+        Resources["PinkBrickWallCount"] = 0;
 
     }
 

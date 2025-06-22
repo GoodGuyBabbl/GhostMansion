@@ -44,7 +44,7 @@ public class BackgroundCollect : MonoBehaviour
         yield return new WaitForSeconds(StayDuration);
 
         TimePassed = 0f;
-        while (TimePassed < FadeDuration)
+        while (TimePassed <= FadeDuration)
         {
             float Alpha = 1f - (TimePassed / FadeDuration);
             Color CurrentColor = Image.color;
@@ -55,6 +55,7 @@ public class BackgroundCollect : MonoBehaviour
             TimePassed += Time.deltaTime;
             yield return null;
         }
+        Destroy(this.gameObject);
         
     }
 

@@ -13,6 +13,8 @@ public class CollectableTool : TriggerInteraction
     private SaveStateManager SaveStateManager;
     private UniqueID UniqueID;
 
+    public int ToolbarIndex;
+
     private void Awake()
     {
         SaveStateManager = FindFirstObjectByType<SaveStateManager>();
@@ -42,9 +44,8 @@ public class CollectableTool : TriggerInteraction
 
     public override void Interact()
     {
-        // geht nur, wenn Story Szenenübergreifend gespeichert wird. Story.variablesState["NextDialogueKnot"] = "PickaxePickedUp";
-        UIManager.CollectInsectNet();
-        UIManager.EnableInsectNet();
+        UIManager.AddTool(ToolbarIndex);
+        UIManager.EnableTools();
         InteractionIcon.SetActive(false);
         SaveStateManager.MarkObjectAsChanged(UniqueID.ID);
         this.gameObject.SetActive(false);

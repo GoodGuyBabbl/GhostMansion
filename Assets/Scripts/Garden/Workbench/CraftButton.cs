@@ -13,10 +13,13 @@ public class CraftButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     [SerializeField] private Button Button;
 
 
+    public Vector3 ItemSpawnPoint;
 
     public Image Renderer;
 
     private MaterialHandler MaterialHandler;
+
+    public GameObject DroppedItem;
 
     public Sprite CantCraft;
     public Sprite CantCraftHover;
@@ -60,7 +63,6 @@ public class CraftButton : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     private void OnEnable()
     {
-
         DisplayedAmountIngredient = Amount1;
         DisplayedAmountIngredient2 = Amount2;
         DisplayedAmountInInventory = MaterialHandler.GetResourceCount(Ingredient1);
@@ -122,26 +124,27 @@ public class CraftButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     {
         if(Renderer.sprite == CanCraftHover)
         {
-            Debug.Log("1");
-            MaterialHandler.IncreaseResourceCount(CraftedResource, DisplayedAmountResult);
+            //Debug.Log("1");
+            //MaterialHandler.IncreaseResourceCount(CraftedResource, DisplayedAmountResult);
+            DropItems(DisplayedAmountResult);
             MaterialHandler.DecreaseResourceCount(Ingredient1, DisplayedAmountIngredient);
             if(Ingredient2 != "Nothing")
             {
-                Debug.Log("2");
+                //Debug.Log("2");
                 MaterialHandler.DecreaseResourceCount(Ingredient2, DisplayedAmountIngredient2);
             }
-            Debug.Log("3");
+            //Debug.Log("3");
             UpdateNumbers();
             if (MaterialHandler.HasEnoughResources(Ingredient1, DisplayedAmountIngredient, Ingredient2, DisplayedAmountIngredient2, Ingredient3, Amount3, Ingredient4, Amount4, Ingredient5, Amount5))
             {
-                Debug.Log("4");
+                //Debug.Log("4");
                 Renderer.sprite = CanCraftHover;
             }
             else
             {
                 Renderer.sprite = CantCraftHover;
             }
-            Debug.Log("Plus " + DisplayedAmountResult + " " + Ingredient1);
+            //Debug.Log("Plus " + DisplayedAmountResult + " " + Ingredient1);
         }
     }
 
@@ -153,8 +156,8 @@ public class CraftButton : MonoBehaviour, ISelectHandler, IDeselectHandler
         DisplayedAmountIngredient2 = DisplayedAmountResult * Amount2;
         if(IngredientField2)
         {
-            IngredientField2.text = DisplayedAmountIngredient.ToString();
-            InInventoryField2.text = DisplayedAmountInInventory.ToString();
+            IngredientField2.text = DisplayedAmountIngredient2.ToString();
+            InInventoryField2.text = DisplayedAmountInInventory2.ToString();
         }
         if(IngredientField)
         {
@@ -175,5 +178,16 @@ public class CraftButton : MonoBehaviour, ISelectHandler, IDeselectHandler
         {
             Renderer.sprite = CantCraft;
         }
+    }
+
+    public void DropItems(int i)
+    {
+        if (i > 0)
+        {
+            Instantiate(DroppedItem, ItemSpawnPoint, Quaternion.identity);
+            i--;
+            DropItems(i);
+        }
+
     }
 }
