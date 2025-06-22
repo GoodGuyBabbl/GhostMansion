@@ -24,7 +24,7 @@ public class RoomNPC : TriggerInteraction
     private MovementDisable MovementDisable;
     private UIManager UIManager;
     private Stories StoryManager;
-    private UniqueID UniqueID;
+    public UniqueID UniqueID;
     private SaveStateManager SaveStateManager;
 
     public string StoryName;

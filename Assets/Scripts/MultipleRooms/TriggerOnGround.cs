@@ -5,8 +5,9 @@ public class TriggerOnGround : TriggerInteraction
     public RoomNPC RoomNPC;
 
     private SaveStateManager SaveStateManager;
-    private Stories StoryManager;
-    bool testbool = false;
+    public UniqueID UniqueID;
+    //private Stories StoryManager;
+    //public string StoryName;
 
     private void Update()
     {
@@ -16,9 +17,25 @@ public class TriggerOnGround : TriggerInteraction
     }
     private void Start()
     {
+
         base.Start();
         SaveStateManager = FindFirstObjectByType<SaveStateManager>();
-        StoryManager = FindFirstObjectByType<Stories>();
+        UniqueID = GetComponent<UniqueID>();
+        //StoryManager = FindFirstObjectByType<Stories>();
+        //StoryName = RoomNPC.StoryName;
+        if(SaveStateManager.GetStoryTriggerDone(UniqueID.ID))
+        {
+            this.gameObject.SetActive(false);
+        }
+        else if(!SaveStateManager.IsObjectChanged(UniqueID.ID))
+        {
+            this.gameObject.SetActive(false);
+        }
+        else if (SaveStateManager.IsObjectChanged(UniqueID.ID))
+        {
+            this.gameObject.SetActive(true); //obsolete, aber für clarity
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

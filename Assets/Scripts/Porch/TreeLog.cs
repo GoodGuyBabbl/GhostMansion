@@ -15,7 +15,7 @@ public class TreeLog : TriggerInteraction
     private Animator Animator;
     private Animator PlayerAnimator;
     private MovementDisable MovementDisable;
-    private UniqueID UniqueID;
+    public UniqueID UniqueID;
     private float TimePassed;
     private SaveStateManager SaveStateManager;
 
@@ -30,6 +30,7 @@ public class TreeLog : TriggerInteraction
 
     private ToolbarControl ToolbarControl;
     private UIManager UIManager;
+    public PolygonCollider2D InteractionCollider;
     public int ToolbarIndexNeeded;
 
 
@@ -61,6 +62,13 @@ public class TreeLog : TriggerInteraction
                 TreeLogTop.SetActive(true);
             }
             this.gameObject.SetActive(false);
+        }
+        if(InteractionCollider != null)
+        {
+            if(SaveStateManager.GetStoryTriggerDone(UniqueID.ID))
+            {
+                InteractionCollider.enabled = true;
+            }
         }
         
         //Debug.Log(PlayerAnimator);

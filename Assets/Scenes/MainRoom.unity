@@ -873,8 +873,9 @@ GameObject:
   - component: {fileID: 227187957}
   - component: {fileID: 227187956}
   - component: {fileID: 227187955}
+  - component: {fileID: 227187958}
   m_Layer: 0
-  m_Name: TriggerOnGround
+  m_Name: GhostStoryToGardenTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -893,6 +894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RoomNPC: {fileID: 368882498}
+  UniqueID: {fileID: 0}
 --- !u!60 &227187956
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -959,6 +961,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &227187958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227187954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueID: -1,167_0_GhostStoryToGardenTrigger
 --- !u!1 &229784447
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,6 +1634,7 @@ MonoBehaviour:
   - {fileID: 1713327505}
   - {fileID: 1293521678}
   - {fileID: 698043944}
+  UniqueID: {fileID: 0}
   StoryName: TutorialGhostStory
   CurrentChoiceIndex: -1
 --- !u!58 &368882499
@@ -1669,6 +1685,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d7583ea09fac0e4f951a58e042fc1ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TriggerTutorialGhostToGarden: {fileID: 227187955}
+  StonePileInteractionCollider: {fileID: 841572523}
 --- !u!114 &368882501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3369,8 +3387,8 @@ GameObject:
   - component: {fileID: 841572522}
   - component: {fileID: 841572521}
   - component: {fileID: 841572519}
-  - component: {fileID: 841572518}
   - component: {fileID: 841572523}
+  - component: {fileID: 841572518}
   - component: {fileID: 841572524}
   m_Layer: 0
   m_Name: PileOfStones
@@ -3460,6 +3478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 944a775eb6e340449ab62c271f6fddac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UniqueID: {fileID: 0}
   TreeLogTop: {fileID: 0}
   TreeLogBottom: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: 0, z: 0}
@@ -3468,6 +3487,7 @@ MonoBehaviour:
   HowManyItemsDropped: 2
   DroppedItem: {fileID: 4790164316534510086, guid: 71746cf97ce1ce145876e45caed41d8f, type: 3}
   PlayerAnimationChangeName: IsMining
+  InteractionCollider: {fileID: 841572523}
   ToolbarIndexNeeded: 0
 --- !u!212 &841572521
 SpriteRenderer:
@@ -3547,7 +3567,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841572517}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -4145,6 +4165,7 @@ MonoBehaviour:
   - {fileID: 1742489957}
   - {fileID: 1170131041}
   - {fileID: 2071224235}
+  UniqueID: {fileID: 0}
   StoryName: DrunkenGhostStory
   CurrentChoiceIndex: -1
 --- !u!60 &944517454
@@ -4489,7 +4510,7 @@ MonoBehaviour:
   ItemSpawnPoint: {x: 0, y: -0.1, z: 0}
   ThisProgressbar: {fileID: 910289763}
   FramesToMine: 400
-  HowManyItemsDropped: 15
+  HowManyItemsDropped: 1
   DroppedItem: {fileID: 4790164316534510086, guid: 32cf3f6d88befe34b8d6b8644f2a6338, type: 3}
   PlayerAnimationChangeName: IsCollecting
 --- !u!60 &1069178543

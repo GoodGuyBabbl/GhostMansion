@@ -9,6 +9,8 @@ public class TutorialGhostExternalFunctions : MonoBehaviour
     private Story Story;
     private SaveStateManager SaveStateManager;
     private Carpet Carpet;
+    public TriggerOnGround TriggerTutorialGhostToGarden;
+    public PolygonCollider2D StonePileInteractionCollider;
 
     private void Awake()
     {
@@ -45,11 +47,27 @@ public class TutorialGhostExternalFunctions : MonoBehaviour
         {
             Carpet.IsCarpetEnabled = true;
         });
+        Story.BindExternalFunction("Disappear", () =>
+        {
+            this.gameObject.GetComponent<Animator>().SetBool("Disappearing", true);
+            SaveStateManager.SetTutorialGhostState("Disappeared");
+            SaveStateManager.SetStoryTriggerDone(TriggerTutorialGhostToGarden.UniqueID.ID);
+            TriggerTutorialGhostToGarden.gameObject.SetActive(false);
+
+        });
+        Story.BindExternalFunction("EnableStonePile", () =>
+        {
+            StonePileInteractionCollider.enabled = true;
+            SaveStateManager.SetStoryTriggerDone(StonePileInteractionCollider.GetComponent<UniqueID>().ID);
+        });
+
     }
     public void Unbind()
     {
         Story.UnbindExternalFunction("PutGhostInIdle");
         Story.UnbindExternalFunction("EnableCarpet");
+        Story.UnbindExternalFunction("Disappear");
+        Story.UnbindExternalFunction("EnableStonePile");
     }
 
     private void OnDisable()

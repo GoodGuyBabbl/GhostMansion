@@ -1,5 +1,6 @@
 ////////////////////////////////////////////////////////////
 EXTERNAL GiveAxe()
+EXTERNAL GoingToGarden()
 VAR CanRepairFurniture = false
 ===TutorialStart===
 VAR NextDialogueKnot = ""
@@ -28,6 +29,7 @@ Anyways, you might need this axe.
 You know, I was going to go out there and do it myself but I almost killed myself again trying to swing that thing hahahahahahaHAHAHAHAHAHA
         ~NextDialogueKnot = "IsHelping"
         ~CanRepairFurniture = true
+        ~GoingToGarden()
         ->END
 
 
@@ -44,7 +46,9 @@ Changed your mind?
 ===IsHelping===
 The Garden I was talking about is just outside of the house and to the left. You can't miss it.
         ~CanRepairFurniture = true
-       
+
+
 ->END
+
 
 

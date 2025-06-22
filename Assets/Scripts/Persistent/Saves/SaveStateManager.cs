@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class SaveStateManager : MonoBehaviour
@@ -15,6 +16,8 @@ public class SaveStateManager : MonoBehaviour
     private HashSet<string> RepairedFurniture = new HashSet<string>();
 
     private HashSet<string> IsRepairEnabled = new HashSet<string>();
+
+    private HashSet<string> StoryDone = new HashSet<string>();
     //Dictionaries statt Listen, um Duplikate zu vermeiden
     public Dictionary<string, int> ColorChangeControllerState = new Dictionary<string, int>();
 
@@ -99,6 +102,17 @@ public class SaveStateManager : MonoBehaviour
     public bool IsObjectChanged(string ChangedObjectID)
     {
         return ChangedObject.Contains(ChangedObjectID);
+    }
+
+    //Story Triggers
+
+    public void SetStoryTriggerDone(string TriggerID)
+    {
+        StoryDone.Add(TriggerID);
+    }
+    public bool GetStoryTriggerDone(string TriggerID)
+    {
+        return StoryDone.Contains(TriggerID);
     }
 
 
