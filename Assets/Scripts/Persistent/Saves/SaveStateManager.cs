@@ -27,6 +27,7 @@ public class SaveStateManager : MonoBehaviour
     private string CurrentDialogueKnotDrunkenGhost = "Start";
     private string CurrentDialogueKnotTutGhostWorkbench = "Start";
     private string CurrentDialogueKnotTutGhostTriggerGarden = "Start";
+    private string CurrentDialogueKnotMuscleManInMainRoom = "Start";
 
 
 
@@ -141,6 +142,9 @@ public class SaveStateManager : MonoBehaviour
             case "TutGhostTriggerGardenStory":
                 CurrentDialogueKnotTutGhostTriggerGarden = KnotName;
                 break;
+            case "MuscleManInMainRoomStory":
+                CurrentDialogueKnotMuscleManInMainRoom = KnotName;
+                break;
             default:
                 break;
         }
@@ -165,6 +169,8 @@ public class SaveStateManager : MonoBehaviour
                 return CurrentDialogueKnotTutGhostTriggerGarden;
             case "TutGhostWorkbenchStory":
                 return CurrentDialogueKnotTutGhostWorkbench;
+            case "MuscleManInMainRoomStory":
+                return CurrentDialogueKnotMuscleManInMainRoom;
             default:
                 return null;
         }

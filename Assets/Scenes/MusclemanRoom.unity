@@ -1006,7 +1006,7 @@ PrefabInstance:
     - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: RoomNpc
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1710138572}
     - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: -1
@@ -4814,7 +4814,7 @@ PrefabInstance:
     - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: RoomNpc
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1710138572}
     - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: -1
@@ -6863,7 +6863,7 @@ MonoBehaviour:
   SpriteRenderer: {fileID: 0}
   FirstActiveButton: {fileID: 16434358}
   ThisProgressbar: {fileID: 1939503826}
-  FramesToBuild: 20
+  FramesToBuild: 550
   ToolbarIndexNeeded: 4
   IsBuildPlot: 0
   IsRepaired: 0
@@ -7423,7 +7423,7 @@ MonoBehaviour:
   SpriteRenderer: {fileID: 0}
   FirstActiveButton: {fileID: 733729636}
   ThisProgressbar: {fileID: 693692746}
-  FramesToBuild: 20
+  FramesToBuild: 450
   ToolbarIndexNeeded: 4
   IsBuildPlot: 0
   IsRepaired: 0
@@ -7497,7 +7497,7 @@ PrefabInstance:
     - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: RoomNpc
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1710138572}
     - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: -1
@@ -7814,7 +7814,7 @@ PrefabInstance:
     - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: RoomNpc
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1710138572}
     - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: -1
@@ -9249,6 +9249,7 @@ MonoBehaviour:
   - {fileID: 1318696490}
   - {fileID: 790285910}
   - {fileID: 1276423604}
+  UniqueID: {fileID: 0}
   StoryName: MuscleManStory
   CurrentChoiceIndex: -1
 --- !u!95 &1710138573
@@ -9745,7 +9746,7 @@ MonoBehaviour:
   SpriteRenderer: {fileID: 0}
   FirstActiveButton: {fileID: 634746512}
   ThisProgressbar: {fileID: 271304019}
-  FramesToBuild: 20
+  FramesToBuild: 700
   ToolbarIndexNeeded: 4
   IsBuildPlot: 0
   IsRepaired: 0
@@ -10509,6 +10510,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2623766470158474741, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
   m_PrefabInstance: {fileID: 1857753141}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1857753144 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2318199782625221167, guid: ed8a07a4920680a489d3ed9f4d5b85fe, type: 3}
+  m_PrefabInstance: {fileID: 1857753141}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69009b5c7fa2d4746a504775c0d07b64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1889297590
 GameObject:
   m_ObjectHideFlags: 0
@@ -12021,8 +12033,8 @@ MonoBehaviour:
   UniqueID: {fileID: 0}
   SpriteRenderer: {fileID: 1857753142}
   FirstActiveButton: {fileID: 936763794}
-  ThisProgressbar: {fileID: 0}
-  FramesToBuild: 20
+  ThisProgressbar: {fileID: 1857753144}
+  FramesToBuild: 600
   ToolbarIndexNeeded: 4
   IsBuildPlot: 0
   IsRepaired: 0

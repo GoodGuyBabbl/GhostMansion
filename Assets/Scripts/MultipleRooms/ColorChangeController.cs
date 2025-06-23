@@ -39,6 +39,8 @@ public class ColorChangeController : MonoBehaviour
         if (RepairedObjects == RepairableObjectsAmount)
         {
             Animator.SetBool("RoomIsRepaired", true);
+            SaveStateManager.SetCurrentStory(RoomNPC.StoryName, "RoomRepaired");
+            RoomNPC.DialogueKnotName = "RoomRepaired";
         }
     }
 }

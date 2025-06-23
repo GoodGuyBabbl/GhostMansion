@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class Cam : MonoBehaviour
 {
-    CinemachineConfiner2D CinemachineConfiner;
+    private CinemachineConfiner2D CinemachineConfiner;
     void Start()
     {
 

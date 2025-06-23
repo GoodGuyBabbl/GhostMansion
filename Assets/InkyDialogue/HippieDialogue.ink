@@ -57,3 +57,12 @@ Are you going to be done soon?
 ->END
 
 
+===RoomRepaired===
+    Yes, Yes, YES!
+    I can finally be myself again.. No more sulking in bitterness!
+    ->Over
+    
+===Over===    
+    This feels great, thank you so much!
+    ~NextDialogueKnot = "Over"
+->END

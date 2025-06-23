@@ -914,7 +914,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8651473257690286083}
-  - component: {fileID: 4078793426761056869}
   m_Layer: 0
   m_Name: ------CAMS------
   m_TagString: Untagged
@@ -937,18 +936,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 9152032920062745153}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4078793426761056869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7426449743284471454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abf8012910f159b4d974f2c37aa23029, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7521212536256304339
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,6 +1114,7 @@ MonoBehaviour:
   DrunkenGhostTextFile: {fileID: 4900000, guid: 2304243e1710adc4dadba4899cd4f2fd, type: 3}
   TutGhostWorkbenchTextFile: {fileID: 4900000, guid: 381cf7c5afcc64948a4ce605407f3f5e, type: 3}
   TutGhostTriggerGardenTextFile: {fileID: 4900000, guid: e0ff0d8b1917ad64d9bef6aca7be9e68, type: 3}
+  MuscleManInMainRoomTextFile: {fileID: 4900000, guid: 4e7037f055ad6e84c84a7e255014176d, type: 3}
 --- !u!1 &7548048756854659691
 GameObject:
   m_ObjectHideFlags: 0
