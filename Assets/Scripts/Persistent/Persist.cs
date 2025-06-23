@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Persist : MonoBehaviour
 {
@@ -6,10 +7,24 @@ public class Persist : MonoBehaviour
 
     public static void Execute()
     {
-        Debug.Log("Persist Script on Persist Prefab in AlwaysActive Folder");
-        Object.DontDestroyOnLoad(Object.Instantiate(Resources.Load("Persist")));
+        if ((SceneManager.GetActiveScene().name == "MainMenu"))
+        {
+            return;
+        }
+        if (GameObject.Find("Persist(Clone)") == null)
+        {
+            Debug.Log("Persist Script on Persist Prefab in AlwaysActive Folder");
+            Object.DontDestroyOnLoad(Object.Instantiate(Resources.Load("Persist")));
+        }
+
     }
 }
+
+
+
+
+
+
 
 //public static Persist Instance;
 
