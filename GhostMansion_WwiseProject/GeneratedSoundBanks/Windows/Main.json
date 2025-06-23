@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{604C45DE-F5C0-41A8-8FE5-E93F6FEC36CF}",
     "Language": "SFX",
-    "Hash": "{C505451D-E04D-85A6-9C88-C92AE79AE422}",
+    "Hash": "{2B325D99-728A-3C62-4FFE-ED9EA0F80BE2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -112,14 +112,6 @@
       "CachePath": "DF/{DFD32D6B-D82B-F28F-A0E4-FA4E0E8EC5A6}.wem"
      },
      {
-      "Id": "151540310",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\00 - glass_bottles.wav",
-      "CachePath": "66/{662F26AB-0985-8106-80BE-336AEF8CD6C2}.wem"
-     },
-     {
       "Id": "151817741",
       "Language": "SFX",
       "Streaming": "false",
@@ -144,14 +136,6 @@
       "CachePath": "17/{179F61B1-1F9C-8ED0-1811-F414789B3C90}.wem"
      },
      {
-      "Id": "182931929",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\09 - glass_bottles.wav",
-      "CachePath": "74/{74086DFA-5841-41F2-D9C4-D63D1B45937C}.wem"
-     },
-     {
       "Id": "186258438",
       "Language": "SFX",
       "Streaming": "false",
@@ -168,14 +152,6 @@
       "CachePath": "FF/{FF6D25FB-C6B9-97AE-BA20-7B47EFA53B61}.wem"
      },
      {
-      "Id": "214704514",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\10 - glass_bottles.wav",
-      "CachePath": "1F/{1FCDEE60-C98F-C901-7575-919000F38199}.wem"
-     },
-     {
       "Id": "220290751",
       "Language": "SFX",
       "Streaming": "false",
@@ -184,20 +160,20 @@
       "CachePath": "6F/{6FAAF8E1-2C21-ED61-846A-9DF372538B0D}.wem"
      },
      {
+      "Id": "241326695",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "buttonhover.wav",
+      "CachePath": "DC/{DC082CFC-9AF0-7F4F-A823-81BCBF8F71E8}.wem"
+     },
+     {
       "Id": "242650012",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "mining_stone\\mining_stone_(2).wav",
       "CachePath": "5F/{5F0F644D-4C25-8AFB-D22C-14D813DA18C6}.wem"
-     },
-     {
-      "Id": "242859387",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\05 - glass_bottles.wav",
-      "CachePath": "AD/{ADCF3488-3677-5E53-C124-E9FD3E609EC2}.wem"
      },
      {
       "Id": "253748757",
@@ -238,6 +214,14 @@
       "Location": "Memory",
       "ShortName": "plup\\plop-06.wav",
       "CachePath": "82/{82A91BD5-27CE-1A6F-AEB7-9C4B4C64EA0E}.wem"
+     },
+     {
+      "Id": "306849641",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drinkt-throw-glass.wav",
+      "CachePath": "A0/{A0F48E5B-156F-DC0D-F807-B28CAC368DF8}.wem"
      },
      {
       "Id": "352255520",
@@ -320,22 +304,6 @@
       "CachePath": "29/{29481DFF-EF3F-C76F-2530-B20489781181}.wem"
      },
      {
-      "Id": "495828260",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\08 - glass_bottles.wav",
-      "CachePath": "64/{648296A0-1403-A037-B653-07300FFA5350}.wem"
-     },
-     {
-      "Id": "499142090",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\02 - glass_bottles.wav",
-      "CachePath": "9D/{9D684BF4-E183-0F64-0CB7-DDBD34E4BEA2}.wem"
-     },
-     {
       "Id": "516676225",
       "Language": "SFX",
       "Streaming": "false",
@@ -360,20 +328,12 @@
       "CachePath": "C9/{C99DF904-E129-C02A-8920-A2F368130D8C}.wem"
      },
      {
-      "Id": "542460608",
+      "Id": "575928859",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "glass bottles\\12 - glass_bottles.wav",
-      "CachePath": "FE/{FE7F2721-53FA-E80A-629E-FF35A5FD29AF}.wem"
-     },
-     {
-      "Id": "548575908",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\06 - glass_bottles.wav",
-      "CachePath": "3E/{3E712DC9-2A5B-6AE4-2945-80C62D7DB7C1}.wem"
+      "ShortName": "buttonclick.wav",
+      "CachePath": "16/{16953B89-A73D-506D-8FFB-D4DA6BF43D74}.wem"
      },
      {
       "Id": "575933823",
@@ -414,14 +374,6 @@
       "Location": "Memory",
       "ShortName": "plup\\plop-10.wav",
       "CachePath": "FA/{FA7277CF-A8E5-ACAF-EC29-8DD350FED495}.wem"
-     },
-     {
-      "Id": "670637032",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "drink-00.wav",
-      "CachePath": "42/{4296093B-8E41-B925-4BEE-B330173C4EC6}.wem"
      },
      {
       "Id": "685122987",
@@ -480,22 +432,6 @@
       "CachePath": "E1/{E143BA15-FC29-15B4-E763-A648DEB9976F}.wem"
      },
      {
-      "Id": "775218862",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\07 - glass_bottles.wav",
-      "CachePath": "21/{21BF35A0-9FA8-DDB4-53E4-E4DF52792AAF}.wem"
-     },
-     {
-      "Id": "785830116",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\04 - glass_bottles.wav",
-      "CachePath": "A1/{A1302A28-841A-AEC3-A137-B0C28E489CF6}.wem"
-     },
-     {
       "Id": "805521983",
       "Language": "SFX",
       "Streaming": "false",
@@ -536,22 +472,6 @@
       "CachePath": "B1/{B125AFF5-DB13-1CD7-B005-C94DCBEE15D9}.wem"
      },
      {
-      "Id": "870689771",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\11 - glass_bottles.wav",
-      "CachePath": "4C/{4C46457F-2702-9384-B3A8-C6E0162EA067}.wem"
-     },
-     {
-      "Id": "903281507",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\01 - glass_bottles.wav",
-      "CachePath": "86/{86A7A6C4-0490-068D-DE1E-39B089425089}.wem"
-     },
-     {
       "Id": "904929111",
       "Language": "SFX",
       "Streaming": "false",
@@ -574,14 +494,6 @@
       "Location": "Memory",
       "ShortName": "open_door\\open_door_03.wav",
       "CachePath": "CE/{CE44E282-75B7-205A-76B6-3541D6125F9F}.wem"
-     },
-     {
-      "Id": "927306523",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "glass bottles\\03 - glass_bottles.wav",
-      "CachePath": "94/{94AB54AA-3EC1-BA19-DF90-07FD7B81CB6C}.wem"
      },
      {
       "Id": "930039802",
@@ -664,12 +576,12 @@
       "CachePath": "26/{2677A3A0-9F3C-FA0D-D101-C284712F3D26}.wem"
      },
      {
-      "Id": "1046750072",
+      "Id": "1046011019",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "drink-01.wav",
-      "CachePath": "FF/{FFEE6D27-D607-FACB-4683-B0EA31903A3B}.wem"
+      "ShortName": "buttonclick-00.wav",
+      "CachePath": "30/{30FFDA0B-7773-431A-BBB5-304227E07D25}.wem"
      },
      {
       "Id": "1050028355",
@@ -694,10 +606,14 @@
       "Name": "PlayButton",
       "ObjectPath": "\\Events\\Default Work Unit\\PlayButton",
       "GUID": "{71BC3F52-3B66-4FD6-A0E0-26E4E6A59111}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "241326695"
+       }
+      ]
      },
      {
       "Id": "3226031368",
@@ -757,10 +673,17 @@
       "Name": "PlayClick",
       "ObjectPath": "\\Events\\Default Work Unit\\PlayClick",
       "GUID": "{B0B3373E-3C9E-4EE2-87D6-EFF5235C55FC}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.5028799",
+      "DurationMax": "1.5028799",
+      "MediaRefs": [
+       {
+        "Id": "575928859"
+       },
+       {
+        "Id": "1046011019"
+       }
+      ]
      },
      {
       "Id": "2020962915",
@@ -857,58 +780,16 @@
       ]
      },
      {
-      "Id": "1994739779",
-      "Name": "PlayDrink_throw_away",
-      "ObjectPath": "\\Events\\Default Work Unit\\PlayDrink_throw_away",
+      "Id": "581553407",
+      "Name": "PlayDrinkThrowAway",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayDrinkThrowAway",
       "GUID": "{8C059A41-A458-411E-8CF7-1023F4FE520B}",
       "DurationType": "OneShot",
-      "DurationMin": "2.5108843",
-      "DurationMax": "5.983016",
+      "DurationMin": "8.3361",
+      "DurationMax": "8.3361",
       "MediaRefs": [
        {
-        "Id": "151540310"
-       },
-       {
-        "Id": "182931929"
-       },
-       {
-        "Id": "214704514"
-       },
-       {
-        "Id": "242859387"
-       },
-       {
-        "Id": "495828260"
-       },
-       {
-        "Id": "499142090"
-       },
-       {
-        "Id": "542460608"
-       },
-       {
-        "Id": "548575908"
-       },
-       {
-        "Id": "670637032"
-       },
-       {
-        "Id": "775218862"
-       },
-       {
-        "Id": "785830116"
-       },
-       {
-        "Id": "870689771"
-       },
-       {
-        "Id": "903281507"
-       },
-       {
-        "Id": "927306523"
-       },
-       {
-        "Id": "1046750072"
+        "Id": "306849641"
        }
       ]
      },
@@ -917,7 +798,7 @@
       "Name": "PlayFire",
       "ObjectPath": "\\Events\\Default Work Unit\\PlayFire",
       "GUID": "{47E506E8-C333-47E4-AFD9-C377812C93E2}",
-      "MaxAttenuation": "2",
+      "MaxAttenuation": "3",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1121,6 +1002,6 @@
     ]
    }
   ],
-  "FileHash": "{6EAD6EA6-8F52-2342-F592-0C1A694C2352}"
+  "FileHash": "{42BF7C7C-17FD-C3FD-4AEF-BEC7D204D7C6}"
  }
 }

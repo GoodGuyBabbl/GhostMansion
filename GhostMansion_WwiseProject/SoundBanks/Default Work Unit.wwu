@@ -7,7 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="PlayCollect" ID="{50B0E6B2-9425-404B-895C-7E328544EA84}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayMagicGlitter" ID="{D6537305-C855-40C6-AF2F-FDBB4DB2FEBF}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayDrink_throw_away" ID="{8C059A41-A458-411E-8CF7-1023F4FE520B}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayDrinkThrowAway" ID="{8C059A41-A458-411E-8CF7-1023F4FE520B}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayChoppingWood" ID="{D5C31A22-2D3C-42E4-AA71-90F1DBBBB202}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayMiningStone" ID="{1564C71E-50D3-4357-B096-16E5DF851176}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayRollUpCarpet" ID="{DA392006-B8F0-44C7-A9FB-BF1BBA581242}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>

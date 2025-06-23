@@ -14,6 +14,8 @@ public class Carpet : TriggerInteraction
 
     public bool IsCarpetEnabled;
 
+    //Wwise
+    public AK.Wwise.Event PlayRollUpCarpet;
 
     private void Awake()
     {
@@ -23,6 +25,7 @@ public class Carpet : TriggerInteraction
         if (SaveStateManager.IsObjectChanged(UniqueID.ID))
         {
             Animator.SetBool("InstantRoll", true);
+            ActivateBasementDoor();
             ActivateBasementDoor();
         }
     }
@@ -63,6 +66,7 @@ public class Carpet : TriggerInteraction
 
     public override void Interact()
     {
+        PlayRollUpCarpet.Post(gameObject);
         InteractionIcon.SetActive(false);
         Animator.SetBool("WasClicked",true);
         SaveStateManager.MarkObjectAsChanged(UniqueID.ID);

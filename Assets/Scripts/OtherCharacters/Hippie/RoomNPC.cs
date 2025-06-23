@@ -30,6 +30,7 @@ public class RoomNPC : TriggerInteraction
     public string StoryName;
     public int CurrentChoiceIndex = -1;
 
+    public AK.Wwise.Event PlayGhost;
 
     public void Awake()
     {
@@ -244,6 +245,7 @@ public class RoomNPC : TriggerInteraction
     {
         if (!DialogueKnotName.Equals(""))
         {
+            PlayGhost.Post(gameObject);
             EnterDialogue();          
         }
         

@@ -17,6 +17,9 @@ public class StartButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     public GameObject Cam2;
     public GameObject CamHeader;
 
+    public AK.Wwise.Event PlayClick;
+    public AK.Wwise.Event PlayButton;
+
     private void Awake()
     {
         CinemachineCam.Follow = menuCamTarget;
@@ -26,6 +29,7 @@ public class StartButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     }
     public void OnSelect(BaseEventData eventData)
     {
+        PlayButton.Post(gameObject);
         Renderer.enabled = true;
     }
 
@@ -36,6 +40,7 @@ public class StartButton : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void OnClick()
     {
+        PlayClick.Post(gameObject);
         if (Renderer.enabled)
         {
             ESys.enabled = false;

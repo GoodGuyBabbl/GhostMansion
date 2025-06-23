@@ -134,26 +134,39 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="PlayPouringPlants" ID="{F715043A-BD41-47D8-AC21-E56757C86EC2}"/>
-				<Event Name="PlayButton" ID="{71BC3F52-3B66-4FD6-A0E0-26E4E6A59111}"/>
-				<Event Name="PlayClick" ID="{B0B3373E-3C9E-4EE2-87D6-EFF5235C55FC}"/>
-				<Event Name="PlayInstallationSite" ID="{C1EDA284-29D7-4675-829E-9AE5BA48076D}"/>
-				<Event Name="PlayMagicGlitter" ID="{D6537305-C855-40C6-AF2F-FDBB4DB2FEBF}"/>
-				<Event Name="PlayDrink_throw_away" ID="{8C059A41-A458-411E-8CF7-1023F4FE520B}">
+				<Event Name="PlayButton" ID="{71BC3F52-3B66-4FD6-A0E0-26E4E6A59111}">
 					<ChildrenList>
-						<Action Name="" ID="{B7E40918-03EC-4B18-9FCE-D42141E8408E}" ShortID="1062367064">
+						<Action Name="" ID="{A0B0B751-CE95-4498-9C08-5C52E0AF8054}" ShortID="733103318">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="drink" ID="{8095CFFE-D54A-4B98-9C92-3A4C48616EDA}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+									<ObjectRef Name="button" ID="{B195F276-DE51-4573-B889-640EA424593A}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{37960847-A345-4DAC-82BF-3CE66ED575EB}" ShortID="937224272">
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayClick" ID="{B0B3373E-3C9E-4EE2-87D6-EFF5235C55FC}">
+					<ChildrenList>
+						<Action Name="" ID="{CAB47415-2477-4E90-87C7-0076E4F19325}" ShortID="903477590">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="click" ID="{B27FFE3C-F39A-497F-AAC4-10F766B69FD7}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayInstallationSite" ID="{C1EDA284-29D7-4675-829E-9AE5BA48076D}"/>
+				<Event Name="PlayMagicGlitter" ID="{D6537305-C855-40C6-AF2F-FDBB4DB2FEBF}"/>
+				<Event Name="PlayDrinkThrowAway" ID="{8C059A41-A458-411E-8CF7-1023F4FE520B}">
+					<ChildrenList>
+						<Action Name="" ID="{B7E40918-03EC-4B18-9FCE-D42141E8408E}" ShortID="1062367064">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2.7"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="glass bottles" ID="{8771059B-7B6E-42FE-9A58-B81346C00F48}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+									<ObjectRef Name="drink" ID="{8095CFFE-D54A-4B98-9C92-3A4C48616EDA}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -18,7 +18,7 @@ namespace AK
         static const AkUniqueID PLAYCLICK = 2002511053U;
         static const AkUniqueID PLAYCOLLECT = 2020962915U;
         static const AkUniqueID PLAYCONSTRUCTIONPLANOPEN = 4097077049U;
-        static const AkUniqueID PLAYDRINK_THROW_AWAY = 1994739779U;
+        static const AkUniqueID PLAYDRINKTHROWAWAY = 581553407U;
         static const AkUniqueID PLAYFIRE = 271290123U;
         static const AkUniqueID PLAYGHOSTMOVEMENT = 1749017071U;
         static const AkUniqueID PLAYINSTALLATIONSITE = 2734526490U;

@@ -10,7 +10,7 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="RadiusMax" Type="Real64" Value="2"/>
+						<Property Name="RadiusMax" Type="Real64" Value="3"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -27,20 +27,26 @@
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>0.99942</XPos>
+											<XPos>1.24775</XPos>
 											<YPos>0</YPos>
-											<Flags>0</Flags>
-											<SegmentShape>SCurve</SegmentShape>
-										</Point>
-										<Point>
-											<XPos>1.998</XPos>
-											<YPos>-200</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>2</XPos>
 											<YPos>-200</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>SCurve</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>2.997</XPos>
+											<YPos>-200</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>SCurve</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>3</XPos>
+											<YPos>-45.57507</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
