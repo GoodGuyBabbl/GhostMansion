@@ -13,7 +13,9 @@ public class Movement : MonoBehaviour
     private bool YPositiveLastFrame;
     private bool YPositiveThisFrame;
     private bool HasFlipped;
-    
+
+    private bool soundplaying;
+    public AK.Wwise.Event PlayGhostMovement;
 
 
 
@@ -27,7 +29,17 @@ public class Movement : MonoBehaviour
     {
         Vector3 movement = new Vector3(Input.GetAxis("GhostMansionHorizontal"), Input.GetAxis("GhostMansionVertical"), 0.0f);
 
-        
+        if (movement.magnitude == 0)
+        {
+            soundplaying = false;
+            PlayGhostMovement.Stop(gameObject);
+
+        }
+        else if (!soundplaying && movement.magnitude != 0)
+        {
+            soundplaying = true;
+            PlayGhostMovement.Post(gameObject);
+        }
 
         float MagnitudeConstraint;
         if(movement.magnitude > 1f)

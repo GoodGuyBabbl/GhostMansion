@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CCFC955C-4BAE-4395-948E-99A17392F96A}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{CCFC955C-4BAE-4395-948E-99A17392F96A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{604C45DE-F5C0-41A8-8FE5-E93F6FEC36CF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayCollect" ID="{50B0E6B2-9425-404B-895C-7E328544EA84}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayMagicGlitter" ID="{D6537305-C855-40C6-AF2F-FDBB4DB2FEBF}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayDrink_throw_away" ID="{8C059A41-A458-411E-8CF7-1023F4FE520B}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayChoppingWood" ID="{D5C31A22-2D3C-42E4-AA71-90F1DBBBB202}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayMiningStone" ID="{1564C71E-50D3-4357-B096-16E5DF851176}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayRollUpCarpet" ID="{DA392006-B8F0-44C7-A9FB-BF1BBA581242}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayInstallationSite" ID="{C1EDA284-29D7-4675-829E-9AE5BA48076D}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayConstructionPlanOpen" ID="{27DD796E-C239-477C-BB2B-EF002981E38A}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayPouringPlants" ID="{F715043A-BD41-47D8-AC21-E56757C86EC2}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayFire" ID="{47E506E8-C333-47E4-AFD9-C377812C93E2}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayGhostMovement" ID="{C44D9F73-DED2-4817-A3EF-27AC4657D164}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayLandingNet" ID="{DF92CF25-BBE2-496F-BAF7-65FB387EF48C}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayOpenDoor" ID="{98CB7D0F-CBAA-4DB0-A2D1-E0604523E3B4}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayClick" ID="{B0B3373E-3C9E-4EE2-87D6-EFF5235C55FC}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayWorkBench" ID="{A14A1F62-4864-4F46-A919-65158ABF2FBA}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayMiningIron" ID="{B6C21259-3297-4FC2-8CC8-2B5C0C15CD8E}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayButton" ID="{71BC3F52-3B66-4FD6-A0E0-26E4E6A59111}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

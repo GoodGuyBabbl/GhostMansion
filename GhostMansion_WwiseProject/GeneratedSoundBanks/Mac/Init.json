@@ -1,0 +1,121 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{EFCF8C7C-D9B7-8D3F-73CF-6D296F684F36}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{40B66A90-B08F-48B2-A3F4-F1EA5B547C85}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{DA7F2846-1BF6-4190-B6B4-9CD9382DEF23}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1359360203",
+      "Name": "Rooms",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Rooms",
+      "GUID": "{06E47B2F-7473-41CE-9561-4DF67838C2E2}",
+      "Switches": [
+       {
+        "Id": "278887670",
+        "Name": "Garden",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Rooms\\Garden",
+        "GUID": "{D87E6F6F-BA25-4422-BF56-E547049CD41B}"
+       },
+       {
+        "Id": "972719263",
+        "Name": "HippieRoom",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Rooms\\HippieRoom",
+        "GUID": "{E135858F-E0EA-4217-A6C1-4C738794C90C}"
+       },
+       {
+        "Id": "1413413702",
+        "Name": "Basement",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Rooms\\Basement",
+        "GUID": "{449C748F-0AD6-41C0-8179-7FD9BF4DAAAA}"
+       },
+       {
+        "Id": "1485871687",
+        "Name": "MainRoom",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Rooms\\MainRoom",
+        "GUID": "{50ADA6C2-8C32-4F96-8116-417761B325B4}"
+       },
+       {
+        "Id": "2157048949",
+        "Name": "Porch",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Rooms\\Porch",
+        "GUID": "{41804BC4-1BD4-47F5-AD75-355E0FFEBF0A}"
+       }
+      ]
+     },
+     {
+      "Id": "4004054246",
+      "Name": "CharacterSounds",
+      "ObjectPath": "\\Switches\\Default Work Unit\\CharacterSounds",
+      "GUID": "{BCAC9155-A1DB-4AF8-B6D8-7E9C81AAB84D}",
+      "Switches": [
+       {
+        "Id": "1015976006",
+        "Name": "BadassGuy",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CharacterSounds\\BadassGuy",
+        "GUID": "{9552BC2A-5ABA-4CB4-835E-09D98833E6A0}"
+       },
+       {
+        "Id": "1954381764",
+        "Name": "ChosttokInfluencerin",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CharacterSounds\\ChosttokInfluencerin",
+        "GUID": "{69D14565-B90E-4E4A-8C25-D60CCC4F53FB}"
+       },
+       {
+        "Id": "2994303515",
+        "Name": "Aristocrat",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CharacterSounds\\Aristocrat",
+        "GUID": "{687C3AD3-EB4D-4853-A061-85ABF4352709}"
+       },
+       {
+        "Id": "4049691650",
+        "Name": "LittleGhost",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CharacterSounds\\LittleGhost",
+        "GUID": "{A7F2D87F-B251-4CE9-BC98-D9E2AEC5D84B}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{34C1FFBD-0D98-B26D-BE1D-E9087FE47079}"
+ }
+}

@@ -4,7 +4,7 @@ public class DoorInteraction : TriggerInteraction
 {
 
     public GameObject DoorIcon;
-
+    public AK.Wwise.Event PlayDoorOpen;
 
     public enum Doors
     {
@@ -51,6 +51,8 @@ public class DoorInteraction : TriggerInteraction
 
     public override void Interact()
     {
+        PlayDoorOpen.Post(gameObject);
         SceneSwapManager.SwapSceneFromDoorUse(_SceneToLoad, SpawnPlayerToDoor);
+        
     }
 }

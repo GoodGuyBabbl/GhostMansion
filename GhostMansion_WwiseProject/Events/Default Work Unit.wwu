@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayConstructionPlanOpen" ID="{27DD796E-C239-477C-BB2B-EF002981E38A}">
+					<ChildrenList>
+						<Action Name="" ID="{231D65C7-B8F6-4A66-A9DD-110A9A2E99F0}" ShortID="895041166">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="construction_plan_open" ID="{E75AAB46-AAC6-4E3C-87A8-7047CBB43C78}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayOpenDoor" ID="{98CB7D0F-CBAA-4DB0-A2D1-E0604523E3B4}">
+					<ChildrenList>
+						<Action Name="" ID="{1903990C-C10B-41AB-A06E-13EF4F54D730}" ShortID="129370354">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="open_door" ID="{D6C11460-C508-4531-9788-DEA63BE10EAD}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayCollect" ID="{50B0E6B2-9425-404B-895C-7E328544EA84}">
+					<ChildrenList>
+						<Action Name="" ID="{839EAB6E-361A-4F86-8AB2-91792E11EA2F}" ShortID="474470524">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="plup" ID="{623D1590-C8D6-4C17-80A4-B016B08A4807}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayGhostMovement" ID="{C44D9F73-DED2-4817-A3EF-27AC4657D164}">
+					<ChildrenList>
+						<Action Name="" ID="{C1216DB4-31A1-4165-B02A-831E71B3235D}" ShortID="358312537">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GhostMovement" ID="{ACC27DF4-59E4-4EAD-8DF7-EC617704A19F}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayWorkBench" ID="{A14A1F62-4864-4F46-A919-65158ABF2FBA}"/>
+				<Event Name="PlayMiningStone" ID="{1564C71E-50D3-4357-B096-16E5DF851176}">
+					<ChildrenList>
+						<Action Name="" ID="{0BB6426D-893C-4210-A55F-15525BBCE898}" ShortID="118894932">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mining_stone" ID="{B9906461-6F34-466A-B437-52353EF2804E}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayChoppingWood" ID="{D5C31A22-2D3C-42E4-AA71-90F1DBBBB202}">
+					<ChildrenList>
+						<Action Name="" ID="{094C6AF7-883E-4326-87BC-0DC5F1886BDE}" ShortID="744844389">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chopping_wood" ID="{D8AAAB30-D6D3-41DC-AC12-A66077E74E2B}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DB7E83A2-C448-4535-A136-8AAAF41046BB}" ShortID="984234144">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chopping_wood" ID="{D8AAAB30-D6D3-41DC-AC12-A66077E74E2B}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5ECA30BA-E428-4E50-BE60-F1E298D62C4C}" ShortID="666036945">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chopping_wood" ID="{D8AAAB30-D6D3-41DC-AC12-A66077E74E2B}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayLandingNet" ID="{DF92CF25-BBE2-496F-BAF7-65FB387EF48C}"/>
+				<Event Name="PlayRollUpCarpet" ID="{DA392006-B8F0-44C7-A9FB-BF1BBA581242}">
+					<ChildrenList>
+						<Action Name="" ID="{5D972D8F-3E54-487A-B6DB-39BE377D4A59}" ShortID="170175812">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rollupcarpet" ID="{04A88B42-B735-42A9-A049-3D78954C023F}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMiningIron" ID="{B6C21259-3297-4FC2-8CC8-2B5C0C15CD8E}">
+					<ChildrenList>
+						<Action Name="" ID="{636226CC-7215-4D6D-96CD-84E88892D802}" ShortID="638608290">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="iron" ID="{708EBFA6-6CB6-4D21-82B1-0CA42B652FB6}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B66D6AAF-E06A-4465-9108-43C83FB435F3}" ShortID="969379662">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="iron" ID="{708EBFA6-6CB6-4D21-82B1-0CA42B652FB6}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5900DBDA-A4FD-42CB-A0BB-AC93AEC60EFC}" ShortID="228881817">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="iron" ID="{708EBFA6-6CB6-4D21-82B1-0CA42B652FB6}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayPouringPlants" ID="{F715043A-BD41-47D8-AC21-E56757C86EC2}"/>
+				<Event Name="PlayButton" ID="{71BC3F52-3B66-4FD6-A0E0-26E4E6A59111}"/>
+				<Event Name="PlayClick" ID="{B0B3373E-3C9E-4EE2-87D6-EFF5235C55FC}"/>
+				<Event Name="PlayInstallationSite" ID="{C1EDA284-29D7-4675-829E-9AE5BA48076D}"/>
+				<Event Name="PlayMagicGlitter" ID="{D6537305-C855-40C6-AF2F-FDBB4DB2FEBF}"/>
+				<Event Name="PlayDrink_throw_away" ID="{8C059A41-A458-411E-8CF7-1023F4FE520B}">
+					<ChildrenList>
+						<Action Name="" ID="{B7E40918-03EC-4B18-9FCE-D42141E8408E}" ShortID="1062367064">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="drink" ID="{8095CFFE-D54A-4B98-9C92-3A4C48616EDA}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{37960847-A345-4DAC-82BF-3CE66ED575EB}" ShortID="937224272">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="glass bottles" ID="{8771059B-7B6E-42FE-9A58-B81346C00F48}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayFire" ID="{47E506E8-C333-47E4-AFD9-C377812C93E2}">
+					<ChildrenList>
+						<Action Name="" ID="{B872452D-9613-49A8-9CAA-FEEE9441FB19}" ShortID="898183325">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire" ID="{1ECD306E-52F3-433D-8A46-7A308265B6F4}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
