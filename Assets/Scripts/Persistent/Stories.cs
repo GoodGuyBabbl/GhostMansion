@@ -11,10 +11,14 @@ public class Stories : MonoBehaviour
     public TextAsset TutorialGhostTextFile;
     public TextAsset MuscleManTextFile;
     public TextAsset DrunkenGhostTextFile;
+    public TextAsset TutGhostWorkbenchTextFile;
+    public TextAsset TutGhostTriggerGardenTextFile;
     public Story MuscleManStory;
     public Story HippieStory;
     public Story TutorialGhostStory;
     public Story DrunkenGhostStory;
+    public Story TutGhostWorkbenchStory;
+    public Story TutGhostTriggerGardenStory;
 
     private void Awake()
     {
@@ -22,6 +26,8 @@ public class Stories : MonoBehaviour
         StoryStorage["TutorialGhostStory"] = new Story(TutorialGhostTextFile.text);
         StoryStorage["MuscleManStory"] = new Story(MuscleManTextFile.text);
         StoryStorage["DrunkenGhostStory"] = new Story(DrunkenGhostTextFile.text);
+        StoryStorage["TutGhostWorkbenchStory"] = new Story(TutGhostWorkbenchTextFile.text);
+        StoryStorage["TutGhostTriggerGardenStory"] = new Story(TutGhostTriggerGardenTextFile.text);
     }
 
     public Story GetStory(string StoryName)

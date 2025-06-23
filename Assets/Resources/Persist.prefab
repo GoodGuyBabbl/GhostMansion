@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3484719292698670968}
   - component: {fileID: 1053964867057923345}
   - component: {fileID: 3718465932192300780}
+  - component: {fileID: 6757613765076596438}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 200503638018630589}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.12944676, y: -0.29885882, z: -5}
+  m_LocalPosition: {x: 0.0048895287, y: 0.49850997, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -170,6 +171,18 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!114 &6757613765076596438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200503638018630589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abf8012910f159b4d974f2c37aa23029, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &304968226078979831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,6 +1125,8 @@ MonoBehaviour:
   TutorialGhostTextFile: {fileID: 4900000, guid: af4b609cc5278554c905badb424477a4, type: 3}
   MuscleManTextFile: {fileID: 4900000, guid: 57d2e482cf277064e90bd18417bc9c6e, type: 3}
   DrunkenGhostTextFile: {fileID: 4900000, guid: 2304243e1710adc4dadba4899cd4f2fd, type: 3}
+  TutGhostWorkbenchTextFile: {fileID: 4900000, guid: 381cf7c5afcc64948a4ce605407f3f5e, type: 3}
+  TutGhostTriggerGardenTextFile: {fileID: 4900000, guid: e0ff0d8b1917ad64d9bef6aca7be9e68, type: 3}
 --- !u!1 &7548048756854659691
 GameObject:
   m_ObjectHideFlags: 0

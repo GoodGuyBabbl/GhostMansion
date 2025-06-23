@@ -9,6 +9,7 @@ public class HippieExternalFunctions : MonoBehaviour
     private UIManager UIManager;
     private SaveStateManager SaveStateManager;
     private string TriggerTutorialGhostToGarden = "-1,167_0_GhostStoryToGardenTrigger"; //From UniqueID of GhostStoryToGardenTrigger in MainRoom
+    private string TriggerTutGhostInGarden = "5,583_-0,009393839_TriggerColliderTutGhost"; // "" of TriggerColliderTutGhost in Garden
     private void Awake()
     {
         UIManager = FindFirstObjectByType<UIManager>();
@@ -30,6 +31,7 @@ public class HippieExternalFunctions : MonoBehaviour
         {
             SaveStateManager.SetCurrentStory("TutorialGhostStory", "GoingToGarden");
             SaveStateManager.MarkObjectAsChanged(TriggerTutorialGhostToGarden);
+            SaveStateManager.MarkObjectAsChanged(TriggerTutGhostInGarden);
         });
     }
     public void Unbind()

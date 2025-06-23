@@ -37,37 +37,46 @@ public class TutorialGhostExternalFunctions : MonoBehaviour
 
     public void Bind()
     {
-        Story.BindExternalFunction("PutGhostInIdle", () =>
+        if (this.gameObject.activeSelf)
         {
-            this.gameObject.GetComponent<Animator>().SetBool("Idle", true);
-            SaveStateManager.SetTutorialGhostState("Calm");
-        });
+            Story.BindExternalFunction("PutGhostInIdle", () =>
+            {
+                this.gameObject.GetComponent<Animator>().SetBool("Idle", true);
+                SaveStateManager.SetTutorialGhostState("Calm");
+            });
 
-        Story.BindExternalFunction("EnableCarpet", () =>
-        {
-            Carpet.IsCarpetEnabled = true;
-        });
-        Story.BindExternalFunction("Disappear", () =>
-        {
-            this.gameObject.GetComponent<Animator>().SetBool("Disappearing", true);
-            SaveStateManager.SetTutorialGhostState("Disappeared");
-            SaveStateManager.SetStoryTriggerDone(TriggerTutorialGhostToGarden.UniqueID.ID);
-            TriggerTutorialGhostToGarden.gameObject.SetActive(false);
+            Story.BindExternalFunction("EnableCarpet", () =>
+            {
+                Carpet.IsCarpetEnabled = true;
+            });
+            Story.BindExternalFunction("Disappear", () =>
+            {
+                this.gameObject.GetComponent<Animator>().SetBool("Disappearing", true);
+                SaveStateManager.SetTutorialGhostState("Disappeared");
+                SaveStateManager.SetStoryTriggerDone(TriggerTutorialGhostToGarden.UniqueID.ID);
+                TriggerTutorialGhostToGarden.gameObject.SetActive(false);
 
-        });
-        Story.BindExternalFunction("EnableStonePile", () =>
-        {
-            StonePileInteractionCollider.enabled = true;
-            SaveStateManager.SetStoryTriggerDone(StonePileInteractionCollider.GetComponent<UniqueID>().ID);
-        });
+            });
+            Story.BindExternalFunction("EnableStonePile", () =>
+            {
+                StonePileInteractionCollider.enabled = true;
+                SaveStateManager.SetStoryTriggerDone(StonePileInteractionCollider.GetComponent<UniqueID>().ID);
+            });
+        }
+        
+
 
     }
     public void Unbind()
     {
-        Story.UnbindExternalFunction("PutGhostInIdle");
-        Story.UnbindExternalFunction("EnableCarpet");
-        Story.UnbindExternalFunction("Disappear");
-        Story.UnbindExternalFunction("EnableStonePile");
+        if (this.gameObject.activeSelf)
+        {
+            Story.UnbindExternalFunction("PutGhostInIdle");
+            Story.UnbindExternalFunction("EnableCarpet");
+            Story.UnbindExternalFunction("Disappear");
+            Story.UnbindExternalFunction("EnableStonePile");
+        }
+        
     }
 
     private void OnDisable()

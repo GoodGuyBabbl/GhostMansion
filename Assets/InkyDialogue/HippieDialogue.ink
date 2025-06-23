@@ -51,4 +51,9 @@ The Garden I was talking about is just outside of the house and to the left. You
 ->END
 
 
+===RoomNotRepaired===
+Are you going to be done soon?
+
+->END
+
 

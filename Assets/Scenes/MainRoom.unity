@@ -941,10 +941,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.12493038, y: 0.20775741}
+    - - {x: -0.06063211, y: 0.19530356}
       - {x: -0.24413222, y: -0.1785169}
       - {x: -0.17875677, y: -0.24116421}
-      - {x: 0.20968312, y: 0.17233929}
+      - {x: -0.010750055, y: 0.18105698}
   m_UseDelaunayMesh: 0
 --- !u!4 &227187957
 Transform:
@@ -3236,7 +3236,7 @@ MonoBehaviour:
   SaveStateManager: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: -0.2, z: 0}
   ThisProgressbar: {fileID: 599721760}
-  FramesToMine: 350
+  FramesToMine: 250
   HowManyItemsDropped: 3
   DroppedItem: {fileID: 4790164316534510086, guid: 5373a0201a65fde4fbead04b28076a38, type: 3}
   AnimationChangeName: IsCollected
@@ -3483,7 +3483,7 @@ MonoBehaviour:
   TreeLogBottom: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: 0, z: 0}
   ThisProgressbar: {fileID: 1506625464}
-  FramesToMine: 400
+  FramesToMine: 450
   HowManyItemsDropped: 2
   DroppedItem: {fileID: 4790164316534510086, guid: 71746cf97ce1ce145876e45caed41d8f, type: 3}
   PlayerAnimationChangeName: IsMining
@@ -4509,7 +4509,7 @@ MonoBehaviour:
   SaveStateManager: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: -0.1, z: 0}
   ThisProgressbar: {fileID: 910289763}
-  FramesToMine: 400
+  FramesToMine: 250
   HowManyItemsDropped: 1
   DroppedItem: {fileID: 4790164316534510086, guid: 32cf3f6d88befe34b8d6b8644f2a6338, type: 3}
   PlayerAnimationChangeName: IsCollecting
