@@ -160,6 +160,7 @@ public class RoomNPC : TriggerInteraction
     //DialogueManager
     private void ExitDialogue()
     {
+        UIManager.RemoveActiveOverlay("Dialogue");
         CheckRepairUnlock();
         ResetPanelText();
         NPCDialogueCanvas.SetActive(false);
@@ -242,8 +243,9 @@ public class RoomNPC : TriggerInteraction
     //RoomNPC
     public override void Interact()
     {
-        if (!DialogueKnotName.Equals(""))
+        if (!DialogueKnotName.Equals("") && !UIManager.IsOverlayActive() || !DialogueKnotName.Equals("") && UIManager.IsThisOverlayActive("Dialogue"))
         {
+            UIManager.AddActiveOverlay("Dialogue");
             EnterDialogue();          
         }
         

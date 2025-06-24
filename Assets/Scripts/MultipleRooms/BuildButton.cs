@@ -10,6 +10,7 @@ public class BuildButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     private MaterialHandler MaterialHandler;
     private SaveStateManager SaveStateManager;
     private MovementDisable MovementDisable;
+    private UIManager UIManager;
 
     public RepairableObject RepairableObject;
 
@@ -60,6 +61,7 @@ public class BuildButton : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     private void Start()
     {
+        UIManager = FindFirstObjectByType<UIManager>();
         MovementDisable = FindFirstObjectByType<MovementDisable>();
         SaveStateManager = FindFirstObjectByType<SaveStateManager>();
     }
@@ -142,6 +144,7 @@ public class BuildButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     {
         if (Renderer.sprite == CanCraftHover)
         {
+            UIManager.RemoveActiveOverlay("Buildplot");
             MaterialHandler.DecreaseResourceCount(Ingredient1, Amount1);
             MaterialHandler.DecreaseResourceCount(Ingredient2, Amount2);
             MaterialHandler.DecreaseResourceCount(Ingredient3, Amount3);

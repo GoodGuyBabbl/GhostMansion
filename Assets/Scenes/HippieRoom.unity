@@ -12188,6 +12188,7 @@ MonoBehaviour:
   - {fileID: 571224659}
   - {fileID: 1652973930}
   - {fileID: 407271595}
+  UniqueID: {fileID: 0}
   StoryName: HippieStory
   CurrentChoiceIndex: -1
 --- !u!114 &2038986034

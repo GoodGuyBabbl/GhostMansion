@@ -137,11 +137,12 @@ public class RepairableObject : TriggerInteraction
                 }
 
             }
-            else //Wenn es noch nicht BuildPlot ist
+            else if(!UIManager.IsOverlayActive()) //Wenn es noch nicht BuildPlot ist
             {
 
                 MovementDisable.DisableMovement();
                 BuildplotOverlay.SetActive(true);
+                UIManager.AddActiveOverlay("Buildplot");
                 FirstActiveButton.SelectButton();
                 //Hier eigentlich: Overlay öffnen, in dem gezeigt wird, wie viele Ressourcen man von was brauch inklusive build button und das nachfolgende ist die logik des buttons
                 //if (MaterialHandler.HasEnoughResources(Resource1, Amount1, Resource2, Amount2, Resource3, Amount3, Resource4, Amount4, Resource5, Amount5))

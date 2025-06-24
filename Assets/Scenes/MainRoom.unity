@@ -2404,7 +2404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed52f0d8416e2b644b165ca834a966ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uniqueID: 
+  uniqueID: -0,058_0_MusclemanIdle_0
 --- !u!58 &651554358
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3762,7 +3762,7 @@ MonoBehaviour:
   ItemSpawnPoint: {x: 0, y: -0.2, z: 0}
   ThisProgressbar: {fileID: 599721760}
   FramesToMine: 250
-  HowManyItemsDropped: 3
+  HowManyItemsDropped: 10
   DroppedItem: {fileID: 4790164316534510086, guid: 5373a0201a65fde4fbead04b28076a38, type: 3}
   AnimationChangeName: IsCollected
   PlayerAnimationChangeName: IsCollecting
@@ -5416,7 +5416,7 @@ MonoBehaviour:
   ItemSpawnPoint: {x: 0, y: -0.1, z: 0}
   ThisProgressbar: {fileID: 910289763}
   FramesToMine: 250
-  HowManyItemsDropped: 1
+  HowManyItemsDropped: 10
   DroppedItem: {fileID: 4790164316534510086, guid: 32cf3f6d88befe34b8d6b8644f2a6338, type: 3}
   PlayerAnimationChangeName: IsCollecting
 --- !u!60 &1069178543

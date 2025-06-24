@@ -34,8 +34,8 @@ public class ExitButton : MonoBehaviour, ISelectHandler, IDeselectHandler
         if (Renderer.enabled)
         {
             Debug.Log("ShouldWork");
-            UIManager.EnableToolbar();  
-            Workbench.InOverlay = false;
+            UIManager.EnableToolbar();
+            UIManager.RemoveActiveOverlay("Workbench");
             MovementDisable.EnableMovement();
             transform.parent.gameObject.SetActive(false);
         }

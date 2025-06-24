@@ -33,6 +33,7 @@ public class ExitButtonRooms : MonoBehaviour, ISelectHandler, IDeselectHandler
         {
             //Debug.Log("ShouldWork");
             UIManager.EnableToolbar();
+            UIManager.RemoveActiveOverlay("Buildplot");
             MovementDisable.EnableMovement();
             transform.parent.gameObject.SetActive(false);
         }

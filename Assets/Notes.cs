@@ -26,7 +26,14 @@ public class Notes : MonoBehaviour
     //Bandaid Lösung: if(! gameobject existiert bereits){dann dont instantiate} else {nicht erstellen}
     //
     //
-    //
+
+
+
+
+
+    //Build testing:
+    //23.06. Bug: wenn man während dem Abbauen das inventar öffnet, gibt die Regrowing Resource/PermanentResource das Movement wieder frei
+    //Fix maybe: UIManager.IsOverlayActive() checken lassen
 
 
 

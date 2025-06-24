@@ -192,7 +192,7 @@ MonoBehaviour:
   BackgroundPrefab: {fileID: 3438554695138283180, guid: 54ee97296026fad44b06c3c4826ae88d, type: 3}
   Player: {fileID: 0}
   ResourceName: PosterCount
-  ResourceAmount: 1
+  ResourceAmount: 2
 --- !u!58 &2707244308683210744
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -22,9 +22,9 @@ public class WorkbenchInteraction : TriggerInteraction
     public override void Interact()
     {
         //open interactable Workbench UI
-        if(WorkbenchOverlay.activeSelf == false && !InOverlay) 
+        if(WorkbenchOverlay.activeSelf == false && !UIManager.IsOverlayActive()) 
         {
-            InOverlay = true;
+            UIManager.AddActiveOverlay("Workbench");
             WorkbenchOverlay.SetActive(true);
             FirstActiveButton.SelectButton();
             MovementDisable.DisableMovement();
