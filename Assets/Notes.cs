@@ -35,9 +35,12 @@ public class Notes : MonoBehaviour
     //23.06. Bug: wenn man während dem Abbauen das inventar öffnet, gibt die Regrowing Resource/PermanentResource das Movement wieder frei
     //Fix maybe: UIManager.IsOverlayActive() checken lassen
 
+    //Ungenutzte ressourcen: Grüne Tapete, Poster
+
+    //To fix before presentation: Inventory 2 mal pinke bretter DONE
 
 
 
-    //Progressbar Immer enablen in Buildplot, in workbench nur, wenn was gecraftet wird
-    //snegge übergang rauchwolke einfügen
+
+
 }
