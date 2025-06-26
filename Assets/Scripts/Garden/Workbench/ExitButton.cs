@@ -8,6 +8,9 @@ public class ExitButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     private Image Renderer;
     private MovementDisable MovementDisable;
     private UIManager UIManager;
+
+    public AK.Wwise.Event PlayButton;
+    public AK.Wwise.Event PlayClick;
     private void Awake()
     {
         Workbench = FindFirstObjectByType<WorkbenchInteraction>();
@@ -21,6 +24,7 @@ public class ExitButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     }
     public void OnSelect(BaseEventData eventData)
     {
+        PlayButton.Post(gameObject);
         Renderer.enabled = true;
     }
 
@@ -31,6 +35,7 @@ public class ExitButton : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void OnClick()
     {
+        PlayClick.Post(gameObject);
         if (Renderer.enabled)
         {
             Debug.Log("ShouldWork");

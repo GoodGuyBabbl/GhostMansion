@@ -10,7 +10,7 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="RadiusMax" Type="Real64" Value="3"/>
+						<Property Name="RadiusMax" Type="Real64" Value="2"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -27,26 +27,138 @@
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1.24775</XPos>
+											<XPos>0.002</XPos>
 											<YPos>0</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>SCurve</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>0.9039</XPos>
+											<YPos>0</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>SCurve</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1.995</XPos>
+											<YPos>-200</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1.996</XPos>
+											<YPos>-200</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1.998</XPos>
+											<YPos>-200</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>2</XPos>
 											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</FocusUsage>
+						<ObstructionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</ObstructionVolumeUsage>
+						<ObstructionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</ObstructionLPFUsage>
+						<ObstructionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</ObstructionHPFUsage>
+						<OcclusionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</OcclusionVolumeUsage>
+						<OcclusionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</OcclusionLPFUsage>
+						<OcclusionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</OcclusionHPFUsage>
+						<DiffractionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</DiffractionVolumeUsage>
+						<DiffractionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</DiffractionLPFUsage>
+						<DiffractionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</DiffractionHPFUsage>
+						<TransmissionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</TransmissionVolumeUsage>
+						<TransmissionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</TransmissionLPFUsage>
+						<TransmissionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</TransmissionHPFUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+				<Attenuation Name="frog" ID="{2B4E0549-3BC7-4528-9A03-2C4CB41CC9F3}" ShortID="388396599">
+					<PropertyList>
+						<Property Name="ConeUse" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RadiusMax" Type="Real64" Value="13"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{863820E4-9191-4519-AA25-C7047D7265B8}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>SCurve</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>2.59609</XPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>2.997</XPos>
+											<XPos>4</XPos>
 											<YPos>-200</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>3</XPos>
-											<YPos>-45.57507</YPos>
+											<XPos>13</XPos>
+											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

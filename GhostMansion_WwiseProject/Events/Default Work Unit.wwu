@@ -47,7 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayWorkBench" ID="{A14A1F62-4864-4F46-A919-65158ABF2FBA}"/>
+				<Event Name="PlayWorkBench" ID="{A14A1F62-4864-4F46-A919-65158ABF2FBA}">
+					<ChildrenList>
+						<Action Name="" ID="{F21803A3-BCEF-4EAC-9B0D-FCF4D88D909C}" ShortID="608103965">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Werkbank" ID="{DBA0F986-68A7-47E1-8E8D-124B4D7B0FA5}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="PlayMiningStone" ID="{1564C71E-50D3-4357-B096-16E5DF851176}">
 					<ChildrenList>
 						<Action Name="" ID="{0BB6426D-893C-4210-A55F-15525BBCE898}" ShortID="118894932">
@@ -90,7 +100,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayLandingNet" ID="{DF92CF25-BBE2-496F-BAF7-65FB387EF48C}"/>
+				<Event Name="PlayLandingNet" ID="{DF92CF25-BBE2-496F-BAF7-65FB387EF48C}">
+					<ChildrenList>
+						<Action Name="" ID="{C374FF8A-968C-4A3A-B848-D9BA1311B159}" ShortID="687863153">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="scoop" ID="{AE6E3468-B17C-4615-B158-839992B44DB0}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="PlayRollUpCarpet" ID="{DA392006-B8F0-44C7-A9FB-BF1BBA581242}">
 					<ChildrenList>
 						<Action Name="" ID="{5D972D8F-3E54-487A-B6DB-39BE377D4A59}" ShortID="170175812">
@@ -133,7 +153,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayPouringPlants" ID="{F715043A-BD41-47D8-AC21-E56757C86EC2}"/>
+				<Event Name="PlayPouringPlants" ID="{F715043A-BD41-47D8-AC21-E56757C86EC2}">
+					<ChildrenList>
+						<Action Name="" ID="{70ED6F18-53BA-4348-A142-57E76E466A4E}" ShortID="56544241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pour" ID="{751ED943-85E8-423A-ACEA-12F20B3DBCED}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="PlayButton" ID="{71BC3F52-3B66-4FD6-A0E0-26E4E6A59111}">
 					<ChildrenList>
 						<Action Name="" ID="{A0B0B751-CE95-4498-9C08-5C52E0AF8054}" ShortID="733103318">
@@ -156,13 +186,33 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayInstallationSite" ID="{C1EDA284-29D7-4675-829E-9AE5BA48076D}"/>
-				<Event Name="PlayMagicGlitter" ID="{D6537305-C855-40C6-AF2F-FDBB4DB2FEBF}"/>
+				<Event Name="PlayInstallationSite" ID="{C1EDA284-29D7-4675-829E-9AE5BA48076D}">
+					<ChildrenList>
+						<Action Name="" ID="{B29D4B2D-6147-462B-A0EE-0D935D7C5F23}" ShortID="38674980">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Baustelle" ID="{17D93A91-F5D8-4EE1-937E-5D80C8BE7E34}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMagicGlitter" ID="{D6537305-C855-40C6-AF2F-FDBB4DB2FEBF}">
+					<ChildrenList>
+						<Action Name="" ID="{F2662323-A551-4EDF-98C5-7056514D8DA1}" ShortID="1034670354">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="magicglitter" ID="{473062F0-064A-41EE-A87D-2FB42BF4E4FA}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="PlayDrinkThrowAway" ID="{8C059A41-A458-411E-8CF7-1023F4FE520B}">
 					<ChildrenList>
 						<Action Name="" ID="{B7E40918-03EC-4B18-9FCE-D42141E8408E}" ShortID="1062367064">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="2.7"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -178,6 +228,72 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="fire" ID="{1ECD306E-52F3-433D-8A46-7A308265B6F4}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayFrog" ID="{9E9623B0-DBFE-474B-939F-8D75A8E722C7}">
+					<ChildrenList>
+						<Action Name="" ID="{5BEC4811-A514-49A5-9A26-3D1A84E1CC3E}" ShortID="144088543">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="frog" ID="{8CEB9295-3C3E-493A-ACA9-95BF332E7641}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMouse" ID="{88C3C732-AC2E-4E5E-BCD5-580B347B4A7C}">
+					<ChildrenList>
+						<Action Name="" ID="{F1E57232-F1A1-4F27-9859-16C554519734}" ShortID="625721301">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mouse" ID="{78E88EBC-0736-4837-98F6-3D114304B94E}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayPencilsRoomChangesGrayToColour" ID="{C374C1AB-A9D7-4018-8274-FC029AD08D5A}">
+					<ChildrenList>
+						<Action Name="" ID="{45F62DE7-288A-4CDE-83DF-3F635F6F5CF6}" ShortID="233221167">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pencils" ID="{95862E3C-FF06-4FB8-B1F6-44A19647EA39}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayStoneScratchingOnWood" ID="{718ABAE8-FA4B-4CD6-8995-661DECC5E358}">
+					<ChildrenList>
+						<Action Name="" ID="{7AC62E67-4407-4355-BD52-9A74BC6A6ECB}" ShortID="528575815">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stoneonwoodscratching" ID="{82A40901-BBA0-4AFA-B1E2-5743D5F0212D}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayScoop" ID="{FA384913-BD2D-4807-861D-E03145E7AFCB}">
+					<ChildrenList>
+						<Action Name="" ID="{12A293E4-448B-4926-95A7-99A2BC5B73C8}" ShortID="9174442">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="scoop" ID="{AE6E3468-B17C-4615-B158-839992B44DB0}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMagicHappy" ID="{8B7D8A7A-0E5E-421C-BC43-3AAE27640A22}">
+					<ChildrenList>
+						<Action Name="" ID="{C9408F6B-3852-4BC7-8B0D-6597B33DDE2C}" ShortID="65479064">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Baustelle-magic-happy-successful" ID="{322923C2-EEB7-4FD1-B401-129C74A47688}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

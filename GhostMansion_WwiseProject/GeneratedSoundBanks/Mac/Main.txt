@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	118776357	PlayPouringPlants			\Default Work Unit\PlayPouringPlants	
 	227573381	PlayLandingNet			\Default Work Unit\PlayLandingNet	
 	271290123	PlayFire			\Default Work Unit\PlayFire	
+	486000869	PlayFrog			\Default Work Unit\PlayFrog	
 	581553407	PlayDrinkThrowAway			\Default Work Unit\PlayDrinkThrowAway	
 	1749017071	PlayGhostMovement			\Default Work Unit\PlayGhostMovement	
 	1840847559	PlayMagicGlitter			\Default Work Unit\PlayMagicGlitter	
@@ -22,20 +23,25 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	42884648	construction_plan_open_(1)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\93\{93769C2D-A819-F139-9EA4-9F595EC7792D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\construction_plan_open\construction_plan_open_(1)		139140
 	49175421	open_door_09	D:\GhostMansion\GhostMansion_WwiseProject\.cache\9C\{9C903CAC-9388-C08A-B83D-314EEBC13A86}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\open_door\open_door_09		455636
 	50110951	chopping_wood_10	D:\GhostMansion\GhostMansion_WwiseProject\.cache\6C\{6C0F127F-671B-EF3A-E7FC-992BB4EBE1E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_10		68528
+	61984725	frog-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\26\{26681E50-E7F4-9DDA-0580-26B5AC236D11}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\frog\frog\frog-01		53916
 	83641304	chopping_wood_00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\56\{565F757A-19F9-A12E-5A56-8C34ECEBB2CF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_00		97036
 	89629166	mining_stone_(1)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\7A\{7ABDA59B-B2D7-6B32-451E-CC49C85FAE38}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\mining_stone\mining_stone_(1)		16576
 	92256368	mining_iron-05	D:\GhostMansion\GhostMansion_WwiseProject\.cache\88\{88573A6D-3679-55C5-1544-F3C31570A4D0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\iron\mining_iron-05		66400
+	117952265	frog-08	D:\GhostMansion\GhostMansion_WwiseProject\.cache\BD\{BDC44EB8-E331-0980-0BB3-59FBC8FB0293}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\frog\frog\frog-08		85012
+	124341997	frog-04	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DF\{DF6EA743-17DE-674C-CE54-DBC88B4F780F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\frog\frog\frog-04		124824
+	126209894	frog-02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\E4\{E4104AA6-F232-9469-6DBB-29B319DCDE2E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\frog\frog\frog-02		46128
 	126450568	chopping_wood_07	D:\GhostMansion\GhostMansion_WwiseProject\.cache\37\{37A11A80-58DF-1D3A-75FD-C52EEA46A53E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_07		97036
 	130760811	open_door_08	D:\GhostMansion\GhostMansion_WwiseProject\.cache\9D\{9D18283D-9724-6581-85BA-CC3CE015A191}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\open_door\open_door_08		281636
 	133904960	open_door_07	D:\GhostMansion\GhostMansion_WwiseProject\.cache\A3\{A3C5A2A9-BA1B-4A53-0131-270539D281F0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\open_door\open_door_07		214876
 	137905562	mining_iron-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\0A\{0A7C141D-1A7C-D7DB-AE31-94642C4FCF08}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\iron\mining_iron-01		68936
 	143164584	chopping_wood_01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DF\{DFD32D6B-D82B-F28F-A0E4-FA4E0E8EC5A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_01		54112
-	151817741	GhostMovement	D:\GhostMansion\GhostMansion_WwiseProject\.cache\F5\{F531F4A9-E03F-7EF6-0DF9-6165EC14D4D5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\GhostMovement\GhostMovement		1197340
+	151817741	GhostMovement	D:\GhostMansion\GhostMansion_WwiseProject\.cache\F7\{F7AEA8F8-DEB1-D0C3-C693-6AE28D2F720A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\GhostMovement\GhostMovement		1197388
 	166407342	plop-17	D:\GhostMansion\GhostMansion_WwiseProject\.cache\BD\{BD557924-AF88-CC60-07BA-0D83CB41BB98}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-17		18100
 	180222122	plop-08	D:\GhostMansion\GhostMansion_WwiseProject\.cache\17\{179F61B1-1F9C-8ED0-1811-F414789B3C90}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-08		9780
 	186258438	plop-11	D:\GhostMansion\GhostMansion_WwiseProject\.cache\E8\{E8A125E9-E7E7-82FD-F52A-B2971975B75F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-11		8484
 	202307009	plop-15	D:\GhostMansion\GhostMansion_WwiseProject\.cache\FF\{FF6D25FB-C6B9-97AE-BA20-7B47EFA53B61}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-15		8492
 	220290751	plop-05	D:\GhostMansion\GhostMansion_WwiseProject\.cache\6F\{6FAAF8E1-2C21-ED61-846A-9DF372538B0D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-05		8812
+	236867516	frog-07	D:\GhostMansion\GhostMansion_WwiseProject\.cache\1F\{1FDEDFE4-4D68-E3FE-DADB-D1BD0FEC9792}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\frog\frog\frog-07		75852
 	241326695	buttonhover	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DC\{DC082CFC-9AF0-7F4F-A823-81BCBF8F71E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\button\buttonhover		352896
 	242650012	mining_stone_(2)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\5F\{5F0F644D-4C25-8AFB-D22C-14D813DA18C6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\mining_stone\mining_stone_(2)		14120
 	253748757	construction_plan_open_(5_1)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\18\{18E41220-4B37-4391-56AF-127BD34AA3AD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\construction_plan_open\construction_plan_open_(5_1)		71672
@@ -62,6 +68,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	576783502	mining_iron-02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\C1\{C1C71737-720A-66EB-DDBF-5D024C803455}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\iron\mining_iron-02		83588
 	596352281	chopping_wood_05	D:\GhostMansion\GhostMansion_WwiseProject\.cache\F0\{F015B182-BE93-BB3E-71FA-49D2A216FF32}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_05		83684
 	605135316	plop-04	D:\GhostMansion\GhostMansion_WwiseProject\.cache\82\{820BCA01-8168-CE17-41CE-0F3AF53ACBB3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-04		7196
+	612535950	frog-03	D:\GhostMansion\GhostMansion_WwiseProject\.cache\FE\{FE730BD7-706A-3510-575C-07EDA57E3FEA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\frog\frog\frog-03		94524
 	641133048	plop-10	D:\GhostMansion\GhostMansion_WwiseProject\.cache\FA\{FA7277CF-A8E5-ACAF-EC29-8DD350FED495}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-10		19456
 	685122987	plop-13	D:\GhostMansion\GhostMansion_WwiseProject\.cache\FB\{FB0ACFB0-62BB-C95C-6314-81CE5637F998}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-13		6232
 	706841642	mining_iron-07	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DD\{DD9FE38E-89AE-ACD1-420A-BB9334748C3E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\iron\mining_iron-07		48752
@@ -71,6 +78,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	763798586	rollupcarpet	D:\GhostMansion\GhostMansion_WwiseProject\.cache\69\{69A47D3F-2D02-047A-B0FA-4DF7357C4567}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\rollupcarpet		690304
 	774297380	plop-02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\E1\{E143BA15-FC29-15B4-E763-A648DEB9976F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-02		7516
 	805521983	plop-09	D:\GhostMansion\GhostMansion_WwiseProject\.cache\E4\{E40DA76E-8800-ADF3-E7D2-8F6EC1D9DFF5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-09		10420
+	853205091	frog-05	D:\GhostMansion\GhostMansion_WwiseProject\.cache\D9\{D99ED75C-1E57-6B5A-20A9-FD377561E883}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\frog\frog\frog-05		131516
 	857504516	construction_plan_open_(5)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\60\{60EDE23D-A0FB-0CCB-9D76-BE65633B4EE4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\construction_plan_open\construction_plan_open_(5)		70816
 	863210051	plop-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\06\{0634E8A6-49CA-A85E-705E-0C1672C78007}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-00		10424
 	866118530	fire-02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\89\{89ADE016-C8BF-EA09-33EC-4341D5BE0073}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\fire\fire\fire-02		929464
@@ -81,6 +89,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	930039802	chopping_wood_11	D:\GhostMansion\GhostMansion_WwiseProject\.cache\56\{56747AC4-C267-A0F5-0290-DE3629C8D263}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_11		77320
 	952703647	plop-03	D:\GhostMansion\GhostMansion_WwiseProject\.cache\BD\{BD4E448C-83AF-62BE-AF87-AD555AA74AAD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-03		10420
 	969106423	fire-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\76\{76FABB6F-985F-CF7E-9D03-97EB4CC115AB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\fire\fire\fire-01		2041660
+	970651741	frog-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\5B\{5B3C66F6-B75F-6AD1-6539-AED1789EB734}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\frog\frog\frog-00		51424
 	986101277	mining_stone_(3)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\25\{25252724-1579-764D-A8E0-234DC17369BF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\mining_stone\mining_stone_(3)		28100
 	989501257	plop-12	D:\GhostMansion\GhostMansion_WwiseProject\.cache\66\{66E1BE70-520A-3D14-2A58-F6C050DEC796}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-12		7192
 	991886511	chopping_wood_02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\A4\{A4E8A943-DAE7-35D3-8A52-53840E6EADC5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_02		45988
@@ -90,5 +99,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1039114467	plop-07	D:\GhostMansion\GhostMansion_WwiseProject\.cache\26\{2677A3A0-9F3C-FA0D-D101-C284712F3D26}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-07		15904
 	1046011019	buttonclick-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\30\{30FFDA0B-7773-431A-BBB5-304227E07D25}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\click\buttonclick-00		265204
 	1050028355	open_door_15	D:\GhostMansion\GhostMansion_WwiseProject\.cache\5F\{5FAEB77C-21B1-D37B-41AC-F321FF437B7B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\open_door\open_door_15		164492
+	1067689918	frog-06	D:\GhostMansion\GhostMansion_WwiseProject\.cache\68\{6829415C-12CA-CF2F-4FA4-78D221E2FCE1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\frog\frog\frog-06		67396
 	1071762826	chopping_wood_04	D:\GhostMansion\GhostMansion_WwiseProject\.cache\76\{76C1BB41-EA59-8D3D-A016-5FC439027B6D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_04		71572
 

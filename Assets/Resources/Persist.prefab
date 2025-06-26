@@ -1577,6 +1577,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 5158015763948519057}
   RigidbodyPlayer: {fileID: 2658075118785147783}
+  PlayGhostMovement:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f399bd4b464d3d3458615d1a5d8d8b73, type: 2}
 --- !u!114 &4219750445411410936
 MonoBehaviour:
   m_ObjectHideFlags: 0

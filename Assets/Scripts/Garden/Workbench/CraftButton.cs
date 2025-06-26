@@ -53,7 +53,8 @@ public class CraftButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     public int Amount4; //""
     public int Amount5; //""
 
-
+    public AK.Wwise.Event PlayButton;
+    public AK.Wwise.Event PlayClick;
     private void Awake()
     {
         MaterialHandler = FindFirstObjectByType<MaterialHandler>();
@@ -98,6 +99,7 @@ public class CraftButton : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void OnSelect(BaseEventData eventData)
     {
+        PlayButton.Post(gameObject);
         //Das alles in "CheckButtonState oder CheckButtonColor", um es nach dem buttonclick, also dem craften, wieder aufrufen zu können. Sonst muss man den button neu anwählen/abwählen, damit er checkt, dass nach dem craften nicht mehr genug ressourcen da sind.
         if(MaterialHandler.HasEnoughResources(Ingredient1, DisplayedAmountIngredient, Ingredient2, DisplayedAmountIngredient2, Ingredient3, Amount3, Ingredient4, Amount4, Ingredient5, Amount5))
         {
@@ -122,6 +124,7 @@ public class CraftButton : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void OnClick()
     {
+        PlayClick.Post(gameObject);
         if(Renderer.sprite == CanCraftHover)
         {
             //Debug.Log("1");

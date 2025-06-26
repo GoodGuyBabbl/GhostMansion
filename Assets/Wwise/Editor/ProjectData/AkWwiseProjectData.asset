@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5c95fcccae4b9543948e99a17392f96a
     GuidInternal: 
-    m_lastTime: -8584509176638983058
+    m_lastTime: -8584509017685654835
     List:
     - name: Main
       guid: de454c60c0f5a8418fe5e93f6fec36cf
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c2d24754beac984799b53f50d98234ed
     GuidInternal: 
-    m_lastTime: -8584509168074657168
+    m_lastTime: -8584509008555996619
     List:
     - name: PlayButton
       guid: 523fbc71663bd64fa0e026e4e6a59111
@@ -196,8 +196,8 @@ MonoBehaviour:
         guid: 419a058c58a41e418cf71023f4fe520b
       Path: Events\Default Work Unit\PlayDrinkThrowAway
       maxAttenuation: 0
-      maxDuration: 8.3361
-      minDuration: 8.3361
+      maxDuration: 6.1361
+      minDuration: 6.1361
     - name: PlayFire
       guid: e806e54733c3e447afd9c377812c93e2
       id: 271290123
@@ -212,7 +212,24 @@ MonoBehaviour:
         ObjectType: 3
         guid: e806e54733c3e447afd9c377812c93e2
       Path: Events\Default Work Unit\PlayFire
-      maxAttenuation: 3
+      maxAttenuation: 2
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayFrog
+      guid: b023969efedb4b47939f8d75a8e722c7
+      id: 486000869
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayFrog
+        ObjectType: 3
+        guid: b023969efedb4b47939f8d75a8e722c7
+      Path: Events\Default Work Unit\PlayFrog
+      maxAttenuation: 13
       maxDuration: 0
       minDuration: 0
     - name: PlayGhostMovement
@@ -247,8 +264,8 @@ MonoBehaviour:
         guid: 84a2edc1d7297546829e9ae5ba48076d
       Path: Events\Default Work Unit\PlayInstallationSite
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 5.9952836
+      minDuration: 5.9952836
     - name: PlayLandingNet
       guid: 25cf92dfe2bb6f49baf765fb387ef48c
       id: 227573381
@@ -264,8 +281,8 @@ MonoBehaviour:
         guid: 25cf92dfe2bb6f49baf765fb387ef48c
       Path: Events\Default Work Unit\PlayLandingNet
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 1.0211564
+      minDuration: 1.0211564
     - name: PlayMagicGlitter
       guid: 057353d655c8c640af2ffdbb4db2febf
       id: 1840847559
@@ -281,8 +298,25 @@ MonoBehaviour:
         guid: 057353d655c8c640af2ffdbb4db2febf
       Path: Events\Default Work Unit\PlayMagicGlitter
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 4
+      minDuration: 4
+    - name: PlayMagicHappy
+      guid: 7a8a7d8b5e0e1c42bc433aae27640a22
+      id: 453061870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayMagicHappy
+        ObjectType: 3
+        guid: 7a8a7d8b5e0e1c42bc433aae27640a22
+      Path: Events\Default Work Unit\PlayMagicHappy
+      maxAttenuation: 0
+      maxDuration: 4.000159
+      minDuration: 4.000159
     - name: PlayMiningIron
       guid: 5912c2b69732c24f8cc82b5c0c15cd8e
       id: 3981885253
@@ -317,6 +351,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.23190476
       minDuration: 0.07950114
+    - name: PlayMouse
+      guid: 32c7c3882eac5e4ebcd5580b347b4a7c
+      id: 2099766676
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayMouse
+        ObjectType: 3
+        guid: 32c7c3882eac5e4ebcd5580b347b4a7c
+      Path: Events\Default Work Unit\PlayMouse
+      maxAttenuation: 0
+      maxDuration: 0.9571202
+      minDuration: 0.095170066
     - name: PlayOpenDoor
       guid: 0f7dcb98aacbb04da2d1e0604523e3b4
       id: 3209110383
@@ -334,6 +385,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 5.15625
       minDuration: 0.8562292
+    - name: PlayPencilsRoomChangesGrayToColour
+      guid: abc174c3d7a918408274fc029ad08d5a
+      id: 1197320975
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayPencilsRoomChangesGrayToColour
+        ObjectType: 3
+        guid: abc174c3d7a918408274fc029ad08d5a
+      Path: Events\Default Work Unit\PlayPencilsRoomChangesGrayToColour
+      maxAttenuation: 0
+      maxDuration: 0.4837415
+      minDuration: 0.42408162
     - name: PlayPouringPlants
       guid: 3a0415f741bdd847ac21e56757c86ec2
       id: 118776357
@@ -349,8 +417,8 @@ MonoBehaviour:
         guid: 3a0415f741bdd847ac21e56757c86ec2
       Path: Events\Default Work Unit\PlayPouringPlants
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 31.813358
+      minDuration: 31.813358
     - name: PlayRollUpCarpet
       guid: 062039daf0b8c744a9fbbf1bba581242
       id: 3502931928
@@ -368,6 +436,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.9127438
       minDuration: 3.9127438
+    - name: PlayScoop
+      guid: 134938fa2dbd0748861de03145e7afcb
+      id: 1392495417
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayScoop
+        ObjectType: 3
+        guid: 134938fa2dbd0748861de03145e7afcb
+      Path: Events\Default Work Unit\PlayScoop
+      maxAttenuation: 0
+      maxDuration: 1.0211564
+      minDuration: 1.0211564
+    - name: PlayStoneScratchingOnWood
+      guid: e8ba8a714bfad64c8995661decc5e358
+      id: 3154567380
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayStoneScratchingOnWood
+        ObjectType: 3
+        guid: e8ba8a714bfad64c8995661decc5e358
+      Path: Events\Default Work Unit\PlayStoneScratchingOnWood
+      maxAttenuation: 0
+      maxDuration: 9.9288435
+      minDuration: 3.8432426
     - name: PlayWorkBench
       guid: 621f4aa16448464fa91965158abf2fba
       id: 4251712754
@@ -383,8 +485,8 @@ MonoBehaviour:
         guid: 621f4aa16448464fa91965158abf2fba
       Path: Events\Default Work Unit\PlayWorkBench
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 7.9972334
+      minDuration: 7.9972334
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -622,7 +724,7 @@ MonoBehaviour:
     m_lastTime: -8584509345783532482
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000a0000000c0000000e00000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002300000025000000280000002900000033000000340000005d0000005e00000098000000
+  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000a0000000c0000000e00000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002300000025000000280000002900000033000000340000004b0000004c0000005d0000005e0000009400000095000000960000009700000098000000fb000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

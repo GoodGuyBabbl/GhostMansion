@@ -8,6 +8,9 @@ public class WorkbenchPageControl : MonoBehaviour
     public CraftButton FirstActiveButtonNext;
     public CraftButton FirstActiveButtonPrevious;
 
+    public AK.Wwise.Event PlayButton;
+    public AK.Wwise.Event PlayClick;
+
     private void Update()
     {
         if (Input.GetButtonDown("ToolbarRight"))

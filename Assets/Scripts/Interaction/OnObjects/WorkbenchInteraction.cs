@@ -11,7 +11,9 @@ public class WorkbenchInteraction : TriggerInteraction
     
 
     public bool InOverlay;
-    
+
+    public AK.Wwise.Event PlayConstructionPlanOpen;
+
     public void Start()
     {
         base.Start();
@@ -21,6 +23,7 @@ public class WorkbenchInteraction : TriggerInteraction
 
     public override void Interact()
     {
+        PlayConstructionPlanOpen.Post(gameObject);
         //open interactable Workbench UI
         if(WorkbenchOverlay.activeSelf == false && !InOverlay) 
         {

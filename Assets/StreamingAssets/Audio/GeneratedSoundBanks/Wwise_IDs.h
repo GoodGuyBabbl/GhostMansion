@@ -20,15 +20,21 @@ namespace AK
         static const AkUniqueID PLAYCONSTRUCTIONPLANOPEN = 4097077049U;
         static const AkUniqueID PLAYDRINKTHROWAWAY = 581553407U;
         static const AkUniqueID PLAYFIRE = 271290123U;
+        static const AkUniqueID PLAYFROG = 486000869U;
         static const AkUniqueID PLAYGHOSTMOVEMENT = 1749017071U;
         static const AkUniqueID PLAYINSTALLATIONSITE = 2734526490U;
         static const AkUniqueID PLAYLANDINGNET = 227573381U;
         static const AkUniqueID PLAYMAGICGLITTER = 1840847559U;
+        static const AkUniqueID PLAYMAGICHAPPY = 453061870U;
         static const AkUniqueID PLAYMININGIRON = 3981885253U;
         static const AkUniqueID PLAYMININGSTONE = 4193614130U;
+        static const AkUniqueID PLAYMOUSE = 2099766676U;
         static const AkUniqueID PLAYOPENDOOR = 3209110383U;
+        static const AkUniqueID PLAYPENCILSROOMCHANGESGRAYTOCOLOUR = 1197320975U;
         static const AkUniqueID PLAYPOURINGPLANTS = 118776357U;
         static const AkUniqueID PLAYROLLUPCARPET = 3502931928U;
+        static const AkUniqueID PLAYSCOOP = 1392495417U;
+        static const AkUniqueID PLAYSTONESCRATCHINGONWOOD = 3154567380U;
         static const AkUniqueID PLAYWORKBENCH = 4251712754U;
     } // namespace EVENTS
 

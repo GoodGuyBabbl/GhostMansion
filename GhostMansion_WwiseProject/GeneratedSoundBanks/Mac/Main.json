@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{604C45DE-F5C0-41A8-8FE5-E93F6FEC36CF}",
     "Language": "SFX",
-    "Hash": "{83BE18A1-FCA4-B1A6-B691-F02296E7C077}",
+    "Hash": "{11164C34-8560-46A5-1CF6-E22B92FF3FD4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -48,6 +48,14 @@
       "CachePath": "6C/{6C0F127F-671B-EF3A-E7FC-992BB4EBE1E8}.wem"
      },
      {
+      "Id": "61984725",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "frog-01.wav",
+      "CachePath": "26/{26681E50-E7F4-9DDA-0580-26B5AC236D11}.wem"
+     },
+     {
       "Id": "83641304",
       "Language": "SFX",
       "Streaming": "false",
@@ -70,6 +78,30 @@
       "Location": "Memory",
       "ShortName": "iron\\mining_iron-05.wav",
       "CachePath": "88/{88573A6D-3679-55C5-1544-F3C31570A4D0}.wem"
+     },
+     {
+      "Id": "117952265",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "frog-08.wav",
+      "CachePath": "BD/{BDC44EB8-E331-0980-0BB3-59FBC8FB0293}.wem"
+     },
+     {
+      "Id": "124341997",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "frog-04.wav",
+      "CachePath": "DF/{DF6EA743-17DE-674C-CE54-DBC88B4F780F}.wem"
+     },
+     {
+      "Id": "126209894",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "frog-02.wav",
+      "CachePath": "E4/{E4104AA6-F232-9469-6DBB-29B319DCDE2E}.wem"
      },
      {
       "Id": "126450568",
@@ -117,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "GhostMovement\\GhostMovement.wav",
-      "CachePath": "F5/{F531F4A9-E03F-7EF6-0DF9-6165EC14D4D5}.wem"
+      "CachePath": "F7/{F7AEA8F8-DEB1-D0C3-C693-6AE28D2F720A}.wem"
      },
      {
       "Id": "166407342",
@@ -158,6 +190,14 @@
       "Location": "Memory",
       "ShortName": "plup\\plop-05.wav",
       "CachePath": "6F/{6FAAF8E1-2C21-ED61-846A-9DF372538B0D}.wem"
+     },
+     {
+      "Id": "236867516",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "frog-07.wav",
+      "CachePath": "1F/{1FDEDFE4-4D68-E3FE-DADB-D1BD0FEC9792}.wem"
      },
      {
       "Id": "241326695",
@@ -368,6 +408,14 @@
       "CachePath": "82/{820BCA01-8168-CE17-41CE-0F3AF53ACBB3}.wem"
      },
      {
+      "Id": "612535950",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "frog-03.wav",
+      "CachePath": "FE/{FE730BD7-706A-3510-575C-07EDA57E3FEA}.wem"
+     },
+     {
       "Id": "641133048",
       "Language": "SFX",
       "Streaming": "false",
@@ -438,6 +486,14 @@
       "Location": "Memory",
       "ShortName": "plup\\plop-09.wav",
       "CachePath": "E4/{E40DA76E-8800-ADF3-E7D2-8F6EC1D9DFF5}.wem"
+     },
+     {
+      "Id": "853205091",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "frog-05.wav",
+      "CachePath": "D9/{D99ED75C-1E57-6B5A-20A9-FD377561E883}.wem"
      },
      {
       "Id": "857504516",
@@ -520,6 +576,14 @@
       "CachePath": "76/{76FABB6F-985F-CF7E-9D03-97EB4CC115AB}.wem"
      },
      {
+      "Id": "970651741",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "frog-00.wav",
+      "CachePath": "5B/{5B3C66F6-B75F-6AD1-6539-AED1789EB734}.wem"
+     },
+     {
       "Id": "986101277",
       "Language": "SFX",
       "Streaming": "false",
@@ -590,6 +654,14 @@
       "Location": "Memory",
       "ShortName": "open_door\\open_door_15.wav",
       "CachePath": "5F/{5FAEB77C-21B1-D37B-41AC-F321FF437B7B}.wem"
+     },
+     {
+      "Id": "1067689918",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "frog-06.wav",
+      "CachePath": "68/{6829415C-12CA-CF2F-4FA4-78D221E2FCE1}.wem"
      },
      {
       "Id": "1071762826",
@@ -785,8 +857,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\PlayDrinkThrowAway",
       "GUID": "{8C059A41-A458-411E-8CF7-1023F4FE520B}",
       "DurationType": "OneShot",
-      "DurationMin": "8.1361",
-      "DurationMax": "8.1361",
+      "DurationMin": "6.1361",
+      "DurationMax": "6.1361",
       "MediaRefs": [
        {
         "Id": "306849641"
@@ -798,7 +870,7 @@
       "Name": "PlayFire",
       "ObjectPath": "\\Events\\Default Work Unit\\PlayFire",
       "GUID": "{47E506E8-C333-47E4-AFD9-C377812C93E2}",
-      "MaxAttenuation": "3",
+      "MaxAttenuation": "2",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -812,6 +884,43 @@
        },
        {
         "Id": "969106423"
+       }
+      ]
+     },
+     {
+      "Id": "486000869",
+      "Name": "PlayFrog",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayFrog",
+      "GUID": "{9E9623B0-DBFE-474B-939F-8D75A8E722C7}",
+      "MaxAttenuation": "13",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "61984725"
+       },
+       {
+        "Id": "117952265"
+       },
+       {
+        "Id": "124341997"
+       },
+       {
+        "Id": "126209894"
+       },
+       {
+        "Id": "236867516"
+       },
+       {
+        "Id": "612535950"
+       },
+       {
+        "Id": "853205091"
+       },
+       {
+        "Id": "970651741"
+       },
+       {
+        "Id": "1067689918"
        }
       ]
      },
@@ -1002,6 +1111,6 @@
     ]
    }
   ],
-  "FileHash": "{41445703-5523-4647-4CB0-3838034BE8B9}"
+  "FileHash": "{B8572584-367B-0D65-62AC-1C5EADF00625}"
  }
 }

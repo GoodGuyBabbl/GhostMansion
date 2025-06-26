@@ -16,6 +16,8 @@ public class DroppedResource : MonoBehaviour
     public string ResourceName;
     public int ResourceAmount;
 
+    public AK.Wwise.Event PlayCollect;
+
     private void Awake()
     {
         Canvas = GameObject.FindGameObjectWithTag("ScreenSpaceCanvas");
@@ -53,6 +55,7 @@ public class DroppedResource : MonoBehaviour
 
     private void Collect()
     {
+        PlayCollect.Post(gameObject);
         Debug.Log(ResourceName + " +1");
         GameObject instance = Instantiate(BackgroundPrefab, Canvas.transform);
         BackgroundCollect BackgroundCollect = instance.GetComponent<BackgroundCollect>();

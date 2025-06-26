@@ -12,6 +12,8 @@ public class WorkbenchGround : TriggerInteraction
 
     private WorkbenchInteraction Workbench;
 
+    public AK.Wwise.Event PlayMagicGlitter;
+
     private void Start()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
@@ -20,6 +22,7 @@ public class WorkbenchGround : TriggerInteraction
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        PlayMagicGlitter.Post(gameObject);
         base.OnTriggerEnter2D(collision);
         SpriteRenderer.sprite = GroundColored;
         WorkbenchRenderer.sprite = WorkbenchColored;
