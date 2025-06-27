@@ -2259,6 +2259,9 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="drink" ID="{8095CFFE-D54A-4B98-9C92-3A4C48616EDA}" ShortID="664466254">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82243068-4085-4D4D-A666-80162D0440B6}"/>
@@ -2269,13 +2272,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="drink-00" ID="{0CA1D4FB-4F4D-46D4-9681-5CA4823B5409}" ShortID="227507403">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82243068-4085-4D4D-A666-80162D0440B6}"/>
@@ -2286,10 +2282,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="drink-00" ID="{0A079C06-21AE-4D51-9711-572BD571F2EC}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.27879092062878"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>drink-00.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="670637032"/>
+												<MediaID ID="456904394"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2298,13 +2298,6 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="drink-01" ID="{A11466BD-AE99-4740-BEC5-1B40D9C039CF}" ShortID="470565447">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82243068-4085-4D4D-A666-80162D0440B6}"/>
@@ -2315,10 +2308,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="drink-01" ID="{766B2421-95BE-41D7-9ACD-688BE1E29F61}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.30034357543542"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>drink-01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1046750072"/>
+												<MediaID ID="768399984"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2326,7 +2323,7 @@
 										<ActiveSource Name="drink-01" ID="{766B2421-95BE-41D7-9ACD-688BE1E29F61}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="drinkt-throw-glass" ID="{8DDDA6CA-79DA-4F16-BC09-181118CB4BE7}" ShortID="729122565">
+								<Sound Name="drink-00_01" ID="{49DD0153-8A5F-4F07-ADD0-363FE0678198}" ShortID="268910152">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82243068-4085-4D4D-A666-80162D0440B6}"/>
@@ -2336,16 +2333,46 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="drinkt-throw-glass" ID="{660B1213-595A-4812-B54F-E86538759E0A}">
+										<AudioFileSource Name="drink-00" ID="{0DAA3B8A-BC82-4E88-B5AB-F7728405624B}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.48713318165791"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>drinkt-throw-glass.wav</AudioFile>
+											<AudioFile>drink-00.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="306849641"/>
+												<MediaID ID="670637032"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="drinkt-throw-glass" ID="{660B1213-595A-4812-B54F-E86538759E0A}" Platform="Linked"/>
+										<ActiveSource Name="drink-00" ID="{0DAA3B8A-BC82-4E88-B5AB-F7728405624B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drink-01_01" ID="{A10DCF51-3D47-4865-A0D8-FE104BCD63F0}" ShortID="938669080">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82243068-4085-4D4D-A666-80162D0440B6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F209EB1E-43BB-41F4-A558-B85AE7AE5CEA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drink-01" ID="{18BC1E22-3A19-4F5A-AEB8-6CC91FB97069}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.3039356158015"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>drink-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1046750072"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drink-01" ID="{18BC1E22-3A19-4F5A-AEB8-6CC91FB97069}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -3762,6 +3789,33 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="throw" ID="{6B8DB35E-3694-4049-AA0D-C3F81103A3E9}" ShortID="594815957">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82243068-4085-4D4D-A666-80162D0440B6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F209EB1E-43BB-41F4-A558-B85AE7AE5CEA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="throw" ID="{047F0FB7-5274-452D-934E-0484BE5FCC5C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.95933083710241"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.84627068008447"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>throw.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1031600839"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="throw" ID="{047F0FB7-5274-452D-934E-0484BE5FCC5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="RoomSpecificSounds" ID="{18C9CB2C-1945-40E8-9A74-70FC890EDF86}" ShortID="1249052">

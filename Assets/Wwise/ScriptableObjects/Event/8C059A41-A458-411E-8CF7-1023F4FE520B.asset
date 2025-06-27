@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5eb3f3aa80103346bb165a49e4bb638, type: 3}
   m_Name: 8C059A41-A458-411E-8CF7-1023F4FE520B
   m_EditorClassIdentifier: 
-  objectName: PlayDrinkThrowAway
-  id: 581553407
+  objectName: PlayDrink
+  id: 1843306979
   guid: 8C059A41-A458-411E-8CF7-1023F4FE520B
   IsInUserDefinedSoundBank: 1

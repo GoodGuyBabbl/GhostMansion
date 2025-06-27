@@ -1486,6 +1486,7 @@ GameObject:
   - component: {fileID: 7873374326927898972}
   - component: {fileID: 2658075118785147783}
   - component: {fileID: 8997699700903949859}
+  - component: {fileID: 9009082901296117289}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -1815,6 +1816,38 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &9009082901296117289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9049289807220495157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2ed5d8c7d349644b9ac9a833409450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChoppingWood:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c0e8eaad951b00f4c9a3b0f4d32e0a0a, type: 2}
+  MiningStone:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0f9a4221a148e8043939c27d40f850db, type: 2}
+  MiningIron:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 89a8aa08dda436847af65dd005109f4e, type: 2}
+  CatchingInsects:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af48d792e4d488d4ca3c161555115742, type: 2}
+  Build:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 048c01f34af05cc4793ceeee52296f35, type: 2}
 --- !u!1001 &137928871332723449
 PrefabInstance:
   m_ObjectHideFlags: 0

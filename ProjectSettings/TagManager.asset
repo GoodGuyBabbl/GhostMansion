@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CameraConfiner
   - ScreenSpaceCanvas
+  - Stone
+  - Iron
   layers:
   - Default
   - TransparentFX

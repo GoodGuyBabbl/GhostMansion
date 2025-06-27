@@ -67,6 +67,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{B5F5B5C2-B6C3-4DF2-B75F-E626B777ED45}" ShortID="329088094">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stonechips" ID="{DEEDF605-F446-49E6-8354-3BB6214505BE}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="PlayChoppingWood" ID="{D5C31A22-2D3C-42E4-AA71-90F1DBBBB202}">
@@ -131,26 +141,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{B66D6AAF-E06A-4465-9108-43C83FB435F3}" ShortID="969379662">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="iron" ID="{708EBFA6-6CB6-4D21-82B1-0CA42B652FB6}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{5900DBDA-A4FD-42CB-A0BB-AC93AEC60EFC}" ShortID="228881817">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="4"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="iron" ID="{708EBFA6-6CB6-4D21-82B1-0CA42B652FB6}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="PlayPouringPlants" ID="{F715043A-BD41-47D8-AC21-E56757C86EC2}">
@@ -208,12 +198,9 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayDrinkThrowAway" ID="{8C059A41-A458-411E-8CF7-1023F4FE520B}">
+				<Event Name="PlayDrink" ID="{8C059A41-A458-411E-8CF7-1023F4FE520B}">
 					<ChildrenList>
 						<Action Name="" ID="{B7E40918-03EC-4B18-9FCE-D42141E8408E}" ShortID="1062367064">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.5"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="drink" ID="{8095CFFE-D54A-4B98-9C92-3A4C48616EDA}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
@@ -294,6 +281,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Baustelle-magic-happy-successful" ID="{322923C2-EEB7-4FD1-B401-129C74A47688}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayThrow" ID="{3D5E517C-DCCA-4924-9865-3D9FFFA9722B}">
+					<ChildrenList>
+						<Action Name="" ID="{0AB2F85A-2FE1-41AC-8457-CB720B70362D}" ShortID="863646339">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="throw" ID="{6B8DB35E-3694-4049-AA0D-C3F81103A3E9}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayGlass" ID="{ACF9324D-1477-4EF8-8D80-C7E05C859B42}">
+					<ChildrenList>
+						<Action Name="" ID="{7C3E065A-502E-4E96-BBF3-512F4D58F240}" ShortID="39374161">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="glass bottles" ID="{8771059B-7B6E-42FE-9A58-B81346C00F48}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

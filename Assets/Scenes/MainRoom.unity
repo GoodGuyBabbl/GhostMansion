@@ -3969,7 +3969,7 @@ GameObject:
   - component: {fileID: 841572524}
   m_Layer: 0
   m_Name: PileOfStones
-  m_TagString: Untagged
+  m_TagString: Iron
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4611,6 +4611,7 @@ GameObject:
   - component: {fileID: 944517454}
   - component: {fileID: 944517455}
   - component: {fileID: 944517456}
+  - component: {fileID: 944517457}
   m_Layer: 0
   m_Name: DrunkenGhostDrinking_0
   m_TagString: Untagged
@@ -4852,6 +4853,30 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &944517457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944517448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bf5bed3f09c4db4496aeed51af2327d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Drink:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a8fc403fc60462c4bbf8f4e2ab01e926, type: 2}
+  Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d78ed7266d8f5a349a23719f21d75c86, type: 2}
+  Glass:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4e72b2a8362626f41bdd4e022ac1af3b, type: 2}
 --- !u!1 &973435814
 GameObject:
   m_ObjectHideFlags: 0
