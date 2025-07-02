@@ -271,7 +271,7 @@ MonoBehaviour:
   ItemSpawnPoint: {x: 0, y: 0.45, z: 0}
   ThisProgressbar: {fileID: 5338534840963296416}
   FramesToMine: 600
-  HowManyItemsDropped: 10
+  HowManyItemsDropped: 4
   DroppedItem: {fileID: 4790164316534510086, guid: f9655201e7172af45bc3422ebe1618c3, type: 3}
   AnimationChangeName: IsChopped
   PlayerAnimationChangeName: IsChopping

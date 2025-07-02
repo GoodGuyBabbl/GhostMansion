@@ -91,7 +91,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &3372117467617223408
 Animator:
   serializedVersion: 7
@@ -132,7 +132,7 @@ MonoBehaviour:
   ItemSpawnPoint: {x: 0, y: 0, z: 0}
   ThisProgressbar: {fileID: 3948468491548927800}
   FramesToMine: 300
-  HowManyItemsDropped: 4
+  HowManyItemsDropped: 2
   DroppedItem: {fileID: 4790164316534510086, guid: 2258b6df435ccd34bba5ab748db7feec, type: 3}
   AnimationChangeName: IsCaught
   PlayerAnimationChangeName: IsCatchingInsects

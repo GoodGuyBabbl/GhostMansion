@@ -1416,7 +1416,7 @@ MonoBehaviour:
   ItemSpawnPoint: {x: 0, y: 0, z: 0}
   ThisProgressbar: {fileID: 188499121}
   FramesToMine: 300
-  HowManyItemsDropped: 10
+  HowManyItemsDropped: 4
   DroppedItem: {fileID: 4790164316534510086, guid: 23d4901f5c5c34a4590dea4c5b4a4ac3, type: 3}
   PlayerAnimationChangeName: IsMining
 --- !u!114 &1905515397

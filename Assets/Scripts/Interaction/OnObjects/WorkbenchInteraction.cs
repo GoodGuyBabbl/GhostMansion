@@ -32,8 +32,8 @@ public class WorkbenchInteraction : TriggerInteraction
         }
         else if(Input.GetKeyDown(KeyCode.Escape)) 
         {
-            WorkbenchOverlay.SetActive(false);
-            MovementDisable.EnableMovement();
+            //WorkbenchOverlay.SetActive(false);
+            //MovementDisable.EnableMovement();
         }
         
         

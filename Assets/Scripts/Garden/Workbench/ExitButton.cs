@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -33,11 +34,17 @@ public class ExitButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     {
         if (Renderer.enabled)
         {
-            Debug.Log("ShouldWork");
-            UIManager.EnableToolbar();
-            UIManager.RemoveActiveOverlay("Workbench");
-            MovementDisable.EnableMovement();
-            transform.parent.gameObject.SetActive(false);
+            StartCoroutine(ClosePage());
         }
+    }
+    private IEnumerator ClosePage()
+    {
+        yield return null;
+        Debug.Log("ShouldWork");
+        UIManager.EnableToolbar();
+        UIManager.RemoveActiveOverlay("Workbench");
+        MovementDisable.EnableMovement();
+        transform.parent.gameObject.SetActive(false);
+
     }
 }

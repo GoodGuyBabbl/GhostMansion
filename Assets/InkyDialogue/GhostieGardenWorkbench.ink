@@ -25,7 +25,7 @@ What do you want to know more about?
         ~NextDialogueKnot = "Start"
         ->END
     *[Workbench]
-        This is going to be the heart of your operation. You can switch between pages by pressing the shoulder buttons of your controller. 
+        This is going to be the heart of your operation. You can switch between pages and tabs by pressing the shoulder and trigger buttons on your controller. 
         I have added every recipe needed aswell as every available resident to your list of items. Their symbols at the top match the ones on their doors in the manor.
         Crafting buttons will be grey if you do not have enough resources to craft the item and brown if you do.
         There's one page of overview for every room and its inhabitant on which you can take a look at what furniture you are going to build.

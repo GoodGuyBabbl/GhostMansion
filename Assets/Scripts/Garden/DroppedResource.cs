@@ -10,7 +10,7 @@ public class DroppedResource : MonoBehaviour
     private MaterialHandler MaterialHandler;
     private GameObject Canvas;
     private float CollectDistance = 0.25f;
-    private float CollectSpeed = 0.9f;
+    private float CollectSpeed = 0.95f;
     private float FollowDistance = 0.55f;
 
     public string ResourceName;
