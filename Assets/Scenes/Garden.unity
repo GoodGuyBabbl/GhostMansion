@@ -15710,7 +15710,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.05641821, y: -0.12660187}
+  m_Offset: {x: -0.05, y: -0.05}
   m_Radius: 0.029434055
 --- !u!58 &400046884
 CircleCollider2D:
@@ -32197,7 +32197,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 1013608328}
     m_SelectOnDown: {fileID: 1182075320}
     m_SelectOnLeft: {fileID: 810927932}
-    m_SelectOnRight: {fileID: 810927932}
+    m_SelectOnRight: {fileID: 1295390424}
   m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -39998,7 +39998,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 1013608328}
     m_SelectOnDown: {fileID: 810927932}
     m_SelectOnLeft: {fileID: 1013608328}
-    m_SelectOnRight: {fileID: 1013608328}
+    m_SelectOnRight: {fileID: 1295390424}
   m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -44378,7 +44378,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 1504869820}
     m_SelectOnDown: {fileID: 1970485098}
     m_SelectOnLeft: {fileID: 1143549006}
-    m_SelectOnRight: {fileID: 1143549006}
+    m_SelectOnRight: {fileID: 629191542}
   m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -46073,7 +46073,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 810927932}
     m_SelectOnDown: {fileID: 1267156335}
     m_SelectOnLeft: {fileID: 1182075320}
-    m_SelectOnRight: {fileID: 1182075320}
+    m_SelectOnRight: {fileID: 1295390424}
   m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -49643,7 +49643,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 1182075320}
     m_SelectOnDown: {fileID: 1267156335}
     m_SelectOnLeft: {fileID: 1267156335}
-    m_SelectOnRight: {fileID: 1267156335}
+    m_SelectOnRight: {fileID: 1295390424}
   m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -60843,7 +60843,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 1504869820}
     m_SelectOnDown: {fileID: 1143549006}
     m_SelectOnLeft: {fileID: 1504869820}
-    m_SelectOnRight: {fileID: 1504869820}
+    m_SelectOnRight: {fileID: 629191542}
   m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -62289,7 +62289,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 1545869263}
     m_SelectOnDown: {fileID: 1545869263}
     m_SelectOnLeft: {fileID: 1545869263}
-    m_SelectOnRight: {fileID: 1545869263}
+    m_SelectOnRight: {fileID: 1919485697}
   m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -62425,7 +62425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -840, y: -165.3}
+  m_AnchoredPosition: {x: -990, y: -165.3}
   m_SizeDelta: {x: 411.8644, y: 101.2475}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1548850153
@@ -64405,12 +64405,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93d7148dea44134392afd7c8f74dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextPage: {fileID: 952636717}
-  PreviousPage: {fileID: 254621867}
+  NextPage: {fileID: 0}
+  PreviousPage: {fileID: 0}
   NextTab: {fileID: 952636717}
   PreviousTab: {fileID: 1337019352}
-  FirstActiveButtonNext: {fileID: 1504869823}
-  FirstActiveButtonPrevious: {fileID: 719395098}
+  FirstActiveButtonNext: {fileID: 0}
+  FirstActiveButtonPrevious: {fileID: 0}
   FirstActiveButtonNextTab: {fileID: 1504869823}
   FirstActiveButtonPreviousTab: {fileID: 568562188}
 --- !u!114 &1595561744
@@ -64708,7 +64708,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 1970485098}
     m_SelectOnDown: {fileID: 1604616733}
     m_SelectOnLeft: {fileID: 1604616733}
-    m_SelectOnRight: {fileID: 1604616733}
+    m_SelectOnRight: {fileID: 629191542}
   m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -78030,7 +78030,7 @@ MonoBehaviour:
   ItemSpawnPoint: {x: 0, y: 0, z: 0}
   ThisProgressbar: {fileID: 1427451886}
   FramesToMine: 420
-  HowManyItemsDropped: 3
+  HowManyItemsDropped: 4
   DroppedItem: {fileID: 4790164316534510086, guid: 71746cf97ce1ce145876e45caed41d8f, type: 3}
   PlayerAnimationChangeName: IsMining
 --- !u!114 &1921189034
@@ -79985,7 +79985,7 @@ MonoBehaviour:
     m_SelectOnUp: {fileID: 1143549006}
     m_SelectOnDown: {fileID: 1604616733}
     m_SelectOnLeft: {fileID: 1970485098}
-    m_SelectOnRight: {fileID: 1970485098}
+    m_SelectOnRight: {fileID: 629191542}
   m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}

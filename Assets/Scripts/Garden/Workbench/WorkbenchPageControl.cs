@@ -18,7 +18,7 @@ public class WorkbenchPageControl : MonoBehaviour
 
         //Pages
 
-        if (Input.GetButtonDown("ToolbarRight"))
+        if (Input.GetButtonDown("ToolbarRight") && NextPage)
         {
             NextPage.SetActive(true);
             if(FirstActiveButtonNext)
@@ -27,7 +27,7 @@ public class WorkbenchPageControl : MonoBehaviour
             }
             this.gameObject.SetActive(false);
         }
-        if (Input.GetButtonDown("ToolbarLeft"))
+        if (Input.GetButtonDown("ToolbarLeft") && NextPage)
         {
             PreviousPage.SetActive(true);
             if(FirstActiveButtonPrevious)

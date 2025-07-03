@@ -275,8 +275,8 @@ MonoBehaviour:
   SaveStateManager: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: 0.45, z: 0}
   ThisProgressbar: {fileID: 7937066701445772628}
-  FramesToMine: 600
-  HowManyItemsDropped: 4
+  FramesToMine: 525
+  HowManyItemsDropped: 5
   DroppedItem: {fileID: 4790164316534510086, guid: f9655201e7172af45bc3422ebe1618c3, type: 3}
   AnimationChangeName: IsChopped
   PlayerAnimationChangeName: IsChopping
@@ -362,7 +362,7 @@ PolygonCollider2D:
       - {x: -0.18115115, y: 0.101243496}
       - {x: -0.19235039, y: -0.034741998}
       - {x: -0.120452166, y: -0.12056854}
-      - {x: -0.008078575, y: -0.1722475}
+      - {x: -0.002550602, y: -0.15320691}
       - {x: 0.09822273, y: -0.14362872}
       - {x: 0.18060327, y: -0.0350717}
       - {x: 0.17981553, y: 0.053914487}

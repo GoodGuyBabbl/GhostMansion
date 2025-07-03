@@ -5811,7 +5811,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -304.29, y: 0.0000017025}
-  m_SizeDelta: {x: 72.374, y: 72.4999}
+  m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7821920984147357644
 CanvasRenderer:
@@ -6932,7 +6932,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8651473257690286083}
   m_Layer: 0
-  m_Name: ------CAMS------
+  m_Name: ------CAMS------(INACTIVE)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8786,9 +8786,6 @@ Transform:
   - {fileID: 8839527201539398023}
   - {fileID: 748764897411847844}
   - {fileID: 2053650741850558337}
-  - {fileID: 8651473257690286083}
-  - {fileID: 1627804295946765886}
-  - {fileID: 4112094453664092174}
   - {fileID: 8583850181149330672}
   - {fileID: 2334747051009442695}
   - {fileID: 5009342678041156943}
@@ -8798,6 +8795,9 @@ Transform:
   - {fileID: 6074658224630825908}
   - {fileID: 7486443399844430358}
   - {fileID: 6834800263846458527}
+  - {fileID: 8651473257690286083}
+  - {fileID: 1627804295946765886}
+  - {fileID: 4112094453664092174}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4070926385055600080
@@ -10535,7 +10535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8379728406174989702, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -168.7
+      value: -169.01
       objectReference: {fileID: 0}
     - target: {fileID: 8379728406174989702, guid: 53be8f21fa7f6734e9f266343d29105c, type: 3}
       propertyPath: m_AnchoredPosition.y
