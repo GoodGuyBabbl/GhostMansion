@@ -88,26 +88,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{DB7E83A2-C448-4535-A136-8AAAF41046BB}" ShortID="984234144">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="chopping_wood" ID="{D8AAAB30-D6D3-41DC-AC12-A66077E74E2B}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{5ECA30BA-E428-4E50-BE60-F1E298D62C4C}" ShortID="666036945">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="4"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="chopping_wood" ID="{D8AAAB30-D6D3-41DC-AC12-A66077E74E2B}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="PlayLandingNet" ID="{DF92CF25-BBE2-496F-BAF7-65FB387EF48C}">
@@ -303,6 +283,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="glass bottles" ID="{8771059B-7B6E-42FE-9A58-B81346C00F48}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayRooms" ID="{F251BD07-C554-440B-9064-1BBA75B8E2F7}">
+					<ChildrenList>
+						<Action Name="" ID="{4834E1EE-9126-405E-A832-3465182E35E3}" ShortID="584620518">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rooms" ID="{819508CF-8ACE-4284-936B-0A1FF1A6E0D9}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayFrogJump" ID="{56FDEE7B-643C-4C9D-B602-1C3410EBE125}">
+					<ChildrenList>
+						<Action Name="" ID="{7B5A7F16-F904-487C-B586-CE2C0E9B954A}" ShortID="764907133">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FrogJumpIntoWater" ID="{88B7869D-AF13-4E1D-9467-565DFC25D318}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

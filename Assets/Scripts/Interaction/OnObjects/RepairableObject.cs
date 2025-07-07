@@ -65,7 +65,9 @@ public class RepairableObject : TriggerInteraction
 
     private UIManager UIManager;
 
-
+    public AK.Wwise.Event Build;
+    public AK.Wwise.Event Colored;
+    private bool buildSound;
 
     public void Awake()
     {
@@ -94,6 +96,7 @@ public class RepairableObject : TriggerInteraction
             IsBuildPlot = true;
         }else if (SaveStateManager.IsFurnitureRepaired(UniqueID.ID))
         {
+            Colored.Post(gameObject);
             IsRepaired = true;
             SpriteRenderer.sprite = ColoredVersion;
             GreyVersionCollider.gameObject.SetActive(false);
@@ -120,6 +123,7 @@ public class RepairableObject : TriggerInteraction
 
     public override void Interact()
     {
+        
         XPlayerAnimationDirection = new Vector2(transform.position.x - Player.transform.position.x, 0).x;
         YPlayerAnimationDirection = new Vector2(0, transform.position.y - Player.transform.position.y).y;
         PlayerAnimator.SetFloat("XAnimationDirection", XPlayerAnimationDirection);
@@ -134,6 +138,7 @@ public class RepairableObject : TriggerInteraction
                 if(UIManager.GetToolCollected(ToolbarIndexNeeded) && ToolbarControl.CurrentIndex == ToolbarIndexNeeded)
                 {
                     StartLongInteract = true;
+                    buildSound = true;
                 }
 
             }
@@ -163,9 +168,14 @@ public class RepairableObject : TriggerInteraction
     {
         if (StartLongInteract)
         {
-
+            
             if (Interactions.GetHolding())
             {
+                if (buildSound)
+                {
+                    Build.Post(gameObject);
+                    buildSound = false;
+                }
                 MovementDisable.DisableMovement();
                 PlayerAnimator.SetBool("IsBuilding", true);
                 ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(true); //PB
@@ -203,6 +213,7 @@ public class RepairableObject : TriggerInteraction
             }
             else if (Interactions.WasInteractReleased)
             {
+                Build.Stop(gameObject);
                 ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(false); //PB
                 MovementDisable.EnableMovement();
                 PlayerAnimator.SetBool("IsBuilding", false);

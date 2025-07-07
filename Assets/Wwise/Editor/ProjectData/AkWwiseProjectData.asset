@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5c95fcccae4b9543948e99a17392f96a
     GuidInternal: 
-    m_lastTime: -8584505761935281395
+    m_lastTime: -8584497873848831602
     List:
     - name: Main
       guid: de454c60c0f5a8418fe5e93f6fec36cf
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c2d24754beac984799b53f50d98234ed
     GuidInternal: 
-    m_lastTime: -8584505753810174836
+    m_lastTime: -8584497873848948196
     List:
     - name: PlayButton
       guid: 523fbc71663bd64fa0e026e4e6a59111
@@ -128,8 +128,8 @@ MonoBehaviour:
         guid: 221ac3d53c2de442aa7190f1dbbbb202
       Path: Events\Default Work Unit\PlayChoppingWood
       maxAttenuation: 0
-      maxDuration: 4.5495462
-      minDuration: 4.243855
+      maxDuration: 0.5495465
+      minDuration: 0.24385488
     - name: PlayClick
       guid: 3e37b3b09e3ce24e87d6eff5235c55fc
       id: 2002511053
@@ -212,7 +212,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e806e54733c3e447afd9c377812c93e2
       Path: Events\Default Work Unit\PlayFire
-      maxAttenuation: 2
+      maxAttenuation: 1
       maxDuration: 0
       minDuration: 0
     - name: PlayFrog
@@ -232,6 +232,23 @@ MonoBehaviour:
       maxAttenuation: 13
       maxDuration: 0
       minDuration: 0
+    - name: PlayFrogJump
+      guid: 7beefd563c649d4cb6021c3410ebe125
+      id: 717497513
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayFrogJump
+        ObjectType: 3
+        guid: 7beefd563c649d4cb6021c3410ebe125
+      Path: Events\Default Work Unit\PlayFrogJump
+      maxAttenuation: 13
+      maxDuration: 1.39036
+      minDuration: 1.39036
     - name: PlayGhostMovement
       guid: 739f4dc4d2de1748a3ef27ac4657d164
       id: 1749017071
@@ -383,8 +400,8 @@ MonoBehaviour:
         guid: 32c7c3882eac5e4ebcd5580b347b4a7c
       Path: Events\Default Work Unit\PlayMouse
       maxAttenuation: 0
-      maxDuration: 0.9571202
-      minDuration: 0.095170066
+      maxDuration: 0
+      minDuration: 0
     - name: PlayOpenDoor
       guid: 0f7dcb98aacbb04da2d1e0604523e3b4
       id: 3209110383
@@ -453,6 +470,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.9127438
       minDuration: 3.9127438
+    - name: PlayRooms
+      guid: 07bd51f254c50b4490641bba75b8e2f7
+      id: 1531517409
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayRooms
+        ObjectType: 3
+        guid: 07bd51f254c50b4490641bba75b8e2f7
+      Path: Events\Default Work Unit\PlayRooms
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: PlayScoop
       guid: 134938fa2dbd0748861de03145e7afcb
       id: 1392495417
@@ -561,7 +595,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 17e6d7348dc4ae4197b7f0bb440fef06
     GuidInternal: 
-    m_lastTime: -8584506726285859459
+    m_lastTime: -8584497290991186445
     List:
     - name: CharacterSounds
       guid: 5591acbcdba1f84ab6d87e9c81aab84d
@@ -758,7 +792,7 @@ MonoBehaviour:
     m_lastTime: -8584506726285488112
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000a0000000c0000000e00000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002300000025000000280000002900000033000000340000004b0000004c0000005d0000005e0000009400000095000000960000009700000098000000fb000000
+  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000a0000000b0000000c0000000e00000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002300000025000000260000002700000028000000290000002a0000002b00000033000000340000004b0000004c0000005d0000005e0000009400000095000000960000009700000098000000fb000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

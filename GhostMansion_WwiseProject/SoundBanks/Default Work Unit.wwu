@@ -12,6 +12,7 @@
 						<ObjectRef Name="PlayMagicHappy" ID="{8B7D8A7A-0E5E-421C-BC43-3AAE27640A22}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayChoppingWood" ID="{D5C31A22-2D3C-42E4-AA71-90F1DBBBB202}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayMiningStone" ID="{1564C71E-50D3-4357-B096-16E5DF851176}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayRooms" ID="{F251BD07-C554-440B-9064-1BBA75B8E2F7}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayRollUpCarpet" ID="{DA392006-B8F0-44C7-A9FB-BF1BBA581242}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayInstallationSite" ID="{C1EDA284-29D7-4675-829E-9AE5BA48076D}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayFrog" ID="{9E9623B0-DBFE-474B-939F-8D75A8E722C7}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
@@ -22,6 +23,7 @@
 						<ObjectRef Name="PlayGhostMovement" ID="{C44D9F73-DED2-4817-A3EF-27AC4657D164}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayThrow" ID="{3D5E517C-DCCA-4924-9865-3D9FFFA9722B}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayLandingNet" ID="{DF92CF25-BBE2-496F-BAF7-65FB387EF48C}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayFrogJump" ID="{56FDEE7B-643C-4C9D-B602-1C3410EBE125}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayStoneScratchingOnWood" ID="{718ABAE8-FA4B-4CD6-8995-661DECC5E358}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayOpenDoor" ID="{98CB7D0F-CBAA-4DB0-A2D1-E0604523E3B4}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayMouse" ID="{88C3C732-AC2E-4E5E-BCD5-580B347B4A7C}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>

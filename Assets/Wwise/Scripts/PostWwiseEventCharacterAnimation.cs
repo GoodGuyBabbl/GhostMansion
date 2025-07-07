@@ -6,8 +6,8 @@ public class PostWwiseEventCharacterAnimation : MonoBehaviour
     public AK.Wwise.Event MiningStone;
     public AK.Wwise.Event MiningIron;
     public AK.Wwise.Event CatchingInsects;
-    public AK.Wwise.Event Build;
     private GameObject material;
+
 
     public void PlayChoppingWood()
     {
@@ -30,9 +30,5 @@ public class PostWwiseEventCharacterAnimation : MonoBehaviour
     {
         CatchingInsects.Post(gameObject);   
     }
-    public void PlayBuild()
-    {
-        Build.Post(gameObject);
-    }
-
+ 
 }

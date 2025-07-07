@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID PLAYDRINK = 1843306979U;
         static const AkUniqueID PLAYFIRE = 271290123U;
         static const AkUniqueID PLAYFROG = 486000869U;
+        static const AkUniqueID PLAYFROGJUMP = 717497513U;
         static const AkUniqueID PLAYGHOSTMOVEMENT = 1749017071U;
         static const AkUniqueID PLAYGLASS = 95796577U;
         static const AkUniqueID PLAYINSTALLATIONSITE = 2734526490U;
@@ -34,6 +35,7 @@ namespace AK
         static const AkUniqueID PLAYPENCILSROOMCHANGESGRAYTOCOLOUR = 1197320975U;
         static const AkUniqueID PLAYPOURINGPLANTS = 118776357U;
         static const AkUniqueID PLAYROLLUPCARPET = 3502931928U;
+        static const AkUniqueID PLAYROOMS = 1531517409U;
         static const AkUniqueID PLAYSCOOP = 1392495417U;
         static const AkUniqueID PLAYSTONESCRATCHINGONWOOD = 3154567380U;
         static const AkUniqueID PLAYTHROW = 1146474813U;

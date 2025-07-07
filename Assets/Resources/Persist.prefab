@@ -1487,6 +1487,8 @@ GameObject:
   - component: {fileID: 2658075118785147783}
   - component: {fileID: 8997699700903949859}
   - component: {fileID: 9009082901296117289}
+  - component: {fileID: 2160640395672523957}
+  - component: {fileID: 1602422428844015419}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -1582,6 +1584,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: f399bd4b464d3d3458615d1a5d8d8b73, type: 2}
+  PlayRooms:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3a4fff83807777a45a4120c34a1d530c, type: 2}
 --- !u!114 &4219750445411410936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,10 +1850,46 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: af48d792e4d488d4ca3c161555115742, type: 2}
-  Build:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 048c01f34af05cc4793ceeee52296f35, type: 2}
+--- !u!114 &2160640395672523957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9049289807220495157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a3831f42d34604d973034fc12feb2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1602422428844015419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9049289807220495157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfe69813e2185a4a9bbe339057877bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultListener: 1
+  bOverrideScalingFactor: 0
+  scalingFactor: 0
+  listenerId: 0
 --- !u!1001 &137928871332723449
 PrefabInstance:
   m_ObjectHideFlags: 0

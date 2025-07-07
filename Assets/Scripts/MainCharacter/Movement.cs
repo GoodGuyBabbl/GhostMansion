@@ -18,10 +18,8 @@ public class Movement : MonoBehaviour
     public AK.Wwise.Event PlayGhostMovement;
 
 
-
     void Start()
     {
-        
     }
 
 
