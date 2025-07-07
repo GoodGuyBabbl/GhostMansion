@@ -109,12 +109,12 @@ MonoBehaviour:
   SaveStateManager: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: 0, z: 0}
   ThisProgressbar: {fileID: 3645335330956411238}
-  FramesToMine: 200
-  HowManyItemsDropped: 3
+  FramesToMine: 160
+  HowManyItemsDropped: 4
   DroppedItem: {fileID: 4790164316534510086, guid: b085abbad148df549b0b9e83f9d7a29c, type: 3}
   AnimationChangeName: IsHarvested
   PlayerAnimationChangeName: IsCollecting
-  TimeToRegrow: 25
+  TimeToRegrow: 30
   CanRegrow: 1
 --- !u!114 &2877293293861317618
 MonoBehaviour:

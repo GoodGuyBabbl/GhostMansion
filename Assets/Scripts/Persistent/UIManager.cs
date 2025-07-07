@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
     public GameObject Sickle; // Todo
     public GameObject Hand; // should be working
     //SlotChange
-
+    private HashSet<string> OverlayActive = new HashSet<string>();
     private HashSet<int> IsToolCollected = new HashSet<int>();
     public bool IsPickaxeCollected;
     public bool IsAxeCollected;
@@ -30,7 +30,23 @@ public class UIManager : MonoBehaviour
         //CollectAxe();
         EnableTools();
     }
-
+    //OverlayManager
+    public void AddActiveOverlay(string OverlayName)
+    {
+        OverlayActive.Add(OverlayName);
+    }
+    public void RemoveActiveOverlay(string OverlayName)
+    {
+        OverlayActive.Remove(OverlayName);
+    }
+    public bool IsThisOverlayActive(string OverlayName)
+    {
+        return OverlayActive.Contains(OverlayName);
+    }
+    public bool IsOverlayActive()
+    {
+        return OverlayActive.Count != 0;
+    }
     public void DisableToolbar()
     {
         Toolbar.SetActive(false);

@@ -16,6 +16,7 @@ public class BackgroundCollect : MonoBehaviour
 
     private void OnEnable()
     {
+        MoveDuration = Random.Range(0.4f, 0.55f);
         ThisRectTransform = GetComponent<RectTransform>();
         Image = GetComponent<Image>();
 

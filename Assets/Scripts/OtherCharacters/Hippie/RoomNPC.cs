@@ -30,7 +30,6 @@ public class RoomNPC : TriggerInteraction
     public string StoryName;
     public int CurrentChoiceIndex = -1;
 
-    public AK.Wwise.Event PlayGhost;
 
     public void Awake()
     {
@@ -161,6 +160,7 @@ public class RoomNPC : TriggerInteraction
     //DialogueManager
     private void ExitDialogue()
     {
+        UIManager.RemoveActiveOverlay("Dialogue");
         CheckRepairUnlock();
         ResetPanelText();
         NPCDialogueCanvas.SetActive(false);
@@ -243,9 +243,9 @@ public class RoomNPC : TriggerInteraction
     //RoomNPC
     public override void Interact()
     {
-        if (!DialogueKnotName.Equals(""))
+        if (!DialogueKnotName.Equals("") && !UIManager.IsOverlayActive() || !DialogueKnotName.Equals("") && UIManager.IsThisOverlayActive("Dialogue"))
         {
-            PlayGhost.Post(gameObject);
+            UIManager.AddActiveOverlay("Dialogue");
             EnterDialogue();          
         }
         

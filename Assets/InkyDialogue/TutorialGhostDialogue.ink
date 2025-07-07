@@ -11,7 +11,7 @@ VAR NextDialogueKnot = ""
 Oh no, no, no, no, no...
 Can you hear that?
 Somebody is caught inside that room up there! I need something to get that rubble out of the way! 
-I'm pretty sure I dropped my Pickaxe down in the cellar before I died. But it's been 400 years and I cant remember the location of the entrance...
+I'm pretty sure I dropped my Pickaxe down in the cellar before I died. But it's been 400 years and I can't remember the location of the entrance...
 Will you help me?
         *[Yes, but calm down.]
         ->DidHelp
@@ -56,7 +56,7 @@ This damned hatch has to be somewhere around here! Keep looking!
 You found it! That's great, give it here
 ...
 Wait, I can't even hold it...
-Whatever, you'll have to do it! Take it and Go! 
+Whatever, you'll have to do it! Take it and go! 
 //~GivePickaxe()
         ~NextDialogueKnot = "BreakStones"
         ~EnableStonePile()
@@ -64,7 +64,7 @@ Whatever, you'll have to do it! Take it and Go!
 
 ===BreakStones===
 Just swing it as hard as you can at that pile of stones in front of the door up there. 
-You can do that by holding the Triangle Button.
+You can do that by selecting the pickaxe in your hotbar and holding the X Button.
 ->END
 
 ===GoingToGarden===

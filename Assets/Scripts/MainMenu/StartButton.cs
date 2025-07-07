@@ -25,6 +25,10 @@ public class StartButton : MonoBehaviour, ISelectHandler, IDeselectHandler
         CinemachineCam.Follow = menuCamTarget;
         //CinemachineCam.LookAt = menuCamTarget;
         Renderer = GetComponent<Image>();
+
+    }
+    public void OnEnable()
+    {
         Button.Select();
     }
     public void OnSelect(BaseEventData eventData)

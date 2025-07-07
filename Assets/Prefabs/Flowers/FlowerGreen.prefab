@@ -91,7 +91,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &5219080931755365239
 Animator:
   serializedVersion: 7
@@ -131,7 +131,7 @@ MonoBehaviour:
   SaveStateManager: {fileID: 0}
   ItemSpawnPoint: {x: 0, y: 0, z: 0}
   ThisProgressbar: {fileID: 3863809832770359694}
-  FramesToMine: 250
+  FramesToMine: 140
   HowManyItemsDropped: 1
   DroppedItem: {fileID: 4790164316534510086, guid: 47264a7cdf148614db2310b20a2d551e, type: 3}
   AnimationChangeName: IsHarvested

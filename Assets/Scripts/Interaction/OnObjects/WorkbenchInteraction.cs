@@ -25,9 +25,9 @@ public class WorkbenchInteraction : TriggerInteraction
     {
         PlayConstructionPlanOpen.Post(gameObject);
         //open interactable Workbench UI
-        if(WorkbenchOverlay.activeSelf == false && !InOverlay) 
+        if(WorkbenchOverlay.activeSelf == false && !UIManager.IsOverlayActive()) 
         {
-            InOverlay = true;
+            UIManager.AddActiveOverlay("Workbench");
             WorkbenchOverlay.SetActive(true);
             FirstActiveButton.SelectButton();
             MovementDisable.DisableMovement();
@@ -35,8 +35,8 @@ public class WorkbenchInteraction : TriggerInteraction
         }
         else if(Input.GetKeyDown(KeyCode.Escape)) 
         {
-            WorkbenchOverlay.SetActive(false);
-            MovementDisable.EnableMovement();
+            //WorkbenchOverlay.SetActive(false);
+            //MovementDisable.EnableMovement();
         }
         
         
