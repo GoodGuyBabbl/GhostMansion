@@ -740,6 +740,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 244390658}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &11228079
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +809,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &11228081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1166,6 +1182,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1095526028}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &17870636
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1313,6 +1337,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 2000086343}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &19647725
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2106,6 +2138,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 719395098}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &48721817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2786,6 +2826,14 @@ MonoBehaviour:
   FirstActiveButtonPrevious: {fileID: 107339140}
   FirstActiveButtonNextTab: {fileID: 568562188}
   FirstActiveButtonPreviousTab: {fileID: 1545869266}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &58752808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3584,6 +3632,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 510021673}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &78974248
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4200,6 +4256,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 465383782}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &93047261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4498,6 +4562,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &107339141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5149,6 +5221,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1818326729}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &119307268
 GameObject:
   m_ObjectHideFlags: 0
@@ -8524,6 +8604,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoorIcon: {fileID: 1647283975}
+  PlayDoorOpen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  m_PlayDoorOpen: 0
   SpawnPlayerToDoor: 6
   _SceneToLoad:
     m_SceneAsset: {fileID: 102900000, guid: 67557158626c157448dec2ecc1f3fd53, type: 3}
@@ -9115,6 +9200,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 854179254}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &231148813
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9815,6 +9908,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &244390659
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10034,6 +10135,14 @@ MonoBehaviour:
   FirstActiveButtonPrevious: {fileID: 1286161709}
   FirstActiveButtonNextTab: {fileID: 1013608327}
   FirstActiveButtonPreviousTab: {fileID: 694034238}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &254621870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11466,6 +11575,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 854179254}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &289426791
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11749,6 +11866,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 349148886}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &304245476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12111,6 +12236,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1038726707}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &308695446
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13311,6 +13444,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &349148887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14465,6 +14606,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1317949748}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &374983587
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15948,6 +16097,14 @@ MonoBehaviour:
   FirstActiveButtonPrevious: {fileID: 568562188}
   FirstActiveButtonNextTab: {fileID: 1013608327}
   FirstActiveButtonPreviousTab: {fileID: 694034238}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &415032424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16607,6 +16764,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &436069008
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17459,6 +17624,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 465383782}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &461190329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17808,6 +17981,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &465383783
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18872,6 +19053,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &505359563
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19195,6 +19384,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &510021674
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19342,6 +19539,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1095526028}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &517977811
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19819,6 +20024,14 @@ MonoBehaviour:
   FirstActiveButtonPrevious: {fileID: 0}
   FirstActiveButtonNextTab: {fileID: 694034238}
   FirstActiveButtonPreviousTab: {fileID: 1504869823}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &521892134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20271,6 +20484,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bd8fc72eb92194d80b8ccaefad43fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &538415502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20864,6 +21085,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bd8fc72eb92194d80b8ccaefad43fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &558382571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21764,6 +21993,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &568562189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23866,6 +24103,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 719395098}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &609949580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25027,6 +25272,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &628128405
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25391,6 +25644,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bd8fc72eb92194d80b8ccaefad43fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &629191542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25738,6 +25999,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bd8fc72eb92194d80b8ccaefad43fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &638850590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26406,6 +26675,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bd8fc72eb92194d80b8ccaefad43fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &662719797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27366,6 +27643,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 510021673}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &692839451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27704,6 +27989,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &694673987
 GameObject:
   m_ObjectHideFlags: 0
@@ -28928,6 +29221,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &719395099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29132,6 +29433,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 755589296}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &726761107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29412,6 +29721,14 @@ MonoBehaviour:
   FirstActiveButtonPrevious: {fileID: 1038726707}
   FirstActiveButtonNextTab: {fileID: 1013608327}
   FirstActiveButtonPreviousTab: {fileID: 694034238}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &734725852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30149,6 +30466,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 628128404}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &747645767
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30333,6 +30658,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &755589297
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30608,6 +30941,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 2000086343}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &760950217
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31533,6 +31874,14 @@ MonoBehaviour:
   FirstActiveButtonPrevious: {fileID: 1317949748}
   FirstActiveButtonNextTab: {fileID: 1013608327}
   FirstActiveButtonPreviousTab: {fileID: 694034238}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &790883266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32308,6 +32657,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &810927936
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32653,6 +33010,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1332910847}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &814329213
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34004,6 +34369,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1757490470}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &850899932
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34375,6 +34748,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &854179255
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -35382,6 +35763,14 @@ MonoBehaviour:
   FirstActiveButtonPrevious: {fileID: 930869518}
   FirstActiveButtonNextTab: {fileID: 568562188}
   FirstActiveButtonPreviousTab: {fileID: 1545869266}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &893247664
 GameObject:
   m_ObjectHideFlags: 0
@@ -36426,6 +36815,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1000652925}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &925881351
 GameObject:
   m_ObjectHideFlags: 0
@@ -36745,6 +37142,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &930869519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37834,6 +38239,14 @@ MonoBehaviour:
   FirstActiveButtonPrevious: {fileID: 0}
   FirstActiveButtonNextTab: {fileID: 1545869266}
   FirstActiveButtonPreviousTab: {fileID: 1013608327}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &952636720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38095,6 +38508,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 930869518}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &959069433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38699,6 +39120,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 694034238}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &977644233
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39477,6 +39906,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1000652926
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39786,6 +40223,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bd8fc72eb92194d80b8ccaefad43fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &1009618286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39980,6 +40425,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1013608328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40694,6 +41147,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1550880738}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1027147092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -40909,6 +41370,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1038726708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42924,6 +43393,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1095526029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43710,6 +44187,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 755589296}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &1123016829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44489,6 +44974,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1143549010
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45266,6 +45759,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 694034238}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1164513274
 GameObject:
   m_ObjectHideFlags: 0
@@ -45521,6 +46022,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1169667246
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45756,6 +46265,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 505359562}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1178029691
 GameObject:
   m_ObjectHideFlags: 0
@@ -46184,6 +46701,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1182075324
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47712,6 +48237,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 568562188}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1219323109
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -48559,6 +49092,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1757490470}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1233073363
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -49062,6 +49603,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1818326729}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1248246111
 GameObject:
   m_ObjectHideFlags: 0
@@ -49209,6 +49758,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1615542413}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &1250057159 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5117812335143589662, guid: 877af049cdb5ebd49b4371ee3bc7d69b, type: 3}
@@ -49754,6 +50311,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1267156339
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -50697,6 +51262,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1286161710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51085,6 +51658,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bd8fc72eb92194d80b8ccaefad43fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1295390424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52146,6 +52727,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 244390658}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1311111898
 GameObject:
   m_ObjectHideFlags: 0
@@ -52597,6 +53186,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1317949749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52835,6 +53432,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 628128404}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1320091975
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -53440,6 +54045,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1332910848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53691,6 +54304,14 @@ MonoBehaviour:
   FirstActiveButtonPrevious: {fileID: 719395098}
   FirstActiveButtonNextTab: {fileID: 1013608327}
   FirstActiveButtonPreviousTab: {fileID: 694034238}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1337019355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54182,6 +54803,10 @@ MonoBehaviour:
   WorkbenchColored: {fileID: -7857897725655786203, guid: 0301d7d2a638c5e48b7182e2b6b04d56, type: 3}
   GroundGrey: {fileID: 7837240504234544165, guid: 1fdf8e4facc4bd44e80e2aa12064c793, type: 3}
   GroundColored: {fileID: 445472925725444893, guid: 219cf48eb3acecb4fb66d28a051452ab, type: 3}
+  PlayMagicGlitter:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!60 &1345457165
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -54595,6 +55220,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 436069007}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &1357713157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56487,6 +57120,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Trigger: PlayFrog
+  PlayDrinkThrowAway:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!95 &1397092130
 Animator:
   serializedVersion: 7
@@ -56765,6 +57402,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1550880738}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1398202056
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -56983,6 +57628,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 568562188}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1405618747
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -57179,6 +57832,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 11228080}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1407112672
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -59817,6 +60478,14 @@ MonoBehaviour:
   FirstActiveButtonPrevious: {fileID: 694034238}
   FirstActiveButtonNextTab: {fileID: 568562188}
   FirstActiveButtonPreviousTab: {fileID: 1545869266}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1479159032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60668,6 +61337,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1000652925}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1503615479
 GameObject:
   m_ObjectHideFlags: 0
@@ -60954,6 +61631,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1504869824
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -61960,6 +62645,7 @@ GameObject:
   - component: {fileID: 1532779203}
   - component: {fileID: 1532779205}
   - component: {fileID: 1532779204}
+  - component: {fileID: 1532779206}
   m_Layer: 0
   m_Name: OutlinesRoom
   m_TagString: Untagged
@@ -62039,7 +62725,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -62109,6 +62795,32 @@ PolygonCollider2D:
       - {x: -6.150703, y: -4.812694}
       - {x: -6.204235, y: -4.787196}
   m_UseDelaunayMesh: 0
+--- !u!114 &1532779206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532779202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abdc37a5fa622b148bde29bf07f37e19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e83ee813faaaf51449160f3b51f37da0, type: 2}
+  ambienceEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3a4fff83807777a45a4120c34a1d530c, type: 2}
+  DoorInteraction: {fileID: 221911621}
+  DoorInteraction1: {fileID: 221911621}
+  DoorInteraction2: {fileID: 221911621}
+  DoorInteraction3: {fileID: 221911621}
 --- !u!4 &1533341448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2985829513904778523, guid: 74042120a242d5744bd6a8f969f40ab7, type: 3}
@@ -62400,6 +63112,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1545869267
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -62555,6 +63275,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1550880739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62885,6 +63613,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1332910847}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1556802858
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -63786,6 +64522,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1169667245}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1581512534
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -64004,6 +64748,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1852004925}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1592048359
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -64413,6 +65165,14 @@ MonoBehaviour:
   FirstActiveButtonPrevious: {fileID: 0}
   FirstActiveButtonNextTab: {fileID: 1504869823}
   FirstActiveButtonPreviousTab: {fileID: 568562188}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1595561744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64690,6 +65450,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1604616733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65208,6 +65976,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 107339140}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1615542408
 GameObject:
   m_ObjectHideFlags: 0
@@ -65383,6 +66159,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &1617290748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66293,6 +67077,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1863368015}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &1641427731 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2985829513904778523, guid: 74042120a242d5744bd6a8f969f40ab7, type: 3}
@@ -66715,6 +67507,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1317949748}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1665089841
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -68767,6 +69567,10 @@ MonoBehaviour:
   WorkbenchOverlay: {fileID: 892785482}
   FirstActiveButton: {fileID: 694034238}
   InOverlay: 0
+  PlayConstructionPlanOpen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1720216838
 GameObject:
   m_ObjectHideFlags: 0
@@ -69496,6 +70300,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1038726707}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1736816457
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -70130,6 +70942,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1757490471
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -70507,6 +71327,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bd8fc72eb92194d80b8ccaefad43fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1770002228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70910,6 +71738,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 349148886}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1775246583
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -71354,6 +72190,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1286161709}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1780385240
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -71526,6 +72370,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bd8fc72eb92194d80b8ccaefad43fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &1782604149
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72620,6 +73472,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1863368015}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &1799619817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73008,6 +73868,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 505359562}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1811792238
 GameObject:
   m_ObjectHideFlags: 0
@@ -73461,6 +74329,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1852004925}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1817628496
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -73724,6 +74600,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &1818557936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74490,6 +75374,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3253971778113276596, guid: 575de5734913ced4d938eef616abe05c, type: 3}
   m_PrefabInstance: {fileID: 1832905176}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1832980956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1832980958}
+  - component: {fileID: 1832980957}
+  m_Layer: 0
+  m_Name: WwiseGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1832980957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832980956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ced9dcdab3e6e43498a495138b0883f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationSettings: {fileID: 11400000, guid: 33d49fd38ec45184f95c6e34ac89983c, type: 2}
+  basePath: 
+  language: 
+  defaultPoolSize: 0
+  lowerPoolSize: 0
+  streamingPoolSize: 0
+  memoryCutoffThreshold: 0
+  monitorPoolSize: 0
+  monitorQueuePoolSize: 0
+  callbackManagerBufferSize: 0
+  spatialAudioPoolSize: 0
+  maxSoundPropagationDepth: 0
+  engineLogging: 0
+--- !u!4 &1832980958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832980956}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1835959531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74839,6 +75780,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 930869518}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &1840952121 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7050840895083876355, guid: 670cd1bf6f163a543b293cb7d1fb521a, type: 3}
@@ -75545,6 +76494,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1852004926
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -75692,6 +76649,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 1286161709}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1853038164
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -76248,6 +77213,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &1863634041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77754,6 +78727,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bd8fc72eb92194d80b8ccaefad43fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1919485697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79073,6 +80054,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1169667245}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1931743306
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -79472,6 +80461,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bd8fc72eb92194d80b8ccaefad43fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &1948661822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80096,6 +81093,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &1970485102
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -80677,6 +81682,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 107339140}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1989659265
 GameObject:
   m_ObjectHideFlags: 0
@@ -81557,6 +82570,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 1615542413}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1999371021
 GameObject:
   m_ObjectHideFlags: 0
@@ -81854,6 +82875,14 @@ MonoBehaviour:
   Amount3: 0
   Amount4: 0
   Amount5: 0
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &2000086344
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -82496,6 +83525,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: 1
   CraftButton: {fileID: 436069007}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &2022570010
 GameObject:
   m_ObjectHideFlags: 0
@@ -83090,6 +84127,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PosOrNeg: -1
   CraftButton: {fileID: 11228080}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!222 &2025958141
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -87594,3 +88639,4 @@ SceneRoots:
   - {fileID: 1796203268}
   - {fileID: 400046882}
   - {fileID: 1893686194}
+  - {fileID: 1832980958}

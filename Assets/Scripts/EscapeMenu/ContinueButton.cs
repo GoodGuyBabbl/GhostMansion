@@ -9,6 +9,9 @@ public class ContinueButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     [SerializeField] private Button Button;
     private EscapeMenu EscapeMenu;
 
+    public AK.Wwise.Event PlayClick;
+    public AK.Wwise.Event PlayButton;
+
     private void Awake()
     {
         Renderer = GetComponent<Image>();
@@ -22,6 +25,7 @@ public class ContinueButton : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void OnSelect(BaseEventData eventData)
     {
+        PlayButton.Post(gameObject);
         Renderer.enabled = true;
     }
 
@@ -32,6 +36,7 @@ public class ContinueButton : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void OnClick()
     {
+        PlayClick.Post(gameObject);
         EscapeMenu.CloseMenu();
     }
 }
