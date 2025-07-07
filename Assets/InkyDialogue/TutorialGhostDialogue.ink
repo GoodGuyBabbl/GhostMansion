@@ -64,7 +64,7 @@ Whatever, you'll have to do it! Take it and go!
 
 ===BreakStones===
 Just swing it as hard as you can at that pile of stones in front of the door up there. 
-You can do that by selecting the pickaxe in your hotbar and holding the X Button.
+You can do that by selecting the pickaxe in your hotbar and holding the A Button.
 ->END
 
 ===GoingToGarden===
