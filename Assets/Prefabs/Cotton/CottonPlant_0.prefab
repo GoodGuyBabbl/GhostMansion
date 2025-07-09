@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4606119550973786498}
   m_Layer: 0
   m_Name: CottonPlant_0
-  m_TagString: Untagged
+  m_TagString: Sichel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,6 +116,10 @@ MonoBehaviour:
   PlayerAnimationChangeName: IsCollecting
   TimeToRegrow: 30
   CanRegrow: 1
+  PlaySpider:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &2877293293861317618
 MonoBehaviour:
   m_ObjectHideFlags: 0

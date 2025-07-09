@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7040410920594693427}
   m_Layer: 0
   m_Name: FlowerGreen
-  m_TagString: Untagged
+  m_TagString: Sichel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,6 +138,10 @@ MonoBehaviour:
   PlayerAnimationChangeName: IsCollecting
   TimeToRegrow: 30
   CanRegrow: 1
+  PlaySpider:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!61 &8838822372971555479
 BoxCollider2D:
   m_ObjectHideFlags: 0
