@@ -662,7 +662,7 @@ MonoBehaviour:
   PlayCollect:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 90ddbdec06d45e74b9d376353c9fe210, type: 2}
 --- !u!58 &470202855
 CircleCollider2D:
   m_ObjectHideFlags: 0
