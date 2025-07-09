@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{604C45DE-F5C0-41A8-8FE5-E93F6FEC36CF}",
     "Language": "SFX",
-    "Hash": "{BD107A8B-7650-4883-0A15-F3A2C5643570}",
+    "Hash": "{3B637C2D-8D76-97C4-AEF2-9204783BA743}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "construction_plan_open\\construction_plan_open_(1.1).wav",
       "CachePath": "C9/{C97F9693-8150-5190-843A-EA3A40D1E2D1}.wem"
+     },
+     {
+      "Id": "24084635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GhostMovement\\GhostMovement.wav",
+      "CachePath": "23/{2369CEE1-56D6-9206-011C-506CCC6BB19D}.wem"
      },
      {
       "Id": "33407706",
@@ -237,7 +245,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "GhostMovement\\GhostMovement.wav",
-      "CachePath": "F7/{F7AEA8F8-DEB1-D0C3-C693-6AE28D2F720A}.wem"
+      "CachePath": "60/{605982B6-6C57-3BE2-DC44-1E0FFCFB814D}.wem"
      },
      {
       "Id": "155600672",
@@ -1046,6 +1054,14 @@
       "Location": "Memory",
       "ShortName": "plup\\plop-01.wav",
       "CachePath": "87/{879A6559-BA62-7A17-18CD-F952B658314A}.wem"
+     },
+     {
+      "Id": "722980515",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GhostMovement\\GhostMovement.wav",
+      "CachePath": "76/{76CA48F9-907C-03AA-BE31-466B02EA5254}.wem"
      },
      {
       "Id": "725498503",
@@ -1898,7 +1914,13 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+        "Id": "24084635"
+       },
+       {
         "Id": "151817741"
+       },
+       {
+        "Id": "722980515"
        }
       ]
      },
@@ -2645,6 +2667,16 @@
       ]
      },
      {
+      "Id": "3131579743",
+      "Name": "PlayStopGhostMovement",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayStopGhostMovement",
+      "GUID": "{1081CBE2-021D-4B25-A27A-43F7A7FB051A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "1146474813",
       "Name": "PlayThrow",
       "ObjectPath": "\\Events\\Default Work Unit\\PlayThrow",
@@ -2758,6 +2790,6 @@
     ]
    }
   ],
-  "FileHash": "{ACAF0116-B58E-0B29-F0DA-6D56B6E8ED03}"
+  "FileHash": "{4F98645B-F67A-D2C7-C3D6-B2F6D4E40F08}"
  }
 }

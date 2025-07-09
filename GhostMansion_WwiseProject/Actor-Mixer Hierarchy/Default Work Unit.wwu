@@ -1318,7 +1318,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-19</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1354,6 +1354,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="05 - glass_bottles" ID="{1E039A81-DD02-4A85-937A-82E4B645CA64}" ShortID="955471159">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82243068-4085-4D4D-A666-80162D0440B6}"/>
@@ -1398,6 +1405,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="07 - glass_bottles" ID="{F88DE498-B589-414B-A933-9EEE64B05358}" ShortID="326248393">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82243068-4085-4D4D-A666-80162D0440B6}"/>
@@ -1620,6 +1634,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="GhostMovement" ID="{ACC27DF4-59E4-4EAD-8DF7-EC617704A19F}" ShortID="491905604">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82243068-4085-4D4D-A666-80162D0440B6}"/>
@@ -1645,7 +1663,7 @@
 										<AudioFileSource Name="GhostMovement" ID="{C764272A-EB7C-464D-A386-98AA4ADC52A2}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.13002102402435"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.198156504854275"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.37293154659001"/>
 												<Property Name="FadeOutShape" Type="int16" Value="9"/>
 												<Property Name="LoopEnd" Type="Real64" Value="6.72883915842369"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1661,7 +1679,81 @@
 										<ActiveSource Name="GhostMovement" ID="{C764272A-EB7C-464D-A386-98AA4ADC52A2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="GhostMovement_01" ID="{B4CF3EFB-020E-4BA8-9CF7-42D38A1BAA7E}" ShortID="138245883">
+									<PropertyList>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82243068-4085-4D4D-A666-80162D0440B6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F209EB1E-43BB-41F4-A558-B85AE7AE5CEA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GhostMovement" ID="{B676BE07-649B-4568-B99F-2BDF23E62494}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.13002102402435"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.98484744808516"/>
+												<Property Name="FadeOutShape" Type="int16" Value="9"/>
+												<Property Name="LoopEnd" Type="Real64" Value="6.72883915842369"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>GhostMovement\GhostMovement.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="24084635"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GhostMovement" ID="{B676BE07-649B-4568-B99F-2BDF23E62494}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GhostMovement_02" ID="{4D4426E2-2EC2-4401-A960-D3479FF36F67}" ShortID="481584091">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82243068-4085-4D4D-A666-80162D0440B6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F209EB1E-43BB-41F4-A558-B85AE7AE5CEA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GhostMovement" ID="{99747FD1-C3AA-4765-8C62-C34613DAC521}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.85845362000999"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.37293154659001"/>
+												<Property Name="FadeOutShape" Type="int16" Value="9"/>
+												<Property Name="LoopEnd" Type="Real64" Value="6.72883915842369"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>GhostMovement\GhostMovement.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="722980515"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GhostMovement" ID="{99747FD1-C3AA-4765-8C62-C34613DAC521}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="GhostMovement_02" ID="{4D4426E2-2EC2-4401-A960-D3479FF36F67}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="GhostMovement" ID="{A14D70B0-815C-40A8-8257-12EF60DD77C6}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="GhostMovement_01" ID="{B4CF3EFB-020E-4BA8-9CF7-42D38A1BAA7E}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="iron" ID="{708EBFA6-6CB6-4D21-82B1-0CA42B652FB6}" ShortID="555255199">
 							<PropertyList>

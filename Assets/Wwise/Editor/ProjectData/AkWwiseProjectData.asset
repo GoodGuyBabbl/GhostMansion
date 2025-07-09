@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5c95fcccae4b9543948e99a17392f96a
     GuidInternal: 
-    m_lastTime: -8584495472981793614
+    m_lastTime: -8584495416308719373
     List:
     - name: Main
       guid: de454c60c0f5a8418fe5e93f6fec36cf
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c2d24754beac984799b53f50d98234ed
     GuidInternal: 
-    m_lastTime: -8584495939524024445
+    m_lastTime: -8584495402987862647
     List:
     - name: PlayButton
       guid: 523fbc71663bd64fa0e026e4e6a59111
@@ -572,6 +572,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 9.9288435
       minDuration: 3.8432426
+    - name: PlayStopGhostMovement
+      guid: e2cb81101d02254ba27a43f7a7fb051a
+      id: 3131579743
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayStopGhostMovement
+        ObjectType: 3
+        guid: e2cb81101d02254ba27a43f7a7fb051a
+      Path: Events\Default Work Unit\PlayStopGhostMovement
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: PlayThrow
       guid: 7c515e3dcadc244998653d9fffa9722b
       id: 1146474813

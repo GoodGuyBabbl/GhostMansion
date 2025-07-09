@@ -41,6 +41,7 @@ namespace AK
         static const AkUniqueID PLAYSCOOP = 1392495417U;
         static const AkUniqueID PLAYSICHLE = 2697781743U;
         static const AkUniqueID PLAYSTONESCRATCHINGONWOOD = 3154567380U;
+        static const AkUniqueID PLAYSTOPGHOSTMOVEMENT = 3131579743U;
         static const AkUniqueID PLAYTHROW = 1146474813U;
         static const AkUniqueID PLAYWATER = 2706800728U;
         static const AkUniqueID PLAYWORKBENCH = 4251712754U;

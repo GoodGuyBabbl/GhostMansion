@@ -22,6 +22,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2706800728	PlayWater			\Default Work Unit\PlayWater	
 	2734526490	PlayInstallationSite			\Default Work Unit\PlayInstallationSite	
 	3130164470	PlayPuff			\Default Work Unit\PlayPuff	
+	3131579743	PlayStopGhostMovement			\Default Work Unit\PlayStopGhostMovement	
 	3154567380	PlayStoneScratchingOnWood			\Default Work Unit\PlayStoneScratchingOnWood	
 	3209110383	PlayOpenDoor			\Default Work Unit\PlayOpenDoor	
 	3226031368	PlayChoppingWood			\Default Work Unit\PlayChoppingWood	
@@ -47,6 +48,7 @@ Switch	ID	Name	Switch Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	4899014	construction_plan_open_(1_1)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\C9\{C97F9693-8150-5190-843A-EA3A40D1E2D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\construction_plan_open\construction_plan_open_(1_1)		164308
+	24084635	GhostMovement_01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\23\{2369CEE1-56D6-9206-011C-506CCC6BB19D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\GhostMovement\GhostMovement_01		1197388
 	33407706	Werkbank	D:\GhostMansion\GhostMansion_WwiseProject\.cache\14\{1460AA85-CF01-BECC-C544-609F074345DF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\Werkbank		1114136
 	40055423	CharacterSound - badboy - 01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\D6\{D6FF767C-7322-62A2-FBDD-7D593FF778F8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharacterSounds\CharacterSounds\CharacterSound - badboy - 01		200240
 	42884648	construction_plan_open_(1)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\93\{93769C2D-A819-F139-9EA4-9F595EC7792D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\construction_plan_open\construction_plan_open_(1)		139140
@@ -73,7 +75,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	137905562	mining_iron-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\0A\{0A7C141D-1A7C-D7DB-AE31-94642C4FCF08}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\iron\mining_iron-01		68936
 	143164584	chopping_wood_01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DF\{DFD32D6B-D82B-F28F-A0E4-FA4E0E8EC5A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_01		54112
 	151540310	00 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\66\{662F26AB-0985-8106-80BE-336AEF8CD6C2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\00 - glass_bottles		208468
-	151817741	GhostMovement	D:\GhostMansion\GhostMansion_WwiseProject\.cache\F7\{F7AEA8F8-DEB1-D0C3-C693-6AE28D2F720A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\GhostMovement\GhostMovement		1197388
+	151817741	GhostMovement	D:\GhostMansion\GhostMansion_WwiseProject\.cache\60\{605982B6-6C57-3BE2-DC44-1E0FFCFB814D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\GhostMovement\GhostMovement		1197388
 	155600672	sichel-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\01\{01CB011A-C4DA-7C20-7940-F9A537585772}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\sichle\sichel-01		58276
 	157277488	Baustelle	D:\GhostMansion\GhostMansion_WwiseProject\.cache\BB\{BB983F9F-356A-D412-53CC-3BC5E073A89A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\Baustelle		736912
 	158287148	mouse-19	D:\GhostMansion\GhostMansion_WwiseProject\.cache\77\{7795A2DB-E87E-7AB8-55DD-549EFF2AD9C6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-19		55200
@@ -175,6 +177,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	707281829	mouse-12	D:\GhostMansion\GhostMansion_WwiseProject\.cache\7A\{7AA4E1E5-B262-8FB3-F3E5-CF132735DE29}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-12		25640
 	713435860	mining_iron-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\04\{044A40A0-CC09-77F6-2C61-631EBDCB9004}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\iron\mining_iron-00		70352
 	714860826	plop-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\87\{879A6559-BA62-7A17-18CD-F952B658314A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-01		7520
+	722980515	GhostMovement_02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\76\{76CA48F9-907C-03AA-BE31-466B02EA5254}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\GhostMovement\GhostMovement_02		1197388
 	725498503	birds	D:\GhostMansion\GhostMansion_WwiseProject\.cache\50\{5014AC66-0437-1F75-E6CD-31157F18EC82}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\AnimalsGarden\birds		2475392
 	735678433	chopping_wood_03	D:\GhostMansion\GhostMansion_WwiseProject\.cache\76\{7689490F-3247-DD18-7CDF-7C11142C441C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_03		62440
 	739463971	mouse-06	D:\GhostMansion\GhostMansion_WwiseProject\.cache\35\{354F997E-EA32-017F-1944-40A5C2A8A56F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-06		33352

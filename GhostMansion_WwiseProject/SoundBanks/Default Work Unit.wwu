@@ -27,6 +27,7 @@
 						<ObjectRef Name="PlayGhostMovement" ID="{C44D9F73-DED2-4817-A3EF-27AC4657D164}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayThrow" ID="{3D5E517C-DCCA-4924-9865-3D9FFFA9722B}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayLandingNet" ID="{DF92CF25-BBE2-496F-BAF7-65FB387EF48C}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayStopGhostMovement" ID="{1081CBE2-021D-4B25-A27A-43F7A7FB051A}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayFrogJump" ID="{56FDEE7B-643C-4C9D-B602-1C3410EBE125}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayStoneScratchingOnWood" ID="{718ABAE8-FA4B-4CD6-8995-661DECC5E358}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayOpenDoor" ID="{98CB7D0F-CBAA-4DB0-A2D1-E0604523E3B4}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>

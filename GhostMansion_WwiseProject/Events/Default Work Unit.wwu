@@ -38,7 +38,7 @@
 				</Event>
 				<Event Name="PlayGhostMovement" ID="{C44D9F73-DED2-4817-A3EF-27AC4657D164}">
 					<ChildrenList>
-						<Action Name="" ID="{C1216DB4-31A1-4165-B02A-831E71B3235D}" ShortID="358312537">
+						<Action Name="" ID="{6B176D8B-89D6-4B15-A79D-6A5A47C79DBF}" ShortID="593144510">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="GhostMovement" ID="{ACC27DF4-59E4-4EAD-8DF7-EC617704A19F}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
@@ -363,6 +363,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="water" ID="{F846B4AD-60C5-4F06-BE53-DFD2F5EEC2B2}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayStopGhostMovement" ID="{1081CBE2-021D-4B25-A27A-43F7A7FB051A}">
+					<ChildrenList>
+						<Action Name="" ID="{A0C0BF19-3B23-41D8-8FD2-816430E9E226}" ShortID="326213354">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GhostMovement_01" ID="{B4CF3EFB-020E-4BA8-9CF7-42D38A1BAA7E}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
