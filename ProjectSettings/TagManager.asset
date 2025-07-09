@@ -9,6 +9,9 @@ TagManager:
   - Stone
   - Iron
   - Fire
+  - Spider
+  - Glass
+  - Sichel
   layers:
   - Default
   - TransparentFX

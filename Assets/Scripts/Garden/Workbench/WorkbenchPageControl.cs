@@ -12,8 +12,7 @@ public class WorkbenchPageControl : MonoBehaviour
     public CraftButton FirstActiveButtonNextTab;
     public CraftButton FirstActiveButtonPreviousTab;
 
-    public AK.Wwise.Event PlayButton;
-    public AK.Wwise.Event PlayClick;
+    public AK.Wwise.Event PlayConstructionPlanOpen;
 
     private void Update()
     {
@@ -23,6 +22,7 @@ public class WorkbenchPageControl : MonoBehaviour
 
         if (Input.GetButtonDown("ToolbarRight") && NextPage)
         {
+            PlayConstructionPlanOpen.Post(gameObject);
             NextPage.SetActive(true);
             if(FirstActiveButtonNext)
             {
@@ -32,6 +32,7 @@ public class WorkbenchPageControl : MonoBehaviour
         }
         if (Input.GetButtonDown("ToolbarLeft") && NextPage)
         {
+            PlayConstructionPlanOpen.Post(gameObject);
             PreviousPage.SetActive(true);
             if(FirstActiveButtonPrevious)
             {
@@ -45,6 +46,7 @@ public class WorkbenchPageControl : MonoBehaviour
 
         if (Input.GetButtonDown("WorkbenchTabRight"))
         {
+            PlayConstructionPlanOpen.Post(gameObject);
             NextTab.SetActive(true);
             if (FirstActiveButtonNextTab)
             {
@@ -54,6 +56,7 @@ public class WorkbenchPageControl : MonoBehaviour
         }
         if (Input.GetButtonDown("WorkbenchTabLeft"))
         {
+            PlayConstructionPlanOpen.Post(gameObject);
             PreviousTab.SetActive(true);
             if (FirstActiveButtonPreviousTab)
             {

@@ -13,6 +13,7 @@ public class ColorChangeController : MonoBehaviour
     private RoomNPC RoomNPC;
     private SaveStateManager SaveStateManager;
 
+    public AK.Wwise.Event PlayPencilsRoomChangesGrayToColour;
 
     void Start()
     {
@@ -39,6 +40,7 @@ public class ColorChangeController : MonoBehaviour
     {
         if (RepairedObjects == RepairableObjectsAmount)
         {
+            PlayPencilsRoomChangesGrayToColour.Post(gameObject);
             Animator.SetBool("RoomIsRepaired", true);
             SaveStateManager.SetCurrentStory(RoomNPC.StoryName, "RoomRepaired");
             RoomNPC.DialogueKnotName = "RoomRepaired";

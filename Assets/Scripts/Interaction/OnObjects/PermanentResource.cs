@@ -29,7 +29,7 @@ public class PermanentResource : TriggerInteraction
     public GameObject DroppedItem;
     public string PlayerAnimationChangeName; // für Baum IsChopping, im Player Animator
 
-
+    public AK.Wwise.Event PlayGlass;
 
 
 
@@ -63,6 +63,7 @@ public class PermanentResource : TriggerInteraction
     {
         if (UIManager.GetToolCollected(ToolbarIndexNeeded) && ToolbarControl.CurrentIndex == ToolbarIndexNeeded)
         {
+            PlayGlass.Post(gameObject);
             XPlayerAnimationDirection = new Vector2(transform.position.x - Player.transform.position.x, 0).x;
             YPlayerAnimationDirection = new Vector2(0, transform.position.y - Player.transform.position.y).y;
             PlayerAnimator.SetFloat("XAnimationDirection", XPlayerAnimationDirection);

@@ -51,7 +51,8 @@ public class BuildButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     //public int AmountInInventory4;
     //public int AmountInInventory5;
 
-
+    public AK.Wwise.Event PlayClick;
+    public AK.Wwise.Event PlayButton;
     private void Awake()
     {
  
@@ -119,7 +120,7 @@ public class BuildButton : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void OnSelect(BaseEventData eventData)
     {
-
+        PlayButton.Post(gameObject);
         if (MaterialHandler.HasEnoughResources(Ingredient1, Amount1, Ingredient2, Amount2, Ingredient3, Amount3, Ingredient4, Amount4, Ingredient5, Amount5))
         {
             Renderer.sprite = CanCraftHover;
@@ -142,8 +143,10 @@ public class BuildButton : MonoBehaviour, ISelectHandler, IDeselectHandler
     }
     public void OnClick()
     {
+        
         if (Renderer.sprite == CanCraftHover)
         {
+            PlayClick.Post(gameObject);
             UIManager.RemoveActiveOverlay("Buildplot");
             MaterialHandler.DecreaseResourceCount(Ingredient1, Amount1);
             MaterialHandler.DecreaseResourceCount(Ingredient2, Amount2);

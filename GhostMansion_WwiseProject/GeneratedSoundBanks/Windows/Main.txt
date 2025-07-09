@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	271290123	PlayFire			\Default Work Unit\PlayFire	
 	453061870	PlayMagicHappy			\Default Work Unit\PlayMagicHappy	
 	486000869	PlayFrog			\Default Work Unit\PlayFrog	
+	584652296	PlayCharacter			\Default Work Unit\PlayCharacter	
 	717497513	PlayFrogJump			\Default Work Unit\PlayFrogJump	
 	1146474813	PlayThrow			\Default Work Unit\PlayThrow	
 	1197320975	PlayPencilsRoomChangesGrayToColour			\Default Work Unit\PlayPencilsRoomChangesGrayToColour	
@@ -17,7 +18,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	2002511053	PlayClick			\Default Work Unit\PlayClick	
 	2020962915	PlayCollect			\Default Work Unit\PlayCollect	
 	2099766676	PlayMouse			\Default Work Unit\PlayMouse	
+	2697781743	PlaySichle			\Default Work Unit\PlaySichle	
+	2706800728	PlayWater			\Default Work Unit\PlayWater	
 	2734526490	PlayInstallationSite			\Default Work Unit\PlayInstallationSite	
+	3130164470	PlayPuff			\Default Work Unit\PlayPuff	
 	3154567380	PlayStoneScratchingOnWood			\Default Work Unit\PlayStoneScratchingOnWood	
 	3209110383	PlayOpenDoor			\Default Work Unit\PlayOpenDoor	
 	3226031368	PlayChoppingWood			\Default Work Unit\PlayChoppingWood	
@@ -29,6 +33,7 @@ Event	ID	Name			Wwise Object Path	Notes
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1359360203	Rooms			\Default Work Unit\Rooms	
+	4004054246	CharacterSounds			\Default Work Unit\CharacterSounds	
 
 Switch	ID	Name	Switch Group			Notes
 	278887670	Garden	Rooms			
@@ -36,12 +41,17 @@ Switch	ID	Name	Switch Group			Notes
 	1413413702	Basement	Rooms			
 	1485871687	MainRoom	Rooms			
 	2157048949	Porch	Rooms			
+	1015976006	BadassGuy	CharacterSounds			
+	2994303515	Aristocrat	CharacterSounds			
+	4049691650	LittleGhost	CharacterSounds			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	4899014	construction_plan_open_(1_1)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\C9\{C97F9693-8150-5190-843A-EA3A40D1E2D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\construction_plan_open\construction_plan_open_(1_1)		164308
-	33407706	Werkbank	D:\GhostMansion\GhostMansion_WwiseProject\.cache\D3\{D3223C15-71E0-47B3-8BEE-0C20ABD4211B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\Werkbank		1410808
+	33407706	Werkbank	D:\GhostMansion\GhostMansion_WwiseProject\.cache\14\{1460AA85-CF01-BECC-C544-609F074345DF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\Werkbank		1114136
+	40055423	CharacterSound - badboy - 01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\D6\{D6FF767C-7322-62A2-FBDD-7D593FF778F8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharacterSounds\CharacterSounds\CharacterSound - badboy - 01		200240
 	42884648	construction_plan_open_(1)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\93\{93769C2D-A819-F139-9EA4-9F595EC7792D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\construction_plan_open\construction_plan_open_(1)		139140
 	44562282	mouse-08	D:\GhostMansion\GhostMansion_WwiseProject\.cache\30\{308373FA-C42A-E946-B380-6BFFCE01CD5C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-08		39616
+	45711131	pulling_turnip_cork_(5)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\A2\{A2BA704B-1C9A-29B5-057C-75A9CB0941F3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\pulling_turnip_cork_(5)		46788
 	49175421	open_door_09	D:\GhostMansion\GhostMansion_WwiseProject\.cache\9C\{9C903CAC-9388-C08A-B83D-314EEBC13A86}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\open_door\open_door_09		455636
 	50110951	chopping_wood_10	D:\GhostMansion\GhostMansion_WwiseProject\.cache\6C\{6C0F127F-671B-EF3A-E7FC-992BB4EBE1E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_10		68528
 	61179244	mouse-27	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DE\{DE35438E-F42C-695D-5B45-2586EEB81A0F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-27		40104
@@ -64,26 +74,33 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	143164584	chopping_wood_01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DF\{DFD32D6B-D82B-F28F-A0E4-FA4E0E8EC5A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_01		54112
 	151540310	00 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\66\{662F26AB-0985-8106-80BE-336AEF8CD6C2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\00 - glass_bottles		208468
 	151817741	GhostMovement	D:\GhostMansion\GhostMansion_WwiseProject\.cache\F7\{F7AEA8F8-DEB1-D0C3-C693-6AE28D2F720A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\GhostMovement\GhostMovement		1197388
-	157277488	Baustelle	D:\GhostMansion\GhostMansion_WwiseProject\.cache\2D\{2D7C54B2-B948-F0E7-A12D-275156BF97BB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\Baustelle		1057664
+	155600672	sichel-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\01\{01CB011A-C4DA-7C20-7940-F9A537585772}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\sichle\sichel-01		58276
+	157277488	Baustelle	D:\GhostMansion\GhostMansion_WwiseProject\.cache\BB\{BB983F9F-356A-D412-53CC-3BC5E073A89A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\Baustelle		736912
 	158287148	mouse-19	D:\GhostMansion\GhostMansion_WwiseProject\.cache\77\{7795A2DB-E87E-7AB8-55DD-549EFF2AD9C6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-19		55200
 	166407342	plop-17	D:\GhostMansion\GhostMansion_WwiseProject\.cache\BD\{BD557924-AF88-CC60-07BA-0D83CB41BB98}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-17		18100
 	167009808	07 - pour	D:\GhostMansion\GhostMansion_WwiseProject\.cache\3C\{3CC06602-08C0-2B70-9FEE-130F5D30109D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\pour\07 - pour		511680
+	170560948	Water_(2)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\BD\{BDAFA63A-BAAE-29EF-2FF2-CEBAFF1002F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\water\Water_(2)		4992096
 	179438880	mouse-33	D:\GhostMansion\GhostMansion_WwiseProject\.cache\7B\{7B56C4E6-DF9A-995D-4CDB-72FADA400FC0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-33		19620
 	180222122	plop-08	D:\GhostMansion\GhostMansion_WwiseProject\.cache\17\{179F61B1-1F9C-8ED0-1811-F414789B3C90}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-08		9780
 	182931929	09 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\74\{74086DFA-5841-41F2-D9C4-D63D1B45937C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\09 - glass_bottles		74884
 	186258438	plop-11	D:\GhostMansion\GhostMansion_WwiseProject\.cache\E8\{E8A125E9-E7E7-82FD-F52A-B2971975B75F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-11		8484
+	186902627	blei	D:\GhostMansion\GhostMansion_WwiseProject\.cache\28\{28D3C4EF-DD19-93D0-E421-7BB7908C59EF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\pencils\blei		925032
 	187599566	stone-chip-02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\A1\{A172121F-8E65-B0EE-3317-AB56ED211ABC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\stonechips\stone-chip-02		81548
 	194865809	05 - pour	D:\GhostMansion\GhostMansion_WwiseProject\.cache\88\{88CAA2DB-678F-03EF-42C6-411E5F818527}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\pour\05 - pour		1207076
+	194909759	Water_(3)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\44\{44175B72-0B7D-A9BB-E50E-0E48B8963CB6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\water\Water_(3)		5675488
+	195614007	sichel-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\B5\{B5A0C80B-781A-6D2C-8F10-680650CC6624}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\sichle\sichel-00		58276
 	202307009	plop-15	D:\GhostMansion\GhostMansion_WwiseProject\.cache\FF\{FF6D25FB-C6B9-97AE-BA20-7B47EFA53B61}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-15		8492
 	202874198	mouse-40	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DE\{DE86A65F-5729-A89C-47FD-EFF58E65C58B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-40		40664
 	210673974	open_door_14	D:\GhostMansion\GhostMansion_WwiseProject\.cache\94\{94693AF0-E3E7-A12A-872D-CE1CCE0647E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\knarzen\open_door_14		53044
 	214704514	10 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\1F\{1FCDEE60-C98F-C901-7575-919000F38199}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\10 - glass_bottles		36812
 	220290751	plop-05	D:\GhostMansion\GhostMansion_WwiseProject\.cache\6F\{6FAAF8E1-2C21-ED61-846A-9DF372538B0D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-05		8812
 	221634058	mouse-29	D:\GhostMansion\GhostMansion_WwiseProject\.cache\84\{84ED368F-E378-FAC3-A1B5-F51B58227809}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-29		75720
+	225014188	blei_01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\45\{45F4B792-E0E7-1E37-C73B-1F12399D3EC4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\pencils\blei_01		591844
 	236867516	frog-07	D:\GhostMansion\GhostMansion_WwiseProject\.cache\1F\{1FDEDFE4-4D68-E3FE-DADB-D1BD0FEC9792}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\frog\frog\frog-07		75852
 	241326695	buttonhover	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DC\{DC082CFC-9AF0-7F4F-A823-81BCBF8F71E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\button\buttonhover		352896
 	242650012	mining_stone_(2)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\5F\{5F0F644D-4C25-8AFB-D22C-14D813DA18C6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\mining_stone\mining_stone_(2)		14120
 	242859387	05 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\AD\{ADCF3488-3677-5E53-C124-E9FD3E609EC2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\05 - glass_bottles		66780
+	244545262	sichel-03	D:\GhostMansion\GhostMansion_WwiseProject\.cache\B8\{B8057569-B8F7-D8EC-E2BE-85D06CDECE81}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\sichle\sichel-03		58276
 	253748757	construction_plan_open_(5_1)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\18\{18E41220-4B37-4391-56AF-127BD34AA3AD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\construction_plan_open\construction_plan_open_(5_1)		71672
 	258792649	mining_stone_(5)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DB\{DB91C657-F34E-B8B6-F2F6-D7D646AE2CD4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\mining_stone\mining_stone_(5)		21856
 	267813824	mining_stone_(11)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\88\{88C0F0CE-FCE0-B7E6-B8E9-CAD0D2464F75}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\mining_stone\mining_stone_(11)		33508
@@ -94,6 +111,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	285621297	mouse-04	D:\GhostMansion\GhostMansion_WwiseProject\.cache\78\{78A4D72F-A92E-80A9-3145-D2EA587D4678}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-04		33256
 	298738930	mouse-07	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DA\{DA5AFDA7-198D-A364-1460-A7F46B66D2D5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-07		19620
 	311271990	magic_glitter-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\63\{63F078DC-BF16-76AF-F286-4766D9716BDB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\magicglitter\magic_glitter-01		705696
+	312275325	sichel-02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\BA\{BA395792-7536-91CC-2728-726D6A1A307B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\sichle\sichel-02		58276
 	331179041	04 - Wind	D:\GhostMansion\GhostMansion_WwiseProject\.cache\4A\{4AD05EC5-A23E-AC08-F3DE-A2E9C474F96C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\Wind\04 - Wind		1684108
 	340502243	mouse-15	D:\GhostMansion\GhostMansion_WwiseProject\.cache\82\{82BE03AD-5AF5-973C-9746-62791BB43DAF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-15		30620
 	347612543	Baustelle-magic-happy-successful	D:\GhostMansion\GhostMansion_WwiseProject\.cache\19\{19648CE7-B7DE-B88F-7AC7-0842D6C20600}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\Baustelle-magic-happy-successful		705724
@@ -104,24 +122,25 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	389347947	02 - Wind	D:\GhostMansion\GhostMansion_WwiseProject\.cache\B6\{B67B669B-2860-0249-CAF3-783F1069A4F1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\Wind\02 - Wind		801140
 	400062481	leaves_in_the_wind_00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\F3\{F30EC7ED-3FFE-E6A5-58AA-C00B0942566F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\leaves_in_the-tree\leaves_in_the_wind_00		1486156
 	400496753	open_door_04	D:\GhostMansion\GhostMansion_WwiseProject\.cache\CE\{CED35491-9009-CBDD-6F84-A61DE4A502AA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\open_door\open_door_04		197908
+	405172936	CharacterSound - ghost - 01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\EC\{EC3EBF97-AEA9-1757-93D4-F8ECF41C6F95}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharacterSounds\CharacterSounds\CharacterSound - littleGhost\CharacterSound - ghost - 01		163192
 	409626119	03 - Wind	D:\GhostMansion\GhostMansion_WwiseProject\.cache\EB\{EB8ECD9C-4076-21FF-E2A7-BF35F9E4ACD6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\Wind\03 - Wind		1290924
 	425193474	chopping_wood_06	D:\GhostMansion\GhostMansion_WwiseProject\.cache\CE\{CE6F35B7-1967-62AC-FE6C-32B67F196C0E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_06		80336
 	428373216	mining_stone_(10)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\64\{64EE764F-61AF-72DD-053D-8BB96DCBE197}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\mining_stone\mining_stone_(10)		41004
 	455455358	open_door_02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\9B\{9BF2957F-AF01-3004-EB94-03762182A235}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\open_door\open_door_02		990096
 	456904394	drink-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\6A\{6A962295-D83F-4E62-85E9-859EB384CB52}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\drink\drink-00		225676
 	458420118	mining_iron-04	D:\GhostMansion\GhostMansion_WwiseProject\.cache\CD\{CD2EADD8-2BE6-0EB1-40C4-CB9628112F61}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\iron\mining_iron-04		70944
-	487710436	pencils-RoomChanges-GrayToColour	D:\GhostMansion\GhostMansion_WwiseProject\.cache\B6\{B6AE38F2-82CE-126F-156B-641F32FBC0E7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\pencils\pencils-RoomChanges-GrayToColour		74904
 	492074128	magic_glitter	D:\GhostMansion\GhostMansion_WwiseProject\.cache\5C\{5C22AD4F-E561-2FA8-4A58-D6EFF031201E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\magicglitter\magic_glitter		705696
 	492551857	chopping_wood_13	D:\GhostMansion\GhostMansion_WwiseProject\.cache\29\{29481DFF-EF3F-C76F-2530-B20489781181}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_13		73716
 	495828260	08 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\64\{648296A0-1403-A037-B653-07300FFA5350}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\08 - glass_bottles		480368
 	497551537	stone-chip-05	D:\GhostMansion\GhostMansion_WwiseProject\.cache\3F\{3F369F89-A1D4-F641-9CD4-B018461284CD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\stonechips\stone-chip-05		92080
 	499142090	02 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\9D\{9D684BF4-E183-0F64-0CB7-DDBD34E4BEA2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\02 - glass_bottles		26004
+	500806303	fire-05	D:\GhostMansion\GhostMansion_WwiseProject\.cache\2F\{2F6D103A-9FE5-3833-7A12-27AFE61DFF53}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\fire\fire\fire-05		475172
 	502019388	mouse-36	D:\GhostMansion\GhostMansion_WwiseProject\.cache\A3\{A3974077-8591-B663-30CD-B415558A0937}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-36		28216
 	509855820	01 - Wind	D:\GhostMansion\GhostMansion_WwiseProject\.cache\F3\{F3EAC70B-09AD-2068-FA1D-B97EEAB564A4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\Wind\01 - Wind		923880
 	511747272	mouse-26	D:\GhostMansion\GhostMansion_WwiseProject\.cache\92\{92979B8A-2755-8018-7493-9257E2513B0C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-26		25564
+	512860427	CharacterSounds - aristocrat - 00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\69\{69E0FE9B-28BF-26E2-24DA-094CDDF6DEA1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharacterSounds\CharacterSounds\CharacterSounds - aristocrat - 00		472428
 	515873693	mouse-23	D:\GhostMansion\GhostMansion_WwiseProject\.cache\1D\{1D7F7ADD-984F-8DC9-9646-B55E682D4DD9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-23		31104
 	516676225	open_door_12	D:\GhostMansion\GhostMansion_WwiseProject\.cache\81\{81CCC3BB-7DBB-2A07-23DB-835FE7439E0A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\open_door\open_door_12		325184
-	526378262	fire-04	D:\GhostMansion\GhostMansion_WwiseProject\.cache\84\{844698F3-C9DA-C160-8D0C-BD9A9C62210C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\fire\fire\fire-04		698328
 	530721942	chopping_wood_09	D:\GhostMansion\GhostMansion_WwiseProject\.cache\C9\{C99DF904-E129-C02A-8920-A2F368130D8C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_09		43112
 	541120744	03 - stone_on_wood_scratching	D:\GhostMansion\GhostMansion_WwiseProject\.cache\E4\{E48F8217-5E17-0178-219F-124CA3A3E8CC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\stoneonwoodscratching\03 - stone_on_wood_scratching		796716
 	542460608	12 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\FE\{FE7F2721-53FA-E80A-629E-FF35A5FD29AF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\12 - glass_bottles		702700
@@ -135,6 +154,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	592281231	mouse-10	D:\GhostMansion\GhostMansion_WwiseProject\.cache\09\{092A0CA3-40F5-5326-71A2-041756FE96B6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-10		31828
 	593218281	05 - Wind	D:\GhostMansion\GhostMansion_WwiseProject\.cache\27\{271EE92C-F27E-E072-8C9A-9095340BEDE5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\Wind\05 - Wind		728856
 	593295642	stone-chip-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\6C\{6CA3D9E5-F898-F218-E268-60E272218395}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\stonechips\stone-chip-01		149156
+	594617418	sichel-04	D:\GhostMansion\GhostMansion_WwiseProject\.cache\56\{561D72FF-E057-542B-B65B-885AAE820AD0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\sichle\sichel-04		58276
 	596352281	chopping_wood_05	D:\GhostMansion\GhostMansion_WwiseProject\.cache\F0\{F015B182-BE93-BB3E-71FA-49D2A216FF32}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_05		83684
 	600007042	mouse-42	D:\GhostMansion\GhostMansion_WwiseProject\.cache\89\{89FB81F0-E061-0CFA-00F2-9BFA29CACEDA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-42		61244
 	605135316	plop-04	D:\GhostMansion\GhostMansion_WwiseProject\.cache\82\{820BCA01-8168-CE17-41CE-0F3AF53ACBB3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-04		7196
@@ -144,18 +164,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	631509933	mouse-39	D:\GhostMansion\GhostMansion_WwiseProject\.cache\D6\{D6537768-199C-F342-A2EE-EDD81ACB31CC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-39		55204
 	641133048	plop-10	D:\GhostMansion\GhostMansion_WwiseProject\.cache\FA\{FA7277CF-A8E5-ACAF-EC29-8DD350FED495}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-10		19456
 	650763652	mouse-37	D:\GhostMansion\GhostMansion_WwiseProject\.cache\6C\{6CD8E40F-AA30-4458-AD00-2A216ACCE8C1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-37		45824
+	650895151	sichel-05	D:\GhostMansion\GhostMansion_WwiseProject\.cache\64\{64A5FC78-C0C1-F4B3-AA60-CE565D5AA2F4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\sichle\sichel-05		58276
 	657900199	mouse-38	D:\GhostMansion\GhostMansion_WwiseProject\.cache\26\{26FE5434-94BE-8E17-3250-B149F6D887FD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-38		108460
 	664548482	mouse-32	D:\GhostMansion\GhostMansion_WwiseProject\.cache\C9\{C90E3ADF-4536-0D02-C163-F6C68E90A01B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-32		168932
 	670637032	drink-00_01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DE\{DE23D766-D20E-8DDA-B7DD-CD2337BA3818}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\drink\drink-00_01		180684
-	684087897	zirkaden-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\67\{67B80FAD-AA38-0347-E7A8-E105C8354C3D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\AnimalsGarden\zirkaden\zirkaden-00		537336
+	684087897	zirkaden-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\65\{65DA0615-AE9D-E377-399B-2F51B003692D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\AnimalsGarden\zirkaden\zirkaden-00		537336
 	685122987	plop-13	D:\GhostMansion\GhostMansion_WwiseProject\.cache\FB\{FB0ACFB0-62BB-C95C-6314-81CE5637F998}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-13		6232
-	704262663	pencils-RoomChanges-GrayToColour-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DA\{DAEC72E6-D981-2CEA-86FE-53333F614F94}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\pencils\pencils-RoomChanges-GrayToColour-01		85428
 	706841642	mining_iron-07	D:\GhostMansion\GhostMansion_WwiseProject\.cache\DD\{DD9FE38E-89AE-ACD1-420A-BB9334748C3E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\iron\mining_iron-07		48752
 	707047652	mouse-14	D:\GhostMansion\GhostMansion_WwiseProject\.cache\9B\{9B49E783-E189-61FA-08D4-A68AF32C4E34}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-14		28208
 	707281829	mouse-12	D:\GhostMansion\GhostMansion_WwiseProject\.cache\7A\{7AA4E1E5-B262-8FB3-F3E5-CF132735DE29}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-12		25640
 	713435860	mining_iron-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\04\{044A40A0-CC09-77F6-2C61-631EBDCB9004}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\iron\mining_iron-00		70352
 	714860826	plop-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\87\{879A6559-BA62-7A17-18CD-F952B658314A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-01		7520
-	725498503	birds	D:\GhostMansion\GhostMansion_WwiseProject\.cache\60\{6072600C-164A-BD55-FCCB-6C60022A4D87}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\AnimalsGarden\birds		2475392
+	725498503	birds	D:\GhostMansion\GhostMansion_WwiseProject\.cache\50\{5014AC66-0437-1F75-E6CD-31157F18EC82}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\AnimalsGarden\birds		2475392
 	735678433	chopping_wood_03	D:\GhostMansion\GhostMansion_WwiseProject\.cache\76\{7689490F-3247-DD18-7CDF-7C11142C441C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_03		62440
 	739463971	mouse-06	D:\GhostMansion\GhostMansion_WwiseProject\.cache\35\{354F997E-EA32-017F-1944-40A5C2A8A56F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-06		33352
 	749172771	05 - stone_on_wood_scratching	D:\GhostMansion\GhostMansion_WwiseProject\.cache\58\{58B0ACB8-D929-E23E-76BD-0005F866B71F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\stoneonwoodscratching\05 - stone_on_wood_scratching		774784
@@ -169,6 +189,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	774297380	plop-02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\E1\{E143BA15-FC29-15B4-E763-A648DEB9976F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-02		7516
 	775218862	07 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\21\{21BF35A0-9FA8-DDB4-53E4-E4DF52792AAF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\07 - glass_bottles		431032
 	785830116	04 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\A1\{A1302A28-841A-AEC3-A137-B0C28E489CF6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\04 - glass_bottles		253296
+	792548974	fire-06	D:\GhostMansion\GhostMansion_WwiseProject\.cache\7A\{7A050BC3-8C97-6990-F11D-B82E0ACDD8DE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\fire\fire\fire-06		2041660
 	799827449	mouse-05	D:\GhostMansion\GhostMansion_WwiseProject\.cache\A1\{A1338A7F-A47C-078D-6830-DC9DDFD11F8B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-05		44040
 	805521983	plop-09	D:\GhostMansion\GhostMansion_WwiseProject\.cache\E4\{E40DA76E-8800-ADF3-E7D2-8F6EC1D9DFF5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-09		10420
 	818685716	mouse-34	D:\GhostMansion\GhostMansion_WwiseProject\.cache\1E\{1EF85780-CB32-960B-58C8-55D4C8A83C99}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-34		22916
@@ -180,7 +201,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	857504516	construction_plan_open_(5)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\60\{60EDE23D-A0FB-0CCB-9D76-BE65633B4EE4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\construction_plan_open\construction_plan_open_(5)		70816
 	863210051	plop-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\06\{0634E8A6-49CA-A85E-705E-0C1672C78007}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-00		10424
 	863613354	mouse-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\0C\{0C55F1DA-2884-A563-515F-72A60563DD8C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-01		25520
-	866118530	fire-02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\89\{89ADE016-C8BF-EA09-33EC-4341D5BE0073}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\fire\fire\fire-02		929464
 	869890925	open_door_06	D:\GhostMansion\GhostMansion_WwiseProject\.cache\B1\{B125AFF5-DB13-1CD7-B005-C94DCBEE15D9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\open_door\open_door_06		185276
 	870689771	11 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\4C\{4C46457F-2702-9384-B3A8-C6E0162EA067}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\11 - glass_bottles		44928
 	890675799	FrogJumpIntoWater	D:\GhostMansion\GhostMansion_WwiseProject\.cache\FC\{FCEE3161-4090-33AB-4EF9-973E7A7DC434}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\FrogJumpIntoWater		245356
@@ -190,27 +210,29 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	914850282	mouse-25	D:\GhostMansion\GhostMansion_WwiseProject\.cache\39\{39EC6B0D-2DF4-355A-7919-6636A8A93D6B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-25		61228
 	917285919	stone-chip-04	D:\GhostMansion\GhostMansion_WwiseProject\.cache\EB\{EBC527A0-63CE-85C2-B2A8-D9E964F728F2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\stonechips\stone-chip-04		73796
 	917462237	stone-chip-03	D:\GhostMansion\GhostMansion_WwiseProject\.cache\42\{425D9BE2-3889-0E53-BD92-50ADB0BBFF06}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\stonechips\stone-chip-03		75452
-	921905781	fire-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\C0\{C011B8E5-C765-964B-766D-A6EBFB1C681E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\fire\fire\fire-00		475172
+	921440498	CharacterSound - ghost - 02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\C7\{C71F7D1D-E2FD-BF8B-A3AC-4DA5932CCCC0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharacterSounds\CharacterSounds\CharacterSound - littleGhost\CharacterSound - ghost - 02		438916
 	925458022	open_door_03	D:\GhostMansion\GhostMansion_WwiseProject\.cache\CE\{CE44E282-75B7-205A-76B6-3541D6125F9F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\open_door\open_door_03		176688
 	927306523	03 - glass_bottles	D:\GhostMansion\GhostMansion_WwiseProject\.cache\94\{94AB54AA-3EC1-BA19-DF90-07FD7B81CB6C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\glass bottles\03 - glass_bottles		44920
 	930039802	chopping_wood_11	D:\GhostMansion\GhostMansion_WwiseProject\.cache\56\{56747AC4-C267-A0F5-0290-DE3629C8D263}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_11		77320
 	943823727	03 - pour	D:\GhostMansion\GhostMansion_WwiseProject\.cache\34\{34049A74-DCA7-ABD0-7F60-236F13E21550}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\pour\03 - pour		424280
+	947843217	Water_(1)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\AF\{AF0485FC-FF13-02E0-6B5C-C02EA1E235D5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\water\Water_(1)		3840096
 	950608336	mouse-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\98\{987A2C21-3BDD-F4DB-A5CF-5F6378ABB165}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-00		21784
 	952703647	plop-03	D:\GhostMansion\GhostMansion_WwiseProject\.cache\BD\{BD4E448C-83AF-62BE-AF87-AD555AA74AAD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-03		10420
 	959514066	mouse-22	D:\GhostMansion\GhostMansion_WwiseProject\.cache\86\{86A59E6F-1000-0E83-B1F5-D4A2945A8887}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-22		78632
 	967816426	mouse-41	D:\GhostMansion\GhostMansion_WwiseProject\.cache\29\{29480172-18C2-64F9-DC15-A8FEE96D8086}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\mouse\mouse-41		78660
-	969106423	fire-01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\76\{76FABB6F-985F-CF7E-9D03-97EB4CC115AB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\fire\fire\fire-01		2041660
 	970651741	frog-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\5B\{5B3C66F6-B75F-6AD1-6539-AED1789EB734}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\frog\frog\frog-00		51424
 	978159970	stone-chip-06	D:\GhostMansion\GhostMansion_WwiseProject\.cache\B1\{B15CA7C0-9845-3EE4-2A56-C5D4989E42CA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\stonechips\stone-chip-06		81000
 	985016841	06 - pour	D:\GhostMansion\GhostMansion_WwiseProject\.cache\EE\{EE79467F-AD2A-2C5A-DAC9-0A6D2CE8E5F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\pour\06 - pour		930220
 	986101277	mining_stone_(3)	D:\GhostMansion\GhostMansion_WwiseProject\.cache\25\{25252724-1579-764D-A8E0-234DC17369BF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\mining_stone\mining_stone_(3)		28100
 	989501257	plop-12	D:\GhostMansion\GhostMansion_WwiseProject\.cache\66\{66E1BE70-520A-3D14-2A58-F6C050DEC796}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-12		7192
 	991886511	chopping_wood_02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\A4\{A4E8A943-DAE7-35D3-8A52-53840E6EADC5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_02		45988
-	998943256	zirkaden-02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\6E\{6E674783-B6AE-69D5-BCA3-DDAD6DFCB2E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\AnimalsGarden\zirkaden\zirkaden-02		299312
+	998943256	zirkaden-02	D:\GhostMansion\GhostMansion_WwiseProject\.cache\0D\{0DFF5BE9-2B4F-5769-9324-DCCA68F0F20E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomSpecificSounds\Rooms\AnimalsGarden\zirkaden\zirkaden-02		299312
 	1013460912	mining_iron-03	D:\GhostMansion\GhostMansion_WwiseProject\.cache\1F\{1FDFC4B7-90E3-AD9E-F784-AECEAE4A118F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\iron\mining_iron-03		38032
 	1013575699	open_door_14	D:\GhostMansion\GhostMansion_WwiseProject\.cache\63\{63DB8A54-D597-3CAD-8275-A2F28CD218A3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\open_door\open_door_14		166088
 	1016523951	chopping_wood_08	D:\GhostMansion\GhostMansion_WwiseProject\.cache\75\{75E34BBE-EFE9-D077-E773-9811B5F64365}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\chopping_wood\chopping_wood_08		60116
+	1029788840	fire-07	D:\GhostMansion\GhostMansion_WwiseProject\.cache\7A\{7AFDAC90-4279-8114-F930-25C662E5C7EA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\fire\fire\fire-07		929464
 	1031600839	throw	D:\GhostMansion\GhostMansion_WwiseProject\.cache\E0\{E010E840-0739-6757-3320-3AC00CAAFCDE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\throw		156556
+	1037921097	fire-09	D:\GhostMansion\GhostMansion_WwiseProject\.cache\34\{34D3E730-572A-01ED-316F-11B7645BC806}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\fire\fire\fire-09		698328
 	1039114467	plop-07	D:\GhostMansion\GhostMansion_WwiseProject\.cache\26\{2677A3A0-9F3C-FA0D-D101-C284712F3D26}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\plup\plop-07		15904
 	1046011019	buttonclick-00	D:\GhostMansion\GhostMansion_WwiseProject\.cache\30\{30FFDA0B-7773-431A-BBB5-304227E07D25}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\click\buttonclick-00		265204
 	1046750072	drink-01_01	D:\GhostMansion\GhostMansion_WwiseProject\.cache\F1\{F1113B09-F9F4-C274-386A-C6AA5924D5FD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GenerallySounds\drink\drink-01_01		213000

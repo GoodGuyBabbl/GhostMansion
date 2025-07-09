@@ -6,8 +6,7 @@ public class PostWwiseEventCharacterAnimation : MonoBehaviour
     public AK.Wwise.Event MiningStone;
     public AK.Wwise.Event MiningIron;
     public AK.Wwise.Event CatchingInsects;
-    private GameObject material;
-
+    public AK.Wwise.Event Sichel;
 
     public void PlayChoppingWood()
     {
@@ -15,7 +14,7 @@ public class PostWwiseEventCharacterAnimation : MonoBehaviour
     }
     public void PlayMining()
     {
-        if (material == GameObject.FindWithTag("Stone"))
+        if (GameObject.FindWithTag("Stone"))
         {
             Debug.Log("Stone");
             MiningStone.Post(gameObject);
@@ -30,5 +29,18 @@ public class PostWwiseEventCharacterAnimation : MonoBehaviour
     {
         CatchingInsects.Post(gameObject);   
     }
- 
+    
+    public void PlaySichel()
+    {
+        if (GameObject.FindWithTag("Sichel"))
+        {
+            Sichel.Post(gameObject);
+            Debug.Log("PlaySichel");
+        }
+        else
+        {
+            Sichel.Stop(gameObject);
+        }
+
+    }
 }

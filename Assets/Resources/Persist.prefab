@@ -9239,19 +9239,32 @@ MonoBehaviour:
   ChoppingWood:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c0e8eaad951b00f4c9a3b0f4d32e0a0a, type: 2}
   MiningStone:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 0f9a4221a148e8043939c27d40f850db, type: 2}
   MiningIron:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 89a8aa08dda436847af65dd005109f4e, type: 2}
   CatchingInsects:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: af48d792e4d488d4ca3c161555115742, type: 2}
+  Sichel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 252bac74ab4ace440a1bd13ae796db32, type: 2}
+  Glass:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4e72b2a8362626f41bdd4e022ac1af3b, type: 2}
+  Spider:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f08c07652e314bb48bae11c0c5159f59, type: 2}
+  sichel: {fileID: 0}
 --- !u!1 &9052895848082104121
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,10 @@ public class ExitButtonRooms : MonoBehaviour, ISelectHandler, IDeselectHandler
     private Image Renderer;
     private MovementDisable MovementDisable;
     private UIManager UIManager;
+
+    public AK.Wwise.Event PlayClick;
+    public AK.Wwise.Event PlayButton;
+
     private void Awake()
     {
         MovementDisable = FindFirstObjectByType<MovementDisable>();
@@ -20,6 +24,7 @@ public class ExitButtonRooms : MonoBehaviour, ISelectHandler, IDeselectHandler
     }
     public void OnSelect(BaseEventData eventData)
     {
+        PlayButton.Post(gameObject);
         Renderer.enabled = true;
     }
 
@@ -32,6 +37,7 @@ public class ExitButtonRooms : MonoBehaviour, ISelectHandler, IDeselectHandler
     {
         if (Renderer.enabled)
         {
+            PlayClick.Post(gameObject);
             //Debug.Log("ShouldWork");
             StartCoroutine(ClosePage());
         }

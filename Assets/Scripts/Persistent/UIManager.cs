@@ -25,9 +25,9 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         CollectHand();
-        //CollectHammer();
-        //CollectSickle();
-        //CollectAxe();
+       // CollectHammer();
+       // CollectSickle();
+       // CollectAxe();
         EnableTools();
     }
     //OverlayManager

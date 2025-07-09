@@ -234,6 +234,14 @@ MonoBehaviour:
   Amount3: 2
   Amount4: 3
   Amount5: 0
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
 --- !u!114 &16434359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1007,6 +1015,14 @@ PrefabInstance:
       propertyPath: RoomNpc
       value: 
       objectReference: {fileID: 1710138572}
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: PlayClick.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: PlayButton.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
     - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: -1
@@ -3260,11 +3276,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 548098646}
-  - component: {fileID: 548098649}
-  - component: {fileID: 548098648}
   - component: {fileID: 548098647}
+  - component: {fileID: 548098648}
   m_Layer: 0
-  m_Name: OutlinesRoom (1)
+  m_Name: AmbienceTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3279,8 +3294,8 @@ Transform:
   m_GameObject: {fileID: 548098645}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.049, y: -0.792, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 282300178}
@@ -3303,6 +3318,12 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 41439db90d039f64f9230509834fc0c4, type: 2}
+  roomSwitch1:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6337354807b22774c87b733cd3081392, type: 2}
   ambienceEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -3311,35 +3332,9 @@ MonoBehaviour:
   DoorInteraction1: {fileID: 1690059995}
   DoorInteraction2: {fileID: 1690059995}
   DoorInteraction3: {fileID: 1690059995}
---- !u!50 &548098648
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 548098645}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!60 &548098649
-PolygonCollider2D:
+  colorChangeController: {fileID: 1640785959}
+--- !u!61 &548098648
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3382,30 +3377,8 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.42500743, y: -0.6314348}
-      - {x: -0.42783976, y: -0.3179004}
-      - {x: -0.42769176, y: -0.17344476}
-      - {x: -0.42589137, y: 0.01603596}
-      - {x: -0.4271686, y: 0.049759094}
-      - {x: -0.016218483, y: 0.042703684}
-      - {x: 0.7791637, y: 0.038915675}
-      - {x: 2.7203257, y: 0.0327363}
-      - {x: 2.6733232, y: 1.391464}
-      - {x: 0.13467199, y: 1.8878003}
-      - {x: -2.6881547, y: 1.4857752}
-      - {x: -2.6520715, y: -1.4399939}
-      - {x: 2.86088, y: -1.4699142}
-      - {x: 3.1426778, y: 0.031004786}
-      - {x: 0.7751558, y: 0.0388595}
-      - {x: 0.77728575, y: -1.1514555}
-      - {x: 0.1708581, y: -1.1425942}
-      - {x: 0.17444967, y: -1.2497485}
-      - {x: -0.07843283, y: -1.2413979}
-      - {x: -0.079179406, y: -1.1430981}
-      - {x: -0.4283939, y: -1.1421443}
-  m_UseDelaunayMesh: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &577044076
 GameObject:
   m_ObjectHideFlags: 0
@@ -3732,6 +3705,14 @@ MonoBehaviour:
   Amount3: 4
   Amount4: 2
   Amount5: 2
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
 --- !u!114 &634746513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4673,6 +4654,14 @@ MonoBehaviour:
   Amount3: 1
   Amount4: 0
   Amount5: 0
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
 --- !u!114 &733729637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4971,6 +4960,14 @@ PrefabInstance:
       propertyPath: RoomNpc
       value: 
       objectReference: {fileID: 1710138572}
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: PlayClick.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: PlayButton.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
     - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: -1
@@ -5964,6 +5961,14 @@ MonoBehaviour:
   Amount3: 3
   Amount4: 1
   Amount5: 0
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
 --- !u!224 &936763795
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6129,6 +6134,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2396838394f581844ac5db885a1c72fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
 --- !u!114 &948805761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7378,6 +7391,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2396838394f581844ac5db885a1c72fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
 --- !u!114 &1231382726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7670,6 +7691,14 @@ PrefabInstance:
       propertyPath: RoomNpc
       value: 
       objectReference: {fileID: 1710138572}
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: PlayClick.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: PlayButton.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
     - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: -1
@@ -7987,6 +8016,14 @@ PrefabInstance:
       propertyPath: RoomNpc
       value: 
       objectReference: {fileID: 1710138572}
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: PlayClick.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+    - target: {fileID: 1462858558636588955, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
+      propertyPath: PlayButton.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
     - target: {fileID: 2989049506466474593, guid: 8d781379026b0f74a9457b17bc9b285c, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: -1
@@ -8386,6 +8423,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2396838394f581844ac5db885a1c72fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
 --- !u!114 &1528580435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8932,6 +8977,10 @@ MonoBehaviour:
   BackgroundToChangeColor: {fileID: 30816437}
   Animator: {fileID: 0}
   RepairedObjects: 0
+  PlayPencilsRoomChangesGrayToColour:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3d0faedd6bd963c4490ec5b7e1f411ec, type: 2}
 --- !u!4 &1640785960
 Transform:
   m_ObjectHideFlags: 0
@@ -9239,7 +9288,7 @@ MonoBehaviour:
   PlayDoorOpen:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 3b1365736bdbb55429b9526b637c446c, type: 2}
   m_PlayDoorOpen: 0
   SpawnPlayerToDoor: 9
   _SceneToLoad:
@@ -9343,6 +9392,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2396838394f581844ac5db885a1c72fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2562177ca86301c4f87b799a888eccfb, type: 2}
+  PlayButton:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b647679bcb5c2084b9b169078f92d9d9, type: 2}
 --- !u!114 &1703304639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9486,10 +9543,16 @@ MonoBehaviour:
   UniqueID: {fileID: 0}
   StoryName: MuscleManStory
   CurrentChoiceIndex: -1
-  PlayGhost:
+  PlayCharacter:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: ec2a279c797fd5b4da473e0b7acbdcb8, type: 2}
+  CharacterSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b96a45e2c8b622a49bb6f2f18f3e13c9, type: 2}
 --- !u!95 &1710138573
 Animator:
   serializedVersion: 7
@@ -9991,7 +10054,7 @@ MonoBehaviour:
   Build:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 048c01f34af05cc4793ceeee52296f35, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 48271f46176b5f24080d7c9d1e5daa48, type: 2}
   Colored:
     idInternal: 0
     valueGuidInternal: 

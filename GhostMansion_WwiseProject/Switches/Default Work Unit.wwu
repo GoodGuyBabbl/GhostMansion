@@ -15,7 +15,6 @@
 				<SwitchGroup Name="CharacterSounds" ID="{BCAC9155-A1DB-4AF8-B6D8-7E9C81AAB84D}">
 					<ChildrenList>
 						<Switch Name="Aristocrat" ID="{687C3AD3-EB4D-4853-A061-85ABF4352709}"/>
-						<Switch Name="ChosttokInfluencerin" ID="{69D14565-B90E-4E4A-8C25-D60CCC4F53FB}"/>
 						<Switch Name="LittleGhost" ID="{A7F2D87F-B251-4CE9-BC98-D9E2AEC5D84B}"/>
 						<Switch Name="BadassGuy" ID="{9552BC2A-5ABA-4CB4-835E-09D98833E6A0}"/>
 					</ChildrenList>

@@ -18,11 +18,6 @@ public class Movement : MonoBehaviour
     public AK.Wwise.Event PlayGhostMovement;
 
 
-    void Start()
-    {
-    }
-
-
     void Update()
     {
         Vector3 movement = new Vector3(Input.GetAxis("GhostMansionHorizontal"), Input.GetAxis("GhostMansionVertical"), 0.0f);

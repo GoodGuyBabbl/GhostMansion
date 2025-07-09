@@ -30,6 +30,9 @@ public class RoomNPC : TriggerInteraction
     public string StoryName;
     public int CurrentChoiceIndex = -1;
 
+    public AK.Wwise.Event PlayCharacter;
+    public AK.Wwise.Switch CharacterSwitch;
+
 
     public void Awake()
     {
@@ -106,6 +109,8 @@ public class RoomNPC : TriggerInteraction
 
         if (!DialogueKnotName.Equals(""))
         {
+            CharacterSwitch.SetValue(gameObject); // Setzt den Switch
+            PlayCharacter.Post(gameObject);  // Spielt den Sound ab
             UIManager.DisableToolbar();
             NPCDialogueCanvas.SetActive(true);
             MovementDisable.DisableMovement();
@@ -160,6 +165,7 @@ public class RoomNPC : TriggerInteraction
     //DialogueManager
     private void ExitDialogue()
     {
+        PlayCharacter.Stop(gameObject);
         UIManager.RemoveActiveOverlay("Dialogue");
         CheckRepairUnlock();
         ResetPanelText();

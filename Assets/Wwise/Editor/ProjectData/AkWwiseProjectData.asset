@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5c95fcccae4b9543948e99a17392f96a
     GuidInternal: 
-    m_lastTime: -8584497191511755562
+    m_lastTime: -8584495472981793614
     List:
     - name: Main
       guid: de454c60c0f5a8418fe5e93f6fec36cf
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c2d24754beac984799b53f50d98234ed
     GuidInternal: 
-    m_lastTime: -8584497191615990704
+    m_lastTime: -8584495939524024445
     List:
     - name: PlayButton
       guid: 523fbc71663bd64fa0e026e4e6a59111
@@ -113,6 +113,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2
       minDuration: 2
+    - name: PlayCharacter
+      guid: 1aed58d35163724393eda7127b87399f
+      id: 584652296
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayCharacter
+        ObjectType: 3
+        guid: 1aed58d35163724393eda7127b87399f
+      Path: Events\Default Work Unit\PlayCharacter
+      maxAttenuation: 0
+      maxDuration: 3.0274687
+      minDuration: 1.1252177
     - name: PlayChoppingWood
       guid: 221ac3d53c2de442aa7190f1dbbbb202
       id: 3226031368
@@ -298,8 +315,8 @@ MonoBehaviour:
         guid: 84a2edc1d7297546829e9ae5ba48076d
       Path: Events\Default Work Unit\PlayInstallationSite
       maxAttenuation: 0
-      maxDuration: 5.9952836
-      minDuration: 5.9952836
+      maxDuration: 0
+      minDuration: 0
     - name: PlayLandingNet
       guid: 25cf92dfe2bb6f49baf765fb387ef48c
       id: 227573381
@@ -434,8 +451,8 @@ MonoBehaviour:
         guid: abc174c3d7a918408274fc029ad08d5a
       Path: Events\Default Work Unit\PlayPencilsRoomChangesGrayToColour
       maxAttenuation: 0
-      maxDuration: 0.4837415
-      minDuration: 0.42408162
+      maxDuration: 5.2434025
+      minDuration: 3.354569
     - name: PlayPouringPlants
       guid: 3a0415f741bdd847ac21e56757c86ec2
       id: 118776357
@@ -453,6 +470,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 31.813358
       minDuration: 31.813358
+    - name: PlayPuff
+      guid: 0e1bc9403286b543a0d086b6b42aaa9f
+      id: 3130164470
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayPuff
+        ObjectType: 3
+        guid: 0e1bc9403286b543a0d086b6b42aaa9f
+      Path: Events\Default Work Unit\PlayPuff
+      maxAttenuation: 0
+      maxDuration: 0.21624373
+      minDuration: 0.21624373
     - name: PlayRollUpCarpet
       guid: 062039daf0b8c744a9fbbf1bba581242
       id: 3502931928
@@ -504,6 +538,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.0211564
       minDuration: 1.0211564
+    - name: PlaySichle
+      guid: 892dde68bb444647ab4915ce0fca6d80
+      id: 2697781743
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlaySichle
+        ObjectType: 3
+        guid: 892dde68bb444647ab4915ce0fca6d80
+      Path: Events\Default Work Unit\PlaySichle
+      maxAttenuation: 0
+      maxDuration: 0.25877044
+      minDuration: 0.25877044
     - name: PlayStoneScratchingOnWood
       guid: e8ba8a714bfad64c8995661decc5e358
       id: 3154567380
@@ -538,6 +589,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.8869398
       minDuration: 0.8869398
+    - name: PlayWater
+      guid: 12f8d7f2cb8b1b41894041e669bebff4
+      id: 2706800728
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c2d24754beac984799b53f50d98234ed
+      - ElementName: PlayWater
+        ObjectType: 3
+        guid: 12f8d7f2cb8b1b41894041e669bebff4
+      Path: Events\Default Work Unit\PlayWater
+      maxAttenuation: 13
+      maxDuration: 0
+      minDuration: 0
     - name: PlayWorkBench
       guid: 621f4aa16448464fa91965158abf2fba
       id: 4251712754
@@ -553,8 +621,8 @@ MonoBehaviour:
         guid: 621f4aa16448464fa91965158abf2fba
       Path: Events\Default Work Unit\PlayWorkBench
       maxAttenuation: 0
-      maxDuration: 7.9972334
-      minDuration: 7.9972334
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -595,7 +663,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 17e6d7348dc4ae4197b7f0bb440fef06
     GuidInternal: 
-    m_lastTime: -8584497191509650982
+    m_lastTime: -8584496161490613689
     List:
     - name: CharacterSounds
       guid: 5591acbcdba1f84ab6d87e9c81aab84d
@@ -644,22 +712,6 @@ MonoBehaviour:
         - ElementName: BadassGuy
           ObjectType: 10
           guid: 2abc5295ba5ab44c835e09d98833e6a0
-      - name: ChosttokInfluencerin
-        guid: 6545d1690eb94a4e8c25d60ccc4f53fb
-        id: 1954381764
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 17e6d7348dc4ae4197b7f0bb440fef06
-        - ElementName: CharacterSounds
-          ObjectType: 11
-          guid: 5591acbcdba1f84ab6d87e9c81aab84d
-        - ElementName: ChosttokInfluencerin
-          ObjectType: 10
-          guid: 6545d1690eb94a4e8c25d60ccc4f53fb
       - name: LittleGhost
         guid: 7fd8f2a751b2e94cbc98d9e2aec5d84b
         id: 4049691650
@@ -792,7 +844,7 @@ MonoBehaviour:
     m_lastTime: -8584497191509571188
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000a0000000b0000000c0000000e00000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002300000025000000260000002700000028000000290000002a0000002b00000033000000340000004b0000004c0000005d0000005e0000009400000095000000960000009700000098000000fb000000
+  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000a0000000b0000000c0000000e00000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002300000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e00000033000000340000004b0000004c0000005d0000005e0000009400000095000000960000009700000098000000fb000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

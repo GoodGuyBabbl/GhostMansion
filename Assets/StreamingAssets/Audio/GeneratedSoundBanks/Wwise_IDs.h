@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAYBUTTON = 1843531235U;
+        static const AkUniqueID PLAYCHARACTER = 584652296U;
         static const AkUniqueID PLAYCHOPPINGWOOD = 3226031368U;
         static const AkUniqueID PLAYCLICK = 2002511053U;
         static const AkUniqueID PLAYCOLLECT = 2020962915U;
@@ -34,11 +35,14 @@ namespace AK
         static const AkUniqueID PLAYOPENDOOR = 3209110383U;
         static const AkUniqueID PLAYPENCILSROOMCHANGESGRAYTOCOLOUR = 1197320975U;
         static const AkUniqueID PLAYPOURINGPLANTS = 118776357U;
+        static const AkUniqueID PLAYPUFF = 3130164470U;
         static const AkUniqueID PLAYROLLUPCARPET = 3502931928U;
         static const AkUniqueID PLAYROOMS = 1531517409U;
         static const AkUniqueID PLAYSCOOP = 1392495417U;
+        static const AkUniqueID PLAYSICHLE = 2697781743U;
         static const AkUniqueID PLAYSTONESCRATCHINGONWOOD = 3154567380U;
         static const AkUniqueID PLAYTHROW = 1146474813U;
+        static const AkUniqueID PLAYWATER = 2706800728U;
         static const AkUniqueID PLAYWORKBENCH = 4251712754U;
     } // namespace EVENTS
 
@@ -52,7 +56,6 @@ namespace AK
             {
                 static const AkUniqueID ARISTOCRAT = 2994303515U;
                 static const AkUniqueID BADASSGUY = 1015976006U;
-                static const AkUniqueID CHOSTTOKINFLUENCERIN = 1954381764U;
                 static const AkUniqueID LITTLEGHOST = 4049691650U;
             } // namespace SWITCH
         } // namespace CHARACTERSOUNDS

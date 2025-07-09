@@ -25,6 +25,12 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
+					<ValueList>
+						<Value Platform="Mac">512</Value>
+						<Value Platform="Windows">512</Value>
+					</ValueList>
+				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjgwNDUiIG1hc2s9IkRWWUY0Mzk4IiBlbmM9IjAiPjxsaWNlbnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMsNCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyNS0xMC0zMCIgIC8+PGxpY2Vuc2UgaWQ9IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjUtMTAtMzAiICAvPjxsaWNlbnNlIGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjUtMTAtMzAiICAvPjxsaWNlbnNlIGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhwaXJlcz0iMjAyNS0xMC0zMCIgIC8+PC9wcm9qZWN0Pg==|aX8/AfzNm9mpcNhViX5peNfmgYA+pL/9YM5tW7KL0pMU6ZpicAIjTkjyFl1/82WcPByo1XHpZ0gFu53p1IAFNg0Ff1N5PTPo2WATFDyL9s2nSUEoqOFGKiz0YMo0o9vnp2/LlpsN0Eg9dp3S0aPc6bMbrIiYBH+iSPu19mDVKYJTNpwB3rvrN9G2j3+mM1XYKyvS9gRben24L6mJ5zurxKoC/wS7dIs7iDTeKLyimI3kEs7M6fSILsoprFK32TwqrudhA+BL7r0VgWlHbBCOIoIQDuiItP868rKeErFPNofRjXzJn2TGrXKRdaFZl3Qn/UZrPtcJSbx8bAiW9MPCoA==" />
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" />
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="..\..\GhostMansion\Assets\StreamingAssets\Audio\GeneratedSoundBanks" />
@@ -56,6 +62,12 @@
 					<ValueList>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="VolumeThreshold" Type="Real64">
+					<ValueList>
+						<Value Platform="Mac">-80</Value>
+						<Value Platform="Windows">-80</Value>
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2024.1.5|Build=8803|VersionName=v2024.1.5|Config=Release" />

@@ -8,13 +8,17 @@
 						<ObjectRef Name="PlayPencilsRoomChangesGrayToColour" ID="{C374C1AB-A9D7-4018-8274-FC029AD08D5A}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayCollect" ID="{50B0E6B2-9425-404B-895C-7E328544EA84}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayMagicGlitter" ID="{D6537305-C855-40C6-AF2F-FDBB4DB2FEBF}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayWater" ID="{F2D7F812-8BCB-411B-8940-41E669BEBFF4}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayDrink" ID="{8C059A41-A458-411E-8CF7-1023F4FE520B}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayMagicHappy" ID="{8B7D8A7A-0E5E-421C-BC43-3AAE27640A22}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayChoppingWood" ID="{D5C31A22-2D3C-42E4-AA71-90F1DBBBB202}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayMiningStone" ID="{1564C71E-50D3-4357-B096-16E5DF851176}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayCharacter" ID="{D358ED1A-6351-4372-93ED-A7127B87399F}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayPuff" ID="{40C91B0E-8632-43B5-A0D0-86B6B42AAA9F}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayRooms" ID="{F251BD07-C554-440B-9064-1BBA75B8E2F7}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayRollUpCarpet" ID="{DA392006-B8F0-44C7-A9FB-BF1BBA581242}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayInstallationSite" ID="{C1EDA284-29D7-4675-829E-9AE5BA48076D}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlaySichle" ID="{68DE2D89-44BB-4746-AB49-15CE0FCA6D80}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayFrog" ID="{9E9623B0-DBFE-474B-939F-8D75A8E722C7}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayConstructionPlanOpen" ID="{27DD796E-C239-477C-BB2B-EF002981E38A}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayPouringPlants" ID="{F715043A-BD41-47D8-AC21-E56757C86EC2}" WorkUnitID="{5447D2C2-ACBE-4798-99B5-3F50D98234ED}" Origin="Manual" Filter="7"/>

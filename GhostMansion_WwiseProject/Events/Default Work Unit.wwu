@@ -165,6 +165,20 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{5F34D023-8FE2-4D88-A38F-DB5CBAD0E978}" ShortID="462906240">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Baustelle" ID="{17D93A91-F5D8-4EE1-937E-5D80C8BE7E34}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{98607107-882F-481E-93E3-87F698221FAE}" ShortID="211838579">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Baustelle" ID="{17D93A91-F5D8-4EE1-937E-5D80C8BE7E34}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="PlayMagicGlitter" ID="{D6537305-C855-40C6-AF2F-FDBB4DB2FEBF}">
@@ -305,6 +319,50 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FrogJumpIntoWater" ID="{88B7869D-AF13-4E1D-9467-565DFC25D318}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlaySichle" ID="{68DE2D89-44BB-4746-AB49-15CE0FCA6D80}">
+					<ChildrenList>
+						<Action Name="" ID="{4C9715A7-9B45-40E1-B0EA-55017F3D8B6A}" ShortID="1028665488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sichle" ID="{9B27EBB9-9562-46C5-8C26-235529366BA0}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayCharacter" ID="{D358ED1A-6351-4372-93ED-A7127B87399F}">
+					<ChildrenList>
+						<Action Name="" ID="{1A0EC700-6968-4CB2-8437-EBD3289A9830}" ShortID="395534592">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CharacterSounds" ID="{FE43D15F-A791-4DF0-A41A-315E42E4B009}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayPuff" ID="{40C91B0E-8632-43B5-A0D0-86B6B42AAA9F}">
+					<ChildrenList>
+						<Action Name="" ID="{E5FA2809-AEC2-497D-A8C7-3BB54B2209A8}" ShortID="376219366">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pulling_turnip_cork_(5)" ID="{DDDFD336-46CF-43F8-9ADA-4BD487731184}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayWater" ID="{F2D7F812-8BCB-411B-8940-41E669BEBFF4}">
+					<ChildrenList>
+						<Action Name="" ID="{F74EC06D-6943-42DC-BA60-9EAB7D5FF67C}" ShortID="880326949">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="water" ID="{F846B4AD-60C5-4F06-BE53-DFD2F5EEC2B2}" WorkUnitID="{FACB239D-89EE-4F97-9B9E-28987A84401F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

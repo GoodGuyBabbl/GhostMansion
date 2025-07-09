@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{366758E6-A928-D315-CB31-0082C4B29A90}",
+    "Hash": "{9BA9E6BE-5EA1-A2EE-36D0-983F80076169}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -94,12 +94,6 @@
         "GUID": "{9552BC2A-5ABA-4CB4-835E-09D98833E6A0}"
        },
        {
-        "Id": "1954381764",
-        "Name": "ChosttokInfluencerin",
-        "ObjectPath": "\\Switches\\Default Work Unit\\CharacterSounds\\ChosttokInfluencerin",
-        "GUID": "{69D14565-B90E-4E4A-8C25-D60CCC4F53FB}"
-       },
-       {
         "Id": "2994303515",
         "Name": "Aristocrat",
         "ObjectPath": "\\Switches\\Default Work Unit\\CharacterSounds\\Aristocrat",
@@ -116,6 +110,6 @@
     ]
    }
   ],
-  "FileHash": "{4915F7B1-AD02-AC3B-E591-7F866D0590C3}"
+  "FileHash": "{DAD7C6DF-88AA-DF3B-6A01-093D06189E1A}"
  }
 }

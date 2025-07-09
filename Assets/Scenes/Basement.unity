@@ -203,11 +203,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 128524054}
-  - component: {fileID: 128524057}
-  - component: {fileID: 128524056}
   - component: {fileID: 128524055}
+  - component: {fileID: 128524056}
   m_Layer: 0
-  m_Name: OutlinesRoom (1)
+  m_Name: AmbienceTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -222,8 +221,8 @@ Transform:
   m_GameObject: {fileID: 128524053}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.76, y: -0.163, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 282300178}
@@ -246,6 +245,12 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 41439db90d039f64f9230509834fc0c4, type: 2}
+  roomSwitch1:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   ambienceEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -254,35 +259,9 @@ MonoBehaviour:
   DoorInteraction1: {fileID: 1690059995}
   DoorInteraction2: {fileID: 1690059995}
   DoorInteraction3: {fileID: 1690059995}
---- !u!50 &128524056
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128524053}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!60 &128524057
-PolygonCollider2D:
+  colorChangeController: {fileID: 0}
+--- !u!61 &128524056
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -325,31 +304,8 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -1.1072344, y: 0.040212914}
-      - {x: -0.92110085, y: 0.039969336}
-      - {x: -0.91906136, y: -0.03165391}
-      - {x: -0.899455, y: -0.045197245}
-      - {x: -0.6521385, y: -0.047228042}
-      - {x: -0.6317313, y: -0.027463865}
-      - {x: -0.63239986, y: 0.031057794}
-      - {x: -0.35041073, y: 0.030764624}
-      - {x: -0.3643864, y: 0.6166538}
-      - {x: -0.23097628, y: 0.61603665}
-      - {x: -0.12732393, y: 0.5116592}
-      - {x: 0.068096, y: 0.5036297}
-      - {x: 0.20104581, y: 0.49402297}
-      - {x: 0.3426861, y: 0.4892457}
-      - {x: 0.43238106, y: 0.49417794}
-      - {x: 2.686569, y: 1.4082948}
-      - {x: -2.6881547, y: 1.4857752}
-      - {x: -2.6520715, y: -1.4399939}
-      - {x: 2.86088, y: -1.4699142}
-      - {x: 0.42505106, y: 0.4893043}
-      - {x: 0.43188763, y: -0.4080246}
-      - {x: -1.1074288, y: -0.38583744}
-  m_UseDelaunayMesh: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &188499120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -703,6 +659,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InteractionIcon: {fileID: 606277453}
+  PlayCollect:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!58 &470202855
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1604,7 +1564,7 @@ GameObject:
   - component: {fileID: 1905515398}
   m_Layer: 0
   m_Name: BasementOreVein_0
-  m_TagString: Stone
+  m_TagString: Iron
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1723,6 +1683,10 @@ MonoBehaviour:
   HowManyItemsDropped: 4
   DroppedItem: {fileID: 4790164316534510086, guid: 23d4901f5c5c34a4590dea4c5b4a4ac3, type: 3}
   PlayerAnimationChangeName: IsMining
+  PlayGlass:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1905515397
 MonoBehaviour:
   m_ObjectHideFlags: 0

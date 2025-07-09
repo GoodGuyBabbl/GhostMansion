@@ -45,15 +45,12 @@ public class DoorInteraction : TriggerInteraction
         {
             DoorIcon.SetActive(false);
         }
-        
-
     }
 
     public override void Interact()
     {
         m_PlayDoorOpen = true;
         PlayDoorOpen.Post(gameObject);
-        SceneSwapManager.SwapSceneFromDoorUse(_SceneToLoad, SpawnPlayerToDoor);
-        
+        SceneSwapManager.SwapSceneFromDoorUse(_SceneToLoad, SpawnPlayerToDoor);  
     }
 }

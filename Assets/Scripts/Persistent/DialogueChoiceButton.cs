@@ -14,6 +14,9 @@ public class DialogueChoiceButton : MonoBehaviour, ISelectHandler
 
     public RoomNPC RoomNpc;
 
+    public AK.Wwise.Event PlayClick;
+    public AK.Wwise.Event PlayButton;
+
     private void Start()
     {
         //RoomNpc = FindFirstObjectByType<RoomNPC>();
@@ -30,11 +33,13 @@ public class DialogueChoiceButton : MonoBehaviour, ISelectHandler
 
     public void SelectButton()
     {
+        PlayClick.Post(gameObject);
         Button.Select();
     }
 
     public void OnSelect(BaseEventData eventData)
     {
+        PlayButton.Post(gameObject);
         RoomNpc.UpdateChoiceIndex(ChoiceIndex);
         Debug.Log(this.gameObject.name + " was selected.");
     }

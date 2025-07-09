@@ -96,7 +96,6 @@ public class RepairableObject : TriggerInteraction
             IsBuildPlot = true;
         }else if (SaveStateManager.IsFurnitureRepaired(UniqueID.ID))
         {
-            Colored.Post(gameObject);
             IsRepaired = true;
             SpriteRenderer.sprite = ColoredVersion;
             GreyVersionCollider.gameObject.SetActive(false);
@@ -186,6 +185,8 @@ public class RepairableObject : TriggerInteraction
                 //Debug.Log(i);
                 if (i >= FramesToBuild)
                 {
+                    Build.Stop(gameObject);
+                    Colored.Post(gameObject);
                     IsRepaired = true;
                     ThisProgressbar.gameObject.transform.parent.gameObject.SetActive(false); //PB
                     i = 0;

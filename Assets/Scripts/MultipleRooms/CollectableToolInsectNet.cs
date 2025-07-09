@@ -15,6 +15,8 @@ public class CollectableTool : TriggerInteraction
 
     public int ToolbarIndex;
 
+    public AK.Wwise.Event PlayCollect;
+
     private void Awake()
     {
         SaveStateManager = FindFirstObjectByType<SaveStateManager>();
@@ -44,6 +46,7 @@ public class CollectableTool : TriggerInteraction
 
     public override void Interact()
     {
+        PlayCollect.Post(gameObject);
         UIManager.AddTool(ToolbarIndex);
         UIManager.EnableTools();
         InteractionIcon.SetActive(false);

@@ -16,6 +16,8 @@ public class PickaxeInBasement : TriggerInteraction
     private SaveStateManager SaveStateManager;
     private UniqueID UniqueID;
 
+    public AK.Wwise.Event PlayCollect;
+
     private void Awake()
     {
         StoryManager = FindFirstObjectByType<Stories>();
@@ -47,6 +49,7 @@ public class PickaxeInBasement : TriggerInteraction
 
     public override void Interact()
     {
+        PlayCollect.Post(gameObject);
         Story.variablesState["NextDialogueKnot"] = "PickaxePickedUp";
         SaveStateManager.SetCurrentStory("TutorialGhostStory", "PickaxePickedUp");
         // geht nur, wenn Story Szenenübergreifend gespeichert wird. Story.variablesState["NextDialogueKnot"] = "PickaxePickedUp";
