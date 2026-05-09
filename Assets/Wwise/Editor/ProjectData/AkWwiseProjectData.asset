@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 1e4fa0f562dda949a905499bdde6404d
     GuidInternal: 
-    m_lastTime: -8584497191509491134
+    m_lastTime: -8584232572856015528
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 1eeb09f2bb43f441a558b85ae7ae5cea
     GuidInternal: 
-    m_lastTime: -8584497191605138103
+    m_lastTime: -8584232572880697696
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5c95fcccae4b9543948e99a17392f96a
     GuidInternal: 
-    m_lastTime: -8584495416308719373
+    m_lastTime: -8584232572857072760
     List:
     - name: Main
       guid: de454c60c0f5a8418fe5e93f6fec36cf
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c2d24754beac984799b53f50d98234ed
     GuidInternal: 
-    m_lastTime: -8584495397000537284
+    m_lastTime: -8584232572903911405
     List:
     - name: PlayButton
       guid: 523fbc71663bd64fa0e026e4e6a59111
@@ -111,8 +111,8 @@ MonoBehaviour:
         guid: 523fbc71663bd64fa0e026e4e6a59111
       Path: Events\Default Work Unit\PlayButton
       maxAttenuation: 0
-      maxDuration: 2
-      minDuration: 2
+      maxDuration: -1
+      minDuration: -1
     - name: PlayCharacter
       guid: 1aed58d35163724393eda7127b87399f
       id: 584652296
@@ -128,8 +128,8 @@ MonoBehaviour:
         guid: 1aed58d35163724393eda7127b87399f
       Path: Events\Default Work Unit\PlayCharacter
       maxAttenuation: 0
-      maxDuration: 3.0274687
-      minDuration: 1.1252177
+      maxDuration: -1
+      minDuration: -1
     - name: PlayChoppingWood
       guid: 221ac3d53c2de442aa7190f1dbbbb202
       id: 3226031368
@@ -145,8 +145,8 @@ MonoBehaviour:
         guid: 221ac3d53c2de442aa7190f1dbbbb202
       Path: Events\Default Work Unit\PlayChoppingWood
       maxAttenuation: 0
-      maxDuration: 0.5495465
-      minDuration: 0.24385488
+      maxDuration: -1
+      minDuration: -1
     - name: PlayClick
       guid: 3e37b3b09e3ce24e87d6eff5235c55fc
       id: 2002511053
@@ -162,8 +162,8 @@ MonoBehaviour:
         guid: 3e37b3b09e3ce24e87d6eff5235c55fc
       Path: Events\Default Work Unit\PlayClick
       maxAttenuation: 0
-      maxDuration: 1.5028799
-      minDuration: 1.5028799
+      maxDuration: -1
+      minDuration: -1
     - name: PlayCollect
       guid: b2e6b05025944b40895c7e328544ea84
       id: 2020962915
@@ -179,8 +179,8 @@ MonoBehaviour:
         guid: b2e6b05025944b40895c7e328544ea84
       Path: Events\Default Work Unit\PlayCollect
       maxAttenuation: 0
-      maxDuration: 0.10975057
-      minDuration: 0.034761906
+      maxDuration: -1
+      minDuration: -1
     - name: PlayConstructionPlanOpen
       guid: 6e79dd2739c27c47bb2bef002981e38a
       id: 4097077049
@@ -196,8 +196,8 @@ MonoBehaviour:
         guid: 6e79dd2739c27c47bb2bef002981e38a
       Path: Events\Default Work Unit\PlayConstructionPlanOpen
       maxAttenuation: 0
-      maxDuration: 0.930907
-      minDuration: 0.40090704
+      maxDuration: -1
+      minDuration: -1
     - name: PlayDrink
       guid: 419a058c58a41e418cf71023f4fe520b
       id: 1843306979
@@ -213,8 +213,8 @@ MonoBehaviour:
         guid: 419a058c58a41e418cf71023f4fe520b
       Path: Events\Default Work Unit\PlayDrink
       maxAttenuation: 0
-      maxDuration: 1.3003436
-      minDuration: 1.0237511
+      maxDuration: -1
+      minDuration: -1
     - name: PlayFire
       guid: e806e54733c3e447afd9c377812c93e2
       id: 271290123
@@ -229,9 +229,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: e806e54733c3e447afd9c377812c93e2
       Path: Events\Default Work Unit\PlayFire
-      maxAttenuation: 1
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayFrog
       guid: b023969efedb4b47939f8d75a8e722c7
       id: 486000869
@@ -246,9 +246,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: b023969efedb4b47939f8d75a8e722c7
       Path: Events\Default Work Unit\PlayFrog
-      maxAttenuation: 13
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayFrogJump
       guid: 7beefd563c649d4cb6021c3410ebe125
       id: 717497513
@@ -263,9 +263,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7beefd563c649d4cb6021c3410ebe125
       Path: Events\Default Work Unit\PlayFrogJump
-      maxAttenuation: 13
-      maxDuration: 1.39036
-      minDuration: 1.39036
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayGhostMovement
       guid: 739f4dc4d2de1748a3ef27ac4657d164
       id: 1749017071
@@ -281,8 +281,8 @@ MonoBehaviour:
         guid: 739f4dc4d2de1748a3ef27ac4657d164
       Path: Events\Default Work Unit\PlayGhostMovement
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayGlass
       guid: 4d32f9ac7714f84e8d80c7e05c859b42
       id: 95796577
@@ -298,8 +298,8 @@ MonoBehaviour:
         guid: 4d32f9ac7714f84e8d80c7e05c859b42
       Path: Events\Default Work Unit\PlayGlass
       maxAttenuation: 0
-      maxDuration: 3.9830158
-      minDuration: 0.14687075
+      maxDuration: -1
+      minDuration: -1
     - name: PlayInstallationSite
       guid: 84a2edc1d7297546829e9ae5ba48076d
       id: 2734526490
@@ -315,8 +315,8 @@ MonoBehaviour:
         guid: 84a2edc1d7297546829e9ae5ba48076d
       Path: Events\Default Work Unit\PlayInstallationSite
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayLandingNet
       guid: 25cf92dfe2bb6f49baf765fb387ef48c
       id: 227573381
@@ -332,8 +332,8 @@ MonoBehaviour:
         guid: 25cf92dfe2bb6f49baf765fb387ef48c
       Path: Events\Default Work Unit\PlayLandingNet
       maxAttenuation: 0
-      maxDuration: 1.0211564
-      minDuration: 1.0211564
+      maxDuration: -1
+      minDuration: -1
     - name: PlayMagicGlitter
       guid: 057353d655c8c640af2ffdbb4db2febf
       id: 1840847559
@@ -349,8 +349,8 @@ MonoBehaviour:
         guid: 057353d655c8c640af2ffdbb4db2febf
       Path: Events\Default Work Unit\PlayMagicGlitter
       maxAttenuation: 0
-      maxDuration: 4
-      minDuration: 4
+      maxDuration: -1
+      minDuration: -1
     - name: PlayMagicHappy
       guid: 7a8a7d8b5e0e1c42bc433aae27640a22
       id: 453061870
@@ -366,8 +366,8 @@ MonoBehaviour:
         guid: 7a8a7d8b5e0e1c42bc433aae27640a22
       Path: Events\Default Work Unit\PlayMagicHappy
       maxAttenuation: 0
-      maxDuration: 4.000159
-      minDuration: 4.000159
+      maxDuration: -1
+      minDuration: -1
     - name: PlayMiningIron
       guid: 5912c2b69732c24f8cc82b5c0c15cd8e
       id: 3981885253
@@ -383,8 +383,8 @@ MonoBehaviour:
         guid: 5912c2b69732c24f8cc82b5c0c15cd8e
       Path: Events\Default Work Unit\PlayMiningIron
       maxAttenuation: 0
-      maxDuration: 0.47331065
-      minDuration: 0.21505669
+      maxDuration: -1
+      minDuration: -1
     - name: PlayMiningStone
       guid: 1ec76415d3505743b09616e5df851176
       id: 4193614130
@@ -400,8 +400,8 @@ MonoBehaviour:
         guid: 1ec76415d3505743b09616e5df851176
       Path: Events\Default Work Unit\PlayMiningStone
       maxAttenuation: 0
-      maxDuration: 1.176644
-      minDuration: 0.6678004
+      maxDuration: -1
+      minDuration: -1
     - name: PlayMouse
       guid: 32c7c3882eac5e4ebcd5580b347b4a7c
       id: 2099766676
@@ -417,8 +417,8 @@ MonoBehaviour:
         guid: 32c7c3882eac5e4ebcd5580b347b4a7c
       Path: Events\Default Work Unit\PlayMouse
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayOpenDoor
       guid: 0f7dcb98aacbb04da2d1e0604523e3b4
       id: 3209110383
@@ -434,8 +434,8 @@ MonoBehaviour:
         guid: 0f7dcb98aacbb04da2d1e0604523e3b4
       Path: Events\Default Work Unit\PlayOpenDoor
       maxAttenuation: 0
-      maxDuration: 5.15625
-      minDuration: 0.8562292
+      maxDuration: -1
+      minDuration: -1
     - name: PlayPencilsRoomChangesGrayToColour
       guid: abc174c3d7a918408274fc029ad08d5a
       id: 1197320975
@@ -451,8 +451,8 @@ MonoBehaviour:
         guid: abc174c3d7a918408274fc029ad08d5a
       Path: Events\Default Work Unit\PlayPencilsRoomChangesGrayToColour
       maxAttenuation: 0
-      maxDuration: 5.2434025
-      minDuration: 3.354569
+      maxDuration: -1
+      minDuration: -1
     - name: PlayPouringPlants
       guid: 3a0415f741bdd847ac21e56757c86ec2
       id: 118776357
@@ -468,8 +468,8 @@ MonoBehaviour:
         guid: 3a0415f741bdd847ac21e56757c86ec2
       Path: Events\Default Work Unit\PlayPouringPlants
       maxAttenuation: 0
-      maxDuration: 31.813358
-      minDuration: 31.813358
+      maxDuration: -1
+      minDuration: -1
     - name: PlayPuff
       guid: 0e1bc9403286b543a0d086b6b42aaa9f
       id: 3130164470
@@ -485,8 +485,8 @@ MonoBehaviour:
         guid: 0e1bc9403286b543a0d086b6b42aaa9f
       Path: Events\Default Work Unit\PlayPuff
       maxAttenuation: 0
-      maxDuration: 0.21624373
-      minDuration: 0.21624373
+      maxDuration: -1
+      minDuration: -1
     - name: PlayRollUpCarpet
       guid: 062039daf0b8c744a9fbbf1bba581242
       id: 3502931928
@@ -502,8 +502,8 @@ MonoBehaviour:
         guid: 062039daf0b8c744a9fbbf1bba581242
       Path: Events\Default Work Unit\PlayRollUpCarpet
       maxAttenuation: 0
-      maxDuration: 3.9127438
-      minDuration: 3.9127438
+      maxDuration: -1
+      minDuration: -1
     - name: PlayRooms
       guid: 07bd51f254c50b4490641bba75b8e2f7
       id: 1531517409
@@ -519,8 +519,8 @@ MonoBehaviour:
         guid: 07bd51f254c50b4490641bba75b8e2f7
       Path: Events\Default Work Unit\PlayRooms
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayScoop
       guid: 134938fa2dbd0748861de03145e7afcb
       id: 1392495417
@@ -536,8 +536,8 @@ MonoBehaviour:
         guid: 134938fa2dbd0748861de03145e7afcb
       Path: Events\Default Work Unit\PlayScoop
       maxAttenuation: 0
-      maxDuration: 1.0211564
-      minDuration: 1.0211564
+      maxDuration: -1
+      minDuration: -1
     - name: PlaySichle
       guid: 892dde68bb444647ab4915ce0fca6d80
       id: 2697781743
@@ -553,8 +553,8 @@ MonoBehaviour:
         guid: 892dde68bb444647ab4915ce0fca6d80
       Path: Events\Default Work Unit\PlaySichle
       maxAttenuation: 0
-      maxDuration: 0.25877044
-      minDuration: 0.25877044
+      maxDuration: -1
+      minDuration: -1
     - name: PlayStoneScratchingOnWood
       guid: e8ba8a714bfad64c8995661decc5e358
       id: 3154567380
@@ -570,8 +570,8 @@ MonoBehaviour:
         guid: e8ba8a714bfad64c8995661decc5e358
       Path: Events\Default Work Unit\PlayStoneScratchingOnWood
       maxAttenuation: 0
-      maxDuration: 9.9288435
-      minDuration: 3.8432426
+      maxDuration: -1
+      minDuration: -1
     - name: PlayStopGhostMovement
       guid: e2cb81101d02254ba27a43f7a7fb051a
       id: 3131579743
@@ -587,8 +587,8 @@ MonoBehaviour:
         guid: e2cb81101d02254ba27a43f7a7fb051a
       Path: Events\Default Work Unit\PlayStopGhostMovement
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayThrow
       guid: 7c515e3dcadc244998653d9fffa9722b
       id: 1146474813
@@ -604,8 +604,8 @@ MonoBehaviour:
         guid: 7c515e3dcadc244998653d9fffa9722b
       Path: Events\Default Work Unit\PlayThrow
       maxAttenuation: 0
-      maxDuration: 0.8869398
-      minDuration: 0.8869398
+      maxDuration: -1
+      minDuration: -1
     - name: PlayWater
       guid: 12f8d7f2cb8b1b41894041e669bebff4
       id: 2706800728
@@ -620,9 +620,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 12f8d7f2cb8b1b41894041e669bebff4
       Path: Events\Default Work Unit\PlayWater
-      maxAttenuation: 13
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayWorkBench
       guid: 621f4aa16448464fa91965158abf2fba
       id: 4251712754
@@ -638,8 +638,8 @@ MonoBehaviour:
         guid: 621f4aa16448464fa91965158abf2fba
       Path: Events\Default Work Unit\PlayWorkBench
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -652,7 +652,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8deb270af6b9b848947a4f479a89318b
     GuidInternal: 
-    m_lastTime: -8584497191615900945
+    m_lastTime: -8584232572903911405
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -666,7 +666,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: f7f52170cad1924e81985ac19f754167
     GuidInternal: 
-    m_lastTime: -8584497191509660951
+    m_lastTime: -8584232572856020563
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -680,7 +680,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 17e6d7348dc4ae4197b7f0bb440fef06
     GuidInternal: 
-    m_lastTime: -8584496161490613689
+    m_lastTime: -8584232572856015528
     List:
     - name: CharacterSounds
       guid: 5591acbcdba1f84ab6d87e9c81aab84d
@@ -858,7 +858,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: fa884bf8ef2db94abe1b686b7cb7acf1
     GuidInternal: 
-    m_lastTime: -8584497191509571188
+    m_lastTime: -8584232572856015528
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000a0000000b0000000c0000000e00000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002300000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e00000033000000340000004b0000004c0000005d0000005e0000009400000095000000960000009700000098000000fb000000
